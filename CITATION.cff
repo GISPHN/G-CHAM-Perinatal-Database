@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use G-CHAM Perinatal Database in research, please cite the dataset and the original MHLW Birth Navi source as described in README.md."
+title: "G-CHAM Perinatal Database"
+type: dataset
+authors:
+  - family-names: Horiike
+    given-names: Ryo
+repository-code: "https://github.com/GISPHN/G-CHAM-Perinatal-Database"
+url: "https://github.com/GISPHN/G-CHAM-Perinatal-Database"
+keywords:
+  - perinatal care
+  - maternal health
+  - public health nursing
+  - GIS
+  - Japan
