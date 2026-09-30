@@ -15,6 +15,11 @@ on:
         description: "Additional random delay in seconds"
         required: false
         default: "2"
+      overwrite_existing:
+        description: "Allow replacement of an already committed annual snapshot"
+        type: boolean
+        required: false
+        default: false
   schedule:
     - cron: "23 1 1 4 *"
 
@@ -49,6 +54,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Compile-check Python before any source requests
+        run: python -m py_compile scripts/*.py
+
       - id: year
         name: Resolve snapshot year
         shell: bash
@@ -63,6 +71,17 @@ jobs:
             exit 2
           fi
           echo "value=$YEAR" >> "$GITHUB_OUTPUT"
+
+      - name: Protect existing annual snapshots
+        shell: bash
+        run: |
+          YEAR="${{ steps.year.outputs.value }}"
+          ALLOW="${{ github.event.inputs.overwrite_existing || 'false' }}"
+          if [ -d "data/snapshots/$YEAR" ] && [ "$ALLOW" != "true" ]; then
+            echo "Snapshot data/snapshots/$YEAR already exists. Refusing to overwrite it."
+            echo "Use overwrite_existing only after deliberate review."
+            exit 3
+          fi
 
       - id: contact
         name: Resolve contact identifier
