@@ -1,0 +1,51 @@
+table,variable,description,unit_or_codes,notes
+facilities,birth_navi_id,Birth Navi facility identifier,,Primary key
+facilities,facility_name,Facility name,,
+facilities,facility_type_code,Facility type code,1 hospital; 2 clinic with beds; 3 clinic without beds; 4 midwifery facility with beds; 5 midwifery facility without beds,
+facilities,prefecture_id,Prefecture identifier,,
+facilities,municipality_code,Municipality code,,
+facilities,municipality_name,Municipality name,,
+facilities,address,Publicly displayed address,,Blank when source visibility flag is false
+facilities,phone_number,Publicly displayed telephone number,,Blank when source visibility flag is false
+facilities,latitude,Site-provided latitude,decimal degrees,WGS84-like web coordinate as supplied by Birth Navi
+facilities,longitude,Site-provided longitude,decimal degrees,WGS84-like web coordinate as supplied by Birth Navi
+facilities,prenatal_checkup_listed,Prenatal checkup service listed,0/1,Facility-level listing only
+facilities,delivery_listed,Delivery service listed,0/1,
+facilities,postnatal_care_listed,Postnatal-care service listed,0/1,Does not imply municipality-specific eligibility
+facilities,service_count,Number of the three listed service groups,0-3,
+facilities,service_pattern,Combination of listed services,prenatal+delivery+postnatal etc.,
+facilities,source_last_modified_at,Source last-modified timestamp when supplied,ISO 8601,
+facilities,retrieved_at_utc,Observation/retrieval timestamp,ISO 8601 UTC,
+facilities,raw_response_sha256,SHA-256 of the facility HTML response,,Provenance/change auditing
+facility_detail,perinatal_medical_center_type,Perinatal medical center classification,source code,
+facility_detail,obstetrics_unit_type,Obstetric ward/unit classification,source code,
+facility_detail,nicu_bed_count,NICU bed count,beds,
+facility_detail,maternity_bed_count,Maternity bed count,beds,
+facility_detail,obstetrician_count,Obstetrician count,persons,
+facility_detail,pediatrician_count,Pediatrician count,persons,
+facility_detail,midwife_count,Midwife count,persons,
+facility_detail,advanced_midwife_count,Advanced midwife count,persons,
+delivery,delivery_type_codes,Delivery handling type codes,semicolon-separated source codes,
+delivery,vaginal_delivery_count_text,Vaginal delivery count category,text,As displayed by source
+delivery,cesarean_delivery_count_text,Cesarean delivery count category,text,As displayed by source
+delivery,painless_delivery_policy,Painless delivery policy,source code,
+delivery,total_cost_average,Average total delivery-related cost,yen,
+delivery,total_cost_median,Median total delivery-related cost,yen,
+delivery,total_cost_q1,First quartile total cost,yen,
+delivery,total_cost_q3,Third quartile total cost,yen,
+delivery,delivery_cost_average,Average delivery component cost,yen,
+delivery,delivery_cost_median,Median delivery component cost,yen,
+delivery,room_difference_average,Average room-difference cost,yen,
+prenatal,can_prenatal_checkup,Prenatal checkup availability,boolean/source value,
+prenatal,prenatal_total_cost_text,Reported total prenatal checkup cost,text,Not adjusted for municipality subsidies
+prenatal,prenatal_total_cost_yen,Parsed total prenatal checkup cost,yen,Not adjusted for municipality subsidies
+prenatal_checkup_details,period,Prenatal checkup period/visit label,,
+prenatal_checkup_details,standard_checkup_codes,Standard examination item codes,semicolon-separated source codes,
+prenatal_checkup_details,additional_checkup_codes,Additional examination item codes,semicolon-separated source codes,
+prenatal_checkup_details,cost_yen,Reported visit/checkup cost,yen,
+postnatal_services,postnatal_care_type_code,Postnatal care type code,1 short stay; 2 day service individual; 3 day service group; 4 outreach,
+postnatal_services,postnatal_care_type,Postnatal care type label,,Facility-level service only
+outpatient_times,day_of_week_code,Day-of-week code,source code,
+outpatient_times,reception_time_text,Outpatient reception time,text,
+room_costs,cost_yen,Reported room-related difference cost,yen,
+painless_delivery_costs,cost_yen,Reported painless-delivery additional cost,yen,
