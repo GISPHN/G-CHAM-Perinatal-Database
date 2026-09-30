@@ -1,0 +1,213 @@
+name: Build annual G-CHAM Perinatal Database snapshot
+
+on:
+  workflow_dispatch:
+    inputs:
+      snapshot_year:
+        description: "Snapshot year (leave blank to use the current year)"
+        required: false
+        default: ""
+      delay_seconds:
+        description: "Minimum seconds between facility requests"
+        required: false
+        default: "10"
+      jitter_seconds:
+        description: "Additional random delay in seconds"
+        required: false
+        default: "2"
+  schedule:
+    - cron: "23 1 1 4 *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gcham-perinatal-annual-snapshot
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: "1"
+  SHARD_COUNT: "8"
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      snapshot_year: ${{ steps.year.outputs.value }}
+      contact: ${{ steps.contact.outputs.value }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - id: year
+        name: Resolve snapshot year
+        shell: bash
+        run: |
+          if [ -n "${{ github.event.inputs.snapshot_year }}" ]; then
+            YEAR="${{ github.event.inputs.snapshot_year }}"
+          else
+            YEAR="$(date -u +%Y)"
+          fi
+          if ! [[ "$YEAR" =~ ^[0-9]{4}$ ]]; then
+            echo "Invalid snapshot year: $YEAR" >&2
+            exit 2
+          fi
+          echo "value=$YEAR" >> "$GITHUB_OUTPUT"
+
+      - id: contact
+        name: Resolve contact identifier
+        shell: bash
+        env:
+          CONTACT_SECRET: ${{ secrets.BIRTH_NAVI_CONTACT }}
+        run: |
+          if [ -n "$CONTACT_SECRET" ]; then
+            CONTACT="$CONTACT_SECRET"
+          else
+            CONTACT="https://github.com/${{ github.repository }}/issues"
+          fi
+          echo "value=$CONTACT" >> "$GITHUB_OUTPUT"
+
+      - name: Discover current facility IDs
+        run: |
+          python scripts/discover_facility_ids.py             --live             --outdir work/discovery             --contact "${{ steps.contact.outputs.value }}"
+
+      - name: Verify discovery result
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m = json.loads(Path("work/discovery/discovery_metadata.json").read_text(encoding="utf-8"))
+          if not m.get("complete_under_protocol"):
+              raise SystemExit("Discovery was not complete_under_protocol")
+          if m.get("duplicate_ids"):
+              raise SystemExit("Duplicate facility IDs reported")
+          if m.get("errors_or_warnings"):
+              raise SystemExit(f"Discovery warnings/errors: {m['errors_or_warnings']}")
+          if int(m.get("facility_count", 0)) < 1000:
+              raise SystemExit(f"Unexpectedly low facility count: {m.get('facility_count')}")
+          print(f"Facility count: {m['facility_count']}")
+          PY
+
+      - name: Upload discovery input
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-${{ steps.year.outputs.value }}
+          path: work/discovery
+          retention-days: 1
+          if-no-files-found: error
+
+  collect:
+    needs: discover
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download discovery input
+        uses: actions/download-artifact@v4
+        with:
+          name: discovery-${{ needs.discover.outputs.snapshot_year }}
+          path: work/discovery
+
+      - name: Select deterministic shard
+        run: |
+          python scripts/select_shard.py             --ids-file work/discovery/facility_ids.txt             --shard-index ${{ matrix.shard }}             --shard-count ${{ env.SHARD_COUNT }}             --out work/shard_ids.txt
+
+      - name: Collect facility pages sequentially
+        env:
+          CONTACT: ${{ needs.discover.outputs.contact }}
+          DELAY: ${{ github.event.inputs.delay_seconds || '10' }}
+          JITTER: ${{ github.event.inputs.jitter_seconds || '2' }}
+        run: |
+          python scripts/birth_navi_collector.py fetch             --ids-file work/shard_ids.txt             --outdir work/shard_${{ matrix.shard }}             --contact "$CONTACT"             --delay "$DELAY"             --jitter "$JITTER"             --confirm-batch
+
+      - name: Upload normalized shard tables only
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}-${{ needs.discover.outputs.snapshot_year }}
+          path: work/shard_${{ matrix.shard }}/tables/*.csv
+          retention-days: 1
+          if-no-files-found: error
+
+  merge-and-publish:
+    needs: [discover, collect]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download discovery input
+        uses: actions/download-artifact@v4
+        with:
+          name: discovery-${{ needs.discover.outputs.snapshot_year }}
+          path: work/discovery
+
+      - name: Download all shard tables
+        uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*-${{ needs.discover.outputs.snapshot_year }}
+          path: work/shards
+          merge-multiple: false
+
+      - name: Merge annual snapshot
+        run: |
+          YEAR="${{ needs.discover.outputs.snapshot_year }}"
+          rm -rf "data/snapshots/$YEAR"
+          python scripts/merge_snapshot.py             --shards-root work/shards             --discovery-dir work/discovery             --outdir "data/snapshots/$YEAR"             --snapshot-year "$YEAR"             --parser-version "1.0.0"
+
+      - name: Validate completed snapshot
+        run: |
+          YEAR="${{ needs.discover.outputs.snapshot_year }}"
+          python scripts/validate_snapshot.py --snapshot-dir "data/snapshots/$YEAR"
+
+      - name: Update longitudinal history
+        run: |
+          YEAR="${{ needs.discover.outputs.snapshot_year }}"
+          python scripts/compare_snapshots.py             --snapshots-root data/snapshots             --current-year "$YEAR"             --history-dir data/history
+
+      - name: Commit annual snapshot
+        shell: bash
+        run: |
+          YEAR="${{ needs.discover.outputs.snapshot_year }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "data/snapshots/$YEAR" data/history
+          if git diff --cached --quiet; then
+            echo "No dataset changes to commit."
+          else
+            git commit -m "Add G-CHAM Perinatal Database ${YEAR} snapshot"
+            git push
+          fi
