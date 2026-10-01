@@ -15,6 +15,10 @@ on:
         description: "Additional random delay in seconds"
         required: false
         default: "2"
+      resume_run_id:
+        description: "Optional prior workflow run ID whose successful shard artifacts may be reused"
+        required: false
+        default: ""
       overwrite_existing:
         description: "Allow replacement of an already committed annual snapshot"
         type: boolean
@@ -157,7 +161,37 @@ jobs:
         run: |
           python scripts/select_shard.py             --ids-file work/discovery/facility_ids.txt             --shard-index ${{ matrix.shard }}             --shard-count ${{ env.SHARD_COUNT }}             --out work/shard_ids.txt
 
+      - name: Try to reuse a successful shard from a prior run
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.resume_run_id != '' }}
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}-${{ needs.discover.outputs.snapshot_year }}
+          path: work/shard_${{ matrix.shard }}/tables
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: ${{ github.event.inputs.resume_run_id }}
+
+      - id: reuse
+        name: Validate prior shard before reuse
+        shell: bash
+        run: |
+          TABLES="work/shard_${{ matrix.shard }}/tables"
+          if [ -f "$TABLES/facilities.csv" ]; then
+            if python scripts/prepare_reused_shard.py               --tables-dir "$TABLES"               --ids-file work/shard_ids.txt; then
+              echo "reused=true" >> "$GITHUB_OUTPUT"
+              echo "Reusing validated prior shard ${{ matrix.shard }}."
+            else
+              echo "Prior shard is not compatible with the current sitemap partition."
+              rm -rf "work/shard_${{ matrix.shard }}"
+              echo "reused=false" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "reused=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Collect facility pages sequentially
+        if: ${{ steps.reuse.outputs.reused != 'true' }}
         env:
           CONTACT: ${{ needs.discover.outputs.contact }}
           DELAY: ${{ github.event.inputs.delay_seconds || '10' }}
