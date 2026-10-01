@@ -31,7 +31,8 @@ def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--snapshots-root",required=True); ap.add_argument("--current-year",type=int,required=True); ap.add_argument("--history-dir",required=True)
     a=ap.parse_args(); root=Path(a.snapshots_root); cur=root/str(a.current_year); hist=Path(a.history_dir); hist.mkdir(parents=True,exist_ok=True)
     fac=read(cur/"facilities.csv")
-    summary={"snapshot_year":str(a.current_year),"facility_count":str(len(fac)),"prenatal_checkup_listed":str(sum(r.get("prenatal_checkup_listed")=="1" for r in fac)),"delivery_listed":str(sum(r.get("delivery_listed")=="1" for r in fac)),"postnatal_care_listed":str(sum(r.get("postnatal_care_listed")=="1" for r in fac)),"all_three_services":str(sum(r.get("service_count")=="3" for r in fac))}
+    status=read(cur/"collection_status.csv")
+    summary={"snapshot_year":str(a.current_year),"sitemap_facility_count":str(len(status)),"available_facility_count":str(len(fac)),"source_unavailable_count":str(sum((r.get("retrieval_status") or "") in {"http_404","http_410"} for r in status)),"prenatal_checkup_listed":str(sum(r.get("prenatal_checkup_listed")=="1" for r in fac)),"delivery_listed":str(sum(r.get("delivery_listed")=="1" for r in fac)),"postnatal_care_listed":str(sum(r.get("postnatal_care_listed")=="1" for r in fac)),"all_three_services":str(sum(r.get("service_count")=="3" for r in fac))}
     sp=hist/"annual_summary.csv"; old=[r for r in read(sp) if r.get("snapshot_year")!=str(a.current_year)]
     with sp.open("w",encoding="utf-8-sig",newline="") as f:
         w=csv.DictWriter(f,fieldnames=list(summary)); w.writeheader(); w.writerows(sorted(old+[summary],key=lambda r:int(r["snapshot_year"])))
