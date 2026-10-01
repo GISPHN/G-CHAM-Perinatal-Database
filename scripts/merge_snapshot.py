@@ -4,7 +4,7 @@ import argparse, csv, json
 from datetime import datetime, timezone
 from pathlib import Path
 
-TABLES=["facilities","facility_detail","delivery","prenatal","prenatal_checkup_details","prenatal_options","pregnancy_checkups","postnatal_services","outpatient_times","external_sites","room_costs","painless_delivery_costs"]
+TABLES=["collection_status","facilities","facility_detail","delivery","prenatal","prenatal_checkup_details","prenatal_options","pregnancy_checkups","postnatal_services","outpatient_times","external_sites","room_costs","painless_delivery_costs"]
 SECONDARY={"prenatal_checkup_details":["period"],"prenatal_options":["checkup_item"],"pregnancy_checkups":["pregnancy_checkup_type"],"postnatal_services":["postnatal_care_type_code"],"outpatient_times":["day_of_week_code"],"external_sites":["external_site_type_code","url"],"room_costs":["room_type_code"],"painless_delivery_costs":["item"]}
 
 def now(): return datetime.now(timezone.utc).isoformat()
