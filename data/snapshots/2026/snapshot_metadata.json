@@ -1,0 +1,28 @@
+{
+  "dataset": "G-CHAM Perinatal Database",
+  "author": "Ryo Horiike",
+  "snapshot_year": 2026,
+  "generated_at_utc": "2026-10-01T17:22:15.239170+00:00",
+  "source": "Ministry of Health, Labour and Welfare, Japan - Birth Navi (出産なび)",
+  "source_url": "https://birth-navi.mhlw.go.jp/",
+  "source_terms_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/index_00041.html",
+  "parser_version": "1.0.0",
+  "facility_count_from_sitemap": 5640,
+  "sitemap_retrieved_at_utc": "2026-10-01T08:15:57.351640+00:00",
+  "table_row_counts": {
+    "collection_status": 5640,
+    "facilities": 5638,
+    "facility_detail": 5638,
+    "delivery": 5638,
+    "prenatal": 5638,
+    "prenatal_checkup_details": 17671,
+    "prenatal_options": 869,
+    "pregnancy_checkups": 2308,
+    "postnatal_services": 7929,
+    "outpatient_times": 19305,
+    "external_sites": 5589,
+    "room_costs": 1377,
+    "painless_delivery_costs": 928
+  },
+  "municipality_dependent_information_included": false
+}

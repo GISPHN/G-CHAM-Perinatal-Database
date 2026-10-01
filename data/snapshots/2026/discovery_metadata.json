@@ -1,0 +1,31 @@
+{
+  "source": "MHLW Birth Navi sitemap",
+  "base_url": "https://birth-navi.mhlw.go.jp",
+  "retrieved_at_utc": "2026-10-01T08:15:57.351640+00:00",
+  "facility_count": 5640,
+  "facility_lastmod_count": 5640,
+  "http_request_count": 2,
+  "robots_sitemap_declarations": [
+    "https://birth-navi.mhlw.go.jp/sitemap.xml"
+  ],
+  "sitemaps_fetched": [
+    "https://birth-navi.mhlw.go.jp/sitemap.xml"
+  ],
+  "duplicate_ids": false,
+  "complete_under_protocol": true,
+  "errors_or_warnings": [],
+  "notes": "Only canonical /facilities/{id} URLs were accepted; no facility detail page was fetched.",
+  "requests": [
+    {
+      "url": "https://birth-navi.mhlw.go.jp/robots.txt",
+      "status": 200,
+      "sha256": "d1af28ab5d0ecc300704431a881b0f1100b6435fd8a4390fb729fa6ed47fb9ff"
+    },
+    {
+      "url": "https://birth-navi.mhlw.go.jp/sitemap.xml",
+      "status": 200,
+      "sha256": "5cc0807c465f05d758279b00fcb41bab374839840f624dc05649fd18ab815c2d",
+      "file": "sitemap_01.xml"
+    }
+  ]
+}
