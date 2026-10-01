@@ -163,7 +163,7 @@ jobs:
           DELAY: ${{ github.event.inputs.delay_seconds || '10' }}
           JITTER: ${{ github.event.inputs.jitter_seconds || '2' }}
         run: |
-          python scripts/birth_navi_collector.py fetch             --ids-file work/shard_ids.txt             --outdir work/shard_${{ matrix.shard }}             --contact "$CONTACT"             --delay "$DELAY"             --jitter "$JITTER"             --confirm-batch
+          python scripts/birth_navi_collector_v2.py             --ids-file work/shard_ids.txt             --outdir work/shard_${{ matrix.shard }}             --contact "$CONTACT"             --delay "$DELAY"             --jitter "$JITTER"             --confirm-batch
 
       - name: Upload normalized shard tables only
         uses: actions/upload-artifact@v4
