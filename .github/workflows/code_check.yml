@@ -5,11 +5,13 @@ on:
     paths:
       - "scripts/**"
       - "requirements.txt"
+      - "tests/**"
       - ".github/workflows/**"
   pull_request:
     paths:
       - "scripts/**"
       - "requirements.txt"
+      - "tests/**"
       - ".github/workflows/**"
 
 permissions:
@@ -26,3 +28,4 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python -m py_compile scripts/*.py
+      - run: python -m unittest discover -s tests -p 'test_*.py'
