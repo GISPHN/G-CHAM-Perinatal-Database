@@ -1,3 +1,9 @@
+collection_status,birth_navi_id,Birth Navi facility identifier,,One row per sitemap-listed facility per snapshot
+collection_status,http_status,HTTP status from canonical facility page,HTTP status code,200 for retrieved pages; 404/410 retained as source-unavailable observations
+collection_status,retrieval_status,Collection result,ok; http_404; http_410,404/410 do not abort the annual snapshot
+collection_status,source_last_modified_at,Source last-modified timestamp when available,ISO 8601,Blank for unavailable pages
+collection_status,retrieved_at_utc,Observation/retrieval timestamp,ISO 8601 UTC,
+collection_status,raw_response_sha256,SHA-256 of facility HTML response,,Blank for unavailable pages
 table,variable,description,unit_or_codes,notes
 facilities,birth_navi_id,Birth Navi facility identifier,,Primary key
 facilities,facility_name,Facility name,,
