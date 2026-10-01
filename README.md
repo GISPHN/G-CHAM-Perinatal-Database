@@ -46,6 +46,8 @@ The workflow is deliberately low-rate:
 6. HTTP 429/503 and structural parsing failures stop the run rather than increasing request pressure.
 7. The annual workload is divided into eight sequential GitHub Actions jobs so that each job remains below the hosted-runner time limit without parallelizing requests to Birth Navi.
 
+If a facility URL is present in the current sitemap but its canonical detail page returns HTTP 404 or 410, the workflow now records that discrepancy in `collection_status.csv` and continues. No facility attributes are fabricated for that ID. This distinguishes **sitemap presence** from **detail-page retrievability** and prevents one stale sitemap entry from invalidating the entire annual snapshot.
+
 ## 2026 initial snapshot
 
 The regular annual schedule begins with the April workflow. Because this repository was created during 2026, **2026 is treated as an exceptional initial snapshot** and can be generated immediately with the manual GitHub Actions trigger.
