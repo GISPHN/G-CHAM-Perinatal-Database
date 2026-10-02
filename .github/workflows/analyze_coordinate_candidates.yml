@@ -1,0 +1,34 @@
+name: Analyze coordinate candidates
+
+on:
+  push:
+    paths:
+      - "scripts/analyze_coordinate_candidates.py"
+      - ".github/workflows/analyze_coordinate_candidates.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/analyze_coordinate_candidates.py
+      - name: Commit results
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quality/2026/coordinate_candidate_analysis.json data/quality/2026/coordinate_prefix_candidates.csv data/quality/2026/coordinate_discrepancies_over_500m.csv
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Analyze coordinate verification candidates"
+            git push
+          fi
