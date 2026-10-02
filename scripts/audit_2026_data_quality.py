@@ -37,7 +37,22 @@ def main():
     postnatal_rows=read_csv(SNAP/"postnatal_services.csv")
     none_prenatal=[prenatal_rows.get(fid,{}) for fid in none_ids]
     none_delivery=[delivery_rows.get(fid,{}) for fid in none_ids]
-    none_postnatal=[r for r in postnatal_rows if r.get("birth_navi_id") in none_ids]
+    diagnostics=[]
+    postnatal_count=Counter(r.get("birth_navi_id") for r in none_postnatal)
+    for b in none:
+        fid=b["birth_navi_id"]
+        p=prenatal_rows.get(fid,{})
+        d=delivery_rows.get(fid,{})
+        diagnostics.append({
+          "birth_navi_id":fid,"facility_name":b.get("facility_name",""),"facility_type_code":b.get("facility_type_code",""),"facility_type":b.get("facility_type",""),
+          "prenatal_checkup_listed":b.get("prenatal_checkup_listed",""),"delivery_listed":b.get("delivery_listed",""),"postnatal_care_listed":b.get("postnatal_care_listed",""),
+          "can_prenatal_checkup":p.get("can_prenatal_checkup",""),"can_pregnancy_checkup":p.get("can_pregnancy_checkup",""),"prenatal_type_codes":p.get("prenatal_type_codes",""),
+          "delivery_type_codes":d.get("delivery_type_codes",""),"vaginal_delivery_count_text":d.get("vaginal_delivery_count_text",""),"cesarean_delivery_count_text":d.get("cesarean_delivery_count_text",""),
+          "postnatal_service_row_count":postnatal_count.get(fid,0),"source_url":b.get("source_url","")
+        })
+    diag_fields=list(diagnostics[0].keys()) if diagnostics else ["birth_navi_id"]
+    write_csv(OUT/"service_pattern_none_diagnostics.csv",diagnostics,diag_fields)
+    pregnancy_only=[r for r in diagnostics if not r["can_prenatal_checkup"] and r["can_pregnancy_checkup"]=="True"]
 
     summary={
       "generated_at_utc":datetime.now(timezone.utc).isoformat(),
@@ -67,7 +82,9 @@ def main():
         "prenatal_can_pregnancy_checkup_values":dict(Counter((r.get("can_pregnancy_checkup") or "(blank)") for r in none_prenatal).most_common()),
         "delivery_type_codes_values":dict(Counter((r.get("delivery_type_codes") or "(blank)") for r in none_delivery).most_common()),
         "delivery_rows_with_any_volume_text":sum(bool((r.get("vaginal_delivery_count_text") or "").strip() or (r.get("cesarean_delivery_count_text") or "").strip()) for r in none_delivery),
-        "postnatal_service_rows":len(none_postnatal)
+        "postnatal_service_rows":len(none_postnatal),
+        "pregnancy_checkup_true_but_prenatal_checkup_not_listed_count":len(pregnancy_only),
+        "pregnancy_checkup_true_but_prenatal_checkup_not_listed_sample":[{"birth_navi_id":r["birth_navi_id"],"facility_name":r["facility_name"],"facility_type_code":r["facility_type_code"],"facility_type":r["facility_type"]} for r in pregnancy_only[:30]]
       }
     }
     OUT.mkdir(parents=True,exist_ok=True)
