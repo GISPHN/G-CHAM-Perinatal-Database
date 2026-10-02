@@ -37,6 +37,7 @@ def main():
     postnatal_rows=read_csv(SNAP/"postnatal_services.csv")
     none_prenatal=[prenatal_rows.get(fid,{}) for fid in none_ids]
     none_delivery=[delivery_rows.get(fid,{}) for fid in none_ids]
+    none_postnatal=[r for r in postnatal_rows if r.get("birth_navi_id") in none_ids]
     diagnostics=[]
     postnatal_count=Counter(r.get("birth_navi_id") for r in none_postnatal)
     for b in none:
