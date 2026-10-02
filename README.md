@@ -80,6 +80,12 @@ data/history/changes.csv               Changes between consecutive snapshots
 
 Each annual snapshot contains normalized CSV tables plus provenance and validation metadata. Raw facility HTML is not committed to GitHub. The source-response SHA-256, retrieval timestamp, source page URL, source `lastModifiedAt` value when available, and parser version are retained in normalized records to support provenance and change auditing while limiting repository growth.
 
+## Coordinate quality
+
+Coordinates are provenance-tracked rather than silently geocoded. The annual Birth Navi snapshot is preserved as observed, while a separate verified coordinate layer cross-checks deterministic facility matches against MHLW Medical Information Net open data. Missing coordinates are supplemented only from direct MHLW coordinate fields under conservative identity/address rules; hidden Birth Navi addresses are never used to infer a point location. Material disagreement between official sources is flagged for review rather than automatically overwritten.
+
+See [docs/coordinate_quality.md](docs/coordinate_quality.md) and the outputs under `data/quality/2026/`.
+
 ## Longitudinal analysis
 
 Annual snapshots are retained rather than overwritten. This allows analyses such as:
