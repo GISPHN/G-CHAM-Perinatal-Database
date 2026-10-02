@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-02T11:19:24.846228+00:00",
+  "generated_at_utc": "2026-10-02T11:20:40.810206+00:00",
   "snapshot_year": 2026,
   "retrievable_facility_count": 5638,
   "missing_coordinate_count": 1265,
@@ -138,8 +138,8 @@
     },
     "prenatal_can_pregnancy_checkup_values": {
       "False": 70,
-      "(blank)": 51,
-      "True": 51
+      "True": 51,
+      "(blank)": 51
     },
     "delivery_type_codes_values": {
       "4": 94,
@@ -147,7 +147,188 @@
     },
     "delivery_rows_with_any_volume_text": 4,
     "postnatal_service_rows": 0,
-    "pregnancy_checkup_true_but_prenatal_checkup_not_listed_count": 0,
-    "pregnancy_checkup_true_but_prenatal_checkup_not_listed_sample": []
+    "pregnancy_checkup_true_but_prenatal_checkup_not_listed_count": 51,
+    "pregnancy_checkup_true_but_prenatal_checkup_not_listed_sample": [
+      {
+        "birth_navi_id": "12228",
+        "facility_name": "奥尻町国民健康保険病院",
+        "facility_type_code": "1",
+        "facility_type": "病院"
+      },
+      {
+        "birth_navi_id": "12231",
+        "facility_name": "医療法人　佐藤病院",
+        "facility_type_code": "1",
+        "facility_type": "病院"
+      },
+      {
+        "birth_navi_id": "12265",
+        "facility_name": "神田産科婦人科クリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12270",
+        "facility_name": "おびひろＡＲＴクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12273",
+        "facility_name": "ゆめみレディースクリニック",
+        "facility_type_code": "2",
+        "facility_type": "有床診療所"
+      },
+      {
+        "birth_navi_id": "12275",
+        "facility_name": "婦人科さかもとともみクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12286",
+        "facility_name": "仙台ＡＲＴクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12295",
+        "facility_name": "山形大手町ＡＲＴクリニック川越医院",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12297",
+        "facility_name": "アートクリニック産婦人科",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12316",
+        "facility_name": "医療法人夢乃樹会ウィメンズクリニックふじみ野",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12326",
+        "facility_name": "ｍｏｎｅレディースクリニック江戸川",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12330",
+        "facility_name": "黒田インターナショナル　メディカル　リプロダクション",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12331",
+        "facility_name": "医療法人社団　銀座レディースクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12347",
+        "facility_name": "医療法人社団新宿レディースクリニック会　池袋レディースクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12350",
+        "facility_name": "医療法人社団ひとみ会　臼井医院",
+        "facility_type_code": "2",
+        "facility_type": "有床診療所"
+      },
+      {
+        "birth_navi_id": "12362",
+        "facility_name": "京野アートクリニック高輪",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12367",
+        "facility_name": "表参道ＡＲＴクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12371",
+        "facility_name": "京野アートクリニック品川",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12372",
+        "facility_name": "アヴァンセレディースクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12374",
+        "facility_name": "医療法人社団光創会　神田ウイメンズクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12385",
+        "facility_name": "銀座こうのとりレディースクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12387",
+        "facility_name": "青空レディースクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12399",
+        "facility_name": "神奈川レディースクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12419",
+        "facility_name": "メディカルパークみなとみらい",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12421",
+        "facility_name": "うえだクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12433",
+        "facility_name": "医療法人社団　啓樹会　西村ウイメンズクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12434",
+        "facility_name": "大樹レディースクリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12437",
+        "facility_name": "国東産婦人科医院",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12442",
+        "facility_name": "あかほり女性クリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      },
+      {
+        "birth_navi_id": "12454",
+        "facility_name": "医療法人亜一会　あいこ女性クリニック",
+        "facility_type_code": "3",
+        "facility_type": "無床診療所"
+      }
+    ]
   }
 }
