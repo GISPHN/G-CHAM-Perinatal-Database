@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-02T11:13:16.368185+00:00",
+  "generated_at_utc": "2026-10-02T11:17:56.524547+00:00",
   "snapshot_year": 2026,
   "official_source_date": "2026-06-01",
   "official_source_urls": {
@@ -7,16 +7,32 @@
     "clinic": "https://www.mhlw.go.jp/content/11121000/02-1_clinic_facility_info_20260601.csv.zip",
     "maternity_home": "https://www.mhlw.go.jp/content/11121000/04_maternity_home_20260601.csv.zip"
   },
-  "policy": "Only exact normalized name + prefecture + municipality + full visible address matches are auto-filled. Hidden addresses are never inferred. Prefix matches are audit candidates only.",
+  "policy": "Coordinates are never inferred from hidden addresses. Missing coordinates are filled only from MHLW Medical Information Net direct coordinates when identity is deterministic: exact normalized name + prefecture + municipality + either full visible address, or a unique visible truncated-address prefix with Birth Navi facility type consistent with the official MHLW source category. Original Birth Navi coordinates are preserved and cross-source discrepancies are flagged rather than overwritten.",
   "original_missing_coordinates": 1265,
-  "exact_official_coordinate_fills": 3,
-  "remaining_missing_coordinates": 1262,
+  "exact_full_address_official_coordinate_fills": 3,
+  "exact_full_address_fill_ids": [
+    "10412",
+    "11569",
+    "12213"
+  ],
+  "type_consistent_visible_address_prefix_official_coordinate_fills": 7,
+  "type_consistent_visible_address_prefix_fill_ids": [
+    "10189",
+    "10251",
+    "11748",
+    "11784",
+    "12057",
+    "12231",
+    "12259"
+  ],
+  "total_official_coordinate_fills": 10,
+  "remaining_missing_coordinates": 1255,
   "hidden_address_missing_coordinates_not_inferred": 989,
-  "visible_address_prefix_candidates_not_autofilled": 107,
+  "visible_address_prefix_candidates_total": 107,
   "ambiguous_visible_name_municipality_matches": 0,
-  "existing_birth_navi_coordinates_crosschecked_by_exact_official_match": 1437,
-  "crosscheck_distance_over_100m": 201,
-  "crosscheck_distance_over_500m": 42,
-  "crosscheck_distance_over_1000m": 20,
+  "existing_birth_navi_coordinates_crosschecked_by_exact_official_match": 1535,
+  "crosscheck_distance_over_100m": 214,
+  "crosscheck_distance_over_500m": 44,
+  "crosscheck_distance_over_1000m": 22,
   "candidate_rows": 2131
 }
