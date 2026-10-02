@@ -1,0 +1,35 @@
+name: Audit 2026 data quality
+
+on:
+  push:
+    paths:
+      - "scripts/audit_2026_data_quality.py"
+      - ".github/workflows/audit_2026_data_quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run audit
+        run: python scripts/audit_2026_data_quality.py
+      - name: Commit audit outputs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quality/2026
+          if git diff --cached --quiet; then
+            echo "No audit changes."
+          else
+            git commit -m "Add 2026 coordinate and service-pattern audit"
+            git push
+          fi
