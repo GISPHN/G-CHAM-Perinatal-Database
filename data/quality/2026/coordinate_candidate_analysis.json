@@ -1,0 +1,243 @@
+{
+  "generated_at_utc": "2026-10-02T11:16:02.731340+00:00",
+  "missing_coordinate_prefix_candidates": 8,
+  "prefix_candidates_by_facility_type": {
+    "病院": 4,
+    "無床助産所": 1,
+    "有床助産所": 1,
+    "有床診療所": 1,
+    "(blank)": 1
+  },
+  "prefix_candidates_by_service_pattern": {
+    "delivery+postnatal": 2,
+    "none": 2,
+    "prenatal+delivery": 1,
+    "delivery": 1,
+    "prenatal+delivery+postnatal": 1,
+    "postnatal": 1
+  },
+  "type_source_compatible_prefix_candidates": 7,
+  "type_source_compatible_ids": [
+    "10189",
+    "10251",
+    "11748",
+    "11784",
+    "12057",
+    "12231",
+    "12259"
+  ],
+  "cross_source_discrepancies_over_500m": 42,
+  "cross_source_discrepancies_over_1000m": 20,
+  "largest_discrepancies": [
+    {
+      "birth_navi_id": "11795",
+      "facility_name": "共同助産所　お産子の家",
+      "distance_m": 32973.5,
+      "birth_navi_address": "滋賀県東近江市八日市緑町１７－５",
+      "official_address": "滋賀県東近江市八日市緑町１７－５"
+    },
+    {
+      "birth_navi_id": "11887",
+      "facility_name": "助産院　陽",
+      "distance_m": 11564.7,
+      "birth_navi_address": "熊本県阿蘇市一の宮町宮地６１５４－１０仙酔峡ハイツＥ－１",
+      "official_address": "熊本県阿蘇市一の宮町宮地６１５４－１０　仙酔峡ハイツＥ－１"
+    },
+    {
+      "birth_navi_id": "11122",
+      "facility_name": "鈴木産婦人科医院",
+      "distance_m": 7447.1,
+      "birth_navi_address": "茨城県水戸市東台１－１０－１９",
+      "official_address": "茨城県水戸市東台１－１０－１９"
+    },
+    {
+      "birth_navi_id": "10038",
+      "facility_name": "社会福祉法人恩賜財団済生会支部大阪府済生会吹田病院",
+      "distance_m": 6172.2,
+      "birth_navi_address": "大阪府吹田市川園町１番２号",
+      "official_address": "大阪府吹田市川園町１番２号"
+    },
+    {
+      "birth_navi_id": "10855",
+      "facility_name": "旭川医科大学病院",
+      "distance_m": 5280.2,
+      "birth_navi_address": "北海道旭川市緑が丘東２条１丁目１番１号",
+      "official_address": "北海道旭川市緑が丘東２条１丁目１番１号"
+    },
+    {
+      "birth_navi_id": "15078",
+      "facility_name": "助産院わがや",
+      "distance_m": 5196.3,
+      "birth_navi_address": "宮崎県宮崎市佐土原町下那珂791番地5",
+      "official_address": "宮崎県宮崎市佐土原町下那珂７９１番地５"
+    },
+    {
+      "birth_navi_id": "11282",
+      "facility_name": "花レディースクリニック",
+      "distance_m": 4680.4,
+      "birth_navi_address": "愛知県みよし市福谷町細田１－３",
+      "official_address": "愛知県みよし市福谷町細田１－３"
+    },
+    {
+      "birth_navi_id": "11413",
+      "facility_name": "花岡レディースクリニック",
+      "distance_m": 3920.9,
+      "birth_navi_address": "長野県小諸市市町5－4－16",
+      "official_address": "長野県小諸市市町５－４－１６"
+    },
+    {
+      "birth_navi_id": "10469",
+      "facility_name": "三沢市立三沢病院",
+      "distance_m": 2449.4,
+      "birth_navi_address": "青森県三沢市三沢字堀口１６４番地６５号",
+      "official_address": "青森県三沢市三沢字堀口１６４番地６５号"
+    },
+    {
+      "birth_navi_id": "12565",
+      "facility_name": "レディスクリニックコスモス",
+      "distance_m": 1810.9,
+      "birth_navi_address": "高知県高知市杉井流６－２７",
+      "official_address": "高知県高知市杉井流６－２７"
+    },
+    {
+      "birth_navi_id": "11728",
+      "facility_name": "一般社団法人北九州助産センターお産の家よつ葉",
+      "distance_m": 1727.7,
+      "birth_navi_address": "福岡県北九州市八幡東区枝光本町８－１３",
+      "official_address": "福岡県北九州市八幡東区枝光本町８－１３"
+    },
+    {
+      "birth_navi_id": "11927",
+      "facility_name": "助産所ドゥーラえむあい",
+      "distance_m": 1715.3,
+      "birth_navi_address": "長野県伊那市日影534-1",
+      "official_address": "長野県伊那市日影５３４－１"
+    },
+    {
+      "birth_navi_id": "10861",
+      "facility_name": "兵庫県立淡路医療センター",
+      "distance_m": 1703.1,
+      "birth_navi_address": "兵庫県洲本市塩屋１丁目１－１３７",
+      "official_address": "兵庫県洲本市塩屋１丁目１－１３７"
+    },
+    {
+      "birth_navi_id": "12578",
+      "facility_name": "博多セントラルクリニック",
+      "distance_m": 1701.4,
+      "birth_navi_address": "福岡県福岡市博多区祗園町８ー１２ー６２４",
+      "official_address": "福岡県福岡市博多区祗園町８ー１２ー６２４"
+    },
+    {
+      "birth_navi_id": "10281",
+      "facility_name": "公立藤岡総合病院",
+      "distance_m": 1608.4,
+      "birth_navi_address": "群馬県藤岡市中栗須８１３番地１",
+      "official_address": "群馬県藤岡市中栗須８１３番地１"
+    },
+    {
+      "birth_navi_id": "10957",
+      "facility_name": "ゆしまウィメンズクリニック",
+      "distance_m": 1429.3,
+      "birth_navi_address": "東京都あきる野市牛沼131-3",
+      "official_address": "東京都あきる野市牛沼１３１－３"
+    },
+    {
+      "birth_navi_id": "12097",
+      "facility_name": "医療法人慈愛会秋葉産婦人科",
+      "distance_m": 1421.9,
+      "birth_navi_address": "茨城県古河市東本町２－９－２",
+      "official_address": "茨城県古河市東本町２－９－２"
+    },
+    {
+      "birth_navi_id": "15279",
+      "facility_name": "びわ子助産院",
+      "distance_m": 1367.4,
+      "birth_navi_address": "滋賀県大津市松原町１９−１１",
+      "official_address": "滋賀県大津市松原町１９−１１"
+    },
+    {
+      "birth_navi_id": "11740",
+      "facility_name": "マミー助産院",
+      "distance_m": 1259.8,
+      "birth_navi_address": "愛媛県四国中央市土居町北野甲587－3",
+      "official_address": "愛媛県四国中央市土居町北野甲５８７－３"
+    },
+    {
+      "birth_navi_id": "11524",
+      "facility_name": "フォレストベルクリニック",
+      "distance_m": 1013.8,
+      "birth_navi_address": "愛知県名古屋市守山区上志段味字羽前６００番地２",
+      "official_address": "愛知県名古屋市守山区上志段味字羽前６００番地２"
+    },
+    {
+      "birth_navi_id": "11890",
+      "facility_name": "おっぱいハウス池田助産院",
+      "distance_m": 951.3,
+      "birth_navi_address": "宮崎県日南市大字星倉4418番地",
+      "official_address": "宮崎県日南市大字星倉４４１８番地"
+    },
+    {
+      "birth_navi_id": "11308",
+      "facility_name": "あおぞらレディス＆マタニティクリニック",
+      "distance_m": 906.9,
+      "birth_navi_address": "長野県諏訪市中洲5764-1",
+      "official_address": "長野県諏訪市中洲５７６４－１"
+    },
+    {
+      "birth_navi_id": "10111",
+      "facility_name": "沼津市立病院",
+      "distance_m": 902.5,
+      "birth_navi_address": "静岡県沼津市東椎路字春ノ木５５０",
+      "official_address": "静岡県沼津市東椎路字春ノ木５５０"
+    },
+    {
+      "birth_navi_id": "10612",
+      "facility_name": "横須賀市立総合医療センター",
+      "distance_m": 818.9,
+      "birth_navi_address": "神奈川県横須賀市神明町１番地８",
+      "official_address": "神奈川県横須賀市神明町１番地８"
+    },
+    {
+      "birth_navi_id": "11578",
+      "facility_name": "医療法人　浅桐産婦人科",
+      "distance_m": 780.5,
+      "birth_navi_address": "岡山県倉敷市\n連島町鶴新田１２６６－１",
+      "official_address": "岡山県倉敷市連島町鶴新田１２６６－１"
+    },
+    {
+      "birth_navi_id": "12423",
+      "facility_name": "医療法人社団　こうちウィメンズクリニック",
+      "distance_m": 774.9,
+      "birth_navi_address": "富山県魚津市吉島１－８０９",
+      "official_address": "富山県魚津市吉島１－８０９"
+    },
+    {
+      "birth_navi_id": "10383",
+      "facility_name": "東海大学医学部付属八王子病院",
+      "distance_m": 760.6,
+      "birth_navi_address": "東京都八王子市石川町１８３８",
+      "official_address": "東京都八王子市石川町１８３８"
+    },
+    {
+      "birth_navi_id": "11558",
+      "facility_name": "医療法人苫米地レディースクリニック",
+      "distance_m": 759.9,
+      "birth_navi_address": "青森県八戸市沢里下沢内３６－１",
+      "official_address": "青森県八戸市沢里下沢内３６－１"
+    },
+    {
+      "birth_navi_id": "11970",
+      "facility_name": "医療法人社団協友会　千葉愛友会記念病院",
+      "distance_m": 729.9,
+      "birth_navi_address": "千葉県流山市鰭ケ崎１－１",
+      "official_address": "千葉県流山市鰭ケ崎１－１"
+    },
+    {
+      "birth_navi_id": "10067",
+      "facility_name": "公立学校共済組合四国中央病院",
+      "distance_m": 665.8,
+      "birth_navi_address": "愛媛県四国中央市川之江町２２３３",
+      "official_address": "愛媛県四国中央市川之江町２２３３"
+    }
+  ]
+}

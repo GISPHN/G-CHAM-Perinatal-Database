@@ -1,0 +1,9 @@
+﻿birth_navi_id,facility_name,birth_navi_address,birth_navi_latitude,birth_navi_longitude,match_class,official_source,official_id,official_name,official_address,official_latitude,official_longitude,official_source_date,distance_m_if_both,facility_type_code,facility_type,service_pattern,type_source_compatible
+10189,兵庫県立こども病院,兵庫県神戸市中央区,,,candidate_exact_name_pref_municipality_address_prefix,hospital,2811280003880,兵庫県立こども病院,兵庫県神戸市中央区港島南町１丁目６－７,34.662479,135.218299,2026-06-01,,1,病院,prenatal+delivery,true
+10251,富山市立富山市民病院,富山県富山市今泉北部町,,,candidate_exact_name_pref_municipality_address_prefix,hospital,1611160113647,富山市立富山市民病院,富山県富山市今泉北部町２－１,36.672628,137.212485,2026-06-01,,1,病院,delivery+postnatal,true
+11748,出張専門助産所菅谷,千葉県千葉市稲毛区,,,candidate_exact_name_pref_municipality_address_prefix,maternity_home,1241206678800,出張専門助産所菅谷,千葉県千葉市稲毛区長沼原町,35.666241,140.124405,2026-06-01,,5,無床助産所,delivery,true
+11784,バース・ハウス　なかにし助産院,和歌山県御坊市湯川町小松原,,,candidate_exact_name_pref_municipality_address_prefix,maternity_home,3045004600000,バース・ハウス　なかにし　助産院,和歌山県御坊市湯川町小松原１３９,33.903644,135.164256,2026-06-01,,4,有床助産所,delivery+postnatal,true
+12057,医療法人　植田産婦人科,大阪府大阪市平野区,,,candidate_exact_name_pref_municipality_address_prefix,clinic,2722270024320,医療法人　植田産婦人科,大阪府大阪市平野区平野宮町２－８－８,34.625933,135.555773,2026-06-01,,2,有床診療所,prenatal+delivery+postnatal,true
+12231,医療法人　佐藤病院,秋田県由利本荘市,,,candidate_exact_name_pref_municipality_address_prefix,hospital,0511050600040,医療法人　佐藤病院,秋田県由利本荘市小人町１１７番地３,39.380295,140.046884,2026-06-01,,1,病院,none,true
+12259,社会医療法人共愛会戸畑共立病院,福岡県北九州市戸畑区沢見,,,candidate_exact_name_pref_municipality_address_prefix,hospital,4011400003450,社会医療法人　共愛会　戸畑共立病院,福岡県北九州市戸畑区沢見２ー５ー１,33.896264,130.838111,2026-06-01,,1,病院,none,true
+14086,アロマ助産院ひだまり,愛知県東海市富木島町,,,candidate_exact_name_pref_municipality_address_prefix,maternity_home,2344231200060,アロマ助産院ひだまり,愛知県東海市富木島町新長口１ー１９０,35.013692,136.934869,2026-06-01,,100,,postnatal,false
