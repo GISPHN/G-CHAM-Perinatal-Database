@@ -73,7 +73,8 @@ def main():
     for o in official:
         idx[(o["_name"],o["official_prefecture_code"],o["official_municipality_code"])].append(o)
 
-    candidates=[]; derived=[]; exact_fills=0; prefix_candidates=0; ambiguous=0
+    candidates=[]; derived=[]; exact_fills=0; prefix_fills=0; prefix_candidates=0; ambiguous=0
+    exact_fill_ids=[]; prefix_fill_ids=[]
     verified_existing=0; discrepancies_100=discrepancies_500=discrepancies_1000=0
 
     for b in birth:
@@ -87,11 +88,16 @@ def main():
         exact=[o for o in matches if ba and o["_addr"]==ba]
         prefix=[o for o in matches if ba and o["_addr"]!=ba and (o["_addr"].startswith(ba) or ba.startswith(o["_addr"])) and min(len(ba),len(o["_addr"]))>=8]
         chosen=None; method=""
+        expected_source={"1":"hospital","2":"clinic","3":"clinic","4":"maternity_home","5":"maternity_home"}.get(str(b.get("facility_type_code") or ""))
         if visible and len(exact)==1:
             chosen=exact[0]; method="exact_name_pref_municipality_address"
         elif visible and len(exact)==0 and len(matches)==1 and len(prefix)==1:
-            method="candidate_exact_name_pref_municipality_address_prefix"
             prefix_candidates+=1
+            if expected_source and prefix[0]["official_source"]==expected_source:
+                chosen=prefix[0]
+                method="exact_name_pref_municipality_visible_address_prefix_type_consistent"
+            else:
+                method="candidate_exact_name_pref_municipality_address_prefix"
         elif visible and len(matches)>1:
             ambiguous+=1
 
@@ -104,7 +110,12 @@ def main():
             if not orig_lat or not orig_lon:
                 final_lat=chosen["official_latitude"]; final_lon=chosen["official_longitude"]
                 coord_source="mhlw_iryou_information_net_open_data"
-                exact_fills+=1
+                if method=="exact_name_pref_municipality_address":
+                    exact_fills+=1
+                    exact_fill_ids.append(str(b.get("birth_navi_id")))
+                else:
+                    prefix_fills+=1
+                    prefix_fill_ids.append(str(b.get("birth_navi_id")))
             else:
                 verified_existing+=1
 
@@ -130,6 +141,26 @@ def main():
                     "official_source_date":SOURCE_DATE,"distance_m_if_both":dist if chosen and o["official_id"]==chosen["official_id"] else ""
                 })
 
+        if orig_lat and orig_lon:
+            if dist:
+                dd=float(dist)
+                if dd<=100:
+                    quality="birth_navi_crosschecked_mhlw_within_100m"
+                elif dd<=500:
+                    quality="birth_navi_crosschecked_mhlw_100_500m"
+                else:
+                    quality="birth_navi_cross_source_discrepant_gt500m"
+            else:
+                quality="birth_navi_not_crosschecked"
+        elif chosen and method=="exact_name_pref_municipality_address":
+            quality="mhlw_direct_exact_identity_full_visible_address"
+        elif chosen and method=="exact_name_pref_municipality_visible_address_prefix_type_consistent":
+            quality="mhlw_direct_exact_identity_truncated_visible_address_type_consistent"
+        elif not visible:
+            quality="missing_hidden_address_not_inferred"
+        else:
+            quality="missing_unresolved"
+
         drow=dict(b)
         drow.update({
             "verified_latitude":final_lat,"verified_longitude":final_lon,
@@ -138,13 +169,14 @@ def main():
             "coordinate_source_date":source_date,
             "coordinate_match_method":match_method,
             "coordinate_crosscheck_distance_m":dist,
+            "coordinate_quality_status":quality,
             "coordinate_privacy_note":"not_inferred_from_hidden_address" if not visible and (not orig_lat or not orig_lon) else ""
         })
         derived.append(drow)
 
     cand_fields=["birth_navi_id","facility_name","birth_navi_address","birth_navi_latitude","birth_navi_longitude","match_class","official_source","official_id","official_name","official_address","official_latitude","official_longitude","official_source_date","distance_m_if_both"]
     write_csv(OUT/"coordinate_verification_candidates.csv",candidates,cand_fields)
-    fields=list(birth[0].keys())+["verified_latitude","verified_longitude","coordinate_source","coordinate_source_id","coordinate_source_date","coordinate_match_method","coordinate_crosscheck_distance_m","coordinate_privacy_note"]
+    fields=list(birth[0].keys())+["verified_latitude","verified_longitude","coordinate_source","coordinate_source_id","coordinate_source_date","coordinate_match_method","coordinate_crosscheck_distance_m","coordinate_quality_status","coordinate_privacy_note"]
     write_csv(OUT/"facilities_verified_coordinates.csv",derived,fields)
 
     orig_missing=sum(not (r.get("latitude") or "").strip() or not (r.get("longitude") or "").strip() for r in birth)
@@ -155,12 +187,16 @@ def main():
       "snapshot_year":2026,
       "official_source_date":SOURCE_DATE,
       "official_source_urls":SOURCES,
-      "policy":"Only exact normalized name + prefecture + municipality + full visible address matches are auto-filled. Hidden addresses are never inferred. Prefix matches are audit candidates only.",
+      "policy":"Coordinates are never inferred from hidden addresses. Missing coordinates are filled only from MHLW Medical Information Net direct coordinates when identity is deterministic: exact normalized name + prefecture + municipality + either full visible address, or a unique visible truncated-address prefix with Birth Navi facility type consistent with the official MHLW source category. Original Birth Navi coordinates are preserved and cross-source discrepancies are flagged rather than overwritten.",
       "original_missing_coordinates":orig_missing,
-      "exact_official_coordinate_fills":exact_fills,
+      "exact_full_address_official_coordinate_fills":exact_fills,
+      "exact_full_address_fill_ids":exact_fill_ids,
+      "type_consistent_visible_address_prefix_official_coordinate_fills":prefix_fills,
+      "type_consistent_visible_address_prefix_fill_ids":prefix_fill_ids,
+      "total_official_coordinate_fills":exact_fills+prefix_fills,
       "remaining_missing_coordinates":final_missing,
       "hidden_address_missing_coordinates_not_inferred":hidden_missing,
-      "visible_address_prefix_candidates_not_autofilled":prefix_candidates,
+      "visible_address_prefix_candidates_total":prefix_candidates,
       "ambiguous_visible_name_municipality_matches":ambiguous,
       "existing_birth_navi_coordinates_crosschecked_by_exact_official_match":verified_existing,
       "crosscheck_distance_over_100m":discrepancies_100,
