@@ -1,0 +1,35 @@
+name: Verify coordinates against MHLW open data
+
+on:
+  push:
+    paths:
+      - "scripts/verify_coordinates_mhlw.py"
+      - ".github/workflows/verify_coordinates_mhlw.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cross-check and conservatively fill verified coordinates
+        run: python scripts/verify_coordinates_mhlw.py
+      - name: Commit coordinate quality outputs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quality/2026/coordinate_verification_summary.json data/quality/2026/coordinate_verification_candidates.csv data/quality/2026/facilities_verified_coordinates.csv
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Add conservative MHLW coordinate verification"
+            git push
+          fi
