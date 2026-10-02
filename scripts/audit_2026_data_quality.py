@@ -31,6 +31,14 @@ def main():
     write_csv(OUT/"missing_coordinates.csv",missing,fields)
     write_csv(OUT/"service_pattern_none.csv",none,fields)
 
+    none_ids={r["birth_navi_id"] for r in none}
+    prenatal_rows={r.get("birth_navi_id"):r for r in read_csv(SNAP/"prenatal.csv")}
+    delivery_rows={r.get("birth_navi_id"):r for r in read_csv(SNAP/"delivery.csv")}
+    postnatal_rows=read_csv(SNAP/"postnatal_services.csv")
+    none_prenatal=[prenatal_rows.get(fid,{}) for fid in none_ids]
+    none_delivery=[delivery_rows.get(fid,{}) for fid in none_ids]
+    none_postnatal=[r for r in postnatal_rows if r.get("birth_navi_id") in none_ids]
+
     summary={
       "generated_at_utc":datetime.now(timezone.utc).isoformat(),
       "snapshot_year":2026,
@@ -54,6 +62,12 @@ def main():
         "coordinate_present":sum(bool((r.get("latitude") or "").strip()) and bool((r.get("longitude") or "").strip()) for r in none),
         "coordinate_missing":sum(not (r.get("latitude") or "").strip() or not (r.get("longitude") or "").strip() for r in none),
         "address_present":sum(bool((r.get("address") or "").strip()) for r in none),
+        "is_listed_values":cdict(none,"is_listed"),
+        "prenatal_can_prenatal_checkup_values":dict(Counter((r.get("can_prenatal_checkup") or "(blank)") for r in none_prenatal).most_common()),
+        "prenatal_can_pregnancy_checkup_values":dict(Counter((r.get("can_pregnancy_checkup") or "(blank)") for r in none_prenatal).most_common()),
+        "delivery_type_codes_values":dict(Counter((r.get("delivery_type_codes") or "(blank)") for r in none_delivery).most_common()),
+        "delivery_rows_with_any_volume_text":sum(bool((r.get("vaginal_delivery_count_text") or "").strip() or (r.get("cesarean_delivery_count_text") or "").strip()) for r in none_delivery),
+        "postnatal_service_rows":len(none_postnatal)
       }
     }
     OUT.mkdir(parents=True,exist_ok=True)
