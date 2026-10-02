@@ -1,0 +1,174 @@
+﻿birth_navi_id,facility_name,facility_type_code,facility_type,prenatal_checkup_listed,delivery_listed,postnatal_care_listed,can_prenatal_checkup,can_pregnancy_checkup,prenatal_type_codes,delivery_type_codes,vaginal_delivery_count_text,cesarean_delivery_count_text,postnatal_service_row_count,source_url
+11690,池田功産婦人科医院,2,有床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/11690
+12228,奥尻町国民健康保険病院,1,病院,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12228
+12229,北海道立羽幌病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12229
+12230,十和田市立中央病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12230
+12231,医療法人　佐藤病院,1,病院,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12231
+12232,医療法人社団青空会大町病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12232
+12234,埼玉県立小児医療センター,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12234
+12235,千葉市立青葉病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12235
+12236,千葉県こども病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12236
+12240,独立行政法人国立病院機構　長良医療センター,1,病院,0,0,0,False,False,2,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12240
+12241,愛知県医療療育総合センター中央病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12241
+12243,独立行政法人労働者健康安全機構　中部労災病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12243
+12244,医療法人　徳洲会　近江草津徳洲会病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12244
+12247,医療法人和倉会　サンタマリア病院,1,病院,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12247
+12248,西宮市立中央病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12248
+12251,鳥取市立病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12251
+12259,社会医療法人共愛会戸畑共立病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12259
+12262,大分赤十字病院,1,病院,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12262
+12265,神田産科婦人科クリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12265
+12270,おびひろＡＲＴクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12270
+12271,札幌大通西１６丁目はなえみレディースクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12271
+12272,たばた産婦人科クリニック,2,有床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12272
+12273,ゆめみレディースクリニック,2,有床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12273
+12275,婦人科さかもとともみクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12275
+12279,京野アートクリニック盛岡,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12279
+12286,仙台ＡＲＴクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12286
+12290,まほろばレディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12290
+12292,たかはしレディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12292
+12295,山形大手町ＡＲＴクリニック川越医院,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12295
+12297,アートクリニック産婦人科,3,無床診療所,0,0,0,False,True,,4,0件,0件,0,https://birth-navi.mhlw.go.jp/facilities/12297
+12299,レディースクリニックはらまち,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12299
+12302,医療法人かたよせウイメンズクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12302
+12306,医療法人小塙医院　つくばＡＲＴクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12306
+12315,医療法人社団新宿レディースクリニック会　さいたまレディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12315
+12316,医療法人夢乃樹会ウィメンズクリニックふじみ野,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12316
+12318,医療法人社団慈幸会　西船橋こやまウィメンズクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12318
+12321,医療法人社団伸守会　津田沼ＩＶＦクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12321
+12322,医療法人社団すずらん会緑が丘ウイメンズクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12322
+12326,ｍｏｎｅレディースクリニック江戸川,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12326
+12330,黒田インターナショナル　メディカル　リプロダクション,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12330
+12331,医療法人社団　銀座レディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12331
+12334,医療法人社団至誠会　横山外科内科,3,無床診療所,0,0,0,False,False,2,4,0件,0件,0,https://birth-navi.mhlw.go.jp/facilities/12334
+12337,医療法人社団聖仁会　三軒茶屋ウィメンズクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12337
+12347,医療法人社団新宿レディースクリニック会　池袋レディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12347
+12348,慶愛クリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12348
+12350,医療法人社団ひとみ会　臼井医院,2,有床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12350
+12352,医療法人社団新宿レディースクリニック会　上野レディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12352
+12357,医療法人社団アート会　キネマアートクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12357
+12362,京野アートクリニック高輪,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12362
+12363,白金高輪海老根ウィメンズクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12363
+12365,東京ＡＭＨクリニック銀座,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12365
+12367,表参道ＡＲＴクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12367
+12371,京野アートクリニック品川,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12371
+12372,アヴァンセレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12372
+12374,医療法人社団光創会　神田ウイメンズクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12374
+12385,銀座こうのとりレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12385
+12387,青空レディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12387
+12399,神奈川レディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12399
+12401,医療法人日伸会かなこレディースクリニック金沢文庫,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12401
+12404,医療法人産婦人科クリニックさくら,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12404
+12405,ＣＭポートクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12405
+12416,ゆきこレディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12416
+12419,メディカルパークみなとみらい,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12419
+12421,うえだクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12421
+12426,医療法人　清澄会　ふくい輝クリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12426
+12428,このはなクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12428
+12433,医療法人社団　啓樹会　西村ウイメンズクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12433
+12434,大樹レディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12434
+12436,（医）福間産婦人科クリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12436
+12437,国東産婦人科医院,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12437
+12438,板東レディースクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12438
+12442,あかほり女性クリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12442
+12449,医療法人裕修会　篠原産婦人科医院,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12449
+12454,医療法人亜一会　あいこ女性クリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12454
+12458,なごやＡＲＴクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12458
+12460,栄産婦人科,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12460
+12461,なるかわレディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12461
+12463,山田医院,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12463
+12470,とよた星の夢ＡＲＴクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12470
+12473,医療法人　栄恵会　ＩＶＦ白子クリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12473
+12474,医療法人翡翠会　ひとみウィメンズクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12474
+12475,みのうらレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12475
+12476,はなだ婦人クリニック,5,無床助産所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12476
+12477,医療法人　木下レディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12477
+12482,志村ウィメンズクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12482
+12483,こおりたクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12483
+12485,猪木産婦人科,2,有床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12485
+12493,まんだいレディースクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12493
+12498,元林産婦人科内科,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12498
+12502,なかむらレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12502
+12503,あかりクリニック,3,無床診療所,0,0,0,False,True,1;2,4,0件,0件,0,https://birth-navi.mhlw.go.jp/facilities/12503
+12509,医療法人　ＦＡＧＷ　のだ女性クリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12509
+12516,エクラ難波レディースクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12516
+12520,みちもとレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12520
+12521,清水クリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12521
+12522,はやし女性クリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12522
+12523,医療法人社団ＧＯＫやまなみ会　山辺レディースクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12523
+12530,久保みずきレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12530
+12535,医療法人明日香会　ＡＳＫＡレディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12535
+12536,ちえクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12536
+12539,医療法人新生会　岩橋産科婦人科,2,有床診療所,0,0,0,False,True,2,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12539
+12541,レディースクリニック和,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12541
+12543,医療法人正誼堂　森本産婦人科医院,2,有床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12543
+12545,医療法人片山産婦人科,2,有床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12545
+12549,医療法人社団　長谷川産婦人科,3,無床診療所,0,0,0,False,False,,4,0件,0件,0,https://birth-navi.mhlw.go.jp/facilities/12549
+12551,さだもりレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12551
+12553,医療法人　絹谷産婦人科,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12553
+12555,母と子のまきクリニック Mother and Fetus Maki Clinic,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12555
+12556,笠岡レディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12556
+12558,おがさ　まきレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12558
+12563,武田産婦人科医院,2,有床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12563
+12564,鎌田産婦人科,2,有床診療所,0,0,0,False,True,2,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12564
+12568,かわのレディースクリニック,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12568
+12571,医療法人　中央レディスクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12571
+12582,医療法人　井上善レディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12582
+12584,稗田産婦人科クリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12584
+12586,医療法人雄大会よしだレディースクリニック,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12586
+12591,井上産婦人科医院,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12591
+12592,医療法人ブレス　本田レディースクリニック,3,無床診療所,0,0,0,False,False,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12592
+12595,ＡＲＴレディスクリニックやまうち,3,無床診療所,0,0,0,False,True,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12595
+12596,鹿児島市夜間急病センター,3,無床診療所,0,0,0,False,False,,4,,,0,https://birth-navi.mhlw.go.jp/facilities/12596
+12914,日本赤十字社福島赤十字病院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12914
+12967,マタニティ・ケア・伊藤,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12967
+12998,かえで助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12998
+12999,うえむら母乳育児相談室,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/12999
+13033,上都賀総合病院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13033
+13073,アルモア助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13073
+13101,行田中央総合病院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13101
+13153,竹内助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13153
+13168,コメッコハウス,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13168
+13227,ウェルネスサロン よしたか助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13227
+13240,とりこえ助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13240
+13508,あまね助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13508
+13605,亀田第一病院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13605
+13902,ママ・ベビーサポートおくむら,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13902
+13955,ウィメンズケア助産院midori,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/13955
+14002,M.ウェルネスクリニック覚王山,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14002
+14072,ひまわり助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14072
+14167,まこと助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14167
+14174,くくう助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14174
+14176,訪問看護ステーションcoco,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14176
+14196,井出産婦人科,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14196
+14207,浜中産婦人科,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14207
+14211,青空助産所,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14211
+14212,岩本助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14212
+14218,せきもと助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14218
+14331,庄村助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14331
+14333,にじいろ助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14333
+14416,母乳育児相談はぐはぐ,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14416
+14569,にしだ助産所,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14569
+14575,医療法人明和会　北広島病院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14575
+14590,針間産婦人科,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14590
+14595,助産院ぽわんと,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14595
+14598,いそはま助産所,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14598
+14603,マミーズハウス,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14603
+14609,いそはま助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14609
+14611,とよしま助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14611
+14616,あさのみ助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14616
+14844,きはら母乳育児相談室,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14844
+14847,助産院てくてく,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14847
+14848,助産院いとむすび,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14848
+14889,田中産婦人科,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/14889
+15016,下川産婦人科医院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15016
+15023,マミーズMORI,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15023
+15026,ちが産婦人科医院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15026
+15037,球磨郡公立多良木病院企業団,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15037
+15088,一般社団法人日本いのち心アカデミー協会　Mama’s　wing,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15088
+15142,出張専門助産院 Mom Tomoni,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15142
+15270,いまえだ助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15270
+15307,助産所まるまる,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15307
+15327,"公立学校共済組合
+近畿中央病院",100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15327
+15341,むすひ助産院,100,,0,0,0,,,,,,,0,https://birth-navi.mhlw.go.jp/facilities/15341

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-02T11:13:45.877128+00:00",
+  "generated_at_utc": "2026-10-02T11:19:24.846228+00:00",
   "snapshot_year": 2026,
   "retrievable_facility_count": 5638,
   "missing_coordinate_count": 1265,
@@ -138,14 +138,16 @@
     },
     "prenatal_can_pregnancy_checkup_values": {
       "False": 70,
-      "True": 51,
-      "(blank)": 51
+      "(blank)": 51,
+      "True": 51
     },
     "delivery_type_codes_values": {
       "4": 94,
       "(blank)": 78
     },
     "delivery_rows_with_any_volume_text": 4,
-    "postnatal_service_rows": 0
+    "postnatal_service_rows": 0,
+    "pregnancy_checkup_true_but_prenatal_checkup_not_listed_count": 0,
+    "pregnancy_checkup_true_but_prenatal_checkup_not_listed_sample": []
   }
 }
