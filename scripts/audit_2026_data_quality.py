@@ -53,7 +53,7 @@ def main():
         })
     diag_fields=list(diagnostics[0].keys()) if diagnostics else ["birth_navi_id"]
     write_csv(OUT/"service_pattern_none_diagnostics.csv",diagnostics,diag_fields)
-    pregnancy_only=[r for r in diagnostics if not r["can_prenatal_checkup"] and r["can_pregnancy_checkup"]=="True"]
+    pregnancy_only=[r for r in diagnostics if r["can_prenatal_checkup"]!="True" and r["can_pregnancy_checkup"]=="True"]
 
     summary={
       "generated_at_utc":datetime.now(timezone.utc).isoformat(),
