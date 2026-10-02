@@ -1,0 +1,1275 @@
+﻿birth_navi_id,facility_name,facility_type_code,facility_type,prefecture_id,municipality_code,municipality_name,address,is_address_visible,phone_number,is_phone_number_visible,latitude,longitude,prenatal_checkup_listed,delivery_listed,postnatal_care_listed,service_count,service_pattern,source_last_modified_at,source_url
+10043,横須賀共済病院,1,病院,14,14201,横須賀市,神奈川県横須賀市米が浜通,True,0468222710,True,,,0,1,0,1,delivery,2026-09-14T12:41:22.088Z,https://birth-navi.mhlw.go.jp/facilities/10043
+10189,兵庫県立こども病院,1,病院,28,28110,神戸市中央区,兵庫県神戸市中央区,True,0789457300,True,,,1,1,0,2,prenatal+delivery,2026-09-17T09:08:09.519Z,https://birth-navi.mhlw.go.jp/facilities/10189
+10251,富山市立富山市民病院,1,病院,16,16201,富山市,富山県富山市今泉北部町,True,0764221112,True,,,0,1,1,2,delivery+postnatal,2026-09-17T09:08:10.919Z,https://birth-navi.mhlw.go.jp/facilities/10251
+10412,滋賀医科大学医学部附属病院,1,病院,25,25201,大津市,滋賀県大津市瀬田月輪町,True,0775482111,True,,,1,1,0,2,prenatal+delivery,2026-09-14T13:11:52.620Z,https://birth-navi.mhlw.go.jp/facilities/10412
+10706,JCHO群馬中央病院,1,病院,10,10201,前橋市,群馬県前橋市,True,0272218165,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-17T09:08:20.383Z,https://birth-navi.mhlw.go.jp/facilities/10706
+10881,財団法人　温知会　会津中央病院,1,病院,7,07202,会津若松市,福島県会津若松市,True,0242251515,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T13:27:29.822Z,https://birth-navi.mhlw.go.jp/facilities/10881
+10969,島岡医院,2,有床診療所,26,26107,京都市南区,京都府京都市,True,0756610746,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T22:07:40.000Z,https://birth-navi.mhlw.go.jp/facilities/10969
+10993,都賀レディースクリニック,2,有床診療所,12,12104,千葉市若葉区,千葉県千葉市若葉区西都賀,True,0432552771,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-17T09:08:25.306Z,https://birth-navi.mhlw.go.jp/facilities/10993
+11159,医療法人　レディスクリニック　セントセシリア,2,有床診療所,2,02201,青森市,青森県青森市,True,0177380321,True,,,1,1,0,2,prenatal+delivery,2026-09-17T09:08:27.303Z,https://birth-navi.mhlw.go.jp/facilities/11159
+11315,レディースクリニック山田産婦人科,2,有床診療所,41,41203,鳥栖市,佐賀県鳥栖市蔵上,True,0942844656,True,,,0,1,1,2,delivery+postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/11315
+11324,津永産婦人科,2,有床診療所,35,35215,周南市,山口県周南市,True,0834218255,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/11324
+11569,会沢産婦人科医院,2,有床診療所,14,14213,大和市,神奈川県大和市中央林間,True,0462756161,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/11569
+11748,出張専門助産所菅谷,5,無床助産所,12,12103,千葉市稲毛区,千葉県千葉市稲毛区,True,09026573724,True,,,0,1,0,1,delivery,2026-09-14T21:39:28.000Z,https://birth-navi.mhlw.go.jp/facilities/11748
+11763,中村助産院（出張専門）,5,無床助産所,26,26103,京都市左京区,京都府京都市左京区,True,09050114011,True,,,0,1,0,1,delivery,2026-09-14T12:50:15.407Z,https://birth-navi.mhlw.go.jp/facilities/11763
+11784,バース・ハウス　なかにし助産院,4,有床助産所,30,30205,御坊市,和歌山県御坊市湯川町小松原,True,0738222950,True,,,0,1,1,2,delivery+postnatal,2026-09-14T13:29:16.708Z,https://birth-navi.mhlw.go.jp/facilities/11784
+11793,出張専門ゆずのき助産院,5,無床助産所,8,08228,坂東市,茨城県坂東市,True,09027473214,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T13:19:18.227Z,https://birth-navi.mhlw.go.jp/facilities/11793
+11818,宮﨑助産院,5,無床助産所,14,14204,鎌倉市,神奈川県鎌倉市大町,True,08013474428,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-17T09:08:38.413Z,https://birth-navi.mhlw.go.jp/facilities/11818
+11835,出張専門あいうみ助産院,5,無床助産所,23,23211,豊田市,愛知県豊田市田中町,True,09029434067,True,,,0,1,1,2,delivery+postnatal,2026-09-14T21:39:28.000Z,https://birth-navi.mhlw.go.jp/facilities/11835
+11839,出張専門　向谷地幸子,5,無床助産所,13,13112,世田谷区,東京都世田谷区,True,09098487043,True,,,1,1,0,2,prenatal+delivery,2026-09-14T12:50:15.671Z,https://birth-navi.mhlw.go.jp/facilities/11839
+11854,さくら咲く助産院　出張専門,5,無床助産所,12,12106,千葉市美浜区,千葉県千葉市美浜区高洲,True,09084795020,True,,,0,1,0,1,delivery,2026-09-14T21:39:28.000Z,https://birth-navi.mhlw.go.jp/facilities/11854
+11889,リラ助産院,5,無床助産所,1,01204,旭川市,北海道旭川市神居七条六丁目,True,09031193256,True,,,0,1,1,2,delivery+postnatal,2026-09-14T21:39:28.000Z,https://birth-navi.mhlw.go.jp/facilities/11889
+11892,助産院月天心,5,無床助産所,1,01108,札幌市厚別区,北海道札幌市厚別区　　現在出張訪問のみ自宅出産のみ,True,09082736256,True,,,0,1,0,1,delivery,2026-09-14T21:39:28.000Z,https://birth-navi.mhlw.go.jp/facilities/11892
+11900,助産院太陽と月,5,無床助産所,22,22103,静岡市清水区,静岡県静岡市清水区,True,09064669713,True,,,0,1,1,2,delivery+postnatal,2026-09-14T22:42:29.000Z,https://birth-navi.mhlw.go.jp/facilities/11900
+11924,いかだい助産所,5,無床助産所,13,13117,北区,東京都北区,True,08050646003,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/11924
+12057,医療法人　植田産婦人科,2,有床診療所,27,27126,大阪市平野区,大阪府大阪市平野区,True,0667911726,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12057
+12115,ゆっこ助産院,4,有床助産所,27,27227,東大阪市,大阪府東大阪市御厨5丁目-３－３９,True,05035535648,True,,,1,1,0,2,prenatal+delivery,2026-09-14T12:50:15.903Z,https://birth-navi.mhlw.go.jp/facilities/12115
+12133,とも助産院,5,無床助産所,27,27123,大阪市淀川区,大阪府大阪市淀川区,True,08061030711,True,,,0,1,0,1,delivery,2026-09-14T21:39:28.000Z,https://birth-navi.mhlw.go.jp/facilities/12133
+12211,助産院乃々,5,無床助産所,1,01108,札幌市厚別区,北海道札幌市厚別区,True,09086308419,True,,,0,1,1,2,delivery+postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12211
+12213,出張専門助産院あゆみ,5,無床助産所,23,23103,名古屋市北区,愛知県名古屋市北区,True,07035148436,True,,,1,1,1,3,prenatal+delivery+postnatal,2026-09-14T13:21:51.502Z,https://birth-navi.mhlw.go.jp/facilities/12213
+12231,医療法人　佐藤病院,1,病院,5,05210,由利本荘市,秋田県由利本荘市,True,0184226555,True,,,0,0,0,0,none,2026-09-14T12:50:16.368Z,https://birth-navi.mhlw.go.jp/facilities/12231
+12259,社会医療法人共愛会戸畑共立病院,1,病院,40,40105,北九州市戸畑区,福岡県北九州市戸畑区沢見,True,0938715421,True,,,0,0,0,0,none,2026-09-14T12:50:16.472Z,https://birth-navi.mhlw.go.jp/facilities/12259
+12600,木梨助産院,5,無床助産所,22,22208,伊東市,静岡県伊東市,True,0557450002,True,,,1,1,0,2,prenatal+delivery,2026-09-14T12:50:17.804Z,https://birth-navi.mhlw.go.jp/facilities/12600
+12613,助産院 tocohana,100,,1,01100,札幌市,札幌市北区あいの里,True,09026989741,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12613
+12614,めまな助産院,100,,1,01100,札幌市,札幌市白石区菊水,True,09013073743,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12614
+12615,訪問専門助産院 にじいろの月,100,,1,01100,札幌市,厚別区厚別,True,07074639355,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12615
+12618,にこ助産院,100,,1,01202,函館市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12618
+12619,さわや助産院,100,,1,01203,小樽市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12619
+12620,三國貴子,100,,1,01203,小樽市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12620
+12621,棚元麻由,100,,1,01203,小樽市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12621
+12624,母乳育児相談室　陽だまり,100,,1,01204,旭川市,,False,0166736623,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12624
+12625,助産院まぐのりあ,100,,1,01204,旭川市,,False,08060654339,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12625
+12626,みのしま助産院,100,,1,01204,旭川市,,False,05036354539,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12626
+12627,咲き助産院,100,,1,01204,旭川市,,False,07091657073,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12627
+12628,助産院Pono,100,,1,01204,旭川市,,False,08064413459,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12628
+12629,ねの星助産院,100,,1,01204,旭川市,,False,09066932618,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12629
+12630,合同会社　燈心,100,,1,01204,旭川市,,False,05031508742,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12630
+12634,Ohana 母乳育児相談室,100,,1,01205,室蘭市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12634
+12643,出張おっぱいマッサージまつざき助産院,100,,1,01208,北見市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12643
+12644,出張専門助産師みやした,100,,1,01208,北見市,,False,09013805522,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12644
+12645,助産院はる,100,,1,01208,北見市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12645
+12648,助産院はる,100,,1,01211,網走市,,False,09086382275,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12648
+12651,かわい助産院,100,,1,01213,苫小牧市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12651
+12661,助産院けせらせら,100,,1,01219,紋別市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12661
+12667,助産院はぐくみ,100,,1,01224,千歳市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12667
+12668,産前産後ケア　マナ助産院,100,,1,01224,千歳市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12668
+12670,菜のはな助産院,100,,1,01224,千歳市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12670
+12674,ohana母乳育児相談室,100,,1,01230,登別市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12674
+12682,にこ助産院,100,,1,01362,上ノ国町,函館市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12682
+12683,にこ助産院,100,,1,01363,厚沢部町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12683
+12685,株式会社まんまじょ,100,,1,01391,島牧村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12685
+12691,助産院　moana,100,,1,01453,東神楽町,,False,05035769225,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12691
+12692,オハナ助産院,100,,1,01453,東神楽町,,False,09062151103,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12692
+12696,出張専門助産師みやした,100,,1,01543,美幌町,北見市,True,09018906285,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12696
+12699,Tussie Mussie,100,,1,01546,清里町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12699
+12700,助産院はる,100,,1,01546,清里町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12700
+12701,CoCo助産院,100,,1,01546,清里町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12701
+12704,開業助産師　越後　早苗　氏,100,,1,01552,佐呂間町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12704
+12705,てぃだ助産院,100,,1,01555,遠軽町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12705
+12707,こんどう助産院,100,,1,01564,大空町,,False,09082708378,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12707
+12708,ohana母乳育児相談室桶谷式,100,,1,01575,壮瞥町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12708
+12719,いのちのもり合同会社,100,,1,01636,清水町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12719
+12721,いのちのもり合同会社,100,,1,01637,芽室町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12721
+12722,いのちのもり合同会社,100,,1,01638,中札内村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12722
+12723,慶愛病院産後ケアセンタークローバー,100,,1,01638,中札内村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12723
+12724,わたなべ母乳相談室,100,,1,01638,中札内村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12724
+12725,いのちのもり合同会社,100,,1,01641,大樹町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12725
+12726,いのちのもり合同会社,100,,1,01642,広尾町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12726
+12727,いのちのもり合同会社,100,,1,01643,幕別町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12727
+12729,いのちのもり合同会社,100,,1,01646,本別町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12729
+12732,助産院マタニティアイ,100,,1,01667,鶴居村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12732
+12733,ママケアハウスイコロ助産院,100,,1,01667,鶴居村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12733
+12738,まきばの助産院,100,,1,01692,中標津町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12738
+12739,まきばの助産院,100,,1,01693,標津町,標津郡中標津町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12739
+12745,どんぐりころころ助産院,100,,2,02202,弘前市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12745
+12746,みけねこ助産院,100,,2,02202,弘前市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:20:10.031Z,https://birth-navi.mhlw.go.jp/facilities/12746
+12749,一般社団法人青森県助産師会,100,,2,02205,五所川原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12749
+12752,母子ケアハウスさくら助産院,100,,2,02206,十和田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12752
+12761,出張専門助産所グランマ,100,,2,02384,鶴田町,鯵ヶ沢町,True,08018032719,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12761
+12762,※準備中,100,,2,02387,中泊町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12762
+12768,訪問型産後ケア,100,,3,03201,盛岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12768
+12769,伊東産婦人科医院,100,,3,03202,宮古市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12769
+12777,マタニティ相談室くろさわ,100,,3,03209,一関市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12777
+12778,ひとみ助産院,100,,3,03209,一関市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12778
+12785,ママドゥール助産院,100,,3,03215,奥州市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12785
+12786,そら助産院,100,,3,03215,奥州市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12786
+12808,あおぞら助産院,100,,4,04100,仙台市,,False,08052168823,True,,,0,0,1,1,postnatal,2026-09-14T13:27:06.623Z,https://birth-navi.mhlw.go.jp/facilities/12808
+12810,かたやまかお莉助産院,100,,4,04100,仙台市,,False,08095675713,True,,,0,0,1,1,postnatal,2026-09-14T13:20:34.117Z,https://birth-navi.mhlw.go.jp/facilities/12810
+12818,ねんねこ助産院,100,,4,04100,仙台市,仙台市青葉区柏木,True,07053274471,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12818
+12824,まさこ助産院,100,,4,04100,仙台市,,False,09036479270,True,,,0,0,1,1,postnatal,2026-09-14T13:19:15.903Z,https://birth-navi.mhlw.go.jp/facilities/12824
+12825,まどか助産院,100,,4,04100,仙台市,,False,08096373205,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12825
+12826,みはる助産院,100,,4,04100,仙台市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:20:14.040Z,https://birth-navi.mhlw.go.jp/facilities/12826
+12828,ユーカリ助産院,100,,4,04100,仙台市,遠田郡美里町大柳,True,09070664900,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12828
+12829,育児相談室Mimi,100,,4,04100,仙台市,,False,09055988271,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12829
+12831,ゆきんこ助産院,100,,4,04100,仙台市,宮城郡利府町,True,09033664515,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12831
+12833,山川助産所,100,,4,04100,仙台市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12833
+12836,訪問助産院　近藤素子,100,,4,04100,仙台市,,False,07040300501,True,,,0,0,1,1,postnatal,2026-09-14T13:20:34.312Z,https://birth-navi.mhlw.go.jp/facilities/12836
+12837,出張専門助産師佐藤由美子,100,,4,04100,仙台市,,False,09032354818,True,,,0,0,1,1,postnatal,2026-09-14T13:20:34.337Z,https://birth-navi.mhlw.go.jp/facilities/12837
+12840,小山みね子助産師相談室,100,,4,04100,仙台市,,False,09062523926,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12840
+12842,妊活応援助産院ぷらすわん,100,,4,04100,仙台市,,False,09014905554,True,,,0,0,1,1,postnatal,2026-09-14T13:20:34.637Z,https://birth-navi.mhlw.go.jp/facilities/12842
+12848,出張専門ミーサ助産院,100,,4,04100,仙台市,,False,09031201836,True,,,0,0,1,1,postnatal,2026-09-14T13:20:34.800Z,https://birth-navi.mhlw.go.jp/facilities/12848
+12849,すずき助産院　子育て相談室,100,,4,04100,仙台市,,False,07083793747,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12849
+12855,個人助産師,100,,4,04211,岩沼市,,False,0223221116,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12855
+12867,秋田県助産師会,100,,5,05202,能代市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12867
+12870,秋田県助産師会,100,,5,05206,男鹿市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12870
+12875,あい助産院,100,,5,05214,にかほ市,由利本荘市,True,09013983499,True,,,0,0,1,1,postnatal,2026-09-14T13:27:07.453Z,https://birth-navi.mhlw.go.jp/facilities/12875
+12876,和助産院,100,,5,05214,にかほ市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12876
+12886,"マミーズルーム
+（訪問型乳房ケア）",100,,6,06201,山形市,,False,09090384784,True,,,0,0,1,1,postnatal,2026-09-14T13:27:09.120Z,https://birth-navi.mhlw.go.jp/facilities/12886
+12887,"訪問型母乳育児サポート 
+助産師のひとみさん
+（訪問型乳房ケア）",100,,6,06201,山形市,,False,09048811422,True,,,0,0,1,1,postnatal,2026-09-14T13:27:09.138Z,https://birth-navi.mhlw.go.jp/facilities/12887
+12888,助産師　相田 圭子,100,,6,06202,米沢市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:20:37.519Z,https://birth-navi.mhlw.go.jp/facilities/12888
+12889,助産師　竹田 由佳,100,,6,06202,米沢市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12889
+12896,ほんわり日和,100,,6,06211,東根市,,False,07085689682,True,,,0,0,1,1,postnatal,2026-09-14T13:20:37.217Z,https://birth-navi.mhlw.go.jp/facilities/12896
+12897,みさき助産院,100,,6,06211,東根市,,False,09022759628,True,,,0,0,1,1,postnatal,2026-09-14T13:27:09.020Z,https://birth-navi.mhlw.go.jp/facilities/12897
+12900,助産院mooi,100,,6,06302,中山町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12900
+12901,fumi助産院,100,,6,06302,中山町,,False,08096315279,True,,,0,0,1,1,postnatal,2026-09-14T13:27:09.037Z,https://birth-navi.mhlw.go.jp/facilities/12901
+12907,助産院mooi,100,,6,06321,河北町,山形市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12907
+12908,助産院カルナ,100,,6,06321,河北町,山形市,True,05017217257,True,,,0,0,1,1,postnatal,2026-09-14T13:27:09.202Z,https://birth-navi.mhlw.go.jp/facilities/12908
+12910,助産院mooi,100,,6,06366,鮭川村,山形市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12910
+12917,福島県助産師会　会津助産師の家おひさま,100,,7,07202,会津若松市,,False,0242858303,True,,,0,0,1,1,postnatal,2026-09-14T13:27:28.846Z,https://birth-navi.mhlw.go.jp/facilities/12917
+12918,まんまる御母屋,100,,7,07203,郡山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12918
+12921,一般社団法人福島県助産師会,100,,7,07203,郡山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12921
+12923,ハル助産院,100,,7,07204,いわき市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12923
+12925,"相馬助産所
+（福島県助産師会と委託契約）",100,,7,07204,いわき市,,False,08060124181,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12925
+12927,"花サンバ
+（福島県助産師会と委託契約）",100,,7,07204,いわき市,,False,09058431300,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12927
+12936,のっち助産所,100,,7,07303,国見町,,False,09048833818,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12936
+12937,みのり助産院,100,,7,07303,国見町,,False,09053570210,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12937
+12938,出張助産師永瀬美和,100,,7,07303,国見町,,False,08016786938,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12938
+12941,根本産婦人科医院,100,,8,08201,水戸市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12941
+12943,茨城県助産師会,100,,8,08201,水戸市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12943
+12947,ざくろの木助産院,100,,8,08204,古河市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12947
+12949,出張助産院　ちさと,100,,8,08204,古河市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12949
+12952,Fuerza de mujer (フェルサ デ ムヘール),100,,8,08205,石岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12952
+12953,すみれ助産院,100,,8,08205,石岡市,石岡市,True,09080395434,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12953
+12954,Aina(アイナ）助産院,100,,8,08205,石岡市,土浦市,True,08040074245,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12954
+12958,産前産後ケア施設あいあい,100,,8,08207,結城市,,False,09029779373,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12958
+12963,サポート・うぶごえ　長谷川知香子,100,,8,08214,高萩市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12963
+12964,出張訪問助産師　長谷川左弥子,100,,8,08214,高萩市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12964
+12965,サポート　うぶごえ,100,,8,08215,北茨城市,高萩市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12965
+12966,出張訪問助産師　長谷川左弥子,100,,8,08215,北茨城市,日立市川尻町,True,08010328181,True,,,0,0,1,1,postnatal,2026-09-14T13:20:50.243Z,https://birth-navi.mhlw.go.jp/facilities/12966
+12970,母乳育児相談「ほっと」,100,,8,08217,取手市,,False,08031269001,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/12970
+12971,西村助産院,100,,8,08217,取手市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:20:53.997Z,https://birth-navi.mhlw.go.jp/facilities/12971
+12972,choco助産院,100,,8,08217,取手市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:20:52.709Z,https://birth-navi.mhlw.go.jp/facilities/12972
+12973,BIO HOUSE,100,,8,08217,取手市,,False,08011246016,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12973
+12976,個人事業主助産師,100,,8,08219,牛久市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12976
+12977,個人事業主助産師,100,,8,08219,牛久市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12977
+12978,個人事業主助産師,100,,8,08219,牛久市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12978
+12979,個人事業主助産師,100,,8,08219,牛久市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12979
+12980,個人事業主助産師,100,,8,08219,牛久市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12980
+12981,個人事業主保健師,100,,8,08219,牛久市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12981
+12983,ひかり助産院,100,,8,08222,鹿嶋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/12983
+12984,茨城県助産師会,100,,8,08226,那珂市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12984
+12985,助産師　福原　陽子,100,,8,08228,坂東市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:20:52.921Z,https://birth-navi.mhlw.go.jp/facilities/12985
+12986,出張専門助産所　お結び,100,,8,08228,坂東市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:20:53.017Z,https://birth-navi.mhlw.go.jp/facilities/12986
+12990,フェルサデムヘール,100,,8,08230,かすみがうら市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12990
+12991,すみれ助産院,100,,8,08230,かすみがうら市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12991
+12992,花だより,100,,8,08230,かすみがうら市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12992
+12995,助産所あおぞら,100,,8,08235,つくばみらい市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12995
+12996,助産院あおば,100,,8,08235,つくばみらい市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12996
+12997,出張専門助産院　とも,100,,8,08235,つくばみらい市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12997
+12998,かえで助産院,100,,8,08235,つくばみらい市,,False,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12998
+12999,うえむら母乳育児相談室,100,,8,08235,つくばみらい市,,False,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/12999
+13000,小松助産院,100,,8,08236,小美玉市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13000
+13001,産前産後ケアサポートいとが,100,,8,08236,小美玉市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13001
+13004,こどもとくらし研究室,100,,8,08364,大子町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:32.097Z,https://birth-navi.mhlw.go.jp/facilities/13004
+13006,Blue one,100,,8,08443,阿見町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13006
+13008,出張助産所にこ,100,,8,08542,五霞町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13008
+13016,栃木県助産師会,100,,9,09201,宇都宮市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13016
+13037,赤ちゃん相談室,100,,9,09216,下野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13037
+13038,あさの葉助産院,100,,9,09216,下野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13038
+13043,出張専門助産所　にこ,100,,9,09364,野木町,茨城県古河市雷電町,True,08039340025,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13043
+13045,出張専門助産院LOCOPOKA(ロコポカ),100,,9,09407,那須町,,False,08095414918,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13045
+13059,産後ケアハウス花まどれ,100,,10,10202,高崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13059
+13060,群馬県助産師会,100,,10,10202,高崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13060
+13074,群馬県助産師会,100,,10,10384,甘楽町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13074
+13084,成田レディスクリニック,100,,11,11100,さいたま市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13084
+13094,合同会社Wisdom,100,,11,11201,川越市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13094
+13097,助産院ママハウス,100,,11,11201,川越市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:04.909Z,https://birth-navi.mhlw.go.jp/facilities/13097
+13104,個人,100,,11,11206,行田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13104
+13110,埼玉県助産師会所沢地区,100,,11,11209,飯能市,埼玉県,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13110
+13113,医療法人社団　双鳳会　山王クリニック,100,,11,11210,加須市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13113
+13115,たんぽぽ助産所,100,,11,11211,本庄市,,False,09049520081,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13115
+13120,みき助産院,100,,11,11214,春日部市,,False,07084871266,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13120
+13121,助産院あんず,100,,11,11214,春日部市,,False,08087643466,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13121
+13125,さゆり助産院,100,,11,11219,上尾市,,False,07031151103,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13125
+13126,ひまわり助産院,100,,11,11219,上尾市,上尾市富士見,True,09099619089,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13126
+13132,みなみ助産院,100,,11,11222,越谷市,,False,09069396896,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13132
+13136,埼玉県助産師会所沢地区,100,,11,11225,入間市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13136
+13137,朝霞地区助産師会,100,,11,11227,朝霞市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13137
+13142,助産所,100,,11,11230,新座市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13142
+13143,出張専業助産師,100,,11,11230,新座市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13143
+13144,出張専業助産師,100,,11,11230,新座市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13144
+13145,出張専業助産師,100,,11,11230,新座市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13145
+13146,出張専業助産師,100,,11,11230,新座市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13146
+13147,出張専業助産師,100,,11,11230,新座市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13147
+13148,灯香助産院,100,,11,11232,久喜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13148
+13154,かめまま田島助産所,100,,11,11232,久喜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13154
+13163,訪問　大きな樹助産院,100,,11,11239,坂戸市,,False,07084683208,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13163
+13164,ゆき助産院　桶谷式母乳育児相談室,100,,11,11239,坂戸市,,False,09034996502,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13164
+13165,埼玉県助産師会所沢地区,100,,11,11242,日高市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13165
+13169,大林助産所,100,,11,11246,白岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13169
+13173,在宅保健師,100,,11,11346,川島町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13173
+13178,助産院　りらまる,100,,11,11442,宮代町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:10.841Z,https://birth-navi.mhlw.go.jp/facilities/13178
+13179,助産院　母魂,100,,11,11442,宮代町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:11.111Z,https://birth-navi.mhlw.go.jp/facilities/13179
+13183,船橋青い空こどもクリニック,100,,12,12204,船橋市,船橋市米ヶ崎町,True,0474070201,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13183
+13186,レ・アーリ助産院,100,,12,12204,船橋市,鎌ヶ谷市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13186
+13187,千葉県助産師会,100,,12,12204,船橋市,自宅にお伺いします,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13187
+13190,なつむら助産院,100,,12,12205,館山市,千葉県館山市北条,True,0470234564,True,,,0,0,1,1,postnatal,2026-09-14T13:21:12.050Z,https://birth-navi.mhlw.go.jp/facilities/13190
+13191,千葉県助産師会,100,,12,12206,木更津市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13191
+13192,千葉県助産師会,100,,12,12207,松戸市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13192
+13193,hahatoco母乳育児相談室いのうえ助産院,100,,12,12210,茂原市,,False,09078429492,True,,,0,0,1,1,postnatal,2026-09-14T13:27:38.904Z,https://birth-navi.mhlw.go.jp/facilities/13193
+13194,ひがし母乳育児相談室,100,,12,12210,茂原市,,False,09082689091,True,,,0,0,1,1,postnatal,2026-09-14T13:21:17.327Z,https://birth-navi.mhlw.go.jp/facilities/13194
+13195,ハッピーマンマ羽鳥助産院,100,,12,12210,茂原市,,False,09055448414,True,,,0,0,1,1,postnatal,2026-09-14T13:27:38.922Z,https://birth-navi.mhlw.go.jp/facilities/13195
+13197,よしおか助産院,100,,12,12211,成田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13197
+13198,千葉県助産師会印旛地区部会,100,,12,12211,成田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13198
+13199,千葉県助産師会印旛地区部会,100,,12,12212,佐倉市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13199
+13202,はっぴーｍom,100,,12,12215,旭市,,False,08020110316,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13202
+13204,おおたかの森助産院,100,,12,12217,柏市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13204
+13205,千葉県助産師会,100,,12,12217,柏市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13205
+13209,千葉県助産師会,100,,12,12219,市原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13209
+13221,株式会社パソナライフケア,100,,12,12227,浦安市,,False,0120335630,True,,,0,0,1,1,postnatal,2026-09-14T13:21:14.828Z,https://birth-navi.mhlw.go.jp/facilities/13221
+13222,（一社）社団法人　千葉県助産師会印旛地区部会,100,,12,12228,四街道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13222
+13223,リリコイ助産院,100,,12,12228,四街道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13223
+13224,一般社団法人　千葉県助産師会印旛地区部会,100,,12,12231,印西市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13224
+13230,みかづき助産所,100,,12,12239,大網白里市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:16.334Z,https://birth-navi.mhlw.go.jp/facilities/13230
+13231,そうクリニック,100,,12,12322,酒々井町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13231
+13232,千葉県助産師会印旛地区部会,100,,12,12322,酒々井町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:16.719Z,https://birth-navi.mhlw.go.jp/facilities/13232
+13234,にじいろ助産院,100,,12,12329,栄町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13234
+13235,ハッピーマンマ羽鳥助産院,100,,12,12423,長生村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13235
+13236,浜田病院,100,,13,13101,千代田区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:17.431Z,https://birth-navi.mhlw.go.jp/facilities/13236
+13240,とりこえ助産院,100,,13,13101,千代田区,,False,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13240
+13241,かのん訪問看護ステーションちよだ,100,,13,13101,千代田区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:17.828Z,https://birth-navi.mhlw.go.jp/facilities/13241
+13243,個人委任助産師（12名）,100,,13,13104,新宿区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13243
+13245,個人の助産師,100,,13,13105,文京区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13245
+13246,個人の助産師,100,,13,13105,文京区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13246
+13249,にしやま助産院,100,,13,13106,台東区,,False,08021032555,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13249
+13250,出張助産所エクラ,100,,13,13106,台東区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13250
+13258,青柳,100,,13,13108,江東区,,False,09084240687,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13258
+13259,川田,100,,13,13108,江東区,,False,09041307647,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13259
+13260,川上,100,,13,13108,江東区,,False,08054576700,True,,,0,0,1,1,postnatal,2026-09-14T13:27:40.939Z,https://birth-navi.mhlw.go.jp/facilities/13260
+13261,木切倉,100,,13,13108,江東区,,False,08020142611,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13261
+13262,石川,100,,13,13108,江東区,,False,07055941241,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13262
+13263,田中,100,,13,13108,江東区,,False,07064504945,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13263
+13264,桑原,100,,13,13108,江東区,,False,09012528107,True,,,0,0,1,1,postnatal,2026-09-14T13:27:41.026Z,https://birth-navi.mhlw.go.jp/facilities/13264
+13265,小澤,100,,13,13108,江東区,,False,08033973666,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13265
+13266,早川,100,,13,13108,江東区,,False,08088151581,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13266
+13267,小島,100,,13,13108,江東区,,False,09072437109,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13267
+13268,西川,100,,13,13108,江東区,,False,07089753020,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13268
+13269,松本,100,,13,13108,江東区,,False,09019357342,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13269
+13270,吉澤,100,,13,13108,江東区,,False,09017601113,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13270
+13274,品川港助産師会,100,,13,13109,品川区,,False,0364504302,True,,,0,0,1,1,postnatal,2026-09-14T13:27:39.316Z,https://birth-navi.mhlw.go.jp/facilities/13274
+13275,"公益社団法人　
+東京都助産師会　世田谷目黒地区分会",100,,13,13110,目黒区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13275
+13280,大田区助産師会,100,,13,13111,大田区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13280
+13281,個人助産師（11名）,100,,13,13111,大田区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13281
+13285,東京都助産師会渋谷地区分会,100,,13,13113,渋谷区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:42.224Z,https://birth-navi.mhlw.go.jp/facilities/13285
+13307,個人の助産師7名に委託,100,,13,13116,豊島区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13307
+13308,おくだいら助産所,100,,13,13117,北区,北区志茂,True,09062762830,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13308
+13320,You and me助産院,100,,13,13118,荒川区,,False,08017171631,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13320
+13321,Luana助産院,100,,13,13118,荒川区,,False,05068805289,True,,,0,0,1,1,postnatal,2026-09-14T13:21:20.645Z,https://birth-navi.mhlw.go.jp/facilities/13321
+13322,団子坂なのはな助産院,100,,13,13118,荒川区,,False,09089637087,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13322
+13331,個人の助産師,100,,13,13119,板橋区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13331
+13352,助産師　青木,100,,13,13122,葛飾区,,False,08060157082,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13352
+13354,助産師　江原,100,,13,13122,葛飾区,,False,09043770173,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13354
+13355,助産師　越川,100,,13,13122,葛飾区,,False,07085225775,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13355
+13358,助産師　戸田,100,,13,13122,葛飾区,,False,09042422583,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13358
+13369,助産院 ともこさんち,100,,13,13201,八王子市,,False,0426976853,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13369
+13371,助産院 ほっこりハウス,100,,13,13201,八王子市,,False,09066582468,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13371
+13372,みさき助産院,100,,13,13201,八王子市,,False,07045430820,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13372
+13373,綾田,100,,13,13201,八王子市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13373
+13374,金杉,100,,13,13201,八王子市,,False,09079002159,True,,,0,0,1,1,postnatal,2026-09-14T13:21:22.502Z,https://birth-navi.mhlw.go.jp/facilities/13374
+13375,河野,100,,13,13201,八王子市,,False,09078398552,True,,,0,0,1,1,postnatal,2026-09-14T13:21:22.523Z,https://birth-navi.mhlw.go.jp/facilities/13375
+13376,冨重,100,,13,13201,八王子市,,False,09092491797,True,,,0,0,1,1,postnatal,2026-09-14T13:21:22.599Z,https://birth-navi.mhlw.go.jp/facilities/13376
+13377,飛松,100,,13,13201,八王子市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13377
+13378,和城,100,,13,13201,八王子市,,False,09072133543,True,,,0,0,1,1,postnatal,2026-09-14T13:21:22.638Z,https://birth-navi.mhlw.go.jp/facilities/13378
+13381,むさしのレディースクリニック,100,,13,13203,武蔵野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13381
+13391,助産師　川杉,100,,13,13205,青梅市,青梅市河辺町,True,09065602366,True,,,0,0,1,1,postnatal,2026-09-14T13:21:23.519Z,https://birth-navi.mhlw.go.jp/facilities/13391
+13398,助産師A,100,,13,13207,昭島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13398
+13399,助産師B,100,,13,13207,昭島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13399
+13400,助産師C,100,,13,13207,昭島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13400
+13401,助産師D,100,,13,13207,昭島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13401
+13402,助産師E,100,,13,13207,昭島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13402
+13403,助産師F,100,,13,13207,昭島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13403
+13407,助産師（訪問型）,100,,13,13209,町田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13407
+13411,金谷有美,100,,13,13212,日野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:24.636Z,https://birth-navi.mhlw.go.jp/facilities/13411
+13412,月野真紀,100,,13,13212,日野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:24.811Z,https://birth-navi.mhlw.go.jp/facilities/13412
+13413,佐藤小織,100,,13,13212,日野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:24.722Z,https://birth-navi.mhlw.go.jp/facilities/13413
+13414,内田優子,100,,13,13212,日野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:43.305Z,https://birth-navi.mhlw.go.jp/facilities/13414
+13415,平知子,100,,13,13212,日野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:24.741Z,https://birth-navi.mhlw.go.jp/facilities/13415
+13416,笹嶋妃加里,100,,13,13212,日野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:24.704Z,https://birth-navi.mhlw.go.jp/facilities/13416
+13425,"公益社団法人 東京都助産師会
+東久留米・清瀬・西東京地区分会",100,,13,13222,東久留米市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13425
+13426,助産師,100,,13,13224,多摩市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13426
+13432,助産師　森内　幸美（出張専門）,100,,14,14100,横浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13432
+13441,助産師　石川初美,100,,14,14100,横浜市,,False,09061113850,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13441
+13442,助産師　やつかおり,100,,14,14100,横浜市,,False,09033186173,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13442
+13443,助産師　宮﨑　悦子,100,,14,14100,横浜市,横浜市港北区大倉山,True,0455429433,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13443
+13446,助産師　兵頭めぐみ,100,,14,14100,横浜市,横浜市神奈川区,True,09079807526,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13446
+13447,助産師　前田　いずみ,100,,14,14100,横浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13447
+13449,助産師　沖山美雪,100,,14,14100,横浜市,,False,08048630088,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13449
+13454,下村義子助産院,100,,14,14100,横浜市,,False,08032065687,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13454
+13455,助産師　宮本まり,100,,14,14100,横浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13455
+13456,ママと赤ちゃんの相談室　かわい,100,,14,14100,横浜市,,False,09077120696,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13456
+13458,ここのあ助産院,100,,14,14100,横浜市,,False,07045560477,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13458
+13459,助産師　日野川　真由美,100,,14,14100,横浜市,横浜市港南区港南台,True,09060079937,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13459
+13461,助産師　小島明子,100,,14,14100,横浜市,横浜市港北区大曽根,True,08078861258,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13461
+13462,助産師　高橋幸子,100,,14,14100,横浜市,横浜市鶴見区馬場,True,08013999715,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13462
+13463,助産師みずき,100,,14,14100,横浜市,,False,09018686019,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13463
+13464,つづき母乳育児相談室,100,,14,14100,横浜市,横浜市都筑区,True,0459008970,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13464
+13465,助産師　大塚　桜子,100,,14,14100,横浜市,横浜市保土ケ谷区坂本町,True,08052001619,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13465
+13466,助産師　清水久美子,100,,14,14100,横浜市,,False,07085691513,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13466
+13469,助産師モガミアヤカ,100,,14,14100,横浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13469
+13470,助産師　竹内直子,100,,14,14100,横浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13470
+13472,助産師　市原こずえ,100,,14,14100,横浜市,横浜市金沢区釜利谷東,True,09035050294,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13472
+13473,助産師　鈴木薫,100,,14,14100,横浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13473
+13476,出張専門助産師　松本志穂,100,,14,14150,相模原市,,False,08059016372,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13476
+13478,出張専門助産師　畑山瀬里佳,100,,14,14150,相模原市,,False,08045811175,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13478
+13482,出張専門助産師　umi.なぎさ,100,,14,14150,相模原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13482
+13483,SUNFLOWER助産院,100,,14,14150,相模原市,,False,09047077696,True,,,0,0,1,1,postnatal,2026-09-14T13:21:26.325Z,https://birth-navi.mhlw.go.jp/facilities/13483
+13484,及川母乳育児相談室,100,,14,14150,相模原市,,False,09021648828,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13484
+13486,出張専門助産師みらい  永島直美,100,,14,14150,相模原市,,False,08055362323,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13486
+13487,出張専門助産師　中島亜希子,100,,14,14150,相模原市,,False,09057518800,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13487
+13489,出張専門助産院　千田陽子,100,,14,14150,相模原市,,False,07022131194,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13489
+13498,出張助産師サロン　Ｂａｂｙ　Lｉｈｉ,100,,14,14203,平塚市,平塚市,True,07050822534,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13498
+13501,栗原母乳育児相談室,100,,14,14203,平塚市,茅ヶ崎市菱沼海岸,True,08048833867,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13501
+13508,あまね助産院,100,,14,14204,鎌倉市,,False,08080418962,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13508
+13509,うみのさち母乳育児相談室,100,,14,14204,鎌倉市,,False,09043877190,True,,,0,0,1,1,postnatal,2026-09-14T13:27:47.906Z,https://birth-navi.mhlw.go.jp/facilities/13509
+13510,母乳育児相談室～陽だまり～,100,,14,14204,鎌倉市,,False,08068115212,True,,,0,0,1,1,postnatal,2026-09-14T13:21:27.002Z,https://birth-navi.mhlw.go.jp/facilities/13510
+13511,助産院てとて,100,,14,14204,鎌倉市,,False,08054667133,True,,,0,0,1,1,postnatal,2026-09-14T13:21:26.927Z,https://birth-navi.mhlw.go.jp/facilities/13511
+13515,湘南助産師会,100,,14,14205,藤沢市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13515
+13518,星の子助産院,100,,14,14206,小田原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:48.309Z,https://birth-navi.mhlw.go.jp/facilities/13518
+13519,助産院・みゅーりえ,100,,14,14206,小田原市,,False,09090159908,True,,,0,0,1,1,postnatal,2026-09-14T13:27:48.626Z,https://birth-navi.mhlw.go.jp/facilities/13519
+13520,あかね助産院母乳育児支援室,100,,14,14206,小田原市,,False,09024037710,True,,,0,0,1,1,postnatal,2026-09-14T13:21:28.526Z,https://birth-navi.mhlw.go.jp/facilities/13520
+13524,ひとしずく助産院,100,,14,14208,逗子市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13524
+13526,冨宅真理子（出張専門）,100,,14,14210,三浦市,,False,07066643572,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13526
+13529,厚木助産師会,100,,14,14212,厚木市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13529
+13530,出張専門助産師umi.なぎさ,100,,14,14212,厚木市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13530
+13532,ほのか母乳育児相談室・よねみね助産院,100,,14,14212,厚木市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13532
+13534,ありがとう助産院,100,,14,14213,大和市,,False,05036909551,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13534
+13535,育児母乳相談室　ひな,100,,14,14213,大和市,,False,05075765807,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13535
+13536,TreatmentRoomGreen,100,,14,14213,大和市,,False,08034040095,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13536
+13540,大山　綾花,100,,14,14216,座間市,座間市,True,09093576192,True,,,0,0,1,1,postnatal,2026-09-14T13:21:27.829Z,https://birth-navi.mhlw.go.jp/facilities/13540
+13541,鈴木　亜紀,100,,14,14216,座間市,海老名市,True,08050065059,True,,,0,0,1,1,postnatal,2026-09-14T13:21:27.899Z,https://birth-navi.mhlw.go.jp/facilities/13541
+13542,山浦　直子,100,,14,14216,座間市,海老名市,True,09024517160,True,,,0,0,1,1,postnatal,2026-09-14T13:21:27.917Z,https://birth-navi.mhlw.go.jp/facilities/13542
+13543,SUNFLOWER助産院,100,,14,14216,座間市,相模原市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13543
+13544,助産院　織々,100,,14,14216,座間市,海老名市,True,09063390994,True,,,0,0,1,1,postnatal,2026-09-14T13:21:27.935Z,https://birth-navi.mhlw.go.jp/facilities/13544
+13545,たいよう母乳育児相談室,100,,14,14216,座間市,座間市,True,08030982524,True,,,0,0,1,1,postnatal,2026-09-14T13:21:28.016Z,https://birth-navi.mhlw.go.jp/facilities/13545
+13547,ここむすび助産院,100,,14,14216,座間市,大和市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13547
+13549,うらら助産院,100,,14,14218,綾瀬市,,False,09089609540,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13549
+13550,こた助産所,100,,14,14321,寒川町,,False,09034346368,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13550
+13552,上野母乳相談室,100,,14,14341,大磯町,,False,09098156630,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13552
+13553,助産院おさんぽ,100,,14,14341,大磯町,,False,09072034291,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13553
+13566,助産院Clair de lune,100,,15,15100,新潟市,,False,07044133594,True,,,0,0,1,1,postnatal,2026-09-14T13:21:29.005Z,https://birth-navi.mhlw.go.jp/facilities/13566
+13567,マコ助産院,100,,15,15100,新潟市,,False,08037949638,True,,,0,0,1,1,postnatal,2026-09-14T13:21:29.030Z,https://birth-navi.mhlw.go.jp/facilities/13567
+13570,産後ケアハウスねんね　中曽根町,100,,15,15100,新潟市,,False,09093864022,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13570
+13573,あおき出張専門助産院,100,,15,15100,新潟市,,False,08041684724,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13573
+13574,いずみ出張専門助産院,100,,15,15100,新潟市,,False,09096306665,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13574
+13575,佐久間沙都美助産所,100,,15,15100,新潟市,,False,09028320495,True,,,0,0,1,1,postnatal,2026-09-14T13:21:29.103Z,https://birth-navi.mhlw.go.jp/facilities/13575
+13578,助産師　福田　友美,100,,15,15100,新潟市,,False,09015075321,True,,,0,0,1,1,postnatal,2026-09-14T13:21:29.122Z,https://birth-navi.mhlw.go.jp/facilities/13578
+13579,鷲尾助産所,100,,15,15100,新潟市,,False,09053361006,True,,,0,0,1,1,postnatal,2026-09-14T13:21:29.208Z,https://birth-navi.mhlw.go.jp/facilities/13579
+13580,助産師　齊藤里佳,100,,15,15100,新潟市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:29.226Z,https://birth-navi.mhlw.go.jp/facilities/13580
+13581,廣瀨恵子,100,,15,15100,新潟市,,False,09057580635,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13581
+13586,助産師　児玉　明子,100,,15,15100,新潟市,,False,09078068787,True,,,0,0,1,1,postnatal,2026-09-14T13:21:29.141Z,https://birth-navi.mhlw.go.jp/facilities/13586
+13590,Mom's　ally,100,,15,15100,新潟市,,False,09052055789,True,,,0,0,1,1,postnatal,2026-09-14T13:21:28.838Z,https://birth-navi.mhlw.go.jp/facilities/13590
+13592,神林　恵子,100,,15,15208,小千谷市,小千谷市片貝町,True,09078358696,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13592
+13593,助産師細川,100,,15,15208,小千谷市,小千谷市三仏生,True,09033311030,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13593
+13597,産後ケアハウス ねんね,100,,15,15212,村上市,【木・金曜日】新発田市中曽根町 【火・水曜日】新発田市住吉町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13597
+13606,上越助産師会,100,,15,15222,上越市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13606
+13608,在宅助産師,100,,15,15226,南魚沼市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13608
+13609,産後ケアハウスねんね,100,,15,15227,胎内市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13609
+13610,三本木助産院,100,,15,15227,胎内市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13610
+13612,在宅助産師,100,,15,15227,胎内市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13612
+13613,産後ケアハウス ねんね,100,,15,15307,聖籠町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13613
+13614,弥彦村役場　健康推進課,100,,15,15342,弥彦村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:32.514Z,https://birth-navi.mhlw.go.jp/facilities/13614
+13615,在宅助産師,100,,15,15461,湯沢町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13615
+13616,在宅助産師,100,,15,15504,刈羽村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13616
+13623,たけのこ助産院,100,,16,16202,高岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13623
+13628,おおもり助産院,100,,16,16205,氷見市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:33.399Z,https://birth-navi.mhlw.go.jp/facilities/13628
+13629,田中ひとみ助産院,100,,16,16205,氷見市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:33.419Z,https://birth-navi.mhlw.go.jp/facilities/13629
+13630,むら助産院,100,,16,16205,氷見市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13630
+13633,オリーブ助産院,100,,16,16207,黒部市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:33.606Z,https://birth-navi.mhlw.go.jp/facilities/13633
+13634,楽nico助産院,100,,16,16207,黒部市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:33.727Z,https://birth-navi.mhlw.go.jp/facilities/13634
+13635,母乳育児相談室こころ助産院,100,,16,16207,黒部市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:33.627Z,https://birth-navi.mhlw.go.jp/facilities/13635
+13636,まつしま助産院,100,,16,16207,黒部市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:33.705Z,https://birth-navi.mhlw.go.jp/facilities/13636
+13637,はぐはぐ助産院,100,,16,16208,砺波市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13637
+13639,さつき助産院,100,,16,16208,砺波市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13639
+13641,松原　久代,100,,16,16210,南砺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13641
+13650,あやめ助産院,100,,17,17203,小松市,小松市西軽海町,True,09028337326,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13650
+13652,さち助産院,100,,17,17203,小松市,小松市上本折町,True,08030442434,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13652
+13653,ははまる助産院,100,,17,17203,小松市,小松市松梨町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13653
+13654,矢野助産院,100,,17,17203,小松市,小松市蓮代寺町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13654
+13655,そらまめ教室,100,,17,17203,小松市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13655
+13657,あゆみ助産院,100,,17,17206,加賀市,,False,09097671763,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13657
+13663,石川県助産師会,100,,17,17209,かほく市,,False,09043284272,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13663
+13665,いこまともみレディースクリニック産科分院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13665
+13666,公立松任石川中央病院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13666
+13667,松南病院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13667
+13668,つむぎクリニック,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13668
+13669,ののいち産婦人科クリニック,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13669
+13670,asami助産院デュゥオ,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13670
+13671,あじさい助産院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13671
+13672,たらちね助産院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13672
+13673,まゆみ助産院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13673
+13674,助産院いのちの森,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13674
+13675,どんぐり助産院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13675
+13676,ありま助産院,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13676
+13677,石川県助産師会,100,,17,17361,津幡町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13677
+13679,わかさ助産師会うぶごえ,100,,18,18204,小浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:37.009Z,https://birth-navi.mhlw.go.jp/facilities/13679
+13689,千秋助産所,100,,18,18207,鯖江市,福井市春日町,True,09097675095,True,,,0,0,1,1,postnatal,2026-09-14T13:27:51.999Z,https://birth-navi.mhlw.go.jp/facilities/13689
+13692,なばたけ助産院,100,,18,18207,鯖江市,坂井市坂井町若宮,True,09061506375,True,,,0,0,1,1,postnatal,2026-09-14T13:27:52.200Z,https://birth-navi.mhlw.go.jp/facilities/13692
+13693,みらい助産院,100,,18,18207,鯖江市,越前町広野,True,09082610352,True,,,0,0,1,1,postnatal,2026-09-14T13:27:51.838Z,https://birth-navi.mhlw.go.jp/facilities/13693
+13694,塚本助産所,100,,18,18207,鯖江市,敦賀市昭和町,True,09082692990,True,,,0,0,1,1,postnatal,2026-09-14T13:27:52.218Z,https://birth-navi.mhlw.go.jp/facilities/13694
+13697,福井県助産師会,100,,18,18209,越前市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:52.520Z,https://birth-navi.mhlw.go.jp/facilities/13697
+13698,福井県医師会,100,,18,18209,越前市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:51.623Z,https://birth-navi.mhlw.go.jp/facilities/13698
+13700,母乳相談室マミークラブ,100,,18,18210,坂井市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13700
+13703,ｉｏｒｉ助産院,100,,18,18210,坂井市,福井市町屋,True,09037628171,True,,,0,0,1,1,postnatal,2026-09-14T13:19:20.618Z,https://birth-navi.mhlw.go.jp/facilities/13703
+13706,のじま助産院,100,,18,18210,坂井市,越前市,True,09085743190,True,,,0,0,1,1,postnatal,2026-09-14T13:27:51.819Z,https://birth-navi.mhlw.go.jp/facilities/13706
+13707,いちご助産院,100,,18,18210,坂井市,敦賀市山泉,True,09077409475,True,,,0,0,1,1,postnatal,2026-09-14T13:27:52.237Z,https://birth-navi.mhlw.go.jp/facilities/13707
+13709,みちる助産院,100,,18,18210,坂井市,敦賀市松葉町,True,09071920733,True,,,0,0,1,1,postnatal,2026-09-14T13:27:52.317Z,https://birth-navi.mhlw.go.jp/facilities/13709
+13710,NAMIE助産院,100,,18,18210,坂井市,敦賀市舞崎町,True,08040107674,True,,,0,0,1,1,postnatal,2026-09-14T13:19:20.632Z,https://birth-navi.mhlw.go.jp/facilities/13710
+13712,やく助産院,100,,18,18210,坂井市,高浜町東三松,True,09090420803,True,,,0,0,1,1,postnatal,2026-09-14T13:27:52.399Z,https://birth-navi.mhlw.go.jp/facilities/13712
+13715,ひなた女性クリニック,100,,18,18210,坂井市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13715
+13718,わかさ助産師会うぶごえ【ちょこっとコース】,100,,18,18483,おおい町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13718
+13719,わかさ助産師会うぶごえ【ゆったりコース】,100,,18,18483,おおい町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13719
+13723,おうちdeホッとママケア,100,,19,19201,甲府市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:39.202Z,https://birth-navi.mhlw.go.jp/facilities/13723
+13730,甲斐市（このはな産婦人科）,100,,19,19210,甲斐市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13730
+13731,竜王レディースクリニック,100,,19,19210,甲斐市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13731
+13736,地方独立行政法人　長野県立病院機構　長野県立信州医療センター【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13736
+13737,医療法人慈恵会　吉田病院【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13737
+13738,医療法人裕生会　丸山産婦人科医院【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13738
+13739,医療法人　板倉産婦人科医院（板倉レディースクリニック）【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13739
+13740,清水産婦人科医院【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13740
+13741,医療法人　保倉産婦人科医院【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13741
+13742,助産所ほやほや【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13742
+13744,ひより母乳育児相談室・ひより助産院【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13744
+13746,Mom’s sun (マムズサン)産後ケアBASE【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13746
+13748,助産ケアサロンCOCOWA【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13748
+13751,産前産後ケア訪問　なつめ,100,,20,20201,長野市,長野市川中島町原,True,09083031972,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13751
+13753,ながい助産院母乳育児相談室【２列目】,100,,20,20201,長野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13753
+13759,助産院おりん,100,,20,20202,松本市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13759
+13761,助産所ひめぐり,100,,20,20203,上田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13761
+13764,しのはら助産院,100,,20,20203,上田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13764
+13765,花雪助産院,100,,20,20203,上田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13765
+13766,助産院おむすび,100,,20,20204,岡谷市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13766
+13771,マナ助産院,100,,20,20204,岡谷市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13771
+13788,たかの母子相談室,100,,20,20207,須坂市,須坂市亀倉,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13788
+13797,花雪助産院,100,,20,20208,小諸市,東御市八重原,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13797
+13799,あさなみ助産所,100,,20,20209,伊那市,伊那市美篶,True,09035133168,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13799
+13800,長野県助産師会　所属助産所,100,,20,20210,駒ヶ根市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13800
+13801,あきさに助産院,100,,20,20211,中野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13801
+13802,たかの母子相談室,100,,20,20211,中野市,須坂市亀倉,True,08072113838,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13802
+13804,飯山赤十字病院,100,,20,20213,飯山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13804
+13805,諏訪中央病院,100,,20,20214,茅野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13805
+13806,諏訪マタニティークリニック,100,,20,20214,茅野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13806
+13808,菜の花助産院,100,,20,20214,茅野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13808
+13809,深結助産院,100,,20,20214,茅野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13809
+13811,助産院おむすび,100,,20,20214,茅野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13811
+13813,マナ助産院（出張専門）,100,,20,20214,茅野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13813
+13816,開業助産師,100,,20,20217,佐久市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13816
+13817,花雪助産院,100,,20,20219,東御市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13817
+13819,アルプス母乳育児相談室,100,,20,20220,安曇野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13819
+13820,晴れた日の助産院,100,,20,20305,南牧村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13820
+13821,長野県助産師会,100,,20,20306,南相木村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13821
+13822,浅間病院,100,,20,20307,北相木村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13822
+13824,助産師相談所,100,,20,20309,佐久穂町,佐久穂町,True,0267862202,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13824
+13825,あべ母乳・子育て相談室,100,,20,20349,青木村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13825
+13826,おひさま助産院,100,,20,20350,長和町,駒ケ根市赤穂,True,09024484669,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13826
+13827,ひより助産院・ひより母乳育児相談室,100,,20,20350,長和町,長野市栗田,True,09018293689,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13827
+13828,花雪助産院,100,,20,20350,長和町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13828
+13829,華助産院,100,,20,20350,長和町,南箕輪村北殿,True,09057993729,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13829
+13830,母乳相談室あいら,100,,20,20350,長和町,南箕輪村田畑,True,09040225061,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13830
+13831,幸助産院,100,,20,20350,長和町,駒ケ根市赤穂,True,09033436330,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13831
+13837,母乳相談室あいら,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13837
+13838,華助産院,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13838
+13839,さくらこ助産所,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13839
+13840,助産所ドゥーラえむあい,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13840
+13841,明生助産所,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13841
+13842,あさなみ助産院,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13842
+13843,おひさま助産院,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13843
+13844,幸助産院,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13844
+13845,野ノ花助産院,100,,20,20385,南箕輪村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13845
+13846,長野県助産師会,100,,20,20386,中川村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13846
+13847,長野県助産所,100,,20,20388,宮田村,それぞれの施設による,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13847
+13856,希望のあった施設と個別契約するため特定の委託先なし,100,,20,20451,朝日村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13856
+13868,花雪助産院,100,,20,20590,飯綱町,東御市八重原,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13868
+13872,一般社団法人岐阜県助産師会,100,,21,21201,岐阜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13872
+13880,あかり助産院,100,,21,21205,関市,郡上市和良町,True,09076813444,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13880
+13881,中津川市民病院,100,,21,21206,中津川市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13881
+13882,林メディカルクリニック,100,,21,21206,中津川市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13882
+13883,岐阜県助産師会,100,,21,21206,中津川市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13883
+13884,公立東濃中部医療センター,100,,21,21208,瑞浪市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13884
+13885,塚田レディースクリニック,100,,21,21208,瑞浪市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13885
+13886,岐阜県助産師会,100,,21,21212,土岐市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13886
+13889,高山赤十字病院,100,,21,21217,飛騨市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13889
+13890,アルプスベルクリニック,100,,21,21217,飛騨市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13890
+13893,大村 和美,100,,21,21217,飛騨市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13893
+13894,上坪 奈津子,100,,21,21217,飛騨市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13894
+13895,桐谷 綾乃,100,,21,21217,飛騨市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13895
+13896,坪内 葉子,100,,21,21217,飛騨市,,False,09022639516,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13896
+13897,長澤 妙 （くすのき助産院）,100,,21,21217,飛騨市,,False,08051242621,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13897
+13919,助産院 海の色,100,,22,22100,静岡市,静岡市駿河区中田,True,08051054724,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13919
+13924,きみいろ助産院,100,,22,22100,静岡市,静岡市葵区,True,09044078258,True,,,0,0,1,1,postnatal,2026-09-14T13:21:45.504Z,https://birth-navi.mhlw.go.jp/facilities/13924
+13925,オハナ助産院,100,,22,22100,静岡市,静岡市駿河区,True,09091974925,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13925
+13926,母乳と育児の相談室　さと助産院,100,,22,22100,静岡市,静岡市駿河区,True,09029234475,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13926
+13927,にこ相談室,100,,22,22100,静岡市,静岡市駿河区,True,09070419554,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13927
+13928,出張専門　しもむら助産院,100,,22,22100,静岡市,静岡市清水区,True,09093363659,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13928
+13929,助産院　夢生,100,,22,22100,静岡市,静岡市清水区,True,08016215790,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13929
+13930,母乳体操　軽いお産,100,,22,22100,静岡市,静岡市清水区,True,0543404033,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13930
+13931,助産師  大石　桃子,100,,22,22100,静岡市,静岡市駿河区,True,08016283870,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13931
+13932,すずき助産院,100,,22,22100,静岡市,静岡市清水区,True,09032142434,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13932
+13933,お母さんと赤ちゃんの相談 ぬくもり,100,,22,22100,静岡市,静岡市清水区,True,09038791573,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13933
+13934,うえだ助産院,100,,22,22100,静岡市,静岡市清水区,True,09092261203,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13934
+13939,鈴富助産院,100,,22,22205,熱海市,,False,0557473209,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13939
+13942,訪問看護ステーション おんぶ,100,,22,22206,三島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13942
+13945,ナーシングドゥラ🄬あいのて,100,,22,22207,富士宮市,,False,09042673222,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13945
+13947,母子サロン　ほっぺほっぺ,100,,22,22207,富士宮市,,False,09085464820,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13947
+13948,おひさま学びの杜　産後ケアサニーシード,100,,22,22207,富士宮市,,False,09021336118,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13948
+13953,助産院おん,100,,22,22209,島田市,,False,08056225295,True,,,0,0,1,1,postnatal,2026-09-14T13:21:45.900Z,https://birth-navi.mhlw.go.jp/facilities/13953
+13954,つばさ助産院,100,,22,22209,島田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/13954
+13964,マニーズテラス　ククー,100,,22,22210,富士市,富士市岩本,True,07089691041,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13964
+13966,サニーシード,100,,22,22210,富士市,富士市大淵,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13966
+13968,にじのいえ助産院,100,,22,22211,磐田市,,False,09093385593,True,,,0,0,1,1,postnatal,2026-10-01T07:02:48.006Z,https://birth-navi.mhlw.go.jp/facilities/13968
+13971,かねこ助産院,100,,22,22215,御殿場市,,False,09044258065,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13971
+13977,聖隷浜松病院,100,,22,22221,湖西市,,False,0535742222,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13977
+13978,聖隷三方原病院,100,,22,22221,湖西市,,False,0534390001,True,,,0,0,1,1,postnatal,2026-09-14T13:28:03.501Z,https://birth-navi.mhlw.go.jp/facilities/13978
+13979,JA静岡厚生連遠州病院,100,,22,22221,湖西市,,False,0534010050,True,,,0,0,1,1,postnatal,2026-09-14T13:27:54.701Z,https://birth-navi.mhlw.go.jp/facilities/13979
+13980,小石マタニティクリニック　KMC産後ケアセンター,100,,22,22221,湖西市,,False,0532665143,True,,,0,0,1,1,postnatal,2026-09-14T13:21:55.800Z,https://birth-navi.mhlw.go.jp/facilities/13980
+13981,おおたにレディースクリニック,100,,22,22221,湖西市,,False,0534477300,True,,,0,0,1,1,postnatal,2026-09-14T13:27:54.942Z,https://birth-navi.mhlw.go.jp/facilities/13981
+13982,しらい助産院,100,,22,22221,湖西市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/13982
+13983,マミーズ助産院,100,,22,22221,湖西市,,False,09017278343,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13983
+13984,こあら助産院,100,,22,22221,湖西市,,False,09022601924,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/13984
+13995,はなえみ助産院,100,,22,22341,清水町,,False,09066164135,True,,,0,0,1,1,postnatal,2026-09-14T13:21:50.044Z,https://birth-navi.mhlw.go.jp/facilities/13995
+14000,出張専門助産師　髙士　良美,100,,23,23100,名古屋市,,False,09017237934,True,,,0,0,1,1,postnatal,2026-09-14T13:21:51.231Z,https://birth-navi.mhlw.go.jp/facilities/14000
+14001,出張専門しおり助産院,100,,23,23100,名古屋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14001
+14002,M.ウェルネスクリニック覚王山,100,,23,23100,名古屋市,,False,07054425506,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14002
+14003,みどりの牧場助産院,100,,23,23100,名古屋市,,False,09065917662,True,,,0,0,1,1,postnatal,2026-09-14T13:21:53.740Z,https://birth-navi.mhlw.go.jp/facilities/14003
+14004,平田レディースクリニック,100,,23,23100,名古屋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14004
+14007,出張専門助産所ガーデニア,100,,23,23100,名古屋市,,False,05035571455,True,,,0,0,1,1,postnatal,2026-09-14T13:21:51.726Z,https://birth-navi.mhlw.go.jp/facilities/14007
+14008,そら助産院,100,,23,23100,名古屋市,,False,09056324451,True,,,0,0,1,1,postnatal,2026-09-14T13:21:51.798Z,https://birth-navi.mhlw.go.jp/facilities/14008
+14009,瞳（あい）訪問助産院,100,,23,23100,名古屋市,,False,09034258519,True,,,0,0,1,1,postnatal,2026-09-14T13:21:51.815Z,https://birth-navi.mhlw.go.jp/facilities/14009
+14010,幸助産院,100,,23,23100,名古屋市,,False,09099440866,True,,,0,0,1,1,postnatal,2026-09-14T13:21:51.836Z,https://birth-navi.mhlw.go.jp/facilities/14010
+14012,えみ助産所,100,,23,23100,名古屋市,,False,09054566977,True,,,0,0,1,1,postnatal,2026-09-14T13:21:51.941Z,https://birth-navi.mhlw.go.jp/facilities/14012
+14014,加藤安里彩,100,,23,23100,名古屋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14014
+14015,きぬ助産院,100,,23,23100,名古屋市,,False,09044662554,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.103Z,https://birth-navi.mhlw.go.jp/facilities/14015
+14016,出張専門あこ助産院,100,,23,23100,名古屋市,,False,09060739426,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.119Z,https://birth-navi.mhlw.go.jp/facilities/14016
+14020,いずみ助産所,100,,23,23100,名古屋市,,False,07040765075,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.316Z,https://birth-navi.mhlw.go.jp/facilities/14020
+14021,上田厚子助産所,100,,23,23100,名古屋市,,False,09060791621,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.336Z,https://birth-navi.mhlw.go.jp/facilities/14021
+14023,出張専門 和（やわらぎ）助産院,100,,23,23100,名古屋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14023
+14024,出張助産院スマイル,100,,23,23100,名古屋市,,False,09029207629,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.417Z,https://birth-navi.mhlw.go.jp/facilities/14024
+14025,出張専門助産師　にしのゆうこ,100,,23,23100,名古屋市,,False,09041604632,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.433Z,https://birth-navi.mhlw.go.jp/facilities/14025
+14026,みどり母乳育児相談室,100,,23,23100,名古屋市,,False,08063680982,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.698Z,https://birth-navi.mhlw.go.jp/facilities/14026
+14028,出張専門助産所　そよかぜ助産所,100,,23,23100,名古屋市,,False,09058632301,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.738Z,https://birth-navi.mhlw.go.jp/facilities/14028
+14029,名古屋母乳育児相談室,100,,23,23100,名古屋市,,False,09018253843,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.806Z,https://birth-navi.mhlw.go.jp/facilities/14029
+14031,助産院お花畑,100,,23,23100,名古屋市,,False,09060366392,True,,,0,0,1,1,postnatal,2026-09-14T13:21:52.942Z,https://birth-navi.mhlw.go.jp/facilities/14031
+14032,くろだ助産院,100,,23,23100,名古屋市,,False,09017811538,True,,,0,0,1,1,postnatal,2026-09-14T13:21:53.006Z,https://birth-navi.mhlw.go.jp/facilities/14032
+14034,Pre and Postpartum service,100,,23,23100,名古屋市,,False,08026513287,True,,,0,0,1,1,postnatal,2026-09-14T13:21:53.524Z,https://birth-navi.mhlw.go.jp/facilities/14034
+14035,桶谷式母乳育児相談室　藤の里,100,,23,23100,名古屋市,,False,07075916411,True,,,0,0,1,1,postnatal,2026-09-14T13:21:53.627Z,https://birth-navi.mhlw.go.jp/facilities/14035
+14037,ブルーベリー助産院,100,,23,23100,名古屋市,,False,09065945955,True,,,0,0,1,1,postnatal,2026-09-14T13:28:02.295Z,https://birth-navi.mhlw.go.jp/facilities/14037
+14040,伊藤スマイル助産所,100,,23,23201,豊橋市,,False,08051206350,True,,,0,0,1,1,postnatal,2026-09-14T13:21:54.320Z,https://birth-navi.mhlw.go.jp/facilities/14040
+14041,ひな助産所,100,,23,23201,豊橋市,,False,09056347695,True,,,0,0,1,1,postnatal,2026-09-14T13:21:55.935Z,https://birth-navi.mhlw.go.jp/facilities/14041
+14042,こもれび助産院,100,,23,23201,豊橋市,,False,08015996373,True,,,0,0,1,1,postnatal,2026-09-14T13:21:54.418Z,https://birth-navi.mhlw.go.jp/facilities/14042
+14043,産後ケアハウスははのわ　しほ助産院,100,,23,23202,岡崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:22:06.096Z,https://birth-navi.mhlw.go.jp/facilities/14043
+14044,うまうま助産院,100,,23,23202,岡崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:22:06.118Z,https://birth-navi.mhlw.go.jp/facilities/14044
+14045,江口助産院,100,,23,23202,岡崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14045
+14046,ミルキー助産所,100,,23,23202,岡崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14046
+14047,あなたの助産師・あん,100,,23,23202,岡崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:22:06.135Z,https://birth-navi.mhlw.go.jp/facilities/14047
+14048,"産前産後ケアハウス　
+ｒｉｃｏｃｏの家　りこ助産院",100,,23,23202,岡崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:21:56.998Z,https://birth-navi.mhlw.go.jp/facilities/14048
+14049,産前産後ケアハウス　Olive助産院,100,,23,23202,岡崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14049
+14055,唯助産所,100,,23,23206,春日井市,,False,09079104622,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14055
+14057,お母さんと赤ちゃんのランプ,100,,23,23206,春日井市,,False,09054581904,True,,,0,0,1,1,postnatal,2026-09-14T13:21:58.433Z,https://birth-navi.mhlw.go.jp/facilities/14057
+14060,助産院・こよみ,100,,23,23209,碧南市,,False,07091230543,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14060
+14061,だいとくや助産院,100,,23,23209,碧南市,,False,08064285792,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14061
+14062,助産院　マザーズ・プレイス,100,,23,23210,刈谷市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14062
+14063,F-salon,100,,23,23210,刈谷市,,False,09090214910,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14063
+14064,出張専門　Nami助産院,100,,23,23210,刈谷市,,False,09083240036,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14064
+14065,出張専門助産院　ｈａｈａｋｏ,100,,23,23210,刈谷市,,False,09099018084,True,,,0,0,1,1,postnatal,2026-09-14T13:21:57.019Z,https://birth-navi.mhlw.go.jp/facilities/14065
+14066,Ｈａｈａ助産院,100,,23,23210,刈谷市,,False,09073125921,True,,,0,0,1,1,postnatal,2026-09-14T13:22:00.100Z,https://birth-navi.mhlw.go.jp/facilities/14066
+14070,旭の森助産院,100,,23,23211,豊田市,,False,09029471233,True,,,0,0,1,1,postnatal,2026-09-14T13:21:56.902Z,https://birth-navi.mhlw.go.jp/facilities/14070
+14074,KARIN助産院,100,,23,23212,安城市,,False,07028253709,True,,,0,0,1,1,postnatal,2026-09-14T13:21:57.323Z,https://birth-navi.mhlw.go.jp/facilities/14074
+14075,出張専門助産院kotori,100,,23,23212,安城市,,False,08072370415,True,,,0,0,1,1,postnatal,2026-09-14T13:21:57.340Z,https://birth-navi.mhlw.go.jp/facilities/14075
+14081,委託助産師,100,,23,23215,犬山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14081
+14085,しなのき訪問助産院,100,,23,23222,東海市,愛知県東海市,True,09085473170,True,,,0,0,1,1,postnatal,2026-09-14T13:21:59.525Z,https://birth-navi.mhlw.go.jp/facilities/14085
+14086,アロマ助産院ひだまり,100,,23,23222,東海市,愛知県東海市富木島町,True,08045442500,True,,,0,0,1,1,postnatal,2026-09-14T13:22:00.732Z,https://birth-navi.mhlw.go.jp/facilities/14086
+14087,えがお母乳育児相談室,100,,23,23223,大府市,,False,08026460311,True,,,0,0,1,1,postnatal,2026-09-14T13:21:59.729Z,https://birth-navi.mhlw.go.jp/facilities/14087
+14088,助産院myherb,100,,23,23223,大府市,,False,09029431470,True,,,0,0,1,1,postnatal,2026-09-14T13:21:59.821Z,https://birth-navi.mhlw.go.jp/facilities/14088
+14092,ベビママ訪問ここはれ,100,,23,23226,尾張旭市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14092
+14093,鈴木助産院,100,,23,23226,尾張旭市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14093
+14096,学校法人藤田学園　藤田医科大学病院,100,,23,23229,豊明市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14096
+14097,葵鐘会　ロイヤルベルクリニック,100,,23,23229,豊明市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14097
+14098,ママリラカフェ　とよあけ（藤田医科大学）,100,,23,23229,豊明市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14098
+14101,ひとなる助産所,100,,23,23231,田原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14101
+14102,こもれび助産院,100,,23,23231,田原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14102
+14107,さくらんぼ助産院,100,,23,23501,幸田町,,False,09020251709,True,,,0,0,1,1,postnatal,2026-09-14T13:22:06.203Z,https://birth-navi.mhlw.go.jp/facilities/14107
+14121,産前産後ケアサポートハウスせいりき,100,,24,24201,津市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14121
+14122,うみまち助産院,100,,24,24201,津市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14122
+14123,たけうち助産所,100,,24,24201,津市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14123
+14127,三重県助産師会,100,,24,24204,松阪市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14127
+14130,ご縁まる,100,,24,24205,桑名市,"三重郡川越町亀田新田
+（以下非公開）",True,07016656685,True,,,0,0,1,1,postnatal,2026-09-14T13:22:12.198Z,https://birth-navi.mhlw.go.jp/facilities/14130
+14132,出張専門アキ助産院,100,,24,24205,桑名市,四日市市山城町（以下非公開）,True,07091501848,True,,,0,0,1,1,postnatal,2026-09-14T13:19:22.430Z,https://birth-navi.mhlw.go.jp/facilities/14132
+14133,はなえみ助産所,100,,24,24205,桑名市,四日市市阿倉川（以下非公開）,True,09035829111,True,,,0,0,1,1,postnatal,2026-09-14T13:28:03.731Z,https://birth-navi.mhlw.go.jp/facilities/14133
+14134,ママノトモ,100,,24,24205,桑名市,,False,08015597478,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14134
+14138,OLA,100,,24,24205,桑名市,三重郡菰野町（以下非公開）,True,09068034358,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.397Z,https://birth-navi.mhlw.go.jp/facilities/14138
+14140,助産所ははみちる,100,,24,24205,桑名市,鈴鹿市郡山町（以下非公開）,True,09039687653,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.517Z,https://birth-navi.mhlw.go.jp/facilities/14140
+14141,とも助産所,100,,24,24205,桑名市,鈴鹿市（以下非公開）,True,09021326980,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.538Z,https://birth-navi.mhlw.go.jp/facilities/14141
+14142,きわ助産所,100,,24,24205,桑名市,鈴鹿市南玉垣町（以下非公開）,True,09090502073,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.602Z,https://birth-navi.mhlw.go.jp/facilities/14142
+14143,うららか,100,,24,24205,桑名市,鈴鹿市稲生塩屋（以下非公開）,True,09025010328,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.620Z,https://birth-navi.mhlw.go.jp/facilities/14143
+14145,助産院　糸,100,,24,24205,桑名市,津市一色町（以下非公開）,True,09018607988,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.730Z,https://birth-navi.mhlw.go.jp/facilities/14145
+14146,しまなみ助産院・津,100,,24,24205,桑名市,津市上浜町（以下非公開）,True,09062333726,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.825Z,https://birth-navi.mhlw.go.jp/facilities/14146
+14148,しんぼ助産院,100,,24,24205,桑名市,名張市つつじが丘(以下非公開）,True,09023436735,True,,,0,0,1,1,postnatal,2026-09-14T13:22:09.997Z,https://birth-navi.mhlw.go.jp/facilities/14148
+14149,さくら助産院,100,,24,24205,桑名市,,False,08069147626,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14149
+14155,三重県助産師会,100,,24,24303,木曽岬町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14155
+14156,一般社団法人　三重県助産師会,100,,24,24324,東員町,,False,08026441291,True,,,0,0,1,1,postnatal,2026-09-14T13:28:04.209Z,https://birth-navi.mhlw.go.jp/facilities/14156
+14158,三重県助産師会所属助産師,100,,24,24441,多気町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14158
+14160,小原産婦人科,100,,24,24472,南伊勢町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:28:04.710Z,https://birth-navi.mhlw.go.jp/facilities/14160
+14162,大江助産院,100,,25,25204,近江八幡市,,False,09040351172,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14162
+14174,くくう助産院,100,,26,26201,福知山市,,False,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14174
+14175,岡本産婦人科,100,,26,26201,福知山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:19:23.048Z,https://birth-navi.mhlw.go.jp/facilities/14175
+14176,訪問看護ステーションcoco,100,,26,26201,福知山市,,False,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14176
+14183,えみ助産院,100,,26,26204,宇治市,,False,09010278957,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14183
+14184,開業助産師小中めぐみ,100,,26,26204,宇治市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14184
+14185,あすか鍼灸助産院,100,,26,26204,宇治市,,False,07065031076,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14185
+14187,美幸助産院,100,,26,26204,宇治市,,False,09039490540,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14187
+14188,すくすく助産院,100,,26,26204,宇治市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14188
+14189,まはろ助産院,100,,26,26204,宇治市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14189
+14190,助産院おせっかい,100,,26,26204,宇治市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14190
+14192,出張専門　ゆき助産院,100,,26,26206,亀岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14192
+14193,月の助産院,100,,26,26206,亀岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14193
+14194,出張専門　mayo助産院,100,,26,26206,亀岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14194
+14197,京都助産師会,100,,26,26211,京田辺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14197
+14200,京都府助産師会,100,,26,26214,木津川市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14200
+14209,あかりの家助産院,100,,27,27140,堺市,,False,09069003965,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14209
+14210,助産院　ハーナウ,100,,27,27140,堺市,,False,08062202854,True,,,0,0,1,1,postnatal,2026-10-01T16:00:04.000Z,https://birth-navi.mhlw.go.jp/facilities/14210
+14211,青空助産所,100,,27,27140,堺市,,False,07055706420,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14211
+14212,岩本助産院,100,,27,27140,堺市,,False,09059645903,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14212
+14213,金田・母と子の母乳相談室,100,,27,27140,堺市,,False,09036137335,True,,,0,0,1,1,postnatal,2026-10-01T16:00:05.000Z,https://birth-navi.mhlw.go.jp/facilities/14213
+14214,産前産後ケア　えな助産院,100,,27,27140,堺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14214
+14215,ゆいの助産院,100,,27,27140,堺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14215
+14216,母微笑助産院,100,,27,27140,堺市,,False,09045602466,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14216
+14217,なごみまごころ助産院,100,,27,27140,堺市,,False,08021402241,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14217
+14218,せきもと助産院,100,,27,27140,堺市,,False,0723637576,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14218
+14219,ROSORIO助産院,100,,27,27140,堺市,,False,09056505336,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14219
+14239,てのての助産所,100,,27,27203,豊中市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14239
+14262,てのての助産院,100,,27,27204,池田市,豊中市螢池東町,True,,False,,,0,0,1,1,postnatal,2026-09-14T13:22:54.432Z,https://birth-navi.mhlw.go.jp/facilities/14262
+14273,ゆな助産院,100,,27,27205,吹田市,吹田市千里山,True,09039432243,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14273
+14274,うた助産院,100,,27,27205,吹田市,吹田市垂水町,True,09066767113,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14274
+14275,助産院Keroko Club,100,,27,27205,吹田市,,False,08031357772,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14275
+14277,百花-mocha-助産院,100,,27,27205,吹田市,,False,09062363648,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14277
+14280,助産院Loulouルル,100,,27,27205,吹田市,大阪市西区,True,07012698683,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14280
+14281,助産院Trust,100,,27,27205,吹田市,吹田市江坂町,True,09099950367,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14281
+14282,遠藤助産院,100,,27,27205,吹田市,豊中市上新田,True,09011580371,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14282
+14284,長谷川助産所,100,,27,27206,泉大津市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14284
+14291,社会福祉法人　八尾隣保館　ルフレ八尾,100,,27,27212,八尾市,八尾市高美町,True,0729221032,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14291
+14296,助産所オリーブの樹,100,,27,27214,富田林市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:22:58.531Z,https://birth-navi.mhlw.go.jp/facilities/14296
+14297,暮らしの助産所,100,,27,27214,富田林市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:22:55.824Z,https://birth-navi.mhlw.go.jp/facilities/14297
+14300,市内在職助産師（18名）,100,,27,27215,寝屋川市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14300
+14310,個人助産師,100,,27,27222,羽曳野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14310
+14311,栄養ケアチームすぷらうと（公益社団法人大阪府栄養士会栄養ケアステーション所属）,100,,27,27225,高石市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14311
+14319,助産師A,100,,27,27226,藤井寺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14319
+14320,助産師B,100,,27,27226,藤井寺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14320
+14321,助産師C,100,,27,27226,藤井寺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14321
+14322,助産師D,100,,27,27226,藤井寺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14322
+14323,助産師E,100,,27,27226,藤井寺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14323
+14324,小林助産院,100,,27,27228,泉南市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14324
+14325,稲森助産所,100,,27,27231,大阪狭山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14325
+14343,さくら助産院,100,,28,28203,明石市,,False,09081494380,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14343
+14347,西宮市助産師会,100,,28,28204,西宮市,,False,09011587075,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14347
+14359,作山助産師,100,,28,28209,豊岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14359
+14360,橋口茂代（出張助産師）,100,,28,28212,赤穂市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:23:41.599Z,https://birth-navi.mhlw.go.jp/facilities/14360
+14361,大門医院,100,,28,28214,宝塚市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:23:50.736Z,https://birth-navi.mhlw.go.jp/facilities/14361
+14363,ゆあ助産院,100,,28,28221,丹波篠山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14363
+14366,在宅助産師　中山千秋　田中奈津子,100,,28,28225,朝来市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14366
+14367,一般社団法人　赤堀病院　赤堀クリニック,100,,28,28501,佐用町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14367
+14368,ゆき助産院,100,,28,28501,佐用町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14368
+14369,在宅助産師,100,,28,28585,香美町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14369
+14370,さくらレディースクリニック田園町,100,,28,28586,新温泉町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14370
+14371,鳥取産院,100,,28,28586,新温泉町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14371
+14372,みやもと産婦人科医院,100,,28,28586,新温泉町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14372
+14373,産後ケア　やわらかい風,100,,28,28586,新温泉町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14373
+14375,芽愛助産院　産後ケアホームmeito,100,,29,29201,奈良市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14375
+14379,助産所　結,100,,29,29202,大和高田市,,False,09020193970,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14379
+14385,おっぱいケア　ゆるき,100,,29,29205,橿原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14385
+14386,桜井病院,100,,29,29205,橿原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14386
+14387,中井戸助産所,100,,29,29205,橿原市,,False,09060577517,True,,,0,0,1,1,postnatal,2026-09-14T13:19:58.300Z,https://birth-navi.mhlw.go.jp/facilities/14387
+14388,認定栄養ケア・ステーション　もぐエイル,100,,29,29205,橿原市,,False,0744551900,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14388
+14389,まる助産院,100,,29,29205,橿原市,,False,07076395054,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14389
+14390,ひろさわ助産所,100,,29,29206,桜井市,,False,09020410781,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14390
+14391,中井戸助産所,100,,29,29207,五條市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14391
+14392,認定栄養ケア・ステーションもぐエイル,100,,29,29207,五條市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14392
+14395,中村助産所,100,,29,29211,葛城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14395
+14397,中村助産所,100,,29,29344,斑鳩町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14397
+14398,まる助産院,100,,29,29344,斑鳩町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14398
+14402,医療法人平治会　さくらレディースクリニック,100,,29,29441,吉野町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14402
+14403,社会福祉法人延命福祉会 産前産後ケアハウスmaman,100,,29,29441,吉野町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14403
+14406,坂本明子（助産師）,100,,29,29444,黒滝村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14406
+14411,"あかちゃんとママの寄り添いサポート""ここねっと""",100,,30,30201,和歌山市,和歌山市小松原,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14411
+14413,TSUGUMI助産院,100,,30,30201,和歌山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14413
+14415,にじのわ助産院,100,,30,30201,和歌山市,,False,09078743536,True,,,0,0,1,1,postnatal,2026-09-14T13:29:15.625Z,https://birth-navi.mhlw.go.jp/facilities/14415
+14418,ここみサポート出張所,100,,30,30201,和歌山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14418
+14419,あかちゃんとママの寄り添いサポート“ここねっと”,100,,30,30202,海南市,和歌山市小松原,True,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:15.999Z,https://birth-navi.mhlw.go.jp/facilities/14419
+14422,産前産後ケアルームＳｈｉｎ,100,,30,30204,有田市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14422
+14423,福助産院,100,,30,30205,御坊市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14423
+14429,個人助産師,100,,30,30209,岩出市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14429
+14430,個人助産師,100,,30,30209,岩出市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14430
+14431,個人助産師,100,,30,30209,岩出市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14431
+14432,個人助産師,100,,30,30209,岩出市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14432
+14433,医療法人　智恩会　花山ママクリニック,100,,30,30341,かつらぎ町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14433
+14434,なぎ助産院,100,,30,30341,かつらぎ町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14434
+14435,和の子みらい助産院,100,,30,30341,かつらぎ町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14435
+14436,母乳育児相談ながさこ,100,,30,30366,有田川町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14436
+14441,やよい助産院,100,,30,30401,白浜町,,False,09088842295,True,,,0,0,1,1,postnatal,2026-09-14T13:29:16.796Z,https://birth-navi.mhlw.go.jp/facilities/14441
+14454,うみのわ助産院,100,,31,31201,鳥取市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14454
+14455,出張専門助産院tetoto,100,,31,31201,鳥取市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14455
+14456,おおえ助産院,100,,31,31201,鳥取市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14456
+14471,うみのわ助産院,100,,31,31302,岩美町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14471
+14472,出張専門助産院tetoto,100,,31,31302,岩美町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14472
+14473,一般社団法人　助産院いのちね,100,,31,31328,智頭町,,False,0858710369,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14473
+14474,ひかり助産所,100,,31,31329,八頭町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14474
+14475,琴ミント助産院,100,,31,31370,湯梨浜町,,False,09028630132,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14475
+14476,たにがみ助産院,100,,31,31370,湯梨浜町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14476
+14480,一般社団法人　鳥取県助産師会,100,,31,31384,日吉津村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14480
+14481,鳥取県助産師会,100,,31,31401,日南町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14481
+14490,医療法人社団　松陽台佐藤クリニック,100,,32,32203,出雲市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:25:45.638Z,https://birth-navi.mhlw.go.jp/facilities/14490
+14504,町立奥出雲病院,100,,32,32343,奥出雲町,奥出雲町三成,True,0854541122,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14504
+14509,うちかど助産院,100,,33,33202,倉敷市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14509
+14511,かねこ助産院,100,,33,33202,倉敷市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14511
+14512,倉敷成人病センター,100,,33,33202,倉敷市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14512
+14522,ゆりかご助産院,100,,33,33207,井原市,,False,09083623981,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14522
+14533,赤ちゃんとママのサロン　Midwife,100,,33,33211,備前市,,False,09046413852,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14533
+14544,おかやま母乳育児相談室,100,,33,33423,早島町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14544
+14545,出張専門助産所　石井萌,100,,33,33423,早島町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14545
+14546,みちくさ助産院,100,,33,33423,早島町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14546
+14548,みやもと産婦人科医院,100,,33,33643,西粟倉村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14548
+14549,ぽかぽか母乳・子育て相談室,100,,33,33663,久米南町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14549
+14550,個人助産師,100,,33,33663,久米南町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14550
+14553,夕陽ヶ丘助産院（宿泊・3時間・訪問）,100,,34,34202,呉市,,False,09067359067,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14553
+14555,夢みのり助産所,100,,34,34202,呉市,,False,09064098833,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14555
+14556,上原助産所,100,,34,34202,呉市,,False,09057005219,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14556
+14557,佐々木助産所,100,,34,34202,呉市,,False,09086070749,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14557
+14561,すこやか助産所,100,,34,34205,尾道市,,False,09053710768,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14561
+14562,中尾助産所・スミレ母乳育児相談室,100,,34,34205,尾道市,,False,09011851536,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14562
+14563,助産院Cocon,100,,34,34205,尾道市,,False,07056775775,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14563
+14565,和み助産院,100,,34,34205,尾道市,福山市三吉町,True,08026543862,True,,,0,0,1,1,postnatal,2026-09-14T13:25:46.523Z,https://birth-navi.mhlw.go.jp/facilities/14565
+14567,木もれび子ぐま助産院,100,,34,34207,福山市,,False,09098888258,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14567
+14574,一般社団法人　広島県助産師会,100,,34,34368,安芸太田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14574
+14579,よしひろ助産所,100,,34,34462,世羅町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14579
+14580,春永助産所,100,,35,35201,下関市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14580
+14581,助産院ローズベビーサロン下関,100,,35,35201,下関市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14581
+14582,あすか助産院,100,,35,35201,下関市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:19.002Z,https://birth-navi.mhlw.go.jp/facilities/14582
+14583,サラン母乳育児相談室,100,,35,35201,下関市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:48.494Z,https://birth-navi.mhlw.go.jp/facilities/14583
+14588,ゆいレディースクリニック,100,,35,35202,宇部市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14588
+14593,助産院Cigogne（シゴーニュ）,100,,35,35203,山口市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14593
+14594,助産院ローズベビーサロン,100,,35,35203,山口市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14594
+14595,助産院ぽわんと,100,,35,35203,山口市,山口市小郡上郷,True,08029220568,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14595
+14596,ほほえみ助産院,100,,35,35203,山口市,山口市,True,09075922013,True,,,0,0,1,1,postnatal,2026-09-14T13:29:18.720Z,https://birth-navi.mhlw.go.jp/facilities/14596
+14598,いそはま助産所,100,,35,35203,山口市,周南市本町,True,09079492603,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14598
+14602,産前産後ケア専門出張 助産院　えがおひろがる,100,,35,35203,山口市,,False,07091120618,True,,,0,0,1,1,postnatal,2026-10-01T07:02:48.417Z,https://birth-navi.mhlw.go.jp/facilities/14602
+14603,マミーズハウス,100,,35,35203,山口市,岩国市南岩国町,True,09041060730,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14603
+14608,あいみ助産院,100,,35,35206,防府市,岩国市周東町,True,07085205156,True,,,0,0,1,1,postnatal,2026-09-14T13:25:49.405Z,https://birth-navi.mhlw.go.jp/facilities/14608
+14609,いそはま助産院,100,,35,35206,防府市,周南市本町,True,08077411692,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14609
+14611,とよしま助産院,100,,35,35206,防府市,萩市大字堀内,True,09075443902,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14611
+14612,周東総合病院,100,,35,35207,下松市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14612
+14616,あさのみ助産院,100,,35,35208,岩国市,愛媛県新居浜市,True,09031826795,True,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14616
+14618,一般社団法人　山口県助産師会,100,,35,35211,長門市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14618
+14619,各助産所,100,,35,35215,周南市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14619
+14629,助産師　篠原　美弥子,100,,35,35216,山陽小野田市,山陽小野田市,True,09089962359,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14629
+14630,山口県助産師会,100,,35,35305,周防大島町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14630
+14642,チェリー助産所,100,,36,36202,鳴門市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:25:50.129Z,https://birth-navi.mhlw.go.jp/facilities/14642
+14643,助産院paume,100,,36,36202,鳴門市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:22.096Z,https://birth-navi.mhlw.go.jp/facilities/14643
+14644,なると助産院,100,,36,36202,鳴門市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:22.033Z,https://birth-navi.mhlw.go.jp/facilities/14644
+14646,在宅助産師、開業助産師,100,,36,36204,阿南市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14646
+14658,むつみ助産院,100,,36,36403,藍住町,,False,09089743138,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14658
+14659,いとう助産所,100,,36,36403,藍住町,,False,09028265144,True,,,0,0,1,1,postnatal,2026-09-14T13:25:53.504Z,https://birth-navi.mhlw.go.jp/facilities/14659
+14660,ばんどう助産院,100,,36,36403,藍住町,,False,09015772104,True,,,0,0,1,1,postnatal,2026-09-14T13:25:53.540Z,https://birth-navi.mhlw.go.jp/facilities/14660
+14661,manaka助産院,100,,36,36403,藍住町,,False,08028510363,True,,,0,0,1,1,postnatal,2026-09-14T13:25:53.606Z,https://birth-navi.mhlw.go.jp/facilities/14661
+14663,山下助産院-OHANA-,100,,36,36468,つるぎ町,三好市池田町イケミナミ,True,0883723520,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14663
+14664,ki:no助産院,100,,37,37201,高松市,,False,08052293035,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14664
+14672,すず助産院,100,,37,37202,丸亀市,,False,09043728768,True,,,0,0,1,1,postnatal,2026-09-14T13:29:23.633Z,https://birth-navi.mhlw.go.jp/facilities/14672
+14673,ki:no Jicca 多賀助産院,100,,37,37202,丸亀市,,False,0878000312,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14673
+14674,助産師A,100,,37,37203,坂出市,,False,0877445006,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14674
+14683,nogamidwife,100,,38,38201,松山市,松山市北斎院町,True,09015710515,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14683
+14684,ますみ助産院,100,,38,38201,松山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14684
+14685,みのり助産所,100,,38,38201,松山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14685
+14686,ゆいた助産院,100,,38,38201,松山市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14686
+14687,ひらた助産院,100,,38,38201,松山市,愛媛県,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14687
+14688,めいぷる助産院,100,,38,38202,今治市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14688
+14689,ゆう助産院,100,,38,38202,今治市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14689
+14690,助産院ぬくもり,100,,38,38203,宇和島市,,False,09097797913,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14690
+14691,そらいろ助産院,100,,38,38203,宇和島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14691
+14693,なないろ助産院,100,,38,38204,八幡浜市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:48.696Z,https://birth-navi.mhlw.go.jp/facilities/14693
+14699,あさのみ助産院,100,,38,38205,新居浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14699
+14700,hitobito-ひとびと-助産院,100,,38,38205,新居浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14700
+14702,どんぐり助産院,100,,38,38205,新居浜市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14702
+14704,出張訪問助産師すずき,100,,38,38206,西条市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:25:55.642Z,https://birth-navi.mhlw.go.jp/facilities/14704
+14711,はらだ助産院,100,,38,38442,伊方町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14711
+14715,小梅助産院,100,,39,39201,高知市,,False,08029757436,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14715
+14716,助産院はぐはぐ,100,,39,39201,高知市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14716
+14719,産前産後ケアサロンnyuwa,100,,39,39201,高知市,高知市福井町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14719
+14722,真弓助産院,100,,39,39205,土佐市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14722
+14723,きむら助産所,100,,39,39205,土佐市,,False,08084961646,True,,,0,0,1,1,postnatal,2026-09-14T13:25:57.202Z,https://birth-navi.mhlw.go.jp/facilities/14723
+14730,産前産後ケアサロンnyuwa,100,,39,39386,いの町,高知県高知市福井町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14730
+14732,谷本　好子,100,,39,39402,佐川町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:25:58.937Z,https://birth-navi.mhlw.go.jp/facilities/14732
+14733,若槻　知子,100,,39,39402,佐川町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14733
+14736,にこり助産院,100,,40,40100,北九州市,,False,0932825810,True,,,0,0,1,1,postnatal,2026-10-01T07:02:51.206Z,https://birth-navi.mhlw.go.jp/facilities/14736
+14737,ファミリーケアこあらのおうち,100,,40,40100,北九州市,北九州市小倉南区,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14737
+14740,出張専門Jokobo助産院,100,,40,40100,北九州市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14740
+14741,りつ助産院,100,,40,40100,北九州市,北九州市小倉南区,True,09073816513,True,,,0,0,1,1,postnatal,2026-10-01T07:02:47.032Z,https://birth-navi.mhlw.go.jp/facilities/14741
+14742,tanagocoro-miroku みろく助産院,100,,40,40100,北九州市,,False,09029637548,True,,,0,0,1,1,postnatal,2026-10-01T07:02:47.205Z,https://birth-navi.mhlw.go.jp/facilities/14742
+14743,出張産前産後ケアーほんわか助産院,100,,40,40100,北九州市,,False,08064384297,True,,,0,0,1,1,postnatal,2026-10-01T07:02:47.216Z,https://birth-navi.mhlw.go.jp/facilities/14743
+14749,サン・ムラタ,100,,40,40100,北九州市,,False,0936225588,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14749
+14755,助産院「こっぽら～っと・はしもと」,100,,40,40203,久留米市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:49.199Z,https://birth-navi.mhlw.go.jp/facilities/14755
+14760,助産院　笑望,100,,40,40204,直方市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:47.229Z,https://birth-navi.mhlw.go.jp/facilities/14760
+14761,フラウエンハウス加來,100,,40,40204,直方市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:47.132Z,https://birth-navi.mhlw.go.jp/facilities/14761
+14762,ラピス助産院,100,,40,40204,直方市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:51.007Z,https://birth-navi.mhlw.go.jp/facilities/14762
+14767,マタニティ・サポート佳,100,,40,40205,飯塚市,北九州市八幡西区浅川学園台,True,09097251047,True,,,0,0,1,1,postnatal,2026-10-01T07:02:47.014Z,https://birth-navi.mhlw.go.jp/facilities/14767
+14768,tanagocoro-miroku みろく助産院,100,,40,40205,飯塚市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14768
+14769,Maternity home ハコ音色,100,,40,40205,飯塚市,福岡市早良区野芥,True,09050153820,True,,,0,0,1,1,postnatal,2026-09-14T13:26:04.820Z,https://birth-navi.mhlw.go.jp/facilities/14769
+14771,ゆらぎ助産院,100,,40,40205,飯塚市,福岡市早良区南庄,True,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:46.896Z,https://birth-navi.mhlw.go.jp/facilities/14771
+14772,べふ助産院,100,,40,40205,飯塚市,福岡市城南区別府,True,09050572670,True,,,0,0,1,1,postnatal,2026-09-14T13:20:02.944Z,https://birth-navi.mhlw.go.jp/facilities/14772
+14773,あさひ助産院,100,,40,40205,飯塚市,福岡市西区西都,True,08064378277,True,,,0,0,1,1,postnatal,2026-09-14T13:29:32.246Z,https://birth-navi.mhlw.go.jp/facilities/14773
+14774,えん助産院,100,,40,40205,飯塚市,福岡市博多区那珂,True,07090032134,True,,,0,0,1,1,postnatal,2026-09-14T13:26:10.922Z,https://birth-navi.mhlw.go.jp/facilities/14774
+14775,みい助産院,100,,40,40205,飯塚市,福岡市東区千早,True,07089730486,True,,,0,0,1,1,postnatal,2026-09-14T13:20:02.641Z,https://birth-navi.mhlw.go.jp/facilities/14775
+14776,きらり助産院,100,,40,40205,飯塚市,,False,09052943368,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14776
+14778,結心（ゆっこ）助産院,100,,40,40205,飯塚市,福岡市南区桧原,True,08027491676,True,,,0,0,1,1,postnatal,2026-10-01T07:02:46.909Z,https://birth-navi.mhlw.go.jp/facilities/14778
+14779,ベビファミ相談室nakayoshi,100,,40,40205,飯塚市,,False,08060683556,True,,,0,0,1,1,postnatal,2026-10-01T07:02:47.192Z,https://birth-navi.mhlw.go.jp/facilities/14779
+14780,モニカ助産院,100,,40,40205,飯塚市,,False,09084031435,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14780
+14781,産前産後ケア　ももはな助産院,100,,40,40205,飯塚市,宗像市泉ヶ丘,True,08017694886,True,,,0,0,1,1,postnatal,2026-10-01T07:02:46.844Z,https://birth-navi.mhlw.go.jp/facilities/14781
+14783,麻の葉助産院,100,,40,40205,飯塚市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:46.820Z,https://birth-navi.mhlw.go.jp/facilities/14783
+14784,晴助産院,100,,40,40205,飯塚市,中間市垣生,True,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:49.410Z,https://birth-navi.mhlw.go.jp/facilities/14784
+14785,アマテラス助産院,100,,40,40205,飯塚市,糸島市高祖,True,08064016312,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.320Z,https://birth-navi.mhlw.go.jp/facilities/14785
+14788,母乳と育児の相談室ｉｉｂａｓｈｏ,100,,40,40205,飯塚市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:47.002Z,https://birth-navi.mhlw.go.jp/facilities/14788
+14796,シフラ助産院,100,,40,40205,飯塚市,大牟田市南船津町,True,09030764255,True,,,0,0,1,1,postnatal,2026-09-14T13:20:03.017Z,https://birth-navi.mhlw.go.jp/facilities/14796
+14803,産前産後ケア　ももはな助産院,100,,40,40207,柳川市,宗像市泉が丘,True,09017694886,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14803
+14805,tanagocoro-miroku みろく助産院,100,,40,40207,柳川市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14805
+14807,COCOながたベビーケアROOM,100,,40,40215,中間市,福岡市東区,True,09019718562,True,,,0,0,1,1,postnatal,2026-09-14T13:29:34.939Z,https://birth-navi.mhlw.go.jp/facilities/14807
+14810,助産院ミモザフルール,100,,40,40217,筑紫野市,,False,07090774107,True,,,0,0,1,1,postnatal,2026-09-14T13:26:04.897Z,https://birth-navi.mhlw.go.jp/facilities/14810
+14811,Rie助産院,100,,40,40217,筑紫野市,,False,09019774840,True,,,0,0,1,1,postnatal,2026-09-14T13:26:08.907Z,https://birth-navi.mhlw.go.jp/facilities/14811
+14813,助産院 Ohana,100,,40,40217,筑紫野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14813
+14814,助産院hygge（ヒュッゲ）,100,,40,40217,筑紫野市,,False,08014444751,True,,,0,0,1,1,postnatal,2026-09-14T13:20:03.197Z,https://birth-navi.mhlw.go.jp/facilities/14814
+14815,フクロウの助産院,100,,40,40217,筑紫野市,,False,05036132252,True,,,0,0,1,1,postnatal,2026-09-14T13:26:04.711Z,https://birth-navi.mhlw.go.jp/facilities/14815
+14817,ゆう助産院,100,,40,40217,筑紫野市,福岡市東区香椎,True,07092875318,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14817
+14818,tanagocoro-miroku みろく助産院,100,,40,40217,筑紫野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14818
+14820,助産院　きぼう,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14820
+14821,絆衣助産院,100,,40,40219,大野城市,,False,08027572748,True,,,0,0,1,1,postnatal,2026-09-14T13:29:29.925Z,https://birth-navi.mhlw.go.jp/facilities/14821
+14822,助産院室見川,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14822
+14823,nym助産師ケアサロン,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14823
+14824,学校法人巨樹の会　みずまき助産院ひだまりの家,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14824
+14825,助産院Ohaana,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:26:04.624Z,https://birth-navi.mhlw.go.jp/facilities/14825
+14826,カフナ助産院,100,,40,40219,大野城市,,False,09089184756,True,,,0,0,1,1,postnatal,2026-09-14T13:29:30.180Z,https://birth-navi.mhlw.go.jp/facilities/14826
+14827,助産院　向日葵,100,,40,40219,大野城市,,False,09078530120,True,,,0,0,1,1,postnatal,2026-09-14T13:29:29.905Z,https://birth-navi.mhlw.go.jp/facilities/14827
+14828,助産院　歓～ほあん～,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14828
+14829,べふ助産院,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14829
+14830,みい助産院,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14830
+14831,ひだまり助産院,100,,40,40219,大野城市,,False,09094022474,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.226Z,https://birth-navi.mhlw.go.jp/facilities/14831
+14832,まる助産院,100,,40,40219,大野城市,,False,07041711084,True,,,0,0,1,1,postnatal,2026-09-14T13:29:30.208Z,https://birth-navi.mhlw.go.jp/facilities/14832
+14833,いとしま助産院haru,100,,40,40219,大野城市,,False,07052776522,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.339Z,https://birth-navi.mhlw.go.jp/facilities/14833
+14834,シフラ助産院,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14834
+14835,母と子の助産院,100,,40,40219,大野城市,,False,08091086239,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.152Z,https://birth-navi.mhlw.go.jp/facilities/14835
+14836,モニカ助産院,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14836
+14837,ゆき助産院,100,,40,40219,大野城市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14837
+14840,tanagocoro-miroku みろく助産院,100,,40,40220,宗像市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14840
+14843,助産院向日葵,100,,40,40223,古賀市,福岡市中央区地行,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14843
+14845,tanagocoro-miroku　みろく助産院,100,,40,40223,古賀市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14845
+14847,助産院てくてく,100,,40,40224,福津市,,False,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14847
+14850,tanagocoro-miroku みろく助産院,100,,40,40229,みやま市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14850
+14851,助産院　向日葵,100,,40,40230,糸島市,福岡市中央区地行,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14851
+14852,助産院　Ohana,100,,40,40230,糸島市,春日市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14852
+14858,えん助産院,100,,40,40381,芦屋町,福岡市博多区那珂,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14858
+14860,えん助産院,100,,40,40383,岡垣町,福岡市博多区那珂,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14860
+14863,在宅看護センター日向ぼっこ,100,,40,40447,筑前町,,False,0946420572,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14863
+14866,親子サポート　ほほえみ,100,,40,40621,苅田町,北九州市小倉南区津田新町,True,09094805196,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14866
+14867,SalonMam&Babyぽっかぽか,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14867
+14868,ゆき助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14868
+14869,くさみ助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14869
+14870,サン・ムラタ,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14870
+14871,みかたmama's care,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14871
+14872,青葉台母乳ケアハウス,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14872
+14873,にじいろ助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14873
+14874,モニカ助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14874
+14875,Maternity home ハコ音色,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14875
+14876,べふ助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14876
+14877,あさひ助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14877
+14878,みい助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14878
+14879,さくら母子相談室,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14879
+14880,みい助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14880
+14881,きはら母乳育児相談室,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14881
+14882,ひだまり助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14882
+14883,アマテラス助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14883
+14884,授乳と育児の相談室　kururi,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14884
+14885,めぐみ助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14885
+14886,nym助産師ケアサロン,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14886
+14887,シフラ助産院,100,,40,40621,苅田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14887
+14893,いずみ助産院,100,,41,41201,佐賀市,,False,07054018814,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14893
+14894,育児相談所　澤まめ,100,,41,41201,佐賀市,,False,09027169861,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14894
+14895,出張専門助産所だんでらいおん,100,,41,41201,佐賀市,,False,09059234411,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14895
+14896,みぞかみ助産院,100,,41,41201,佐賀市,,False,09057218880,True,,,0,0,1,1,postnatal,2026-09-14T13:26:13.019Z,https://birth-navi.mhlw.go.jp/facilities/14896
+14897,ＨＡＲＡ助産院,100,,41,41201,佐賀市,,False,09095891182,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14897
+14898,ママ＆ベビーひとみ育児相談室,100,,41,41201,佐賀市,,False,09030779421,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14898
+14899,もも助産院,100,,41,41201,佐賀市,,False,09043524822,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14899
+14900,母乳育児・健康相談室「つなぐ」,100,,41,41201,佐賀市,,False,09043466770,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14900
+14903,佐賀県助産師会,100,,41,41206,武雄市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14903
+14906,佐賀県助産師会,100,,41,41424,江北町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14906
+14907,長崎県助産師会,100,,42,42201,長崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/14907
+14948,マタニティサロン・チアフル,100,,43,43100,熊本市,,False,09095871086,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14948
+14952,まりあ助産院,100,,43,43100,熊本市,,False,08085475836,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14952
+14963,ゆるふわり．助産院,100,,43,43100,熊本市,,False,08094179980,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14963
+14965,古庄真奈美助産院,100,,43,43100,熊本市,,False,08052146455,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14965
+14973,あき助産院,100,,43,43100,熊本市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14973
+14978,未来助産院,100,,43,43100,熊本市,,False,09049932595,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14978
+14979,桶谷式たなか母乳育児相談室助産院,100,,43,43100,熊本市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14979
+14981,月助産院,100,,43,43100,熊本市,,False,09095674429,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14981
+14983,みゆき助産院,100,,43,43100,熊本市,,False,09036672573,True,,,0,0,1,1,postnatal,2026-09-14T13:30:42.699Z,https://birth-navi.mhlw.go.jp/facilities/14983
+14984,ほしぞら助産院,100,,43,43100,熊本市,,False,08081828590,True,,,0,0,1,1,postnatal,2026-09-14T13:26:22.011Z,https://birth-navi.mhlw.go.jp/facilities/14984
+14986,助産院　Beorc,100,,43,43100,熊本市,,False,09062963477,True,,,0,0,1,1,postnatal,2026-09-14T13:20:06.124Z,https://birth-navi.mhlw.go.jp/facilities/14986
+14987,METIME,100,,43,43100,熊本市,,False,08042713734,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/14987
+14988,family midwifeあいとわ,100,,43,43100,熊本市,,False,08017099835,True,,,0,0,1,1,postnatal,2026-09-14T13:26:22.127Z,https://birth-navi.mhlw.go.jp/facilities/14988
+14989,ちはら助産院,100,,43,43100,熊本市,,False,09057221659,True,,,0,0,1,1,postnatal,2026-09-14T13:26:22.200Z,https://birth-navi.mhlw.go.jp/facilities/14989
+14990,助産院furaha,100,,43,43100,熊本市,,False,09053855549,True,,,0,0,1,1,postnatal,2026-09-14T13:26:22.219Z,https://birth-navi.mhlw.go.jp/facilities/14990
+14991,助産院－SHIRO－,100,,43,43100,熊本市,,False,09053817657,True,,,0,0,1,1,postnatal,2026-09-14T13:30:43.123Z,https://birth-navi.mhlw.go.jp/facilities/14991
+14992,助産院イロドリMama&baby’s room,100,,43,43100,熊本市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14992
+14993,すずいろ助産院,100,,43,43100,熊本市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14993
+14998,助産院COCORO,100,,43,43203,人吉市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:26:22.638Z,https://birth-navi.mhlw.go.jp/facilities/14998
+14999,つる助産院,100,,43,43203,人吉市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/14999
+15000,あずさ助産院,100,,43,43206,玉名市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:26:23.004Z,https://birth-navi.mhlw.go.jp/facilities/15000
+15001,はらぐち助産院,100,,43,43206,玉名市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:26:23.043Z,https://birth-navi.mhlw.go.jp/facilities/15001
+15003,mahiro助産院,100,,43,43208,山鹿市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15003
+15010,熊本県助産師会,100,,43,43214,阿蘇市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15010
+15014,And坂本女性クリニック,100,,43,43367,南関町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15014
+15015,東原産婦人科医院,100,,43,43367,南関町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15015
+15016,下川産婦人科医院,100,,43,43367,南関町,,False,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15016
+15017,河野レディースクリニック,100,,43,43367,南関町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15017
+15018,村尾産婦人科クリニック,100,,43,43367,南関町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15018
+15019,大牟田市立病院,100,,43,43367,南関町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15019
+15048,敷嶋助産所,100,,44,44201,大分市,大分市羽田,True,09043439701,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.419Z,https://birth-navi.mhlw.go.jp/facilities/15048
+15049,室助産所,100,,44,44201,大分市,大分市季の坂,True,09073813175,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.436Z,https://birth-navi.mhlw.go.jp/facilities/15049
+15050,なないろの虹助産院,100,,44,44201,大分市,大分市舞鶴町,True,09053796902,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.509Z,https://birth-navi.mhlw.go.jp/facilities/15050
+15051,ひきだ助産院　母乳と育児の相談室,100,,44,44201,大分市,大分市横尾東町,True,08042820054,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.527Z,https://birth-navi.mhlw.go.jp/facilities/15051
+15052,かおる助産院,100,,44,44201,大分市,大分市木上,True,09028574103,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.600Z,https://birth-navi.mhlw.go.jp/facilities/15052
+15053,サエラ助産院,100,,44,44201,大分市,大分市けやき台,True,09030751730,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.619Z,https://birth-navi.mhlw.go.jp/facilities/15053
+15054,詫摩助産院,100,,44,44201,大分市,大分市大字志生木,True,09028548773,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.639Z,https://birth-navi.mhlw.go.jp/facilities/15054
+15055,mom＆babysalon en,100,,44,44201,大分市,大分市上田町,True,09045834852,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.703Z,https://birth-navi.mhlw.go.jp/facilities/15055
+15056,ほのぼの助産院,100,,44,44201,大分市,大分市寒田,True,09071667467,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.721Z,https://birth-navi.mhlw.go.jp/facilities/15056
+15057,産前産後ケアNeRiNe,100,,44,44201,大分市,大分市明野北,True,09050969499,True,,,0,0,1,1,postnatal,2026-09-14T13:26:52.737Z,https://birth-navi.mhlw.go.jp/facilities/15057
+15061,123（ひふみ）助産院,100,,44,44201,大分市,別府市光町,True,07024156581,True,,,0,0,1,1,postnatal,2026-09-14T13:20:09.001Z,https://birth-navi.mhlw.go.jp/facilities/15061
+15062,助産所宙SORA,100,,44,44201,大分市,臼杵市大字江無田,True,09074731797,True,,,0,0,1,1,postnatal,2026-09-14T13:26:53.112Z,https://birth-navi.mhlw.go.jp/facilities/15062
+15063,吉田助産所,100,,44,44201,大分市,臼杵市南海添,True,09045839195,True,,,0,0,1,1,postnatal,2026-09-14T13:26:53.133Z,https://birth-navi.mhlw.go.jp/facilities/15063
+15064,母乳・育児相談とまり木,100,,44,44201,大分市,臼杵市野津町,True,09098106834,True,,,0,0,1,1,postnatal,2026-09-14T13:26:53.204Z,https://birth-navi.mhlw.go.jp/facilities/15064
+15065,助産院おまめのおうち,100,,44,44201,大分市,由布市湯布院町川南,True,08056097063,True,,,0,0,1,1,postnatal,2026-09-14T13:26:53.225Z,https://birth-navi.mhlw.go.jp/facilities/15065
+15069,といろ助産院,100,,44,44201,大分市,玖珠町大字塚脇,True,09025018145,True,,,0,0,1,1,postnatal,2026-09-14T13:26:53.524Z,https://birth-navi.mhlw.go.jp/facilities/15069
+15073,堂本助産所,100,,44,44201,大分市,中津市大字宮夫,True,09084066727,True,,,0,0,1,1,postnatal,2026-09-14T13:20:09.041Z,https://birth-navi.mhlw.go.jp/facilities/15073
+15074,となりのおばちゃん田原助産所,100,,44,44201,大分市,中津市下宮永,True,08039442980,True,,,0,0,1,1,postnatal,2026-09-14T13:26:53.743Z,https://birth-navi.mhlw.go.jp/facilities/15074
+15079,もあな助産院,100,,45,45201,宮崎市,,False,09059280393,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15079
+15083,助産院だいだい,100,,45,45201,宮崎市,,False,08011706759,True,,,0,0,1,1,postnatal,2026-09-14T13:26:54.133Z,https://birth-navi.mhlw.go.jp/facilities/15083
+15085,黒木　亜紀子,100,,45,45201,宮崎市,宮崎市清水,True,09080026371,True,,,0,0,1,1,postnatal,2026-09-14T13:26:54.231Z,https://birth-navi.mhlw.go.jp/facilities/15085
+15093,momo助産院,100,,45,45206,日向市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:30:45.305Z,https://birth-navi.mhlw.go.jp/facilities/15093
+15095,にこにこおっぱいハウス,100,,45,45208,西都市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15095
+15100,きら助産院,100,,45,45404,木城町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15100
+15118,委託助産師,100,,46,46210,指宿市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15118
+15120,ゆうなみ助産院,100,,46,46213,西之表市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15120
+15121,岩元助産院,100,,46,46215,薩摩川内市,薩摩川内市平佐,True,09086692573,True,,,0,0,1,1,postnatal,2026-09-14T13:26:57.241Z,https://birth-navi.mhlw.go.jp/facilities/15121
+15122,るんるん助産院,100,,46,46215,薩摩川内市,薩摩川内市平佐町,True,09050251656,True,,,0,0,1,1,postnatal,2026-09-14T13:26:57.398Z,https://birth-navi.mhlw.go.jp/facilities/15122
+15123,たけのこ助産院,100,,46,46215,薩摩川内市,薩摩川内市城上町,True,09033221670,True,,,0,0,1,1,postnatal,2026-09-14T13:26:57.221Z,https://birth-navi.mhlw.go.jp/facilities/15123
+15124,ふわり助産院,100,,46,46215,薩摩川内市,薩摩川内市平佐町,True,09049969641,True,,,0,0,1,1,postnatal,2026-09-14T13:26:57.307Z,https://birth-navi.mhlw.go.jp/facilities/15124
+15126,あいかな助産院,100,,46,46215,薩摩川内市,薩摩川内市五代町,True,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15126
+15137,在宅助産師　上野,100,,46,46223,南九州市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15137
+15138,在宅助産師　石本,100,,46,46223,南九州市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15138
+15139,在宅助産師　牛垣,100,,46,46223,南九州市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15139
+15141,壽じょさん院,100,,46,46225,姶良市,姶良市松原町,True,08042704723,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15141
+15142,出張専門助産院 Mom Tomoni,100,,46,46225,姶良市,鹿児島市,True,,False,,,0,0,0,0,none,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15142
+15144,FUFU助産院,100,,46,46392,さつま町,さつま町宮之城屋地,True,09074711360,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15144
+15146,助産師(個人),100,,46,46491,南大隅町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:26:59.205Z,https://birth-navi.mhlw.go.jp/facilities/15146
+15149,やどりぎ助産院,100,,46,46523,大和村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15149
+15150,ひさの助産院,100,,46,46524,宇検村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15150
+15151,やどりぎ助産院,100,,46,46524,宇検村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15151
+15156,太陽とお花の助産院　ランタナカマラ,100,,46,46530,徳之島町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15156
+15166,助産院ちゅら,100,,47,47205,宜野湾市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:00.506Z,https://birth-navi.mhlw.go.jp/facilities/15166
+15169,ばぁびぃ助産院,100,,47,47208,浦添市,,False,08053033503,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15169
+15175,七海助産院,100,,47,47209,名護市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15175
+15176,助産院エスフール,100,,47,47209,名護市,,False,07038013816,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15176
+15177,とっくりきわた助産院,100,,47,47209,名護市,,False,09082926519,True,,,0,0,1,1,postnatal,2026-09-14T13:30:48.648Z,https://birth-navi.mhlw.go.jp/facilities/15177
+15180,みねた助産院,100,,47,47209,名護市,沖縄市,True,08034695476,True,,,0,0,1,1,postnatal,2026-09-14T13:27:03.026Z,https://birth-navi.mhlw.go.jp/facilities/15180
+15195,だんだん助産院　～OKINAWA～,100,,47,47212,豊見城市,,False,09020151548,True,,,0,0,1,1,postnatal,2026-09-14T13:30:49.605Z,https://birth-navi.mhlw.go.jp/facilities/15195
+15204,hana助産院,100,,47,47214,宮古島市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:01.146Z,https://birth-navi.mhlw.go.jp/facilities/15204
+15206,やんばる希望が丘助産院,100,,47,47306,今帰仁村,今帰仁村,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15206
+15207,BAO助産院,100,,47,47306,今帰仁村,名護市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15207
+15208,美ら海ハシイ産婦人科,100,,47,47306,今帰仁村,名護市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15208
+15209,母子未来センター,100,,47,47306,今帰仁村,沖縄市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15209
+15210,七海助産院,100,,47,47306,今帰仁村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15210
+15211,エスフール,100,,47,47306,今帰仁村,名護市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15211
+15213,訪問型助産院KOKUA,100,,47,47308,本部町,,False,09082938733,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15213
+15214,みねた助産院,100,,47,47311,恩納村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15214
+15216,とっくりきわた助産院,100,,47,47311,恩納村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15216
+15218,七海助産院,100,,47,47311,恩納村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15218
+15224,TUKINO助産院,100,,47,47324,読谷村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15224
+15225,あかり助産院,100,,47,47324,読谷村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15225
+15227,てんぷす助産院,100,,47,47324,読谷村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15227
+15228,海の音助産院,100,,47,47324,読谷村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15228
+15229,こころ助産院,100,,47,47324,読谷村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15229
+15230,みねた助産院,100,,47,47324,読谷村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15230
+15231,KOKUA,100,,47,47324,読谷村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15231
+15234,母乳育児相談室・保健相談室　Minami,100,,47,47328,中城村,,False,09054797511,True,,,0,0,1,1,postnatal,2026-09-14T13:30:48.805Z,https://birth-navi.mhlw.go.jp/facilities/15234
+15237,助産院　ゆくぐくる,100,,47,47350,南風原町,南風原町字宮平,True,09059478172,True,,,0,0,1,1,postnatal,2026-09-14T13:27:03.606Z,https://birth-navi.mhlw.go.jp/facilities/15237
+15238,コツヨシ小児・母子訪問看護ステーション,100,,47,47350,南風原町,南風原町字津嘉山,True,0988892525,True,,,0,0,1,1,postnatal,2026-09-14T13:30:48.048Z,https://birth-navi.mhlw.go.jp/facilities/15238
+15239,ゆいは　助産院,100,,47,47350,南風原町,南風原町字宮平,True,09053876009,True,,,0,0,1,1,postnatal,2026-09-14T13:27:03.641Z,https://birth-navi.mhlw.go.jp/facilities/15239
+15240,座間味村役場,100,,47,47354,座間味村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15240
+15241,やんばる希望ヶ丘助産院,100,,47,47359,伊平屋村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15241
+15242,美ら海ハシイ産婦人科,100,,47,47359,伊平屋村,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15242
+15244,星降る森の助産院　にぬふぁぶし,100,,47,47361,久米島町,,False,09014540917,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15244
+15245,助産院 mooi,100,,6,06208,村山市,山形市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15245
+15246,子幸輝,100,,18,18205,大野市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15246
+15247,むらみや助産院,100,,18,18205,大野市,大飯郡高浜町和田,True,09016374577,True,,,0,0,1,1,postnatal,2026-09-14T13:27:52.601Z,https://birth-navi.mhlw.go.jp/facilities/15247
+15248,つちの子母乳育児相談室（出張専門）,100,,20,20361,下諏訪町,長野市上松,True,08051427659,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15248
+15249,おおくら助産院・母乳育児ミルク相談室,100,,20,20361,下諏訪町,安曇野市豊科,True,0263727816,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15249
+15250,助産院laugh（らふ）,100,,20,20361,下諏訪町,松本市大村,True,09067714839,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15250
+15251,助産院   おん相談室,100,,20,20361,下諏訪町,松本市大手,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15251
+15252,助産院スピカ,100,,20,20361,下諏訪町,松本市村井町,True,09079008082,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15252
+15253,めばえ助産院,100,,20,20361,下諏訪町,松本市岡田松岡,True,09024793199,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15253
+15254,さくらこ助産所,100,,20,20361,下諏訪町,伊那市西町,True,08051428157,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15254
+15255,マルメロ育児支援室,100,,20,20361,下諏訪町,上伊那郡宮田村駒ヶ原,True,08093029407,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15255
+15256,バースコンダクター楽育 （らくいく）,100,,20,20361,下諏訪町,飯田市三日市場,True,09083297466,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15256
+15258,もなみ助産所,100,,24,24207,鈴鹿市,津市,True,09070454383,True,,,0,0,1,1,postnatal,2026-09-14T13:19:22.445Z,https://birth-navi.mhlw.go.jp/facilities/15258
+15260,あおい助産所,100,,25,25201,大津市,,False,08038291223,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15260
+15266,松村母乳相談室,100,,25,25201,大津市,滋賀県近江八幡市馬淵町,True,09088262011,True,,,0,0,1,1,postnatal,2026-09-14T13:28:10.199Z,https://birth-navi.mhlw.go.jp/facilities/15266
+15277,てらもと助産院,100,,25,25201,大津市,,False,09091664305,True,,,0,0,1,1,postnatal,2026-09-14T13:28:09.306Z,https://birth-navi.mhlw.go.jp/facilities/15277
+15278,出張専門あつみ助産院,100,,25,25201,大津市,,False,09078734830,True,,,0,0,1,1,postnatal,2026-09-14T13:28:09.326Z,https://birth-navi.mhlw.go.jp/facilities/15278
+15280,あそびと助産院,100,,25,25201,大津市,,False,08038693091,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15280
+15282,助産院そらいろ,100,,25,25201,大津市,,False,09078738483,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15282
+15286,つつみ助産院,100,,25,25201,大津市,,False,09065064959,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15286
+15292,和心助産院,100,,25,25201,大津市,,False,09074808656,True,,,0,0,1,1,postnatal,2026-09-14T13:28:09.904Z,https://birth-navi.mhlw.go.jp/facilities/15292
+15296,うみのこ助産師院,100,,25,25201,大津市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15296
+15298,助産院more.,100,,25,25201,大津市,,False,09032111135,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15298
+15301,めばえ母乳相談室　熊谷敏子,100,,28,28201,姫路市,,False,08053630815,True,,,0,0,1,1,postnatal,2026-09-14T13:23:21.427Z,https://birth-navi.mhlw.go.jp/facilities/15301
+15305,にこ助産院,100,,28,28201,姫路市,,False,09092165755,True,,,0,0,1,1,postnatal,2026-09-14T13:24:15.599Z,https://birth-navi.mhlw.go.jp/facilities/15305
+15306,田村母乳育児相談所,100,,28,28201,姫路市,,False,09082023628,True,,,0,0,1,1,postnatal,2026-09-14T13:24:16.800Z,https://birth-navi.mhlw.go.jp/facilities/15306
+15308,マイ助産院,100,,28,28201,姫路市,,False,09018738365,True,,,0,0,1,1,postnatal,2026-09-14T13:28:18.215Z,https://birth-navi.mhlw.go.jp/facilities/15308
+15309,たけのこ助産院,100,,28,28201,姫路市,,False,09072501255,True,,,0,0,1,1,postnatal,2026-09-14T13:28:18.922Z,https://birth-navi.mhlw.go.jp/facilities/15309
+15310,訪問助産院みこと,100,,28,28201,姫路市,,False,07023951760,True,,,0,0,1,1,postnatal,2026-09-14T13:28:19.423Z,https://birth-navi.mhlw.go.jp/facilities/15310
+15311,助産院すぷらうと,100,,28,28201,姫路市,,False,07021767625,True,,,0,0,1,1,postnatal,2026-09-14T13:28:21.945Z,https://birth-navi.mhlw.go.jp/facilities/15311
+15312,旅するよしみ助産院,100,,28,28201,姫路市,,False,08061845874,True,,,0,0,1,1,postnatal,2026-09-14T13:28:23.043Z,https://birth-navi.mhlw.go.jp/facilities/15312
+15315,郷原　寛子（出張助産業務届出者）,100,,28,28201,姫路市,,False,08061678573,True,,,0,0,1,1,postnatal,2026-09-14T13:23:09.215Z,https://birth-navi.mhlw.go.jp/facilities/15315
+15316,坂田助産院,100,,28,28201,姫路市,,False,0648699104,True,,,0,0,1,1,postnatal,2026-09-14T13:28:22.005Z,https://birth-navi.mhlw.go.jp/facilities/15316
+15319,産屋助産所　加須屋淳江,100,,28,28201,姫路市,,False,09095432748,True,,,0,0,1,1,postnatal,2026-09-14T13:23:21.522Z,https://birth-navi.mhlw.go.jp/facilities/15319
+15320,出張助産師　宮村　教子,100,,28,28201,姫路市,,False,08058527863,True,,,0,0,1,1,postnatal,2026-09-14T13:23:20.601Z,https://birth-navi.mhlw.go.jp/facilities/15320
+15325,宝塚市助産師会,100,,28,28201,姫路市,,False,09047667789,True,,,0,0,1,1,postnatal,2026-09-14T13:23:49.318Z,https://birth-navi.mhlw.go.jp/facilities/15325
+15328,にのみや助産所（伊丹市助産師会）,100,,28,28201,姫路市,,False,07056603421,True,,,0,0,1,1,postnatal,2026-09-14T13:23:26.640Z,https://birth-navi.mhlw.go.jp/facilities/15328
+15329,よしざわ助産院（伊丹市助産師会）,100,,28,28201,姫路市,,False,09066741910,True,,,0,0,1,1,postnatal,2026-09-14T13:23:25.626Z,https://birth-navi.mhlw.go.jp/facilities/15329
+15330,川西市川辺助産師会（岡田助産院）,100,,28,28201,姫路市,,False,09092578586,True,,,0,0,1,1,postnatal,2026-09-14T13:24:57.707Z,https://birth-navi.mhlw.go.jp/facilities/15330
+15331,よう助産院（伊丹市助産師会所属）,100,,28,28201,姫路市,,False,08058299439,True,,,0,0,1,1,postnatal,2026-09-14T13:23:27.423Z,https://birth-navi.mhlw.go.jp/facilities/15331
+15333,中野　純子,100,,28,28201,姫路市,,False,09096920283,True,,,0,0,1,1,postnatal,2026-09-14T13:28:18.299Z,https://birth-navi.mhlw.go.jp/facilities/15333
+15334,佐野　藍,100,,28,28201,姫路市,,False,09049018368,True,,,0,0,1,1,postnatal,2026-09-14T13:23:36.817Z,https://birth-navi.mhlw.go.jp/facilities/15334
+15336,まむの木助産院,100,,28,28201,姫路市,,False,09038436024,True,,,0,0,1,1,postnatal,2026-09-14T13:25:12.903Z,https://birth-navi.mhlw.go.jp/facilities/15336
+15337,りんく助産院,100,,28,28201,姫路市,,False,09096904878,True,,,0,0,1,1,postnatal,2026-09-14T13:25:13.838Z,https://birth-navi.mhlw.go.jp/facilities/15337
+15338,ちーこ助産院,100,,28,28201,姫路市,,False,09096963150,True,,,0,0,1,1,postnatal,2026-09-14T13:28:47.602Z,https://birth-navi.mhlw.go.jp/facilities/15338
+15340,こはる助産所（訪問専門）,100,,28,28201,姫路市,,False,09095138100,True,,,0,0,1,1,postnatal,2026-09-14T13:24:47.702Z,https://birth-navi.mhlw.go.jp/facilities/15340
+15342,母と子の相談室 たなか,100,,28,28201,姫路市,,False,08014715059,True,,,0,0,1,1,postnatal,2026-09-14T13:24:47.720Z,https://birth-navi.mhlw.go.jp/facilities/15342
+15344,繁栄助産院,100,,28,28201,姫路市,,False,09036739575,True,,,0,0,1,1,postnatal,2026-09-14T13:28:47.622Z,https://birth-navi.mhlw.go.jp/facilities/15344
+15346,くろいし助産院,100,,28,28201,姫路市,,False,08018972623,True,,,0,0,1,1,postnatal,2026-09-14T13:25:27.902Z,https://birth-navi.mhlw.go.jp/facilities/15346
+15347,さいとう助産院,100,,28,28201,姫路市,,False,09056455152,True,,,0,0,1,1,postnatal,2026-09-14T13:25:26.732Z,https://birth-navi.mhlw.go.jp/facilities/15347
+15348,出張専門助産師　天野,100,,28,28201,姫路市,,False,0792451793,True,,,0,0,1,1,postnatal,2026-09-14T13:23:05.732Z,https://birth-navi.mhlw.go.jp/facilities/15348
+15349,だっこ助産院,100,,28,28201,姫路市,,False,08052317018,True,,,0,0,1,1,postnatal,2026-09-14T13:25:26.806Z,https://birth-navi.mhlw.go.jp/facilities/15349
+15350,育み助産院,100,,28,28201,姫路市,,False,07010661657,True,,,0,0,1,1,postnatal,2026-09-14T13:23:04.740Z,https://birth-navi.mhlw.go.jp/facilities/15350
+15351,はせがわ助産院,100,,28,28201,姫路市,,False,09087611274,True,,,0,0,1,1,postnatal,2026-09-14T13:28:47.300Z,https://birth-navi.mhlw.go.jp/facilities/15351
+15354,よりみち助産院,100,,28,28201,姫路市,,False,08031354258,True,,,0,0,1,1,postnatal,2026-09-14T13:28:47.643Z,https://birth-navi.mhlw.go.jp/facilities/15354
+15355,おおつか助産院,100,,28,28201,姫路市,,False,09082070501,True,,,0,0,1,1,postnatal,2026-09-14T13:28:46.817Z,https://birth-navi.mhlw.go.jp/facilities/15355
+15357,訪問出張みんまる助産院,100,,28,28201,姫路市,,False,07044851050,True,,,0,0,1,1,postnatal,2026-09-14T13:25:27.511Z,https://birth-navi.mhlw.go.jp/facilities/15357
+15358,やぎ助産院,100,,28,28201,姫路市,,False,0790752795,True,,,0,0,1,1,postnatal,2026-09-14T13:25:36.625Z,https://birth-navi.mhlw.go.jp/facilities/15358
+15362,Koa（コア）助産院　森岡亜希子,100,,28,28201,姫路市,,False,08061338045,True,,,0,0,1,1,postnatal,2026-09-14T13:25:04.606Z,https://birth-navi.mhlw.go.jp/facilities/15362
+15366,ゆい助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15366
+15367,MY助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15367
+15368,夕陽ヶ丘助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15368
+15369,助産院　よりと,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15369
+15370,ポポラス助産所,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15370
+15371,いづみ助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15371
+15372,くぬぎ助産所,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15372
+15373,シャローム助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15373
+15374,Hara助産所,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15374
+15375,助産院マミィケアひだまり,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15375
+15376,虹いろ助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15376
+15377,ひなた助産所　おしごめ,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15377
+15378,羽原助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15378
+15379,Hana母乳育児相談,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15379
+15380,うさぎ助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15380
+15381,まる屋助産院,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15381
+15382,助産院はぐ,100,,34,34205,尾道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15382
+15383,厚仁病院,100,,37,37208,三豊市,丸亀市,True,0877232311,True,,,0,0,1,1,postnatal,2026-09-14T13:29:25.822Z,https://birth-navi.mhlw.go.jp/facilities/15383
+15384,回生病院,100,,37,37208,三豊市,坂出市,True,0877456410,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15384
+15385,西岡医院,100,,37,37208,三豊市,高松市,True,0878852021,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15385
+15386,屋島総合病院,100,,37,37208,三豊市,高松市,True,0878419141,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15386
+15387,もものはな助産院,100,,37,37208,三豊市,高松市,True,07090411771,True,,,0,0,1,1,postnatal,2026-09-14T13:29:26.248Z,https://birth-navi.mhlw.go.jp/facilities/15387
+15388,キャサリン助産院444,100,,39,39201,高知市,高知市知寄町,True,09082819165,True,,,0,0,1,1,postnatal,2026-09-14T13:19:59.318Z,https://birth-navi.mhlw.go.jp/facilities/15388
+15389,助産師　伊與木朝世,100,,39,39201,高知市,,False,09075455813,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15389
+15390,竹﨑助産院,100,,39,39201,高知市,,False,09077823661,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15390
+15391,助産院ことら,100,,39,39201,高知市,高知市宇津野,True,09071429644,True,,,0,0,1,1,postnatal,2026-09-14T13:19:59.305Z,https://birth-navi.mhlw.go.jp/facilities/15391
+15392,出張助産院にこ,100,,39,39201,高知市,,False,09068811415,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15392
+15393,助産師　上田福順,100,,39,39201,高知市,,False,08025961598,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15393
+15394,助産師　五島聡子,100,,39,39201,高知市,,False,09049716637,True,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15394
+15395,このは助産院,100,,39,39205,土佐市,高知市一宮東町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15395
+15396,助産院asa,100,,39,39205,土佐市,南国市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15396
+15397,このは助産院,100,,39,39386,いの町,高知市一宮東町,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15397
+15398,助産院asa,100,,39,39386,いの町,南国市,True,,False,,,0,0,1,1,postnatal,2026-09-14T12:56:53.041Z,https://birth-navi.mhlw.go.jp/facilities/15398
+15419,たんぽぽ助産院,100,,4,04100,仙台市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:06.821Z,https://birth-navi.mhlw.go.jp/facilities/15419
+15424,ゆらティス 　佐藤　奈穂子,100,,6,06202,米沢市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:08.302Z,https://birth-navi.mhlw.go.jp/facilities/15424
+15425,産前産後ケアハウス　Dear　Diary,100,,6,06204,酒田市,,False,09040904308,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15425
+15432,産後ケアハウスさい(福島県助産師会と委託契約),100,,7,07208,喜多方市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:28.819Z,https://birth-navi.mhlw.go.jp/facilities/15432
+15438,ひよこ助産院,100,,8,08210,下妻市,つくば市竹園,True,08054803114,True,,,0,0,1,1,postnatal,2026-09-14T13:27:30.421Z,https://birth-navi.mhlw.go.jp/facilities/15438
+15440,へそのお助産院,100,,8,08227,筑西市,,False,08039301607,True,,,0,0,1,1,postnatal,2026-09-14T13:27:30.902Z,https://birth-navi.mhlw.go.jp/facilities/15440
+15441,Blue one,100,,8,08442,美浦村,,False,,False,,,0,0,1,1,postnatal,2026-09-17T09:08:42.564Z,https://birth-navi.mhlw.go.jp/facilities/15441
+15444,Cara Familia,100,,9,09301,上三川町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:32.016Z,https://birth-navi.mhlw.go.jp/facilities/15444
+15452,つばめ助産院,100,,10,10524,大泉町,,False,09049382145,True,,,0,0,1,1,postnatal,2026-09-14T13:27:33.306Z,https://birth-navi.mhlw.go.jp/facilities/15452
+15456,高野母乳育児相談室,100,,11,11208,所沢市,,False,09039171563,True,,,0,0,1,1,postnatal,2026-09-14T13:27:33.928Z,https://birth-navi.mhlw.go.jp/facilities/15456
+15457,池田幸枝,100,,11,11231,桶川市,,False,09017765653,True,,,0,0,1,1,postnatal,2026-09-14T13:27:34.896Z,https://birth-navi.mhlw.go.jp/facilities/15457
+15458,長井敦子,100,,11,11231,桶川市,,False,09047389694,True,,,0,0,1,1,postnatal,2026-09-14T13:27:34.917Z,https://birth-navi.mhlw.go.jp/facilities/15458
+15461,やまぐち助産所,100,,11,11237,三郷市,,False,09072221886,True,,,0,0,1,1,postnatal,2026-09-14T13:27:35.131Z,https://birth-navi.mhlw.go.jp/facilities/15461
+15462,あいあいバース,100,,11,11237,三郷市,,False,09072782737,True,,,0,0,1,1,postnatal,2026-09-14T13:27:35.200Z,https://birth-navi.mhlw.go.jp/facilities/15462
+15463,久富助産院,100,,11,11237,三郷市,,False,09023182693,True,,,0,0,1,1,postnatal,2026-09-14T13:27:35.221Z,https://birth-navi.mhlw.go.jp/facilities/15463
+15466,鎌ヶ谷バースクリニック附属　助産院　THE CARE,100,,12,12204,船橋市,鎌ヶ谷市,True,0474465099,True,,,0,0,1,1,postnatal,2026-09-14T13:27:38.505Z,https://birth-navi.mhlw.go.jp/facilities/15466
+15467,助産院cocoro（出張専門）,100,,12,12210,茂原市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:38.736Z,https://birth-navi.mhlw.go.jp/facilities/15467
+15475,にじいろ助産院,100,,12,12228,四街道市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:38.058Z,https://birth-navi.mhlw.go.jp/facilities/15475
+15476,つむなぎ助産院,100,,12,12228,四街道市,四街道市和良比,True,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:38.105Z,https://birth-navi.mhlw.go.jp/facilities/15476
+15477,ねっこ助産院,100,,12,12231,印西市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:38.126Z,https://birth-navi.mhlw.go.jp/facilities/15477
+15487,せと助産院（瀬戸）,100,,13,13107,墨田区,,False,08050374354,True,,,0,0,1,1,postnatal,2026-09-14T13:27:40.819Z,https://birth-navi.mhlw.go.jp/facilities/15487
+15488,真智湖助産院（佐藤）,100,,13,13107,墨田区,,False,08050145691,True,,,0,0,1,1,postnatal,2026-09-14T13:27:40.899Z,https://birth-navi.mhlw.go.jp/facilities/15488
+15489,さくら助産所（菊池）,100,,13,13107,墨田区,,False,09060425676,True,,,0,0,1,1,postnatal,2026-09-14T13:27:40.921Z,https://birth-navi.mhlw.go.jp/facilities/15489
+15490,湯浅,100,,13,13107,墨田区,,False,09058057405,True,,,0,0,1,1,postnatal,2026-09-14T13:27:41.006Z,https://birth-navi.mhlw.go.jp/facilities/15490
+15491,助産院なないろ（新井）,100,,13,13107,墨田区,,False,08050884182,True,,,0,0,1,1,postnatal,2026-09-14T13:27:41.099Z,https://birth-navi.mhlw.go.jp/facilities/15491
+15492,兵頭,100,,13,13107,墨田区,,False,09078788210,True,,,0,0,1,1,postnatal,2026-09-14T13:27:41.124Z,https://birth-navi.mhlw.go.jp/facilities/15492
+15493,時任,100,,13,13107,墨田区,,False,09055945563,True,,,0,0,1,1,postnatal,2026-09-14T13:27:41.146Z,https://birth-navi.mhlw.go.jp/facilities/15493
+15494,はるの星助産院,100,,13,13113,渋谷区,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15494
+15500,青木,100,,13,13201,八王子市,,False,0426976853,True,,,0,0,1,1,postnatal,2026-09-14T13:27:43.102Z,https://birth-navi.mhlw.go.jp/facilities/15500
+15501,青島,100,,13,13201,八王子市,,False,07045430820,True,,,0,0,1,1,postnatal,2026-09-14T13:27:43.123Z,https://birth-navi.mhlw.go.jp/facilities/15501
+15502,小井戸,100,,13,13201,八王子市,,False,09066582468,True,,,0,0,1,1,postnatal,2026-09-14T13:27:43.143Z,https://birth-navi.mhlw.go.jp/facilities/15502
+15503,新庄,100,,13,13201,八王子市,,False,09080559350,True,,,0,0,1,1,postnatal,2026-09-14T13:27:43.326Z,https://birth-navi.mhlw.go.jp/facilities/15503
+15506,くるり訪問看護ステーション,100,,13,13227,羽村市,,False,05036446998,True,,,0,0,1,1,postnatal,2026-09-14T13:27:44.406Z,https://birth-navi.mhlw.go.jp/facilities/15506
+15507,訪問助産師　羽嶋　美千子,100,,13,13227,羽村市,,False,09047089969,True,,,0,0,1,1,postnatal,2026-09-14T13:27:44.426Z,https://birth-navi.mhlw.go.jp/facilities/15507
+15520,川崎市助産師会協力助産所（はせがわ母子相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.645Z,https://birth-navi.mhlw.go.jp/facilities/15520
+15521,川崎市助産師会協力助産所（諏訪母乳相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.712Z,https://birth-navi.mhlw.go.jp/facilities/15521
+15522,川崎市助産師会協力助産所（ミチコ母乳育児相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.735Z,https://birth-navi.mhlw.go.jp/facilities/15522
+15523,川崎市助産師会協力助産所（ベビママケアsorcier）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.799Z,https://birth-navi.mhlw.go.jp/facilities/15523
+15524,川崎市助産師会協力助産所（はなさき母乳育児相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.821Z,https://birth-navi.mhlw.go.jp/facilities/15524
+15525,川崎市助産師会協力助産所（ナチュラル母乳育児相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.842Z,https://birth-navi.mhlw.go.jp/facilities/15525
+15526,川崎市助産師会協力助産所（ひまわり母乳育児相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.906Z,https://birth-navi.mhlw.go.jp/facilities/15526
+15527,川崎市助産師会協力助産所（うきたま助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:45.927Z,https://birth-navi.mhlw.go.jp/facilities/15527
+15528,川崎市助産師会協力助産所（助産院POLEPOLE）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.001Z,https://birth-navi.mhlw.go.jp/facilities/15528
+15529,川崎市助産師会協力助産所(Women's Care Mum),100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.030Z,https://birth-navi.mhlw.go.jp/facilities/15529
+15530,川崎市助産師会協力助産所（にこにこ助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.051Z,https://birth-navi.mhlw.go.jp/facilities/15530
+15531,川崎市助産師会協力助産所（桶谷式まりも母乳育児相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.111Z,https://birth-navi.mhlw.go.jp/facilities/15531
+15532,川崎市助産師会協力助産所（てまりの助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.132Z,https://birth-navi.mhlw.go.jp/facilities/15532
+15533,川崎市助産師会協力助産所（有吉助産所）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.204Z,https://birth-navi.mhlw.go.jp/facilities/15533
+15534,川崎市助産師会協力助産所（助産師　水野尚子）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.225Z,https://birth-navi.mhlw.go.jp/facilities/15534
+15535,川崎市助産師会協力助産所（川崎・横浜妊娠産後子育て支援助産師　YourMidwifeブラウンみゆき）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.248Z,https://birth-navi.mhlw.go.jp/facilities/15535
+15536,川崎市助産師会協力助産所（つるまる助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.319Z,https://birth-navi.mhlw.go.jp/facilities/15536
+15537,川崎市助産師会協力助産所（ははとも助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.342Z,https://birth-navi.mhlw.go.jp/facilities/15537
+15538,川崎市助産師会協力助産所（母乳育児相談Babys・アイ）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.404Z,https://birth-navi.mhlw.go.jp/facilities/15538
+15539,川崎市助産師会協力助産所（助産師　手老よしの）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.428Z,https://birth-navi.mhlw.go.jp/facilities/15539
+15540,川崎市助産師会協力助産所（助産院Anto）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.506Z,https://birth-navi.mhlw.go.jp/facilities/15540
+15541,川崎市助産師会協力助産所（助産院となりにそっと）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.530Z,https://birth-navi.mhlw.go.jp/facilities/15541
+15542,川崎市助産師会協力助産所（ull助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.550Z,https://birth-navi.mhlw.go.jp/facilities/15542
+15543,川崎市助産師会協力助産所（みこたま助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.617Z,https://birth-navi.mhlw.go.jp/facilities/15543
+15544,川崎市助産師会協力助産所（なかしま助産院）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.638Z,https://birth-navi.mhlw.go.jp/facilities/15544
+15545,川崎市助産師会協力助産所（えごころ母子相談室）,100,,14,14130,川崎市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:46.704Z,https://birth-navi.mhlw.go.jp/facilities/15545
+15546,出張専門助産師　萩原美穂,100,,14,14150,相模原市,,False,08050238298,True,,,0,0,1,1,postnatal,2026-09-14T13:27:46.796Z,https://birth-navi.mhlw.go.jp/facilities/15546
+15547,ＮＡＧＩ＋,100,,14,14201,横須賀市,,False,09046945708,True,,,0,0,1,1,postnatal,2026-09-14T13:27:46.841Z,https://birth-navi.mhlw.go.jp/facilities/15547
+15549,逗子母乳育児相談室,100,,14,14208,逗子市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15549
+15551,訪問助産院komorebi,100,,15,15100,新潟市,,False,08020265232,True,,,0,0,1,1,postnatal,2026-09-14T13:27:48.728Z,https://birth-navi.mhlw.go.jp/facilities/15551
+15553,助産院　灯,100,,15,15100,新潟市,,False,09079417093,True,,,0,0,1,1,postnatal,2026-09-14T13:27:48.827Z,https://birth-navi.mhlw.go.jp/facilities/15553
+15554,sunny　spot,100,,15,15100,新潟市,,False,08054583490,True,,,0,0,1,1,postnatal,2026-09-14T13:27:48.847Z,https://birth-navi.mhlw.go.jp/facilities/15554
+15555,助産院　ほとり,100,,15,15100,新潟市,新潟市中央区東出来島,True,07091161229,True,,,0,0,1,1,postnatal,2026-09-14T13:27:48.913Z,https://birth-navi.mhlw.go.jp/facilities/15555
+15566,つき助産院,100,,16,16201,富山市,,False,08086965193,True,,,0,0,1,1,postnatal,2026-09-14T13:27:50.328Z,https://birth-navi.mhlw.go.jp/facilities/15566
+15568,ナナサン助産院,100,,16,16201,富山市,,False,09028320733,True,,,0,0,1,1,postnatal,2026-09-14T13:27:50.418Z,https://birth-navi.mhlw.go.jp/facilities/15568
+15569,ゆうき助産院,100,,16,16201,富山市,,False,09037652792,True,,,0,0,1,1,postnatal,2026-09-14T13:27:50.440Z,https://birth-navi.mhlw.go.jp/facilities/15569
+15571,助産院with,100,,16,16210,南砺市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:50.717Z,https://birth-navi.mhlw.go.jp/facilities/15571
+15578,助産院　ママのひととき,100,,21,21220,下呂市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:53.926Z,https://birth-navi.mhlw.go.jp/facilities/15578
+15579,出張助産院　はれ,100,,21,21220,下呂市,,False,09041181769,True,,,0,0,1,1,postnatal,2026-09-14T13:27:53.998Z,https://birth-navi.mhlw.go.jp/facilities/15579
+15584,マルル助産院,100,,22,22130,浜松市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:55.105Z,https://birth-navi.mhlw.go.jp/facilities/15584
+15585,ルツ助産院,100,,22,22130,浜松市,,False,09099383931,True,,,0,0,1,1,postnatal,2026-09-14T13:27:55.125Z,https://birth-navi.mhlw.go.jp/facilities/15585
+15586,助産院　凛灯,100,,22,22130,浜松市,,False,09035877367,True,,,0,0,1,1,postnatal,2026-09-14T13:27:55.147Z,https://birth-navi.mhlw.go.jp/facilities/15586
+15590,Link Care-助産院-,100,,22,22341,清水町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:56.946Z,https://birth-navi.mhlw.go.jp/facilities/15590
+15591,出張専門　ひらた助産院（ひらたゆきみ）,100,,23,23100,名古屋市,,False,09012310914,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.307Z,https://birth-navi.mhlw.go.jp/facilities/15591
+15592,ななほしクリニック,100,,23,23100,名古屋市,,False,0529147277,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.330Z,https://birth-navi.mhlw.go.jp/facilities/15592
+15594,出張専門助産師　長谷初実,100,,23,23100,名古屋市,,False,09056281032,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.419Z,https://birth-navi.mhlw.go.jp/facilities/15594
+15595,ママ・スイートN,100,,23,23100,名古屋市,,False,09054533180,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.441Z,https://birth-navi.mhlw.go.jp/facilities/15595
+15596,より助産院,100,,23,23100,名古屋市,,False,08069253433,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.507Z,https://birth-navi.mhlw.go.jp/facilities/15596
+15597,あゆみ助産院,100,,23,23100,名古屋市,,False,09080748120,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.550Z,https://birth-navi.mhlw.go.jp/facilities/15597
+15598,愛育母乳育児相談室,100,,23,23100,名古屋市,,False,0528936587,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.615Z,https://birth-navi.mhlw.go.jp/facilities/15598
+15599,とうごう助産院　神の倉,100,,23,23100,名古屋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:57.636Z,https://birth-navi.mhlw.go.jp/facilities/15599
+15600,助産院ひこばえ,100,,23,23100,名古屋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:28:01.021Z,https://birth-navi.mhlw.go.jp/facilities/15600
+15601,シャンティ助産院,100,,23,23100,名古屋市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:57.725Z,https://birth-navi.mhlw.go.jp/facilities/15601
+15602,出張専門アンナ助産所,100,,23,23100,名古屋市,,False,07083451437,True,,,0,0,1,1,postnatal,2026-09-14T13:27:57.746Z,https://birth-navi.mhlw.go.jp/facilities/15602
+15605,出張助産院ゆいま～る,100,,23,23203,一宮市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:27:58.336Z,https://birth-navi.mhlw.go.jp/facilities/15605
+15607,出張専門助産院OHANA,100,,23,23203,一宮市,,False,09097477821,True,,,0,0,1,1,postnatal,2026-09-14T13:27:58.424Z,https://birth-navi.mhlw.go.jp/facilities/15607
+15611,助産院ao,100,,23,23211,豊田市,,False,07085795870,True,,,0,0,1,1,postnatal,2026-09-14T13:28:00.397Z,https://birth-navi.mhlw.go.jp/facilities/15611
+15612,助産院ぬくぬく,100,,23,23211,豊田市,,False,09017499047,True,,,0,0,1,1,postnatal,2026-09-14T13:28:00.448Z,https://birth-navi.mhlw.go.jp/facilities/15612
+15618,出張専門助産院　はるのひ,100,,23,23501,幸田町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:28:03.302Z,https://birth-navi.mhlw.go.jp/facilities/15618
+15623,助産所　お日さま,100,,24,24202,四日市市,四日市市西山町,True,09073048425,True,,,0,0,1,1,postnatal,2026-09-14T13:28:04.517Z,https://birth-navi.mhlw.go.jp/facilities/15623
+15624,訪問助産師保育士　でことぼこ,100,,25,25201,大津市,大津市,True,09054679268,True,,,0,0,1,1,postnatal,2026-09-14T13:28:10.825Z,https://birth-navi.mhlw.go.jp/facilities/15624
+15634,小林助産院　Fureru,100,,27,27366,岬町,,False,09014493157,True,,,0,0,1,1,postnatal,2026-09-14T13:28:12.201Z,https://birth-navi.mhlw.go.jp/facilities/15634
+15638,みもざ助産院,100,,28,28201,姫路市,,False,09051399781,True,,,0,0,1,1,postnatal,2026-09-14T13:28:13.799Z,https://birth-navi.mhlw.go.jp/facilities/15638
+15646,チチカ助産所,100,,28,28201,姫路市,,False,08014861823,True,,,0,0,1,1,postnatal,2026-09-14T13:28:50.133Z,https://birth-navi.mhlw.go.jp/facilities/15646
+15647,いっぽ助産院,100,,28,28201,姫路市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:28:50.198Z,https://birth-navi.mhlw.go.jp/facilities/15647
+15648,あゆみ助産院,100,,28,28201,姫路市,,False,09065571082,True,,,0,0,1,1,postnatal,2026-09-14T13:28:51.542Z,https://birth-navi.mhlw.go.jp/facilities/15648
+15651,Amina（あみーな）助産院,100,,28,28204,西宮市,,False,09081494380,True,,,0,0,1,1,postnatal,2026-09-14T13:28:24.824Z,https://birth-navi.mhlw.go.jp/facilities/15651
+15652,いりさ母乳育児相談室,100,,28,28204,西宮市,,False,09063291495,True,,,0,0,1,1,postnatal,2026-09-14T13:28:23.518Z,https://birth-navi.mhlw.go.jp/facilities/15652
+15653,栗林 瞳,100,,28,28204,西宮市,,False,09051520104,True,,,0,0,1,1,postnatal,2026-09-14T13:28:23.542Z,https://birth-navi.mhlw.go.jp/facilities/15653
+15654,出張開業助産師　森田輝,100,,28,28204,西宮市,,False,09058953848,True,,,0,0,1,1,postnatal,2026-09-14T13:28:23.607Z,https://birth-navi.mhlw.go.jp/facilities/15654
+15655,なつレディースクリニック,100,,28,28204,西宮市,,False,0798785502,True,,,0,0,1,1,postnatal,2026-09-14T13:28:23.627Z,https://birth-navi.mhlw.go.jp/facilities/15655
+15656,母乳育児相談所なるさか,100,,28,28204,西宮市,,False,09087576115,True,,,0,0,1,1,postnatal,2026-09-14T13:28:23.696Z,https://birth-navi.mhlw.go.jp/facilities/15656
+15657,mimi助産院,100,,28,28209,豊岡市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:28:26.743Z,https://birth-navi.mhlw.go.jp/facilities/15657
+15658,進藤ファミリークリニック,100,,28,28229,たつの市,,False,0791631114,True,,,0,0,1,1,postnatal,2026-09-14T13:28:41.204Z,https://birth-navi.mhlw.go.jp/facilities/15658
+15662,ベビママサポート　nesté,100,,30,30201,和歌山市,,False,09025941159,True,,,0,0,1,1,postnatal,2026-09-14T13:29:15.699Z,https://birth-navi.mhlw.go.jp/facilities/15662
+15669,助産院カシェット,100,,34,34202,呉市,,False,07083092171,True,,,0,0,1,1,postnatal,2026-09-14T13:29:17.406Z,https://birth-navi.mhlw.go.jp/facilities/15669
+15670,Risa助産院,100,,34,34202,呉市,,False,07085680893,True,,,0,0,1,1,postnatal,2026-09-14T13:29:17.426Z,https://birth-navi.mhlw.go.jp/facilities/15670
+15674,くじら助産院　母乳育児相談室,100,,34,34212,東広島市,東広島市西条町,True,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:17.706Z,https://birth-navi.mhlw.go.jp/facilities/15674
+15675,柳谷助産院,100,,34,34212,東広島市,東広島市西条町,True,09041019418,True,,,0,0,1,1,postnatal,2026-09-14T13:29:17.797Z,https://birth-navi.mhlw.go.jp/facilities/15675
+15676,ゆら助産院,100,,34,34212,東広島市,東広島市八本松町,True,07056023835,True,,,0,0,1,1,postnatal,2026-09-14T13:29:17.819Z,https://birth-navi.mhlw.go.jp/facilities/15676
+15677,助産院はぐ,100,,34,34212,東広島市,東広島市高屋町,True,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:17.905Z,https://birth-navi.mhlw.go.jp/facilities/15677
+15678,よこやま産婦人科,100,,34,34212,東広島市,東広島市高屋町,True,0824347777,True,,,0,0,1,1,postnatal,2026-09-14T13:29:17.926Z,https://birth-navi.mhlw.go.jp/facilities/15678
+15680,ひとみさん家の助産院,100,,35,35207,下松市,,False,,False,,,0,0,1,1,postnatal,2026-10-01T07:02:49.907Z,https://birth-navi.mhlw.go.jp/facilities/15680
+15683,助産所　晴の灯,100,,35,35212,柳井市,柳井市遠崎,True,08063239252,True,,,0,0,1,1,postnatal,2026-10-01T07:02:49.692Z,https://birth-navi.mhlw.go.jp/facilities/15683
+15684,助産院 SeaSky,100,,35,35212,柳井市,光市浅江,True,07023672675,True,,,0,0,1,1,postnatal,2026-10-01T07:02:49.890Z,https://birth-navi.mhlw.go.jp/facilities/15684
+15685,もうり助産院,100,,35,35321,和木町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:19.344Z,https://birth-navi.mhlw.go.jp/facilities/15685
+15692,OHANA　山下助産院,100,,36,36489,東みよし町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:23.446Z,https://birth-navi.mhlw.go.jp/facilities/15692
+15693,出張専門助産院／結の香,100,,37,37201,高松市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15693
+15694,マミーズケア＆サポート城下,100,,37,37201,高松市,,False,08029922255,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15694
+15695,実（みのり）助産院　牟禮実里,100,,37,37201,高松市,,False,09094502103,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15695
+15696,梨ん助産院　池田梨江,100,,37,37201,高松市,高松市,True,08060211713,True,,,0,0,1,1,postnatal,2026-09-14T13:29:23.805Z,https://birth-navi.mhlw.go.jp/facilities/15696
+15697,横井母乳育児相談室,100,,37,37201,高松市,,False,08040389338,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15697
+15698,めぐみ助産院,100,,37,37201,高松市,高松市林町,True,09052625494,True,,,0,0,1,1,postnatal,2026-09-14T13:29:23.899Z,https://birth-navi.mhlw.go.jp/facilities/15698
+15699,和田　トミヱ,100,,37,37201,高松市,,False,09038470303,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15699
+15700,大島　嘉子,100,,37,37201,高松市,高松市牟礼町,True,09047848893,True,,,0,0,1,1,postnatal,2026-09-14T13:29:23.939Z,https://birth-navi.mhlw.go.jp/facilities/15700
+15705,きのした助産院,100,,38,38215,東温市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:26.908Z,https://birth-navi.mhlw.go.jp/facilities/15705
+15706,ゆいた助産院,100,,38,38215,東温市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:27.000Z,https://birth-navi.mhlw.go.jp/facilities/15706
+15707,助産院emi,100,,38,38215,東温市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:27.022Z,https://birth-navi.mhlw.go.jp/facilities/15707
+15708,はなおか助産院,100,,38,38215,東温市,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:27.107Z,https://birth-navi.mhlw.go.jp/facilities/15708
+15715,マタニティサポート　わかつき,100,,39,39402,佐川町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:27.903Z,https://birth-navi.mhlw.go.jp/facilities/15715
+15717,産前産後ケアステーションにこり,100,,40,40100,北九州市,,False,0932825810,True,,,0,0,1,1,postnatal,2026-10-01T16:04:42.000Z,https://birth-navi.mhlw.go.jp/facilities/15717
+15718,訪問助産院はるなの,100,,40,40100,北九州市,北九州市八幡西区,True,08055842138,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.013Z,https://birth-navi.mhlw.go.jp/facilities/15718
+15720,福岡県助産師会,100,,40,40210,八女市,,False,0925212025,True,,,0,0,1,1,postnatal,2026-09-14T13:29:28.539Z,https://birth-navi.mhlw.go.jp/facilities/15720
+15724,まある助産院,100,,40,40217,筑紫野市,福岡市早良区高取,True,08052410615,True,,,0,0,1,1,postnatal,2026-09-14T13:29:32.320Z,https://birth-navi.mhlw.go.jp/facilities/15724
+15725,なぎ助産院,100,,40,40217,筑紫野市,福岡市早良区田村,True,08039658272,True,,,0,0,1,1,postnatal,2026-09-14T13:29:32.338Z,https://birth-navi.mhlw.go.jp/facilities/15725
+15726,あかね助産院,100,,40,40217,筑紫野市,福岡市博多区吉塚,True,09088325215,True,,,0,0,1,1,postnatal,2026-09-14T13:29:30.819Z,https://birth-navi.mhlw.go.jp/facilities/15726
+15727,助産院まはろ,100,,40,40217,筑紫野市,久留米市,True,09081922767,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.439Z,https://birth-navi.mhlw.go.jp/facilities/15727
+15728,ままらい助産院,100,,40,40218,春日市,春日市,True,08081321618,True,,,0,0,1,1,postnatal,2026-09-14T13:29:30.716Z,https://birth-navi.mhlw.go.jp/facilities/15728
+15730,まな助産院,100,,40,40219,大野城市,福岡市博多区,True,08068125879,True,,,0,0,1,1,postnatal,2026-09-14T13:29:30.801Z,https://birth-navi.mhlw.go.jp/facilities/15730
+15731,まりも助産院,100,,40,40219,大野城市,福岡市南区向野,True,08052711139,True,,,0,0,1,1,postnatal,2026-09-14T13:29:30.842Z,https://birth-navi.mhlw.go.jp/facilities/15731
+15732,なぎ助産院,100,,40,40219,大野城市,福岡市早良区田村,True,0809658272,True,,,0,0,1,1,postnatal,2026-09-14T13:29:30.922Z,https://birth-navi.mhlw.go.jp/facilities/15732
+15733,かさ助産院,100,,40,40230,糸島市,,False,08017516022,True,,,0,0,1,1,postnatal,2026-09-14T13:29:32.301Z,https://birth-navi.mhlw.go.jp/facilities/15733
+15738,ゆみまる助産院,100,,41,41201,佐賀市,,False,08033746101,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.606Z,https://birth-navi.mhlw.go.jp/facilities/15738
+15739,のりこ助産院,100,,41,41201,佐賀市,,False,09028843725,True,,,0,0,1,1,postnatal,2026-09-14T13:29:36.631Z,https://birth-navi.mhlw.go.jp/facilities/15739
+15742,きやま助産所,100,,41,41341,基山町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T13:29:38.727Z,https://birth-navi.mhlw.go.jp/facilities/15742
+15744,福田母乳育児相談室,100,,42,42201,長崎市,長崎市魚の町,True,0958292200,True,,,0,0,1,1,postnatal,2026-09-14T13:30:40.539Z,https://birth-navi.mhlw.go.jp/facilities/15744
+15745,千代の幸助産院,100,,42,42201,長崎市,長崎市三和町,True,0958001203,True,,,0,0,1,1,postnatal,2026-09-14T13:30:40.712Z,https://birth-navi.mhlw.go.jp/facilities/15745
+15746,出張専門すみれ助産院,100,,42,42201,長崎市,長崎市相生町,True,09064270054,True,,,0,0,1,1,postnatal,2026-09-14T13:30:40.734Z,https://birth-navi.mhlw.go.jp/facilities/15746
+15749,むすびて助産院,100,,42,42201,長崎市,,False,09096593046,True,,,0,0,1,1,postnatal,2026-09-14T22:40:13.452Z,https://birth-navi.mhlw.go.jp/facilities/15749
+15751,ここち助産院,100,,42,42201,長崎市,大村市松原,True,08064568468,True,,,0,0,1,1,postnatal,2026-09-14T13:30:41.448Z,https://birth-navi.mhlw.go.jp/facilities/15751
+15752,出張専門助産院ひなた,100,,42,42201,長崎市,壱岐市勝本町立石仲触,True,09074796428,True,,,0,0,1,1,postnatal,2026-09-14T13:30:41.554Z,https://birth-navi.mhlw.go.jp/facilities/15752
+15753,訪問型　さき助産院,100,,42,42201,長崎市,西彼杵郡長与町,True,09051866339,True,,,0,0,1,1,postnatal,2026-09-14T13:30:41.809Z,https://birth-navi.mhlw.go.jp/facilities/15753
+15756,茉莉花（まりほあ）助産院,100,,42,42322,川棚町,長崎市宝町,True,09049976888,True,,,0,0,1,1,postnatal,2026-09-14T13:30:30.453Z,https://birth-navi.mhlw.go.jp/facilities/15756
+15757,助産院Asa,100,,42,42322,川棚町,諫早市栄田町,True,09054878760,True,,,0,0,1,1,postnatal,2026-09-14T13:30:30.700Z,https://birth-navi.mhlw.go.jp/facilities/15757
+15758,恵～めぐみ～,100,,42,42322,川棚町,,False,,False,,,0,0,1,1,postnatal,2026-09-14T22:40:49.846Z,https://birth-navi.mhlw.go.jp/facilities/15758
+15765,ともえ助産院,100,,44,44202,別府市,大分市坂ノ市西,True,07041028090,True,,,0,0,1,1,postnatal,2026-09-14T13:30:44.765Z,https://birth-navi.mhlw.go.jp/facilities/15765
