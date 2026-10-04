@@ -1,41 +1,43 @@
 {
-  "generated_at_utc": "2026-10-04T19:43:37.667141+00:00",
+  "generated_at_utc": "2026-10-04T19:44:57.421474+00:00",
   "snapshot_year": 2026,
   "source_birth_navi_listing_count": 5638,
-  "derived_provider_entity_count": 5185,
-  "listings_collapsed_relative_to_one_row_per_listing": 453,
-  "multi_listing_provider_count": 375,
-  "largest_provider_listing_count": 7,
+  "derived_provider_entity_count": 5178,
+  "listings_collapsed_relative_to_one_row_per_listing": 460,
+  "multi_listing_provider_count": 374,
+  "largest_provider_listing_count": 9,
   "type100_listing_count": 3178,
   "postnatal_municipality_relation_rows": 4600,
-  "same_name_groups_left_as_multiple_provider_entities": 149,
+  "same_name_groups_left_as_multiple_provider_entities": 165,
   "deduplication_method_counts": {
-    "singleton_no_deduplication": 4810,
+    "singleton_no_deduplication": 4804,
     "same_name_coordinate_within_100m": 429,
-    "connected_by_other_cluster_member": 106,
+    "connected_by_other_cluster_member": 107,
     "same_name_exact_address": 141,
     "same_official_source_id": 2,
     "same_name_exact_phone": 4,
-    "name_only_single_evidence_cluster": 121,
-    "name_only_to_unique_standard_anchor": 25
+    "exact_name_same_prefecture_no_conflicting_identifiers": 141,
+    "name_only_single_evidence_cluster_same_prefecture": 8,
+    "name_only_to_unique_standard_anchor_same_prefecture": 2
   },
   "deduplication_confidence_counts": {
-    "not_applicable": 4810,
-    "high": 682,
-    "medium": 146
+    "not_applicable": 4804,
+    "high": 683,
+    "medium": 151
   },
   "provider_cluster_size_distribution": {
-    "1": 4810,
-    "2": 314,
-    "3": 51,
+    "1": 4804,
+    "2": 309,
+    "3": 55,
     "4": 5,
-    "5": 4,
-    "7": 1
+    "5": 3,
+    "7": 1,
+    "9": 1
   },
   "principles": [
     "birth_navi_id is treated as a source listing ID, not a physical-provider ID",
     "raw annual snapshot is never overwritten",
-    "same name alone is insufficient for automatic merging except conservative propagation of identifier-empty type-100 listings into one unambiguous evidence cluster",
+    "same name alone is insufficient globally; exact-name type-100 listings may merge within the same prefecture only when all available identifiers are non-conflicting",
     "generic names are never merged by name-only propagation",
     "coordinates farther than 1 km prevent phone/address/name-based linking unless the same official source entity ID is present",
     "ambiguous same-name groups remain separate and are exported for manual review"

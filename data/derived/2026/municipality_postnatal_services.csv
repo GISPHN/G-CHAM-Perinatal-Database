@@ -16,7 +16,6 @@ GCP-10020,10020,facility_listing,28110,神戸市中央区,1;2,短期入所（シ
 GCP-10021,10021,facility_listing,21201,岐阜市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10021
 GCP-10022,10022,facility_listing,12227,浦安市,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/10022
 GCP-10023,10023,facility_listing,13222,東久留米市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10023
-GCP-10024,14371,municipality_linked_postnatal_listing,28586,新温泉町,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/14371
 GCP-10024,10024,facility_listing,31201,鳥取市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10024
 GCP-10026,10026,facility_listing,06205,新庄市,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/10026
 GCP-10028,13967,municipality_linked_postnatal_listing,22211,磐田市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13967
@@ -316,7 +315,6 @@ GCP-10430,13047,municipality_linked_postnatal_listing,09411,那珂川町,1;2,短
 GCP-10431,10431,facility_listing,26214,木津川市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10431
 GCP-10432,10432,facility_listing,23203,一宮市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10432
 GCP-10435,10435,facility_listing,40202,大牟田市,1;2;3,短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/10435
-GCP-10435,15019,municipality_linked_postnatal_listing,43367,南関町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15019
 GCP-10436,10436,facility_listing,13103,港区,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/10436
 GCP-10439,10439,facility_listing,13104,新宿区,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10439
 GCP-10440,10440,facility_listing,38206,西条市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10440
@@ -627,7 +625,6 @@ GCP-10908,10908,facility_listing,44201,大分市,1;2,短期入所（ショート
 GCP-10910,10910,facility_listing,17201,金沢市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10910
 GCP-10911,10911,facility_listing,01108,札幌市厚別区,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10911
 GCP-10913,10913,facility_listing,40216,小郡市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10913
-GCP-10914,14370,municipality_linked_postnatal_listing,28586,新温泉町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14370
 GCP-10914,10914,facility_listing,31201,鳥取市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10914
 GCP-10916,10916,facility_listing,14107,横浜市磯子区,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10916
 GCP-10917,10917,facility_listing,16201,富山市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/10917
@@ -1142,7 +1139,6 @@ GCP-11612,11612,facility_listing,08211,常総市,1;2,短期入所（ショート
 GCP-11614,11614,facility_listing,23217,江南市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11614
 GCP-11616,11616,facility_listing,26108,京都市右京区,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11616
 GCP-11618,11618,facility_listing,36201,徳島市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11618
-GCP-11620,14588,municipality_linked_postnatal_listing,35202,宇部市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14588
 GCP-11620,11620,facility_listing,40349,粕屋町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11620
 GCP-11621,11621,facility_listing,04406,利府町,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/11621
 GCP-11622,11622,facility_listing,09201,宇都宮市,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/11622
@@ -1361,6 +1357,7 @@ GCP-11860,11860,facility_listing,23234,北名古屋市,1;2;4,居宅訪問（ア�
 GCP-11863,11863,facility_listing,28201,姫路市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11863
 GCP-11864,11864,facility_listing,11222,越谷市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11864
 GCP-11865,11865,facility_listing,16201,富山市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11865
+GCP-11866,15366,municipality_linked_postnatal_listing,34205,尾道市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15366
 GCP-11868,11868,facility_listing,22103,静岡市清水区,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11868
 GCP-11869,11869,facility_listing,24441,多気町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11869
 GCP-11870,11870,facility_listing,24201,津市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11870
@@ -1372,9 +1369,9 @@ GCP-11874,13423,municipality_linked_postnatal_listing,13220,東大和市,1;2,短
 GCP-11875,11875,facility_listing,20220,安曇野市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11875
 GCP-11875,13857,municipality_linked_postnatal_listing,20486,小谷村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13857
 GCP-11876,11876,facility_listing,28110,神戸市中央区,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11876
-GCP-11877,12876,municipality_linked_postnatal_listing,05214,にかほ市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12876
 GCP-11877,11877,facility_listing,22211,磐田市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11877
 GCP-11879,11879,facility_listing,40224,福津市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11879
+GCP-11879,14873,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14873
 GCP-11880,11880,facility_listing,28111,神戸市西区,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11880
 GCP-11881,14267,municipality_linked_postnatal_listing,27205,吹田市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14267
 GCP-11881,11881,facility_listing,27207,高槻市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11881
@@ -1399,6 +1396,7 @@ GCP-11898,11898,facility_listing,45341,三股町,1;2;4,居宅訪問（アウト�
 GCP-11900,11900,facility_listing,22103,静岡市清水区,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/11900
 GCP-11903,11903,facility_listing,13118,荒川区,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11903
 GCP-11905,11905,facility_listing,30209,岩出市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11905
+GCP-11905,14434,municipality_linked_postnatal_listing,30341,かつらぎ町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14434
 GCP-11906,11906,facility_listing,27210,枚方市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11906
 GCP-11907,11907,facility_listing,14117,横浜市青葉区,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11907
 GCP-11908,14760,municipality_linked_postnatal_listing,40204,直方市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14760
@@ -1427,7 +1425,6 @@ GCP-11929,11929,facility_listing,08341,東海村,1;2;4,居宅訪問（アウト�
 GCP-11930,13404,municipality_linked_postnatal_listing,13209,町田市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13404
 GCP-11931,11931,facility_listing,17210,白山市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11931
 GCP-11931,13675,municipality_linked_postnatal_listing,17361,津幡町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13675
-GCP-11931,14702,municipality_linked_postnatal_listing,38205,新居浜市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14702
 GCP-11932,11932,facility_listing,28220,加西市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/11932
 GCP-11934,11934,facility_listing,23202,岡崎市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/11934
 GCP-11935,11935,facility_listing,29204,天理市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/11935
@@ -1515,7 +1512,6 @@ GCP-12050,12050,facility_listing,46208,出水市,1;2,短期入所（ショート
 GCP-12053,12053,facility_listing,28206,芦屋市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12053
 GCP-12057,12057,facility_listing,27126,大阪市平野区,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12057
 GCP-12064,12064,facility_listing,40202,大牟田市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12064
-GCP-12064,15017,municipality_linked_postnatal_listing,43367,南関町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15017
 GCP-12065,12065,facility_listing,13106,台東区,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12065
 GCP-12066,12066,facility_listing,01102,札幌市北区,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12066
 GCP-12068,12068,facility_listing,12101,千葉市中央区,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12068
@@ -1667,6 +1663,8 @@ GCP-12615,12615,municipality_linked_postnatal_listing,01100,札幌市,4,居宅�
 GCP-12616,12616,municipality_linked_postnatal_listing,01202,函館市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12616
 GCP-12617,12617,municipality_linked_postnatal_listing,01202,函館市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12617
 GCP-12618,12618,municipality_linked_postnatal_listing,01202,函館市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12618
+GCP-12618,12682,municipality_linked_postnatal_listing,01362,上ノ国町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12682
+GCP-12618,12683,municipality_linked_postnatal_listing,01363,厚沢部町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12683
 GCP-12619,12619,municipality_linked_postnatal_listing,01203,小樽市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12619
 GCP-12620,12620,municipality_linked_postnatal_listing,01203,小樽市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12620
 GCP-12621,12621,municipality_linked_postnatal_listing,01203,小樽市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12621
@@ -1731,8 +1729,6 @@ GCP-12678,12678,municipality_linked_postnatal_listing,01234,北広島市,2;4,居
 GCP-12679,12679,municipality_linked_postnatal_listing,01236,北斗市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12679
 GCP-12680,12680,municipality_linked_postnatal_listing,01332,福島町,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/12680
 GCP-12681,12681,municipality_linked_postnatal_listing,01361,江差町,3,通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12681
-GCP-12682,12682,municipality_linked_postnatal_listing,01362,上ノ国町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12682
-GCP-12683,12683,municipality_linked_postnatal_listing,01363,厚沢部町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12683
 GCP-12684,12684,municipality_linked_postnatal_listing,01367,奥尻町,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/12684
 GCP-12685,12685,municipality_linked_postnatal_listing,01391,島牧村,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12685
 GCP-12686,12686,municipality_linked_postnatal_listing,01394,蘭越町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12686
@@ -1820,7 +1816,6 @@ GCP-12775,12775,municipality_linked_postnatal_listing,03206,北上市,2,通所�
 GCP-12776,12776,municipality_linked_postnatal_listing,03208,遠野市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12776
 GCP-12777,12777,municipality_linked_postnatal_listing,03209,一関市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12777
 GCP-12778,12778,municipality_linked_postnatal_listing,03209,一関市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12778
-GCP-12778,13370,municipality_linked_postnatal_listing,13201,八王子市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13370
 GCP-12779,12779,municipality_linked_postnatal_listing,03210,陸前高田市,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12779
 GCP-12780,12780,municipality_linked_postnatal_listing,03211,釜石市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12780
 GCP-12781,12781,municipality_linked_postnatal_listing,03213,二戸市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12781
@@ -1861,7 +1856,6 @@ GCP-12816,12816,municipality_linked_postnatal_listing,04100,仙台市,1;2;3;4,�
 GCP-12817,12817,municipality_linked_postnatal_listing,04100,仙台市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12817
 GCP-12818,12818,municipality_linked_postnatal_listing,04100,仙台市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12818
 GCP-12819,12819,municipality_linked_postnatal_listing,04100,仙台市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12819
-GCP-12819,12983,municipality_linked_postnatal_listing,08222,鹿嶋市,2;3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12983
 GCP-12820,12820,municipality_linked_postnatal_listing,04100,仙台市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12820
 GCP-12821,12821,municipality_linked_postnatal_listing,04100,仙台市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12821
 GCP-12822,12822,municipality_linked_postnatal_listing,04100,仙台市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12822
@@ -1914,6 +1908,7 @@ GCP-12873,12873,municipality_linked_postnatal_listing,05207,湯沢市,2,通所�
 GCP-12873,12877,municipality_linked_postnatal_listing,05361,五城目町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12877
 GCP-12874,12874,municipality_linked_postnatal_listing,05211,潟上市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12874
 GCP-12875,12875,municipality_linked_postnatal_listing,05214,にかほ市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12875
+GCP-12876,12876,municipality_linked_postnatal_listing,05214,にかほ市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12876
 GCP-12878,12878,municipality_linked_postnatal_listing,05361,五城目町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12878
 GCP-12879,12879,municipality_linked_postnatal_listing,05366,井川町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12879
 GCP-12880,12880,municipality_linked_postnatal_listing,05366,井川町,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12880
@@ -1994,6 +1989,7 @@ GCP-12950,12986,municipality_linked_postnatal_listing,08228,坂東市,4,居宅�
 GCP-12951,12951,municipality_linked_postnatal_listing,08204,古河市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12951
 GCP-12952,12952,municipality_linked_postnatal_listing,08205,石岡市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12952
 GCP-12953,12953,municipality_linked_postnatal_listing,08205,石岡市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12953
+GCP-12953,12991,municipality_linked_postnatal_listing,08230,かすみがうら市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12991
 GCP-12954,12954,municipality_linked_postnatal_listing,08205,石岡市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12954
 GCP-12955,12955,municipality_linked_postnatal_listing,08207,結城市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12955
 GCP-12956,12956,municipality_linked_postnatal_listing,08207,結城市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12956
@@ -2023,12 +2019,12 @@ GCP-12979,12979,municipality_linked_postnatal_listing,08219,牛久市,4,居宅�
 GCP-12980,12980,municipality_linked_postnatal_listing,08219,牛久市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12980
 GCP-12981,12981,municipality_linked_postnatal_listing,08219,牛久市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12981
 GCP-12982,12982,municipality_linked_postnatal_listing,08220,つくば市,2;3,通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12982
+GCP-12983,12983,municipality_linked_postnatal_listing,08222,鹿嶋市,2;3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/12983
 GCP-12984,12984,municipality_linked_postnatal_listing,08226,那珂市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12984
 GCP-12985,12985,municipality_linked_postnatal_listing,08228,坂東市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12985
 GCP-12987,12987,municipality_linked_postnatal_listing,08228,坂東市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12987
 GCP-12989,12989,municipality_linked_postnatal_listing,08230,かすみがうら市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12989
 GCP-12990,12990,municipality_linked_postnatal_listing,08230,かすみがうら市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12990
-GCP-12991,12991,municipality_linked_postnatal_listing,08230,かすみがうら市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12991
 GCP-12992,12992,municipality_linked_postnatal_listing,08230,かすみがうら市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12992
 GCP-12993,12993,municipality_linked_postnatal_listing,08235,つくばみらい市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/12993
 GCP-12995,12995,municipality_linked_postnatal_listing,08235,つくばみらい市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/12995
@@ -2089,7 +2085,6 @@ GCP-13060,13060,municipality_linked_postnatal_listing,10202,高崎市,4,居宅�
 GCP-13062,13062,municipality_linked_postnatal_listing,10203,桐生市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13062
 GCP-13063,13063,municipality_linked_postnatal_listing,10204,伊勢崎市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13063
 GCP-13067,13067,municipality_linked_postnatal_listing,10204,伊勢崎市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13067
-GCP-13067,14093,municipality_linked_postnatal_listing,23226,尾張旭市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14093
 GCP-13068,13068,municipality_linked_postnatal_listing,10207,館林市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13068
 GCP-13068,13079,municipality_linked_postnatal_listing,10522,明和町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13079
 GCP-13069,15451,municipality_linked_postnatal_listing,10204,伊勢崎市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15451
@@ -2100,7 +2095,6 @@ GCP-13072,13072,municipality_linked_postnatal_listing,10209,藤岡市,2,通所�
 GCP-13074,13074,municipality_linked_postnatal_listing,10384,甘楽町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13074
 GCP-13075,13075,municipality_linked_postnatal_listing,10421,中之条町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13075
 GCP-13076,13076,municipality_linked_postnatal_listing,10425,嬬恋村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13076
-GCP-13076,13825,municipality_linked_postnatal_listing,20349,青木村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13825
 GCP-13077,13077,municipality_linked_postnatal_listing,10444,川場村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13077
 GCP-13080,13080,municipality_linked_postnatal_listing,10523,千代田町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13080
 GCP-13082,13082,municipality_linked_postnatal_listing,11100,さいたま市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13082
@@ -2369,6 +2363,7 @@ GCP-13366,13366,municipality_linked_postnatal_listing,13201,八王子市,2,通�
 GCP-13367,13367,municipality_linked_postnatal_listing,13201,八王子市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13367
 GCP-13368,13368,municipality_linked_postnatal_listing,13201,八王子市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13368
 GCP-13369,13369,municipality_linked_postnatal_listing,13201,八王子市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13369
+GCP-13370,13370,municipality_linked_postnatal_listing,13201,八王子市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13370
 GCP-13371,13371,municipality_linked_postnatal_listing,13201,八王子市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13371
 GCP-13372,13372,municipality_linked_postnatal_listing,13201,八王子市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13372
 GCP-13373,13373,municipality_linked_postnatal_listing,13201,八王子市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13373
@@ -2396,8 +2391,6 @@ GCP-13395,13395,municipality_linked_postnatal_listing,13206,府中市,3,通所�
 GCP-13396,13396,municipality_linked_postnatal_listing,13207,昭島市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13396
 GCP-13397,13397,municipality_linked_postnatal_listing,13207,昭島市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13397
 GCP-13398,13398,municipality_linked_postnatal_listing,13207,昭島市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13398
-GCP-13398,14319,municipality_linked_postnatal_listing,27226,藤井寺市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14319
-GCP-13398,14674,municipality_linked_postnatal_listing,37203,坂出市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14674
 GCP-13399,13399,municipality_linked_postnatal_listing,13207,昭島市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13399
 GCP-13400,13400,municipality_linked_postnatal_listing,13207,昭島市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13400
 GCP-13401,13401,municipality_linked_postnatal_listing,13207,昭島市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13401
@@ -2481,6 +2474,7 @@ GCP-13480,13480,municipality_linked_postnatal_listing,14150,相模原市,2,通�
 GCP-13481,13481,municipality_linked_postnatal_listing,14150,相模原市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13481
 GCP-13482,13482,municipality_linked_postnatal_listing,14150,相模原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13482
 GCP-13483,13483,municipality_linked_postnatal_listing,14150,相模原市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13483
+GCP-13483,13543,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13543
 GCP-13484,13484,municipality_linked_postnatal_listing,14150,相模原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13484
 GCP-13485,13485,municipality_linked_postnatal_listing,14150,相模原市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13485
 GCP-13486,13486,municipality_linked_postnatal_listing,14150,相模原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13486
@@ -2537,7 +2531,6 @@ GCP-13539,13539,municipality_linked_postnatal_listing,14216,座間市,2,通所�
 GCP-13540,13540,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13540
 GCP-13541,13541,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13541
 GCP-13542,13542,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13542
-GCP-13543,13543,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13543
 GCP-13544,13544,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13544
 GCP-13545,13545,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13545
 GCP-13547,13547,municipality_linked_postnatal_listing,14216,座間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13547
@@ -2633,7 +2626,6 @@ GCP-13636,13648,municipality_linked_postnatal_listing,16342,入善町,4,居宅�
 GCP-13637,13637,municipality_linked_postnatal_listing,16208,砺波市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13637
 GCP-13638,13638,municipality_linked_postnatal_listing,16208,砺波市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13638
 GCP-13639,13639,municipality_linked_postnatal_listing,16208,砺波市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13639
-GCP-13639,15276,municipality_linked_postnatal_listing,25201,大津市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15276
 GCP-13640,13640,municipality_linked_postnatal_listing,16209,小矢部市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13640
 GCP-13641,13641,municipality_linked_postnatal_listing,16210,南砺市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13641
 GCP-13642,13642,municipality_linked_postnatal_listing,16211,射水市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13642
@@ -2652,7 +2644,9 @@ GCP-13656,13656,municipality_linked_postnatal_listing,17205,珠洲市,4,居宅�
 GCP-13657,13657,municipality_linked_postnatal_listing,17206,加賀市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13657
 GCP-13659,13659,municipality_linked_postnatal_listing,17209,かほく市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13659
 GCP-13660,13660,municipality_linked_postnatal_listing,17209,かほく市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13660
+GCP-13660,13673,municipality_linked_postnatal_listing,17361,津幡町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13673
 GCP-13661,13661,municipality_linked_postnatal_listing,17209,かほく市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13661
+GCP-13661,13672,municipality_linked_postnatal_listing,17361,津幡町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13672
 GCP-13662,13662,municipality_linked_postnatal_listing,17209,かほく市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13662
 GCP-13662,13670,municipality_linked_postnatal_listing,17361,津幡町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13670
 GCP-13663,13663,municipality_linked_postnatal_listing,17209,かほく市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13663
@@ -2661,8 +2655,6 @@ GCP-13664,13664,municipality_linked_postnatal_listing,17211,能美市,4,居宅�
 GCP-13667,13667,municipality_linked_postnatal_listing,17361,津幡町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13667
 GCP-13668,13668,municipality_linked_postnatal_listing,17361,津幡町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13668
 GCP-13671,13671,municipality_linked_postnatal_listing,17361,津幡町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13671
-GCP-13672,13672,municipality_linked_postnatal_listing,17361,津幡町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13672
-GCP-13673,13673,municipality_linked_postnatal_listing,17361,津幡町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13673
 GCP-13676,13676,municipality_linked_postnatal_listing,17361,津幡町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13676
 GCP-13678,13678,municipality_linked_postnatal_listing,18201,福井市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13678
 GCP-13678,13715,municipality_linked_postnatal_listing,18210,坂井市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13715
@@ -2759,11 +2751,14 @@ GCP-13765,13817,municipality_linked_postnatal_listing,20219,東御市,4,居宅�
 GCP-13765,13828,municipality_linked_postnatal_listing,20350,長和町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13828
 GCP-13765,13868,municipality_linked_postnatal_listing,20590,飯綱町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13868
 GCP-13766,13766,municipality_linked_postnatal_listing,20204,岡谷市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13766
+GCP-13766,13810,municipality_linked_postnatal_listing,20214,茅野市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13810
+GCP-13766,13811,municipality_linked_postnatal_listing,20214,茅野市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13811
 GCP-13767,13767,municipality_linked_postnatal_listing,20204,岡谷市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13767
 GCP-13767,13774,municipality_linked_postnatal_listing,20206,諏訪市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13774
 GCP-13768,13768,municipality_linked_postnatal_listing,20204,岡谷市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13768
 GCP-13769,13769,municipality_linked_postnatal_listing,20204,岡谷市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13769
 GCP-13770,13770,municipality_linked_postnatal_listing,20204,岡谷市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13770
+GCP-13770,13808,municipality_linked_postnatal_listing,20214,茅野市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13808
 GCP-13770,13833,municipality_linked_postnatal_listing,20361,下諏訪町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13833
 GCP-13771,13771,municipality_linked_postnatal_listing,20204,岡谷市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13771
 GCP-13771,13775,municipality_linked_postnatal_listing,20206,諏訪市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13775
@@ -2795,9 +2790,6 @@ GCP-13801,13866,municipality_linked_postnatal_listing,20563,野沢温泉村,2;3;
 GCP-13803,13803,municipality_linked_postnatal_listing,20212,大町市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13803
 GCP-13804,13804,municipality_linked_postnatal_listing,20213,飯山市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13804
 GCP-13804,13862,municipality_linked_postnatal_listing,20562,木島平村,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13862
-GCP-13808,13808,municipality_linked_postnatal_listing,20214,茅野市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13808
-GCP-13810,13810,municipality_linked_postnatal_listing,20214,茅野市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13810
-GCP-13811,13811,municipality_linked_postnatal_listing,20214,茅野市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13811
 GCP-13812,13812,municipality_linked_postnatal_listing,20214,茅野市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13812
 GCP-13812,13813,municipality_linked_postnatal_listing,20214,茅野市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13813
 GCP-13815,13815,municipality_linked_postnatal_listing,20217,佐久市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13815
@@ -2811,20 +2803,21 @@ GCP-13821,13848,municipality_linked_postnatal_listing,20403,高森町,2;4,居宅
 GCP-13822,13822,municipality_linked_postnatal_listing,20307,北相木村,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/13822
 GCP-13823,13823,municipality_linked_postnatal_listing,20309,佐久穂町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13823
 GCP-13824,13824,municipality_linked_postnatal_listing,20309,佐久穂町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/13824
+GCP-13825,13825,municipality_linked_postnatal_listing,20349,青木村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13825
 GCP-13826,13826,municipality_linked_postnatal_listing,20350,長和町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13826
+GCP-13826,13843,municipality_linked_postnatal_listing,20385,南箕輪村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13843
 GCP-13827,13827,municipality_linked_postnatal_listing,20350,長和町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13827
 GCP-13829,13829,municipality_linked_postnatal_listing,20350,長和町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13829
 GCP-13829,13838,municipality_linked_postnatal_listing,20385,南箕輪村,2;3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/13838
 GCP-13830,13830,municipality_linked_postnatal_listing,20350,長和町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13830
 GCP-13830,13837,municipality_linked_postnatal_listing,20385,南箕輪村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13837
 GCP-13831,13831,municipality_linked_postnatal_listing,20350,長和町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13831
+GCP-13831,13844,municipality_linked_postnatal_listing,20385,南箕輪村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13844
 GCP-13836,13836,municipality_linked_postnatal_listing,20362,富士見町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13836
 GCP-13839,15254,municipality_linked_postnatal_listing,20361,下諏訪町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15254
 GCP-13839,13839,municipality_linked_postnatal_listing,20385,南箕輪村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13839
 GCP-13841,13841,municipality_linked_postnatal_listing,20385,南箕輪村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13841
 GCP-13842,13842,municipality_linked_postnatal_listing,20385,南箕輪村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13842
-GCP-13843,13843,municipality_linked_postnatal_listing,20385,南箕輪村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13843
-GCP-13844,13844,municipality_linked_postnatal_listing,20385,南箕輪村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13844
 GCP-13847,13847,municipality_linked_postnatal_listing,20388,宮田村,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13847
 GCP-13849,13849,municipality_linked_postnatal_listing,20403,高森町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13849
 GCP-13851,13851,municipality_linked_postnatal_listing,20415,喬木村,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/13851
@@ -2993,6 +2986,7 @@ GCP-14039,14039,municipality_linked_postnatal_listing,23201,豊橋市,2;3;4,居�
 GCP-14040,14040,municipality_linked_postnatal_listing,23201,豊橋市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14040
 GCP-14041,14041,municipality_linked_postnatal_listing,23201,豊橋市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14041
 GCP-14042,14042,municipality_linked_postnatal_listing,23201,豊橋市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14042
+GCP-14042,14102,municipality_linked_postnatal_listing,23231,田原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14102
 GCP-14043,14043,municipality_linked_postnatal_listing,23202,岡崎市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14043
 GCP-14044,14044,municipality_linked_postnatal_listing,23202,岡崎市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14044
 GCP-14045,14045,municipality_linked_postnatal_listing,23202,岡崎市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14045
@@ -3038,6 +3032,7 @@ GCP-14088,14088,municipality_linked_postnatal_listing,23223,大府市,4,居宅�
 GCP-14089,14089,municipality_linked_postnatal_listing,23224,知多市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14089
 GCP-14091,14091,municipality_linked_postnatal_listing,23225,知立市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14091
 GCP-14092,14092,municipality_linked_postnatal_listing,23226,尾張旭市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14092
+GCP-14093,14093,municipality_linked_postnatal_listing,23226,尾張旭市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14093
 GCP-14095,14095,municipality_linked_postnatal_listing,23228,岩倉市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14095
 GCP-14096,14096,municipality_linked_postnatal_listing,23229,豊明市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14096
 GCP-14097,14097,municipality_linked_postnatal_listing,23229,豊明市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14097
@@ -3045,7 +3040,6 @@ GCP-14098,14098,municipality_linked_postnatal_listing,23229,豊明市,3,通所�
 GCP-14099,14099,municipality_linked_postnatal_listing,23231,田原市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14099
 GCP-14100,14100,municipality_linked_postnatal_listing,23231,田原市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14100
 GCP-14101,14101,municipality_linked_postnatal_listing,23231,田原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14101
-GCP-14102,14102,municipality_linked_postnatal_listing,23231,田原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14102
 GCP-14103,14103,municipality_linked_postnatal_listing,23236,みよし市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14103
 GCP-14105,14105,municipality_linked_postnatal_listing,23238,長久手市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14105
 GCP-14106,14106,municipality_linked_postnatal_listing,23424,大治町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14106
@@ -3126,7 +3120,6 @@ GCP-14185,14185,municipality_linked_postnatal_listing,26204,宇治市,3;4,居宅
 GCP-14186,14186,municipality_linked_postnatal_listing,26204,宇治市,3,通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14186
 GCP-14187,14187,municipality_linked_postnatal_listing,26204,宇治市,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14187
 GCP-14188,14188,municipality_linked_postnatal_listing,26204,宇治市,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14188
-GCP-14188,14461,municipality_linked_postnatal_listing,31202,米子市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14461
 GCP-14189,14189,municipality_linked_postnatal_listing,26204,宇治市,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14189
 GCP-14190,14190,municipality_linked_postnatal_listing,26204,宇治市,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14190
 GCP-14191,14191,municipality_linked_postnatal_listing,26205,宮津市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14191
@@ -3212,7 +3205,6 @@ GCP-14285,14285,municipality_linked_postnatal_listing,27208,貝塚市,1;2;4,居�
 GCP-14286,14286,municipality_linked_postnatal_listing,27209,守口市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14286
 GCP-14287,14287,municipality_linked_postnatal_listing,27210,枚方市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14287
 GCP-14288,14288,municipality_linked_postnatal_listing,27211,茨木市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14288
-GCP-14288,15229,municipality_linked_postnatal_listing,47324,読谷村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15229
 GCP-14290,14290,municipality_linked_postnatal_listing,27212,八尾市,1;2;3,短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14290
 GCP-14291,14291,municipality_linked_postnatal_listing,27212,八尾市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14291
 GCP-14292,14292,municipality_linked_postnatal_listing,27212,八尾市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14292
@@ -3236,6 +3228,7 @@ GCP-14311,14311,municipality_linked_postnatal_listing,27225,高石市,4,居宅�
 GCP-14312,14312,municipality_linked_postnatal_listing,27226,藤井寺市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14312
 GCP-14315,14315,municipality_linked_postnatal_listing,27226,藤井寺市,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/14315
 GCP-14317,14317,municipality_linked_postnatal_listing,27226,藤井寺市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14317
+GCP-14319,14319,municipality_linked_postnatal_listing,27226,藤井寺市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14319
 GCP-14320,14320,municipality_linked_postnatal_listing,27226,藤井寺市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14320
 GCP-14321,14321,municipality_linked_postnatal_listing,27226,藤井寺市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14321
 GCP-14322,14322,municipality_linked_postnatal_listing,27226,藤井寺市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14322
@@ -3281,16 +3274,11 @@ GCP-14365,14365,municipality_linked_postnatal_listing,28225,朝来市,2;4,居宅
 GCP-14366,14366,municipality_linked_postnatal_listing,28225,朝来市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14366
 GCP-14367,14367,municipality_linked_postnatal_listing,28501,佐用町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14367
 GCP-14368,14368,municipality_linked_postnatal_listing,28501,佐用町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14368
-GCP-14368,14766,municipality_linked_postnatal_listing,40205,飯塚市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14766
-GCP-14368,14804,municipality_linked_postnatal_listing,40207,柳川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14804
-GCP-14368,14837,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14837
-GCP-14368,14868,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14868
 GCP-14369,14369,municipality_linked_postnatal_listing,28585,香美町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14369
+GCP-14370,14370,municipality_linked_postnatal_listing,28586,新温泉町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14370
+GCP-14371,14371,municipality_linked_postnatal_listing,28586,新温泉町,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/14371
 GCP-14372,14372,municipality_linked_postnatal_listing,28586,新温泉町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14372
 GCP-14373,14373,municipality_linked_postnatal_listing,28586,新温泉町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14373
-GCP-14373,14447,municipality_linked_postnatal_listing,31201,鳥取市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14447
-GCP-14373,15667,municipality_linked_postnatal_listing,31329,八頭町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15667
-GCP-14373,14547,municipality_linked_postnatal_listing,33643,西粟倉村,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14547
 GCP-14374,14374,municipality_linked_postnatal_listing,29201,奈良市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14374
 GCP-14375,14375,municipality_linked_postnatal_listing,29201,奈良市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14375
 GCP-14376,14376,municipality_linked_postnatal_listing,29201,奈良市,2;3,通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14376
@@ -3309,13 +3297,13 @@ GCP-14387,14391,municipality_linked_postnatal_listing,29207,五條市,4,居宅�
 GCP-14388,14388,municipality_linked_postnatal_listing,29205,橿原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14388
 GCP-14388,14392,municipality_linked_postnatal_listing,29207,五條市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14392
 GCP-14389,14389,municipality_linked_postnatal_listing,29205,橿原市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14389
+GCP-14389,14398,municipality_linked_postnatal_listing,29344,斑鳩町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14398
 GCP-14390,14390,municipality_linked_postnatal_listing,29206,桜井市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14390
 GCP-14393,14393,municipality_linked_postnatal_listing,29208,御所市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14393
 GCP-14394,14394,municipality_linked_postnatal_listing,29211,葛城市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14394
 GCP-14395,14395,municipality_linked_postnatal_listing,29211,葛城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14395
 GCP-14396,14396,municipality_linked_postnatal_listing,29344,斑鳩町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14396
 GCP-14397,14397,municipality_linked_postnatal_listing,29344,斑鳩町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14397
-GCP-14398,14398,municipality_linked_postnatal_listing,29344,斑鳩町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14398
 GCP-14399,14399,municipality_linked_postnatal_listing,29386,御杖村,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14399
 GCP-14400,14400,municipality_linked_postnatal_listing,29401,高取町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14400
 GCP-14401,14401,municipality_linked_postnatal_listing,29402,明日香村,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14401
@@ -3350,7 +3338,6 @@ GCP-14430,14430,municipality_linked_postnatal_listing,30209,岩出市,4,居宅�
 GCP-14431,14431,municipality_linked_postnatal_listing,30209,岩出市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14431
 GCP-14432,14432,municipality_linked_postnatal_listing,30209,岩出市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14432
 GCP-14433,14433,municipality_linked_postnatal_listing,30341,かつらぎ町,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/14433
-GCP-14434,14434,municipality_linked_postnatal_listing,30341,かつらぎ町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14434
 GCP-14436,14436,municipality_linked_postnatal_listing,30366,有田川町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14436
 GCP-14438,14438,municipality_linked_postnatal_listing,30391,みなべ町,2;3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14438
 GCP-14440,14440,municipality_linked_postnatal_listing,30401,白浜町,2;3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14440
@@ -3359,12 +3346,16 @@ GCP-14442,14442,municipality_linked_postnatal_listing,30421,那智勝浦町,4,�
 GCP-14443,14443,municipality_linked_postnatal_listing,30424,古座川町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14443
 GCP-14444,14444,municipality_linked_postnatal_listing,31201,鳥取市,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/14444
 GCP-14445,14445,municipality_linked_postnatal_listing,31201,鳥取市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14445
+GCP-14447,14447,municipality_linked_postnatal_listing,31201,鳥取市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14447
+GCP-14447,15667,municipality_linked_postnatal_listing,31329,八頭町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15667
+GCP-14447,14547,municipality_linked_postnatal_listing,33643,西粟倉村,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14547
 GCP-14448,14448,municipality_linked_postnatal_listing,31201,鳥取市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14448
 GCP-14449,14449,municipality_linked_postnatal_listing,31201,鳥取市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14449
 GCP-14449,14469,municipality_linked_postnatal_listing,31302,岩美町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14469
 GCP-14450,14450,municipality_linked_postnatal_listing,31201,鳥取市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14450
 GCP-14450,15666,municipality_linked_postnatal_listing,31329,八頭町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15666
 GCP-14451,14451,municipality_linked_postnatal_listing,31201,鳥取市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14451
+GCP-14451,14473,municipality_linked_postnatal_listing,31328,智頭町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14473
 GCP-14452,14452,municipality_linked_postnatal_listing,31201,鳥取市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14452
 GCP-14453,14453,municipality_linked_postnatal_listing,31201,鳥取市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14453
 GCP-14453,14470,municipality_linked_postnatal_listing,31302,岩美町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14470
@@ -3379,6 +3370,7 @@ GCP-14458,14458,municipality_linked_postnatal_listing,31202,米子市,1;2,短期
 GCP-14458,14478,municipality_linked_postnatal_listing,31371,琴浦町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14478
 GCP-14459,14459,municipality_linked_postnatal_listing,31202,米子市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14459
 GCP-14460,14460,municipality_linked_postnatal_listing,31202,米子市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14460
+GCP-14461,14461,municipality_linked_postnatal_listing,31202,米子市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14461
 GCP-14462,14462,municipality_linked_postnatal_listing,31202,米子市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14462
 GCP-14463,14463,municipality_linked_postnatal_listing,31202,米子市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14463
 GCP-14464,14464,municipality_linked_postnatal_listing,31202,米子市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14464
@@ -3387,7 +3379,6 @@ GCP-14467,14467,municipality_linked_postnatal_listing,31204,境港市,2,通所�
 GCP-14468,14468,municipality_linked_postnatal_listing,31302,岩美町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14468
 GCP-14471,14471,municipality_linked_postnatal_listing,31302,岩美町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14471
 GCP-14472,14472,municipality_linked_postnatal_listing,31302,岩美町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14472
-GCP-14473,14473,municipality_linked_postnatal_listing,31328,智頭町,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14473
 GCP-14475,14475,municipality_linked_postnatal_listing,31370,湯梨浜町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14475
 GCP-14476,14476,municipality_linked_postnatal_listing,31370,湯梨浜町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14476
 GCP-14479,14479,municipality_linked_postnatal_listing,31371,琴浦町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14479
@@ -3488,6 +3479,7 @@ GCP-14583,14583,municipality_linked_postnatal_listing,35201,下関市,4,居宅�
 GCP-14584,14584,municipality_linked_postnatal_listing,35202,宇部市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14584
 GCP-14585,14585,municipality_linked_postnatal_listing,35202,宇部市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14585
 GCP-14586,14586,municipality_linked_postnatal_listing,35202,宇部市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14586
+GCP-14588,14588,municipality_linked_postnatal_listing,35202,宇部市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14588
 GCP-14589,14589,municipality_linked_postnatal_listing,35202,宇部市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14589
 GCP-14590,14621,municipality_linked_postnatal_listing,35216,山陽小野田市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14621
 GCP-14591,14591,municipality_linked_postnatal_listing,35203,山口市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14591
@@ -3505,12 +3497,10 @@ GCP-14608,14608,municipality_linked_postnatal_listing,35206,防府市,2;4,居宅
 GCP-14612,14612,municipality_linked_postnatal_listing,35207,下松市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14612
 GCP-14612,14628,municipality_linked_postnatal_listing,35216,山陽小野田市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14628
 GCP-14613,14613,municipality_linked_postnatal_listing,35208,岩国市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14613
-GCP-14613,14722,municipality_linked_postnatal_listing,39205,土佐市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14722
 GCP-14614,14614,municipality_linked_postnatal_listing,35208,岩国市,2;3,通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14614
 GCP-14615,14615,municipality_linked_postnatal_listing,35208,岩国市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14615
 GCP-14615,14618,municipality_linked_postnatal_listing,35211,長門市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14618
 GCP-14615,14636,municipality_linked_postnatal_listing,35341,上関町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14636
-GCP-14616,14699,municipality_linked_postnatal_listing,38205,新居浜市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14699
 GCP-14617,14617,municipality_linked_postnatal_listing,35210,光市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14617
 GCP-14617,14626,municipality_linked_postnatal_listing,35216,山陽小野田市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14626
 GCP-14619,14619,municipality_linked_postnatal_listing,35215,周南市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14619
@@ -3557,6 +3547,7 @@ GCP-14670,14670,municipality_linked_postnatal_listing,37201,高松市,2;4,居宅
 GCP-14671,14671,municipality_linked_postnatal_listing,37201,高松市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14671
 GCP-14672,14672,municipality_linked_postnatal_listing,37202,丸亀市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14672
 GCP-14673,14673,municipality_linked_postnatal_listing,37202,丸亀市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14673
+GCP-14674,14674,municipality_linked_postnatal_listing,37203,坂出市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14674
 GCP-14675,14675,municipality_linked_postnatal_listing,37206,さぬき市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14675
 GCP-14676,14676,municipality_linked_postnatal_listing,37206,さぬき市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14676
 GCP-14677,14677,municipality_linked_postnatal_listing,37341,三木町,1,短期入所（ショートステイ）型,https://birth-navi.mhlw.go.jp/facilities/14677
@@ -3583,9 +3574,11 @@ GCP-14695,14695,municipality_linked_postnatal_listing,38205,新居浜市,2;4,居
 GCP-14696,14696,municipality_linked_postnatal_listing,38205,新居浜市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14696
 GCP-14697,14697,municipality_linked_postnatal_listing,38205,新居浜市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14697
 GCP-14698,14698,municipality_linked_postnatal_listing,38205,新居浜市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14698
+GCP-14699,14699,municipality_linked_postnatal_listing,38205,新居浜市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14699
 GCP-14700,14700,municipality_linked_postnatal_listing,38205,新居浜市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14700
 GCP-14701,14701,municipality_linked_postnatal_listing,38205,新居浜市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14701
 GCP-14701,14703,municipality_linked_postnatal_listing,38206,西条市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14703
+GCP-14702,14702,municipality_linked_postnatal_listing,38205,新居浜市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14702
 GCP-14704,14704,municipality_linked_postnatal_listing,38206,西条市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14704
 GCP-14705,14705,municipality_linked_postnatal_listing,38206,西条市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14705
 GCP-14706,14706,municipality_linked_postnatal_listing,38210,伊予市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14706
@@ -3604,6 +3597,7 @@ GCP-14719,14719,municipality_linked_postnatal_listing,39201,高知市,2,通所�
 GCP-14720,14720,municipality_linked_postnatal_listing,39201,高知市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14720
 GCP-14720,15712,municipality_linked_postnatal_listing,39307,芸西村,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15712
 GCP-14721,14721,municipality_linked_postnatal_listing,39202,室戸市,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14721
+GCP-14722,14722,municipality_linked_postnatal_listing,39205,土佐市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14722
 GCP-14723,14723,municipality_linked_postnatal_listing,39205,土佐市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14723
 GCP-14724,14724,municipality_linked_postnatal_listing,39206,須崎市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14724
 GCP-14725,14725,municipality_linked_postnatal_listing,39206,須崎市,1;2;3;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14725
@@ -3624,6 +3618,14 @@ GCP-14739,14739,municipality_linked_postnatal_listing,40100,北九州市,4,居�
 GCP-14740,14740,municipality_linked_postnatal_listing,40100,北九州市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14740
 GCP-14741,14741,municipality_linked_postnatal_listing,40100,北九州市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14741
 GCP-14742,14742,municipality_linked_postnatal_listing,40100,北九州市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14742
+GCP-14742,14768,municipality_linked_postnatal_listing,40205,飯塚市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14768
+GCP-14742,14805,municipality_linked_postnatal_listing,40207,柳川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14805
+GCP-14742,15399,municipality_linked_postnatal_listing,40210,八女市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15399
+GCP-14742,14806,municipality_linked_postnatal_listing,40212,大川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14806
+GCP-14742,14818,municipality_linked_postnatal_listing,40217,筑紫野市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14818
+GCP-14742,14840,municipality_linked_postnatal_listing,40220,宗像市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14840
+GCP-14742,14845,municipality_linked_postnatal_listing,40223,古賀市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14845
+GCP-14742,14850,municipality_linked_postnatal_listing,40229,みやま市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14850
 GCP-14743,14743,municipality_linked_postnatal_listing,40100,北九州市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14743
 GCP-14744,14744,municipality_linked_postnatal_listing,40100,北九州市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14744
 GCP-14745,14745,municipality_linked_postnatal_listing,40100,北九州市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14745
@@ -3638,7 +3640,6 @@ GCP-14749,14870,municipality_linked_postnatal_listing,40621,苅田町,2,通所�
 GCP-14750,14750,municipality_linked_postnatal_listing,40100,北九州市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14750
 GCP-14750,14871,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14871
 GCP-14751,14751,municipality_linked_postnatal_listing,40202,大牟田市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14751
-GCP-14751,15015,municipality_linked_postnatal_listing,43367,南関町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15015
 GCP-14752,14752,municipality_linked_postnatal_listing,40203,久留米市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14752
 GCP-14753,14753,municipality_linked_postnatal_listing,40203,久留米市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14753
 GCP-14754,14754,municipality_linked_postnatal_listing,40203,久留米市,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14754
@@ -3658,8 +3659,11 @@ GCP-14765,14808,municipality_linked_postnatal_listing,40215,中間市,4,居宅�
 GCP-14765,14841,municipality_linked_postnatal_listing,40220,宗像市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14841
 GCP-14765,14849,municipality_linked_postnatal_listing,40226,宮若市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14849
 GCP-14765,14859,municipality_linked_postnatal_listing,40382,水巻町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14859
+GCP-14766,14766,municipality_linked_postnatal_listing,40205,飯塚市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14766
+GCP-14766,14804,municipality_linked_postnatal_listing,40207,柳川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14804
+GCP-14766,14837,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14837
+GCP-14766,14868,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14868
 GCP-14767,14767,municipality_linked_postnatal_listing,40205,飯塚市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14767
-GCP-14768,14768,municipality_linked_postnatal_listing,40205,飯塚市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14768
 GCP-14769,14769,municipality_linked_postnatal_listing,40205,飯塚市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14769
 GCP-14769,14875,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14875
 GCP-14770,14770,municipality_linked_postnatal_listing,40205,飯塚市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14770
@@ -3702,6 +3706,7 @@ GCP-14791,14791,municipality_linked_postnatal_listing,40205,飯塚市,4,居宅�
 GCP-14792,14792,municipality_linked_postnatal_listing,40205,飯塚市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14792
 GCP-14793,14793,municipality_linked_postnatal_listing,40205,飯塚市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14793
 GCP-14794,14794,municipality_linked_postnatal_listing,40205,飯塚市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14794
+GCP-14794,14885,municipality_linked_postnatal_listing,40621,苅田町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14885
 GCP-14795,14795,municipality_linked_postnatal_listing,40205,飯塚市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14795
 GCP-14796,14796,municipality_linked_postnatal_listing,40205,飯塚市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14796
 GCP-14796,14834,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14834
@@ -3712,9 +3717,6 @@ GCP-14799,14799,municipality_linked_postnatal_listing,40207,柳川市,2,通所�
 GCP-14800,14800,municipality_linked_postnatal_listing,40207,柳川市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14800
 GCP-14802,14802,municipality_linked_postnatal_listing,40207,柳川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14802
 GCP-14803,14803,municipality_linked_postnatal_listing,40207,柳川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14803
-GCP-14805,14805,municipality_linked_postnatal_listing,40207,柳川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14805
-GCP-14806,15399,municipality_linked_postnatal_listing,40210,八女市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15399
-GCP-14806,14806,municipality_linked_postnatal_listing,40212,大川市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14806
 GCP-14807,14807,municipality_linked_postnatal_listing,40215,中間市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14807
 GCP-14809,14809,municipality_linked_postnatal_listing,40217,筑紫野市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14809
 GCP-14810,14810,municipality_linked_postnatal_listing,40217,筑紫野市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14810
@@ -3727,7 +3729,6 @@ GCP-14815,14815,municipality_linked_postnatal_listing,40217,筑紫野市,4,居�
 GCP-14816,14816,municipality_linked_postnatal_listing,40217,筑紫野市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14816
 GCP-14816,15729,municipality_linked_postnatal_listing,40218,春日市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15729
 GCP-14817,14817,municipality_linked_postnatal_listing,40217,筑紫野市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14817
-GCP-14818,14818,municipality_linked_postnatal_listing,40217,筑紫野市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14818
 GCP-14819,14819,municipality_linked_postnatal_listing,40219,大野城市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14819
 GCP-14820,14820,municipality_linked_postnatal_listing,40219,大野城市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14820
 GCP-14821,14821,municipality_linked_postnatal_listing,40219,大野城市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14821
@@ -3735,21 +3736,19 @@ GCP-14824,14824,municipality_linked_postnatal_listing,40219,大野城市,1;2,短
 GCP-14825,14825,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14825
 GCP-14826,14826,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14826
 GCP-14827,14827,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14827
+GCP-14827,14843,municipality_linked_postnatal_listing,40223,古賀市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14843
+GCP-14827,14851,municipality_linked_postnatal_listing,40230,糸島市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14851
 GCP-14828,14828,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14828
 GCP-14831,14831,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14831
+GCP-14831,14882,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14882
 GCP-14832,14832,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14832
 GCP-14833,14833,municipality_linked_postnatal_listing,40219,大野城市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14833
 GCP-14835,14835,municipality_linked_postnatal_listing,40219,大野城市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14835
 GCP-14838,14838,municipality_linked_postnatal_listing,40220,宗像市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14838
 GCP-14839,14839,municipality_linked_postnatal_listing,40220,宗像市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14839
-GCP-14840,14840,municipality_linked_postnatal_listing,40220,宗像市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14840
 GCP-14842,14842,municipality_linked_postnatal_listing,40223,古賀市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14842
-GCP-14843,14843,municipality_linked_postnatal_listing,40223,古賀市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14843
-GCP-14843,14851,municipality_linked_postnatal_listing,40230,糸島市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14851
 GCP-14844,14881,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14881
-GCP-14845,14845,municipality_linked_postnatal_listing,40223,古賀市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14845
 GCP-14846,14846,municipality_linked_postnatal_listing,40224,福津市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14846
-GCP-14850,14850,municipality_linked_postnatal_listing,40229,みやま市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14850
 GCP-14854,14854,municipality_linked_postnatal_listing,40230,糸島市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14854
 GCP-14855,14855,municipality_linked_postnatal_listing,40341,宇美町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14855
 GCP-14856,14856,municipality_linked_postnatal_listing,40342,篠栗町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14856
@@ -3760,9 +3759,6 @@ GCP-14863,14863,municipality_linked_postnatal_listing,40447,筑前町,4,居宅�
 GCP-14864,14864,municipality_linked_postnatal_listing,40503,大刀洗町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14864
 GCP-14865,14865,municipality_linked_postnatal_listing,40522,大木町,2;3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/14865
 GCP-14866,14866,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14866
-GCP-14873,14873,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14873
-GCP-14882,14882,municipality_linked_postnatal_listing,40621,苅田町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/14882
-GCP-14885,14885,municipality_linked_postnatal_listing,40621,苅田町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14885
 GCP-14890,14890,municipality_linked_postnatal_listing,41201,佐賀市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14890
 GCP-14891,14891,municipality_linked_postnatal_listing,41201,佐賀市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14891
 GCP-14892,14892,municipality_linked_postnatal_listing,41201,佐賀市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/14892
@@ -3893,7 +3889,10 @@ GCP-15010,15010,municipality_linked_postnatal_listing,43214,阿蘇市,2;3;4,居�
 GCP-15011,15011,municipality_linked_postnatal_listing,43215,天草市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15011
 GCP-15012,15012,municipality_linked_postnatal_listing,43215,天草市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15012
 GCP-15013,15013,municipality_linked_postnatal_listing,43215,天草市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15013
+GCP-15015,15015,municipality_linked_postnatal_listing,43367,南関町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15015
+GCP-15017,15017,municipality_linked_postnatal_listing,43367,南関町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15017
 GCP-15018,15018,municipality_linked_postnatal_listing,43367,南関町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15018
+GCP-15019,15019,municipality_linked_postnatal_listing,43367,南関町,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15019
 GCP-15020,15020,municipality_linked_postnatal_listing,43367,南関町,3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/15020
 GCP-15021,15021,municipality_linked_postnatal_listing,43369,和水町,3,通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/15021
 GCP-15022,15022,municipality_linked_postnatal_listing,43403,大津町,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15022
@@ -4068,6 +4067,7 @@ GCP-15186,15186,municipality_linked_postnatal_listing,47211,沖縄市,1,短期�
 GCP-15187,15187,municipality_linked_postnatal_listing,47211,沖縄市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15187
 GCP-15190,15190,municipality_linked_postnatal_listing,47211,沖縄市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15190
 GCP-15190,15217,municipality_linked_postnatal_listing,47311,恩納村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15217
+GCP-15190,15225,municipality_linked_postnatal_listing,47324,読谷村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15225
 GCP-15191,15191,municipality_linked_postnatal_listing,47211,沖縄市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15191
 GCP-15192,15192,municipality_linked_postnatal_listing,47211,沖縄市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15192
 GCP-15193,15193,municipality_linked_postnatal_listing,47211,沖縄市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15193
@@ -4098,8 +4098,8 @@ GCP-15222,15222,municipality_linked_postnatal_listing,47324,読谷村,2;4,居宅
 GCP-15222,15232,municipality_linked_postnatal_listing,47326,北谷町,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15232
 GCP-15223,15223,municipality_linked_postnatal_listing,47324,読谷村,1;2,短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15223
 GCP-15224,15224,municipality_linked_postnatal_listing,47324,読谷村,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15224
-GCP-15225,15225,municipality_linked_postnatal_listing,47324,読谷村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15225
 GCP-15226,15226,municipality_linked_postnatal_listing,47324,読谷村,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15226
+GCP-15229,15229,municipality_linked_postnatal_listing,47324,読谷村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15229
 GCP-15231,15231,municipality_linked_postnatal_listing,47324,読谷村,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15231
 GCP-15233,15233,municipality_linked_postnatal_listing,47328,中城村,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15233
 GCP-15234,15234,municipality_linked_postnatal_listing,47328,中城村,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15234
@@ -4139,6 +4139,7 @@ GCP-15272,15272,municipality_linked_postnatal_listing,25201,大津市,2;4,居宅
 GCP-15273,15273,municipality_linked_postnatal_listing,25201,大津市,2,通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15273
 GCP-15274,15274,municipality_linked_postnatal_listing,25201,大津市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15274
 GCP-15275,15275,municipality_linked_postnatal_listing,25201,大津市,2;3;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）;通所（デイサービス）型（集団）,https://birth-navi.mhlw.go.jp/facilities/15275
+GCP-15276,15276,municipality_linked_postnatal_listing,25201,大津市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15276
 GCP-15277,15277,municipality_linked_postnatal_listing,25201,大津市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15277
 GCP-15278,15278,municipality_linked_postnatal_listing,25201,大津市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15278
 GCP-15279,15279,municipality_linked_postnatal_listing,25201,大津市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15279
@@ -4226,7 +4227,6 @@ GCP-15363,15363,municipality_linked_postnatal_listing,28201,姫路市,2,通所�
 GCP-15364,15629,municipality_linked_postnatal_listing,26407,京丹波町,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15629
 GCP-15364,15364,municipality_linked_postnatal_listing,28201,姫路市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15364
 GCP-15365,15365,municipality_linked_postnatal_listing,28201,姫路市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15365
-GCP-15366,15366,municipality_linked_postnatal_listing,34205,尾道市,2;4,居宅訪問（アウトリーチ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15366
 GCP-15367,15367,municipality_linked_postnatal_listing,34205,尾道市,4,居宅訪問（アウトリーチ）型,https://birth-navi.mhlw.go.jp/facilities/15367
 GCP-15368,15368,municipality_linked_postnatal_listing,34205,尾道市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15368
 GCP-15369,15369,municipality_linked_postnatal_listing,34205,尾道市,1;2;4,居宅訪問（アウトリーチ）型;短期入所（ショートステイ）型;通所（デイサービス）型（個別）,https://birth-navi.mhlw.go.jp/facilities/15369
