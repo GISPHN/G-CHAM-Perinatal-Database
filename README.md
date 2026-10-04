@@ -80,6 +80,21 @@ data/history/changes.csv               Changes between consecutive snapshots
 
 Each annual snapshot contains normalized CSV tables plus provenance and validation metadata. Raw facility HTML is not committed to GitHub. The source-response SHA-256, retrieval timestamp, source page URL, source `lastModifiedAt` value when available, and parser version are retained in normalized records to support provenance and change auditing while limiting repository growth.
 
+## Provider entity layer and duplicate listings
+
+A `birth_navi_id` is a **source listing ID**, not necessarily a unique physical provider ID. Birth Navi can contain several municipality-linked records for the same postnatal-care provider, while common facility names can also refer to genuinely different providers.
+
+For provider-level analysis, use the derived 2026 entity layer under `data/derived/2026/`:
+
+- `providers.csv`: conservatively deduplicated provider entities;
+- `provider_listing_map.csv`: every Birth Navi listing mapped to its derived provider entity with linkage method/confidence;
+- `municipality_postnatal_services.csv`: provider–municipality postnatal listing relations;
+- `deduplication_review.csv`: ambiguous same-name groups intentionally left separate for manual review.
+
+The 2026 source contains 5,638 retrievable listings. Conservative entity resolution currently produces 5,178 provider entities; 460 listings are collapsed into supported provider clusters, while 165 same-name groups remain for review. The raw annual snapshot is never overwritten.
+
+See [docs/provider_entity_model.md](docs/provider_entity_model.md) for linkage rules and interpretation.
+
 ## Coordinate quality
 
 Coordinates are provenance-tracked rather than silently geocoded. The annual Birth Navi snapshot is preserved as observed, while separate quality-control layers cross-check deterministic facility matches against MHLW Medical Information Net open data. Missing coordinates are supplemented only from direct MHLW coordinate fields or other independently public, authoritative location sources under conservative identity/address rules. Hidden Birth Navi information is never used to infer a point location. Outreach-only providers are still eligible for coordinate acquisition when a registered or business base is publicly documented; such coordinates are labeled as provider-origin/base coordinates and must not be interpreted as the actual service-delivery point.
