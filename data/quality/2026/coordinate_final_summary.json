@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-10-04T19:12:38.434030+00:00",
+  "snapshot_year": 2026,
+  "facility_count": 5638,
+  "manual_discrepancy_reviews": 44,
+  "manual_choice_birth_navi": 27,
+  "manual_choice_mhlw_iryou_information_net": 17,
+  "final_coordinate_present_count": 4383,
+  "final_coordinate_missing_count": 1255,
+  "manual_review_file": "data/quality/2026/coordinate_manual_review.csv",
+  "final_coordinate_file": "data/quality/2026/facilities_final_coordinates.csv",
+  "policy": "For the 44 deterministic cross-source discrepancies >500 m, the manually confirmed source is used. For all other records, the prior provenance-aware verified coordinate is retained. Original annual snapshot coordinates remain unchanged."
+}
