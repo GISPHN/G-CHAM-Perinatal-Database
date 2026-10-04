@@ -38,10 +38,26 @@ The derived file includes `coordinate_quality_status`:
 
 The original Birth Navi snapshot contained 1,265 facilities with missing latitude or longitude. Ten missing coordinates were recovered from the MHLW direct coordinate fields under the conservative rules above; 1,255 remain unresolved. Of the original missing records, 989 have the Birth Navi address hidden and are intentionally not point-geocoded.
 
-Cross-source checking also identified deterministic matches where the two official sources disagree materially. These records are retained with the Birth Navi coordinate but flagged for review rather than silently replaced. See:
+Cross-source checking identified 44 deterministic matches where Birth Navi and MHLW Medical Information Net coordinates differed by more than 500 m. These 44 cases were manually reviewed by Ryo Horiike on 2026-10-05. The adjudication selected the Birth Navi coordinate for 27 facilities and the MHLW Medical Information Net coordinate for 17 facilities.
 
+The manual decisions are preserved in `coordinate_manual_review.csv`. They are applied only in the derived analysis layer `facilities_final_coordinates.csv`; the original annual Birth Navi snapshot remains unchanged.
+
+For GIS and accessibility analyses, use:
+
+- `facilities_final_coordinates.csv`
+- `final_latitude`
+- `final_longitude`
+- `final_coordinate_source`
+- `final_coordinate_status`
+
+The final layer contains coordinates for 4,383 of 5,638 retrievable facilities; 1,255 remain unresolved. No coordinate is inferred from a Birth Navi-hidden address.
+
+Supporting audit files:
+
+- `coordinate_final_summary.json`
+- `coordinate_manual_review.csv`
 - `coordinate_verification_summary.json`
-- `coordinate_discrepancies_over_500m.csv`
+- `coordinate_verification_candidates.csv`
 - `facilities_verified_coordinates.csv`
 
-The MHLW open-data documentation itself notes that reported facility information may be outdated or contain reporting errors. Therefore, agreement between official sources increases confidence, whereas disagreement is treated as a quality-control signal rather than resolved automatically.
+The MHLW open-data documentation itself notes that reported facility information may be outdated or contain reporting errors. Therefore, source agreement increases confidence, while source disagreement is explicitly resolved by documented manual review rather than silently overwritten.
