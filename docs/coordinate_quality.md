@@ -19,7 +19,20 @@ A missing Birth Navi coordinate is filled in the derived file `facilities_verifi
    - the full normalized address matches exactly, or
    - the address is a unique prefix/truncation match and the Birth Navi facility type is consistent with the MHLW source category.
 
-Addresses that Birth Navi marks as hidden are never used to infer or publish a point coordinate.
+Addresses that Birth Navi marks as hidden are never used to infer or publish a point coordinate from hidden information. However, an outreach-only or home-visit provider is still a geocoding target when a registered office, business base, or other provider base is independently and publicly documented. In that case, the coordinate represents the **provider origin/base**, not the actual service-delivery point.
+
+## Outreach and home-visit providers
+
+Outreach-only, home-visit, and mobile providers are not excluded from coordinate acquisition. Their registered office or publicly documented business base can be analytically useful as an approximate provider origin when studying geographic coverage, travel burden, or plausible service areas.
+
+The database therefore separates **coordinate location** from **coordinate meaning**:
+
+- `service_site_or_provider_base`: a fixed facility or provider base that is also a plausible service site;
+- `registered_or_business_base_not_service_location`: an outreach/mobile provider's registered or business base; useful as an origin proxy but not a service-delivery point;
+- `provider_base_with_outreach_service`: a provider with a fixed base and outreach activity;
+- `provider_base_semantics_to_be_confirmed`: a provider whose base can be sought, but the operational meaning requires review.
+
+For outreach providers, a point coordinate should be used only as a **proxy origin**. It should not by itself be interpreted as the provider's catchment boundary or as evidence that care is delivered at that point. Service-area analyses should, where possible, combine the provider-base coordinate with information on municipalities served, stated visit range, travel-time assumptions, or other operational coverage information.
 
 ## Coordinate quality states
 
@@ -36,7 +49,7 @@ The derived file includes `coordinate_quality_status`:
 
 ## 2026 findings
 
-The original Birth Navi snapshot contained 1,265 facilities with missing latitude or longitude. Ten missing coordinates were recovered from the MHLW direct coordinate fields under the conservative rules above; 1,255 remain unresolved. Of the original missing records, 989 have the Birth Navi address hidden and are intentionally not point-geocoded.
+The original Birth Navi snapshot contained 1,265 facilities with missing latitude or longitude. Ten missing coordinates were recovered from the MHLW direct coordinate fields under the conservative rules above; 1,255 remain unresolved. Of the original missing records, 989 have the Birth Navi address hidden. They are not geocoded from hidden Birth Navi information; however, if an independently public registered/business base is identified from another authoritative source, that provider-base coordinate may be added with explicit provenance and semantics.
 
 Cross-source checking identified 44 deterministic matches where Birth Navi and MHLW Medical Information Net coordinates differed by more than 500 m. These 44 cases were manually reviewed by Ryo Horiike on 2026-10-05. The adjudication selected the Birth Navi coordinate for 27 facilities and the MHLW Medical Information Net coordinate for 17 facilities.
 
