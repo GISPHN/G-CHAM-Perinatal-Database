@@ -259,62 +259,122 @@ def main() -> int:
                 if d is not None and d <= 100:
                     link(a, b, "same_name_coordinate_within_100m")
 
-    # 5) Conservative name-only propagation for type-100 listings.
-    # This is allowed only when the exact surface-name group has a single evidence
-    # cluster and no conflicting informative record. Generic labels never propagate.
+    # 5) Conservative exact-name resolution for municipality-linked type-100
+    # listings. Name alone is never enough globally. Within the same prefecture,
+    # however, an exact non-generic name can be used when all available identifiers
+    # are non-conflicting. This captures cases where one municipal listing contains
+    # the address and another contains the phone, while avoiding common-name merges
+    # across prefectures.
     by_exact_name = defaultdict(list)
     for r in rows:
         if r["_name"]:
             by_exact_name[r["_name"]].append(r)
 
     propagation_method = {}
-    for _, group in by_exact_name.items():
-        if len(group) < 2:
+
+    for _, full_group in by_exact_name.items():
+        if len(full_group) < 2:
             continue
-        display_names = {r.get("facility_name", "").strip() for r in group}
+        display_names = {r.get("facility_name", "").strip() for r in full_group}
         display_name = next(iter(display_names)) if display_names else ""
         if display_name in GENERIC_NAMES:
             continue
 
-        info = [r for r in group if informative(r)]
-        if not info:
-            continue
+        by_prefecture = defaultdict(list)
+        for r in full_group:
+            by_prefecture[(r.get("prefecture_id") or "").strip()].append(r)
 
-        roots = {dsu.find(r["birth_navi_id"]) for r in info}
-        standard_roots = {
-            dsu.find(r["birth_navi_id"])
-            for r in info
-            if str(r.get("facility_type_code") or "") in {"1", "2", "3", "4", "5"}
-        }
-
-        target_root = None
-        method = None
-
-        # If one unique standard-facility entity exists, use it as anchor unless
-        # another informative record forms a conflicting evidence cluster.
-        if len(standard_roots) == 1 and len(roots) == 1:
-            target_root = next(iter(roots))
-            method = "name_only_to_unique_standard_anchor"
-        elif len(roots) == 1:
-            target_root = next(iter(roots))
-            method = "name_only_single_evidence_cluster"
-
-        if target_root is None:
-            continue
-
-        anchor_id = next(r["birth_navi_id"] for r in info if dsu.find(r["birth_navi_id"]) == target_root)
-        anchor = by_id[anchor_id]
-
-        for r in group:
-            if informative(r):
+        for _, group in by_prefecture.items():
+            if len(group) < 2:
                 continue
-            if str(r.get("facility_type_code") or "") != "100":
+
+            phones = {r["_phone"] for r in group if r["_phone"]}
+            addrs = {r["_addr"] for r in group if r["_addr"]}
+            source_ids = {r["_source_id"] for r in group if r["_source_id"]}
+            coords = [coord_of(r) for r in group if coord_of(r)]
+
+            coord_conflict = False
+            for i in range(len(coords)):
+                for j in range(i + 1, len(coords)):
+                    d = haversine_m(coords[i][0], coords[i][1], coords[j][0], coords[j][1])
+                    if d is not None and d > 1000:
+                        coord_conflict = True
+                        break
+                if coord_conflict:
+                    break
+
+            has_any_evidence = bool(phones or addrs or source_ids or coords)
+            no_identifier_conflict = (
+                len(phones) <= 1
+                and len(addrs) <= 1
+                and len(source_ids) <= 1
+                and not coord_conflict
+            )
+
+            # If evidence exists and does not conflict, exact name + same prefecture
+            # is sufficiently constrained to join the group. At least one record must
+            # be a type-100 municipal listing; otherwise ordinary same-name facilities
+            # are not merged by this rule.
+            if (
+                has_any_evidence
+                and no_identifier_conflict
+                and any(str(r.get("facility_type_code") or "") == "100" for r in group)
+            ):
+                anchor = max(group, key=lambda r: (
+                    1 if str(r.get("facility_type_code") or "") in {"1","2","3","4","5"} else 0,
+                    1 if informative(r) else 0,
+                    -int(r["birth_navi_id"]),
+                ))
+                for r in group:
+                    if r["birth_navi_id"] == anchor["birth_navi_id"]:
+                        continue
+                    before = dsu.find(r["birth_navi_id"])
+                    link(anchor, r, "exact_name_same_prefecture_no_conflicting_identifiers")
+                    if dsu.find(r["birth_navi_id"]) == dsu.find(anchor["birth_navi_id"]) and before != dsu.find(anchor["birth_navi_id"]):
+                        propagation_method[r["birth_navi_id"]] = "exact_name_same_prefecture_no_conflicting_identifiers"
                 continue
-            if link(anchor, r, method) is None:
-                # link() returns None; record method after union/root check below.
-                pass
-            if dsu.find(r["birth_navi_id"]) == dsu.find(anchor_id):
-                propagation_method[r["birth_navi_id"]] = method
+
+            # Otherwise, only identifier-empty type-100 rows may propagate into a
+            # single already-supported evidence cluster.
+            info = [r for r in group if informative(r)]
+            if not info:
+                continue
+
+            roots = {dsu.find(r["birth_navi_id"]) for r in info}
+            standard_roots = {
+                dsu.find(r["birth_navi_id"])
+                for r in info
+                if str(r.get("facility_type_code") or "") in {"1", "2", "3", "4", "5"}
+            }
+
+            target_root = None
+            method = None
+            if len(standard_roots) == 1 and len(roots) == 1:
+                target_root = next(iter(roots))
+                method = "name_only_to_unique_standard_anchor_same_prefecture"
+            elif len(roots) == 1:
+                target_root = next(iter(roots))
+                method = "name_only_single_evidence_cluster_same_prefecture"
+
+            if target_root is None:
+                continue
+
+            anchor_id = next(
+                r["birth_navi_id"]
+                for r in info
+                if dsu.find(r["birth_navi_id"]) == target_root
+            )
+            anchor = by_id[anchor_id]
+
+            for r in group:
+                if informative(r):
+                    continue
+                if str(r.get("facility_type_code") or "") != "100":
+                    continue
+                before = dsu.find(r["birth_navi_id"])
+                link(anchor, r, method)
+                if dsu.find(r["birth_navi_id"]) == dsu.find(anchor_id) and before != dsu.find(anchor_id):
+                    propagation_method[r["birth_navi_id"]] = method
 
     # Materialize components.
     components = defaultdict(list)
@@ -514,7 +574,7 @@ def main() -> int:
         "principles": [
             "birth_navi_id is treated as a source listing ID, not a physical-provider ID",
             "raw annual snapshot is never overwritten",
-            "same name alone is insufficient for automatic merging except conservative propagation of identifier-empty type-100 listings into one unambiguous evidence cluster",
+            "same name alone is insufficient globally; exact-name type-100 listings may merge within the same prefecture only when all available identifiers are non-conflicting",
             "generic names are never merged by name-only propagation",
             "coordinates farther than 1 km prevent phone/address/name-based linking unless the same official source entity ID is present",
             "ambiguous same-name groups remain separate and are exported for manual review",
