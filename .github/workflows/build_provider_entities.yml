@@ -1,0 +1,37 @@
+name: Build provider entity layer
+
+on:
+  push:
+    paths:
+      - "scripts/build_provider_entities.py"
+      - ".github/workflows/build_provider_entities.yml"
+      - "data/quality/2026/facilities_final_coordinates.csv"
+      - "data/snapshots/2026/postnatal_services.csv"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build provider and municipality-relation tables
+        run: python scripts/build_provider_entities.py
+      - name: Commit derived entity layer
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/derived/2026
+          if git diff --cached --quiet; then
+            echo "No derived changes."
+          else
+            git commit -m "Build 2026 provider entity layer"
+            git push
+          fi
