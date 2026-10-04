@@ -55,3 +55,25 @@ outpatient_times,day_of_week_code,Day-of-week code,source code,
 outpatient_times,reception_time_text,Outpatient reception time,text,
 room_costs,cost_yen,Reported room-related difference cost,yen,
 painless_delivery_costs,cost_yen,Reported painless-delivery additional cost,yen,
+providers,provider_id,Derived G-CHAM provider entity identifier,,One physical/provider entity may map to multiple Birth Navi listing IDs
+providers,provider_name,Representative provider name,,
+providers,representative_birth_navi_id,Representative source listing ID,,
+providers,listing_count,Number of Birth Navi listings linked to this provider,count,
+providers,standard_facility_listing_count,Number of type 1-5 facility listings linked to this provider,count,
+providers,municipality_linked_type100_listing_count,Number of type-100 municipality-linked listings linked to this provider,count,
+providers,birth_navi_ids,All linked Birth Navi listing IDs,semicolon-separated,
+providers,latitude,Representative final latitude,decimal degrees,Use together with coordinate_source/status
+providers,longitude,Representative final longitude,decimal degrees,Use together with coordinate_source/status
+providers,coordinate_conflict_over_500m,Whether member listings retain coordinate disagreement >500 m,0/1,Review before spatial analysis when 1
+provider_listing_map,provider_id,Derived provider entity identifier,,
+provider_listing_map,birth_navi_id,Source Birth Navi listing identifier,,
+provider_listing_map,listing_role,Role of source listing,facility_listing; municipality_linked_postnatal_listing,
+provider_listing_map,deduplication_method,Entity-linkage method,,
+provider_listing_map,deduplication_confidence,Entity-linkage confidence,high; medium; not_applicable,
+municipality_postnatal_services,provider_id,Derived provider entity identifier,,
+municipality_postnatal_services,birth_navi_id,Source Birth Navi postnatal listing identifier,,
+municipality_postnatal_services,municipality_code,Municipality represented by the Birth Navi listing,,Not necessarily provider physical location
+municipality_postnatal_services,postnatal_care_type_codes,Postnatal-care type codes,semicolon-separated,
+deduplication_review,facility_name,Same-name group requiring review,,
+deduplication_review,provider_entity_count,Number of currently separate provider entities,count,
+deduplication_review,review_reason,Reason automatic merge was withheld,,
