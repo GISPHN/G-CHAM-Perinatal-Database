@@ -1,0 +1,36 @@
+name: Apply manual coordinate review
+
+on:
+  push:
+    paths:
+      - "data/quality/2026/coordinate_manual_review.csv"
+      - "scripts/apply_manual_coordinate_review.py"
+      - ".github/workflows/apply_manual_coordinate_review.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply manual adjudications
+        run: python scripts/apply_manual_coordinate_review.py
+      - name: Commit final coordinate layer
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quality/2026/facilities_final_coordinates.csv data/quality/2026/coordinate_final_summary.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Apply 2026 manual coordinate review"
+            git push
+          fi
