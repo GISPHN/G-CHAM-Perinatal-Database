@@ -82,7 +82,9 @@ Each annual snapshot contains normalized CSV tables plus provenance and validati
 
 ## Coordinate quality
 
-Coordinates are provenance-tracked rather than silently geocoded. The annual Birth Navi snapshot is preserved as observed, while a separate verified coordinate layer cross-checks deterministic facility matches against MHLW Medical Information Net open data. Missing coordinates are supplemented only from direct MHLW coordinate fields under conservative identity/address rules; hidden Birth Navi addresses are never used to infer a point location. Material disagreement between official sources is flagged for review rather than automatically overwritten.
+Coordinates are provenance-tracked rather than silently geocoded. The annual Birth Navi snapshot is preserved as observed, while separate quality-control layers cross-check deterministic facility matches against MHLW Medical Information Net open data. Missing coordinates are supplemented only from direct MHLW coordinate fields under conservative identity/address rules; hidden Birth Navi addresses are never used to infer a point location.
+
+For 2026, 44 deterministic cross-source discrepancies greater than 500 m were manually reviewed by Ryo Horiike. Birth Navi was selected for 27 facilities and MHLW Medical Information Net for 17. **For GIS and accessibility analyses, use `data/quality/2026/facilities_final_coordinates.csv` and its `final_latitude` / `final_longitude` fields**, not the raw snapshot coordinate columns.
 
 See [docs/coordinate_quality.md](docs/coordinate_quality.md) and the outputs under `data/quality/2026/`.
 
