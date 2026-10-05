@@ -1,0 +1,19 @@
+name: Package manual review master
+
+on:
+  push:
+    paths:
+      - "data/quality/2026/manual_review_master.csv"
+      - ".github/workflows/package_manual_review_master.yml"
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: manual-review-master
+          path: data/quality/2026/manual_review_master.csv
+          retention-days: 7
