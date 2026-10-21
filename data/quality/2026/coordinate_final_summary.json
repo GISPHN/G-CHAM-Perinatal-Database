@@ -1,13 +1,21 @@
 {
-  "generated_at_utc": "2026-10-04T19:12:38.434030+00:00",
+  "generated_at_utc": "2026-10-21T01:51:42.091269+00:00",
   "snapshot_year": 2026,
   "facility_count": 5638,
   "manual_discrepancy_reviews": 44,
   "manual_choice_birth_navi": 27,
   "manual_choice_mhlw_iryou_information_net": 17,
-  "final_coordinate_present_count": 4383,
-  "final_coordinate_missing_count": 1255,
+  "gsi_address_representative_point_count": 266,
+  "gsi_representative_point_granularity_counts": {
+    "街区・番地等": 10,
+    "町字・丁目等": 231,
+    "市区町村": 23,
+    "都道府県": 2
+  },
+  "final_coordinate_present_count": 4649,
+  "final_coordinate_missing_count": 989,
   "manual_review_file": "data/quality/2026/coordinate_manual_review.csv",
+  "gsi_representative_point_file": "data/quality/2026/gsi_address_representative_points.csv",
   "final_coordinate_file": "data/quality/2026/facilities_final_coordinates.csv",
-  "policy": "For the 44 deterministic cross-source discrepancies >500 m, the manually confirmed source is used. For all other records, the prior provenance-aware verified coordinate is retained. Original annual snapshot coordinates remain unchanged."
+  "policy": "For the 44 deterministic cross-source discrepancies >500 m, the manually confirmed source is used. For all other records, the prior provenance-aware verified coordinate is retained. GSI Maps address search representative points fill only still-missing coordinates and are explicitly labelled by result granularity; they are not facility entrances or building centroids. Original annual snapshot coordinates remain unchanged."
 }
