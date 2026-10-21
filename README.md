@@ -80,6 +80,52 @@ data/history/changes.csv               Changes between consecutive snapshots
 
 Each annual snapshot contains normalized CSV tables plus provenance and validation metadata. Raw facility HTML is not committed to GitHub. The source-response SHA-256, retrieval timestamp, source page URL, source `lastModifiedAt` value when available, and parser version are retained in normalized records to support provenance and change auditing while limiting repository growth.
 
+## Choosing the correct data table
+
+The repository contains source listing tables, quality controlled coordinate tables, and derived provider entity tables. Select the table according to the research question and unit of analysis.
+
+| Research purpose | Recommended file | Unit of analysis | Important interpretation |
+|---|---|---|---|
+| Count or map distinct providers | `data/derived/2026/providers.csv` | One derived provider entity | Use `provider_id`, `latitude`, and `longitude`. Birth Navi listings judged to represent the same provider have been consolidated. |
+| Analyze Birth Navi listings | `data/quality/2026/facilities_final_coordinates.csv` | One Birth Navi listing | Use `final_latitude` and `final_longitude`. Several listing rows can refer to the same provider, so row counts are not provider counts. |
+| Reproduce the source data as observed | `data/snapshots/2026/facilities.csv` | One source listing | The raw source coordinate fields are retained for audit purposes and are not recommended as the final GIS coordinates. |
+| Analyze municipality linked postnatal care services | `data/derived/2026/municipality_postnatal_services.csv` | One municipality and provider relationship | The municipality represents a service or listing relationship. It does not necessarily represent the physical location of the provider. |
+| Analyze services, fees, staffing, or facility characteristics | Detail tables under `data/snapshots/2026/` | One Birth Navi listing | Join tables with `birth_navi_id`. For provider level results, map listings through `data/derived/2026/provider_listing_map.csv` and state the aggregation rule. |
+| Audit provider entity decisions | `data/derived/2026/provider_listing_map.csv`, `data/quality/2026/provider_entity_manual_decisions.csv`, and `data/quality/2026/provider_entity_manual_mapping.csv` | Listing mapping or review decision | Use these files to inspect and reproduce the consolidation of listings into provider entities. |
+| Audit GSI geocoding | `data/quality/2026/gsi_address_representative_points.csv` | One geocoded public address | GSI coordinates are address representative points, not confirmed building entrances or service locations. |
+| Conduct longitudinal analysis | Annual tables under `data/snapshots/YYYY/` and `data/history/` | One source listing per year | Do not assume that listing identifiers or provider groupings remain stable across years without verification. |
+
+### Coordinate selection for spatial analysis
+
+For provider level spatial analysis, use `data/derived/2026/providers.csv`. For listing level spatial analysis, use `data/quality/2026/facilities_final_coordinates.csv` and the `final_latitude` and `final_longitude` columns.
+
+For fine scale distance, nearest provider, or travel time analysis:
+
+1. Use records with available final coordinates and report the number and proportion excluded because coordinates were unavailable.
+2. For the primary analysis, exclude GSI address representative points by selecting `coordinate_is_address_representative_point = 0` in `providers.csv`, or `final_coordinate_is_address_representative_point = 0` in the listing level table.
+3. GSI points classified as `街区・番地等` may be added in a sensitivity analysis if their positional uncertainty is explicitly reported.
+4. Points classified as `町字・丁目等`, `市区町村`, or `都道府県` should not be treated as precise provider locations for fine scale distance or travel time calculations.
+5. Review `coordinate_semantics` and `coordinate_meaning` when they are populated. A registered or business base coordinate can differ from the actual service delivery location.
+
+For regional distribution maps, GSI representative points may be included when their granularity is appropriate for the map scale. Distinguish them by source or granularity and report how their inclusion affects interpretation.
+
+### Coordinate completeness in the 2026 data
+
+- 4,649 of 5,638 listing records have final coordinates; 989 do not.
+- 4,311 of 5,116 provider entities have coordinates; 805 do not.
+- The listing level coordinate layer includes 266 GSI address representative points.
+
+All 989 unresolved listing coordinates are municipality linked records with `facility_type_code = 100` whose addresses are not publicly displayed. Coordinate missingness is therefore structurally related to the listing type rather than random. Analyses of postnatal care access should report this limitation and should not silently remove unresolved records.
+
+### Common interpretation errors
+
+- Do not use the number of rows in `facilities.csv` or `facilities_final_coordinates.csv` as the number of distinct providers.
+- Do not use raw `latitude` and `longitude` when the final coordinate fields are available.
+- Do not interpret a municipality representative point as the physical location of a provider.
+- Do not use municipality or prefecture representative points for fine scale distance or travel time calculations.
+- Do not aggregate fees, staffing, beds, delivery volumes, or service counts across duplicate listings without a stated aggregation rule.
+- Always report coordinate completeness and any precision based exclusion criteria.
+
 ## Provider entity layer and duplicate listings
 
 A `birth_navi_id` is a **source listing ID**, not necessarily a unique physical provider ID. Birth Navi can contain several municipality-linked records for the same postnatal-care provider, while common facility names can also refer to genuinely different providers.
