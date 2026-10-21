@@ -1,12 +1,9 @@
 name: Build provider entity layer
 
 on:
-  push:
-    paths:
-      - "scripts/build_provider_entities.py"
-      - ".github/workflows/build_provider_entities.yml"
-      - "data/quality/2026/facilities_final_coordinates.csv"
-      - "data/snapshots/2026/postnatal_services.csv"
+  # The reviewed-data workflow builds coordinates and provider entities in one
+  # job so an Actions-generated commit does not need to trigger another workflow.
+  # This dispatch remains available as a manual recovery/rebuild command.
   workflow_dispatch:
 
 permissions:

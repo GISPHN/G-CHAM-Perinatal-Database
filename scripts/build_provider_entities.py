@@ -17,6 +17,7 @@ QUALITY = ROOT / "data/quality/2026"
 OUT = ROOT / "data/derived/2026"
 
 FACILITIES = QUALITY / "facilities_final_coordinates.csv"
+MANUAL_PROVIDER_MAP = QUALITY / "provider_entity_manual_mapping.csv"
 POSTNATAL = SNAP / "postnatal_services.csv"
 
 LEGAL_TERMS = (
@@ -65,6 +66,26 @@ def write_csv(path: Path, rows, fields):
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
         w.writerows(rows)
+
+
+def write_summary_if_changed(path: Path, summary):
+    """Keep the prior generation time when the substantive summary is unchanged."""
+    if path.exists():
+        try:
+            prior = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            prior = None
+        if prior:
+            prior_body = {k: v for k, v in prior.items() if k != "generated_at_utc"}
+            new_body = {k: v for k, v in summary.items() if k != "generated_at_utc"}
+            if prior_body == new_body:
+                summary["generated_at_utc"] = prior.get(
+                    "generated_at_utc", summary["generated_at_utc"]
+                )
+    path.write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def norm_text(value: str) -> str:
@@ -144,17 +165,33 @@ def coord_of(r):
     return None
 
 
+def coordinate_is_address_representative_point(r):
+    return (r.get("final_coordinate_is_address_representative_point") or "").strip() == "1"
+
+
+def coord_for_entity_resolution(r):
+    """Return only coordinates suitable for identity linkage.
+
+    GSI address-search results are useful for mapping unresolved listings but are
+    address representative points with variable granularity. They must not create
+    or block provider-identity links.
+    """
+    if coordinate_is_address_representative_point(r):
+        return None
+    return coord_of(r)
+
+
 def informative(r):
     return bool(
         norm_phone(r.get("phone_number", ""))
         or norm_address(r.get("address", ""))
-        or coord_of(r)
+        or coord_for_entity_resolution(r)
         or (r.get("coordinate_source_id") or "").strip()
     )
 
 
 def pair_far_apart(a, b, threshold=1000.0):
-    ca, cb = coord_of(a), coord_of(b)
+    ca, cb = coord_for_entity_resolution(a), coord_for_entity_resolution(b)
     if not ca or not cb:
         return False
     d = haversine_m(ca[0], ca[1], cb[0], cb[1])
@@ -186,10 +223,31 @@ def unique_nonblank(rows, key):
 
 def main() -> int:
     rows = read_csv(FACILITIES)
+    manual_rows = read_csv(MANUAL_PROVIDER_MAP)
     by_id = {r["birth_navi_id"]: r for r in rows}
     ids = list(by_id)
     dsu = DSU(ids)
     edge_methods = defaultdict(list)
+
+    manual_by_id = {r["birth_navi_id"]: r for r in manual_rows}
+    if len(manual_by_id) != len(manual_rows):
+        raise SystemExit("Duplicate Birth Navi IDs in provider manual mapping.")
+    unknown_manual_ids = sorted(set(manual_by_id) - set(by_id), key=int)
+    if unknown_manual_ids:
+        raise SystemExit(f"Unknown Birth Navi IDs in provider manual mapping: {unknown_manual_ids[:10]}")
+    manual_target_by_id = {}
+    for r in manual_rows:
+        fid = r["birth_navi_id"]
+        if (r.get("review_status") or "").strip() != "確認済み":
+            raise SystemExit(f"Unconfirmed provider manual mapping for {fid}")
+        target = (r.get("proposed_provider_id") or "").strip()
+        match = re.fullmatch(r"GCP-(\d{5,})", target)
+        if not match:
+            raise SystemExit(f"Invalid proposed provider ID for {fid}: {target}")
+        anchor_id = str(int(match.group(1)))
+        if anchor_id not in by_id:
+            raise SystemExit(f"Manual provider anchor does not exist for {fid}: {anchor_id}")
+        manual_target_by_id[fid] = target
 
     # Precompute normalized fields.
     for r in rows:
@@ -201,6 +259,10 @@ def main() -> int:
 
     def link(a, b, method):
         if a["birth_navi_id"] == b["birth_navi_id"]:
+            return
+        ta = manual_target_by_id.get(a["birth_navi_id"])
+        tb = manual_target_by_id.get(b["birth_navi_id"])
+        if ta and tb and ta != tb:
             return
         if pair_far_apart(a, b) and method not in {"same_official_source_id"}:
             return
@@ -250,11 +312,11 @@ def main() -> int:
         if r["_cname"]:
             by_cname[r["_cname"]].append(r)
     for group in by_cname.values():
-        with_coord = [r for r in group if coord_of(r)]
+        with_coord = [r for r in group if coord_for_entity_resolution(r)]
         for i in range(len(with_coord)):
             for j in range(i + 1, len(with_coord)):
                 a, b = with_coord[i], with_coord[j]
-                ca, cb = coord_of(a), coord_of(b)
+                ca, cb = coord_for_entity_resolution(a), coord_for_entity_resolution(b)
                 d = haversine_m(ca[0], ca[1], cb[0], cb[1])
                 if d is not None and d <= 100:
                     link(a, b, "same_name_coordinate_within_100m")
@@ -291,7 +353,7 @@ def main() -> int:
             phones = {r["_phone"] for r in group if r["_phone"]}
             addrs = {r["_addr"] for r in group if r["_addr"]}
             source_ids = {r["_source_id"] for r in group if r["_source_id"]}
-            coords = [coord_of(r) for r in group if coord_of(r)]
+            coords = [coord_for_entity_resolution(r) for r in group if coord_for_entity_resolution(r)]
 
             coord_conflict = False
             for i in range(len(coords)):
@@ -376,6 +438,25 @@ def main() -> int:
                 if dsu.find(r["birth_navi_id"]) == dsu.find(anchor_id) and before != dsu.find(anchor_id):
                     propagation_method[r["birth_navi_id"]] = method
 
+    # Manual adjudication is authoritative for the 165 reviewed same-name groups.
+    # Link each reviewed listing to the anchor encoded in its final provider ID.
+    # Automatic links between manually separated listings were blocked above.
+    for fid, target in manual_target_by_id.items():
+        anchor_id = str(int(target.removeprefix("GCP-")))
+        if fid == anchor_id:
+            continue
+        if dsu.union(fid, anchor_id):
+            edge_methods[fid].append("manual_same_name_adjudication")
+            edge_methods[anchor_id].append("manual_same_name_adjudication")
+
+    # Detect any transitive automatic bridge that would contradict a manual split.
+    targets_by_root = defaultdict(set)
+    for fid, target in manual_target_by_id.items():
+        targets_by_root[dsu.find(fid)].add(target)
+    conflicts = {root: targets for root, targets in targets_by_root.items() if len(targets) > 1}
+    if conflicts:
+        raise SystemExit(f"Automatic linkage conflicts with manual provider decisions: {conflicts}")
+
     # Materialize components.
     components = defaultdict(list)
     for r in rows:
@@ -387,6 +468,15 @@ def main() -> int:
 
     for comp_rows in components.values():
         pid = stable_provider_id(comp_rows)
+        manual_targets = {
+            manual_target_by_id[r["birth_navi_id"]]
+            for r in comp_rows
+            if r["birth_navi_id"] in manual_target_by_id
+        }
+        if manual_targets and manual_targets != {pid}:
+            raise SystemExit(
+                f"Manual provider ID is inconsistent with stable component ID: {pid} vs {manual_targets}"
+            )
         for r in comp_rows:
             component_provider_id[r["birth_navi_id"]] = pid
 
@@ -426,6 +516,14 @@ def main() -> int:
             "longitude": rep_coord[1] if rep_coord else "",
             "coordinate_source": rep.get("final_coordinate_source", ""),
             "coordinate_status": rep.get("final_coordinate_status", ""),
+            "coordinate_is_address_representative_point": rep.get(
+                "final_coordinate_is_address_representative_point", "0"
+            ),
+            "coordinate_representative_point_granularity": rep.get(
+                "gsi_representative_point_granularity", ""
+            ),
+            "coordinate_semantics": rep.get("coordinate_semantics", ""),
+            "coordinate_meaning": rep.get("coordinate_meaning", ""),
             "coordinate_conflict_over_500m": coord_conflict,
             "max_coordinate_spread_m": f"{max_coord_spread:.1f}" if coords else "",
             "prenatal_checkup_listed_any": int(any(r.get("prenatal_checkup_listed") == "1" for r in comp_rows)),
@@ -441,7 +539,11 @@ def main() -> int:
         methods = set(edge_methods.get(r["birth_navi_id"], []))
         if r["birth_navi_id"] in propagation_method:
             methods.add(propagation_method[r["birth_navi_id"]])
-        if len(comp) == 1:
+        manual = manual_by_id.get(r["birth_navi_id"])
+        if manual:
+            method = "manual_same_name_adjudication"
+            confidence = "manual_confirmed"
+        elif len(comp) == 1:
             method = "singleton_no_deduplication"
             confidence = "not_applicable"
         elif "same_official_source_id" in methods:
@@ -475,6 +577,8 @@ def main() -> int:
             "listing_phone_number": r.get("phone_number", ""),
             "deduplication_method": method,
             "deduplication_confidence": confidence,
+            "manual_review_group_no": manual.get("group_no", "") if manual else "",
+            "manual_review_verdict": manual.get("verdict", "") if manual else "",
             "source_url": r.get("source_url", ""),
         })
 
@@ -511,6 +615,8 @@ def main() -> int:
         pids = sorted({provider_by_listing[r["birth_navi_id"]] for r in group})
         if len(pids) <= 1:
             continue
+        if all(r["birth_navi_id"] in manual_by_id for r in group):
+            continue
         display_name = group[0].get("facility_name", "")
         review_rows.append({
             "facility_name": display_name,
@@ -535,6 +641,8 @@ def main() -> int:
         "representative_birth_navi_id","listing_count","standard_facility_listing_count",
         "municipality_linked_type100_listing_count","birth_navi_ids","public_address",
         "public_phone_number","latitude","longitude","coordinate_source","coordinate_status",
+        "coordinate_is_address_representative_point",
+        "coordinate_representative_point_granularity","coordinate_semantics","coordinate_meaning",
         "coordinate_conflict_over_500m","max_coordinate_spread_m",
         "prenatal_checkup_listed_any","delivery_listed_any","postnatal_care_listed_any",
         "source_entity_ids",
@@ -543,6 +651,7 @@ def main() -> int:
         "birth_navi_id","provider_id","facility_name","facility_type_code","listing_role",
         "listing_municipality_code","listing_municipality_name","listing_address",
         "listing_phone_number","deduplication_method","deduplication_confidence","source_url",
+        "manual_review_group_no","manual_review_verdict",
     ])
     write_csv(OUT / "municipality_postnatal_services.csv", rel_rows, [
         "provider_id","birth_navi_id","listing_role","municipality_code","municipality_name",
@@ -568,6 +677,8 @@ def main() -> int:
         "type100_listing_count": sum(str(r.get("facility_type_code") or "") == "100" for r in rows),
         "postnatal_municipality_relation_rows": len(rel_rows),
         "same_name_groups_left_as_multiple_provider_entities": len(review_rows),
+        "manually_adjudicated_same_name_group_count": len({r.get("group_no", "") for r in manual_rows}),
+        "manually_adjudicated_listing_count": len(manual_rows),
         "deduplication_method_counts": dict(methods),
         "deduplication_confidence_counts": dict(confidence),
         "provider_cluster_size_distribution": {str(k): v for k, v in sorted(cluster_sizes.items())},
@@ -578,12 +689,11 @@ def main() -> int:
             "generic names are never merged by name-only propagation",
             "coordinates farther than 1 km prevent phone/address/name-based linking unless the same official source entity ID is present",
             "ambiguous same-name groups remain separate and are exported for manual review",
+            "reviewed same-name groups follow the published manual mapping; confirmed separate providers are not treated as pending review",
+            "GSI address representative points are excluded from automatic identity linkage because their granularity varies",
         ],
     }
-    (OUT / "deduplication_summary.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    write_summary_if_changed(OUT / "deduplication_summary.json", summary)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0
 

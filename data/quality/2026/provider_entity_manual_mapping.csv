@@ -1,0 +1,821 @@
+﻿group_no,birth_navi_id,facility_name,current_provider_id,proposed_provider_id,review_status,verdict,base_policy,listing_municipality,source_public_address,source_public_phone,source_facility_url,source_external_urls,evidence_urls,notes
+1,11802,ひまわり助産院,GCP-11802,GCP-11802,確認済み,一部同一,確定した組合せのみ統合,刈谷市,愛知県刈谷市池田町１－１－９,0566273613,https://birth-navi.mhlw.go.jp/facilities/11802,"https://www.midwifemap.com/mysite/himawari/
+https://www.instagram.com/himawari_josanin
+https://line.me/ti/p/JkhkZhIFi3",https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,11858,ひまわり助産院,GCP-11858,GCP-11858,確認済み,一部同一,確定した組合せのみ統合,匝瑳市,千葉県匝瑳市野手１７１４６ー９３７,0479673132,https://birth-navi.mhlw.go.jp/facilities/11858,http://midwifemap.com/himawari-baby/mysite/,https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,11872,ひまわり助産院,GCP-11872,GCP-11872,確認済み,一部同一,確定した組合せのみ統合,金沢市,石川県金沢市泉野出町４丁目１３番２２号,0762424742,https://birth-navi.mhlw.go.jp/facilities/11872,,https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,12602,ひまわり助産院,GCP-12602,GCP-12602,確認済み,一部同一,確定した組合せのみ統合,京都市上京区,京都府京都市上京区東堀川通丸太町上る六町目210番地１,0752312273,https://birth-navi.mhlw.go.jp/facilities/12602,"https://www.kyotohimawarijosanin.com
+https://www.facebook.com/share/1H1EPXWy92/?mibextid=wwXIfr
+https://x.com/qopqu5avjx80043?s=11
+https://www.instagram.com/kyoto_himawarijosaninigsh=MTg1MGpnY3dnNGE1bw==
+https://lin.ee/82J1cvD
+https://m.youtube.com/@kyoto_himawarijosanin?fbclid=PAZnRzaAPpCg5leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAacWTudwOBla7gF2zRFqIXbZXIdgapNG3L9R42XInufo38_fw_b3gXMFHxj54g_aem_8q1RkBCwDu41P7n-tsu9Vg",https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,13126,ひまわり助産院,GCP-13126,GCP-13126,確認済み,一部同一,確定した組合せのみ統合,上尾市,上尾市富士見,09099619089,https://birth-navi.mhlw.go.jp/facilities/13126,https://himawari-josanin.com/,https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,13528,ひまわり助産院,GCP-13528,GCP-13528,確認済み,一部同一,確定した組合せのみ統合,秦野市,秦野市堀西461-1-105,08058611081,https://birth-navi.mhlw.go.jp/facilities/13528,,https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,13642,ひまわり助産院,GCP-13642,GCP-13642,確認済み,一部同一,確定した組合せのみ統合,射水市,射水市戸破1542－12,0766578377,https://birth-navi.mhlw.go.jp/facilities/13642,https://himawarijosanin.com/,https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,14072,ひまわり助産院,GCP-14072,GCP-14072,確認済み,一部同一,確定した組合せのみ統合,安城市,安城市井杭山町一本木3-13,0566774384,https://birth-navi.mhlw.go.jp/facilities/14072,,https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+1,14166,ひまわり助産院,GCP-14166,GCP-12602,確認済み,一部同一,確定した組合せのみ統合,京都市,京都市上京区東堀川通り丸太町上る六丁目210-1,09032752169,https://birth-navi.mhlw.go.jp/facilities/14166,https://www.kyotohimawarijosanin.com/,https://www.city.kyoto.lg.jp/hagukumi/page/0000168986.html,京都の12602・14166は上京区六丁目210-1と登録URLが一致し、京都市資料の所在地とも一致する。他の地域は所在地・連絡先の異なる同名施設。京都の2掲載だけ追加統合する。
+2,11730,にじいろ助産院,GCP-11730,GCP-11730,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,大阪市淀川区,大阪府大阪市淀川区十三東４－３－４９,0661951706,https://birth-navi.mhlw.go.jp/facilities/11730,"https://www.nijiiro-mamanote.com/
+https://www.instagram.com/mama.no.te?igsh=MTJrazRxeDFod25paA==","https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+2,11879,にじいろ助産院,GCP-11879,GCP-11879,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,福津市,福岡県福津市本木１２３０の４,09025890514,https://birth-navi.mhlw.go.jp/facilities/11879,"http://www.nijiiro-josanin.com/
+https://www.instagram.com/nijiirojyosanin?igsh=cWZtY2JzMHQzNnBh","https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+2,13234,にじいろ助産院,GCP-13234,GCP-13234,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,栄町,,,https://birth-navi.mhlw.go.jp/facilities/13234,,"https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+2,13625,にじいろ助産院,GCP-13625,GCP-13625,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,高岡市,高岡市石瀬２６５－５,0766229369,https://birth-navi.mhlw.go.jp/facilities/13625,,"https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+2,14235,にじいろ助産院,GCP-11730,GCP-11730,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,豊中市,大阪市淀川区十三東４－３－４９,,https://birth-navi.mhlw.go.jp/facilities/14235,,"https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+2,14333,にじいろ助産院,GCP-11730,GCP-11730,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,尼崎市,大阪府大阪市淀川区十三東４丁目３番４９号,09082665634,https://birth-navi.mhlw.go.jp/facilities/14333,https://www.nijiiro-mamanote.com/,"https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+2,14873,にじいろ助産院,GCP-11879,GCP-11879,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,苅田町,,,https://birth-navi.mhlw.go.jp/facilities/14873,,"https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+2,15475,にじいろ助産院,GCP-15475,GCP-15475,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,四街道市,,,https://birth-navi.mhlw.go.jp/facilities/15475,,"https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-shien/page003507.html
+https://www.city.yotsukaido.chiba.jp/kosodate/boshihoken/ninshin/sangokea.files/R8sangokea.leaflet.pdf
+https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html",大阪の十三東の3掲載、福津の2掲載は既存統合を維持する。千葉は栄町資料では佐倉市城内町、四街道市資料では鹿渡のレンタルスペースを掲載。両者を統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+3,12719,いのちのもり合同会社,GCP-12719,GCP-12719,確認済み,すべて同一,同一事業者に統合,清水町,,,https://birth-navi.mhlw.go.jp/facilities/12719,,"https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/shussan/1241.html
+https://www.vill.nakasatsunai.hokkaido.jp/kurashi/iryou_nenkin/hoken/sangokea/
+https://www.memuro.net/administration/soshiki/kosodateshien/oyako/sangokea.html
+https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/6/3/502.html
+https://www.town.honbetsu.hokkaido.jp/web/child/img/R7.9.18sangokeari-huretto.pdf",十勝の自治体資料で、訪問型の委託先として同じ特定法人名が掲載される。幕別町は前川泉・三浦智奈美の氏名も明記。自治体名を法人の所在地と解釈せず、1事業者と複数の自治体関係を保持する。
+3,12721,いのちのもり合同会社,GCP-12721,GCP-12719,確認済み,すべて同一,同一事業者に統合,芽室町,,,https://birth-navi.mhlw.go.jp/facilities/12721,,"https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/shussan/1241.html
+https://www.vill.nakasatsunai.hokkaido.jp/kurashi/iryou_nenkin/hoken/sangokea/
+https://www.memuro.net/administration/soshiki/kosodateshien/oyako/sangokea.html
+https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/6/3/502.html
+https://www.town.honbetsu.hokkaido.jp/web/child/img/R7.9.18sangokeari-huretto.pdf",十勝の自治体資料で、訪問型の委託先として同じ特定法人名が掲載される。幕別町は前川泉・三浦智奈美の氏名も明記。自治体名を法人の所在地と解釈せず、1事業者と複数の自治体関係を保持する。
+3,12722,いのちのもり合同会社,GCP-12722,GCP-12719,確認済み,すべて同一,同一事業者に統合,中札内村,,,https://birth-navi.mhlw.go.jp/facilities/12722,,"https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/shussan/1241.html
+https://www.vill.nakasatsunai.hokkaido.jp/kurashi/iryou_nenkin/hoken/sangokea/
+https://www.memuro.net/administration/soshiki/kosodateshien/oyako/sangokea.html
+https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/6/3/502.html
+https://www.town.honbetsu.hokkaido.jp/web/child/img/R7.9.18sangokeari-huretto.pdf",十勝の自治体資料で、訪問型の委託先として同じ特定法人名が掲載される。幕別町は前川泉・三浦智奈美の氏名も明記。自治体名を法人の所在地と解釈せず、1事業者と複数の自治体関係を保持する。
+3,12725,いのちのもり合同会社,GCP-12725,GCP-12719,確認済み,すべて同一,同一事業者に統合,大樹町,,,https://birth-navi.mhlw.go.jp/facilities/12725,,"https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/shussan/1241.html
+https://www.vill.nakasatsunai.hokkaido.jp/kurashi/iryou_nenkin/hoken/sangokea/
+https://www.memuro.net/administration/soshiki/kosodateshien/oyako/sangokea.html
+https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/6/3/502.html
+https://www.town.honbetsu.hokkaido.jp/web/child/img/R7.9.18sangokeari-huretto.pdf",十勝の自治体資料で、訪問型の委託先として同じ特定法人名が掲載される。幕別町は前川泉・三浦智奈美の氏名も明記。自治体名を法人の所在地と解釈せず、1事業者と複数の自治体関係を保持する。
+3,12726,いのちのもり合同会社,GCP-12726,GCP-12719,確認済み,すべて同一,同一事業者に統合,広尾町,,,https://birth-navi.mhlw.go.jp/facilities/12726,,"https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/shussan/1241.html
+https://www.vill.nakasatsunai.hokkaido.jp/kurashi/iryou_nenkin/hoken/sangokea/
+https://www.memuro.net/administration/soshiki/kosodateshien/oyako/sangokea.html
+https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/6/3/502.html
+https://www.town.honbetsu.hokkaido.jp/web/child/img/R7.9.18sangokeari-huretto.pdf",十勝の自治体資料で、訪問型の委託先として同じ特定法人名が掲載される。幕別町は前川泉・三浦智奈美の氏名も明記。自治体名を法人の所在地と解釈せず、1事業者と複数の自治体関係を保持する。
+3,12727,いのちのもり合同会社,GCP-12727,GCP-12719,確認済み,すべて同一,同一事業者に統合,幕別町,,,https://birth-navi.mhlw.go.jp/facilities/12727,,"https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/shussan/1241.html
+https://www.vill.nakasatsunai.hokkaido.jp/kurashi/iryou_nenkin/hoken/sangokea/
+https://www.memuro.net/administration/soshiki/kosodateshien/oyako/sangokea.html
+https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/6/3/502.html
+https://www.town.honbetsu.hokkaido.jp/web/child/img/R7.9.18sangokeari-huretto.pdf",十勝の自治体資料で、訪問型の委託先として同じ特定法人名が掲載される。幕別町は前川泉・三浦智奈美の氏名も明記。自治体名を法人の所在地と解釈せず、1事業者と複数の自治体関係を保持する。
+3,12729,いのちのもり合同会社,GCP-12729,GCP-12719,確認済み,すべて同一,同一事業者に統合,本別町,,,https://birth-navi.mhlw.go.jp/facilities/12729,,"https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/shussan/1241.html
+https://www.vill.nakasatsunai.hokkaido.jp/kurashi/iryou_nenkin/hoken/sangokea/
+https://www.memuro.net/administration/soshiki/kosodateshien/oyako/sangokea.html
+https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/6/3/502.html
+https://www.town.honbetsu.hokkaido.jp/web/child/img/R7.9.18sangokeari-huretto.pdf",十勝の自治体資料で、訪問型の委託先として同じ特定法人名が掲載される。幕別町は前川泉・三浦智奈美の氏名も明記。自治体名を法人の所在地と解釈せず、1事業者と複数の自治体関係を保持する。
+4,11806,さくら助産院,GCP-11806,GCP-11806,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,淡路市,兵庫県淡路市志筑新島６－９,0799625030,https://birth-navi.mhlw.go.jp/facilities/11806,"https://sakura-midwifery-home.com/
+https://instagram.com/sakura.midwifery_home?igshid=MWg4YnhvYzhzZzBqbw==
+https://linevoom.line.me/user/_dZlzS_nrBDOmjBfD5SfitCZ_gMMfT5YdBpIQ0Nc",https://hyogo-josanshikai.com/josansho-map/sakura/,淡路・さいたま・札幌・高岡・三重・東京の同名掲載が含まれる。明石14343は淡路11806と同じURLを掲載するが電話は異なり、明石側の独立した担当者情報を確認できない。URLだけで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+4,11902,さくら助産院,GCP-11902,GCP-11902,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,さいたま市北区,埼玉県さいたま市北区日進町２丁目１０１２－１１,0487954568,https://birth-navi.mhlw.go.jp/facilities/11902,https://sakura-baby.com/,https://hyogo-josanshikai.com/josansho-map/sakura/,淡路・さいたま・札幌・高岡・三重・東京の同名掲載が含まれる。明石14343は淡路11806と同じURLを掲載するが電話は異なり、明石側の独立した担当者情報を確認できない。URLだけで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+4,11910,さくら助産院,GCP-11910,GCP-11910,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,札幌市東区,北海道札幌市東区北十六条東十四丁目一番十号,0117211778,https://birth-navi.mhlw.go.jp/facilities/11910,https://www.josanin-sakura.com,https://hyogo-josanshikai.com/josansho-map/sakura/,淡路・さいたま・札幌・高岡・三重・東京の同名掲載が含まれる。明石14343は淡路11806と同じURLを掲載するが電話は異なり、明石側の独立した担当者情報を確認できない。URLだけで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+4,13622,さくら助産院,GCP-13622,GCP-13622,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,高岡市,高岡市伏木矢田２１－１３,09020355726,https://birth-navi.mhlw.go.jp/facilities/13622,,https://hyogo-josanshikai.com/josansho-map/sakura/,淡路・さいたま・札幌・高岡・三重・東京の同名掲載が含まれる。明石14343は淡路11806と同じURLを掲載するが電話は異なり、明石側の独立した担当者情報を確認できない。URLだけで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+4,14149,さくら助産院,GCP-14149,GCP-14149,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,桑名市,,08069147626,https://birth-navi.mhlw.go.jp/facilities/14149,https://r.goope.jp/sakura-jyosanin/,https://hyogo-josanshikai.com/josansho-map/sakura/,淡路・さいたま・札幌・高岡・三重・東京の同名掲載が含まれる。明石14343は淡路11806と同じURLを掲載するが電話は異なり、明石側の独立した担当者情報を確認できない。URLだけで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+4,14343,さくら助産院,GCP-14343,GCP-14343,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,明石市,,09081494380,https://birth-navi.mhlw.go.jp/facilities/14343,https://sakura-midwifery-home.com,https://hyogo-josanshikai.com/josansho-map/sakura/,淡路・さいたま・札幌・高岡・三重・東京の同名掲載が含まれる。明石14343は淡路11806と同じURLを掲載するが電話は異なり、明石側の独立した担当者情報を確認できない。URLだけで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+4,15496,さくら助産院,GCP-15496,GCP-15496,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,北区,北区赤羽西６-３４-１,09079494645,https://birth-navi.mhlw.go.jp/facilities/15496,,https://hyogo-josanshikai.com/josansho-map/sakura/,淡路・さいたま・札幌・高岡・三重・東京の同名掲載が含まれる。明石14343は淡路11806と同じURLを掲載するが電話は異なり、明石側の独立した担当者情報を確認できない。URLだけで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+5,12855,個人助産師,GCP-12855,GCP-12855,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,岩沼市,,0223221116,https://birth-navi.mhlw.go.jp/facilities/12855,,,『個人助産師』は施設・個人の固有名ではない。岩出市に同名の複数行もあり、氏名や独立した連絡先がない。自治体窓口の電話を助産師本人の識別子にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+5,14310,個人助産師,GCP-14310,GCP-14310,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,羽曳野市,,,https://birth-navi.mhlw.go.jp/facilities/14310,,,『個人助産師』は施設・個人の固有名ではない。岩出市に同名の複数行もあり、氏名や独立した連絡先がない。自治体窓口の電話を助産師本人の識別子にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+5,14429,個人助産師,GCP-14429,GCP-14429,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,岩出市,,,https://birth-navi.mhlw.go.jp/facilities/14429,,,『個人助産師』は施設・個人の固有名ではない。岩出市に同名の複数行もあり、氏名や独立した連絡先がない。自治体窓口の電話を助産師本人の識別子にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+5,14430,個人助産師,GCP-14430,GCP-14430,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,岩出市,,,https://birth-navi.mhlw.go.jp/facilities/14430,,,『個人助産師』は施設・個人の固有名ではない。岩出市に同名の複数行もあり、氏名や独立した連絡先がない。自治体窓口の電話を助産師本人の識別子にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+5,14431,個人助産師,GCP-14431,GCP-14431,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,岩出市,,,https://birth-navi.mhlw.go.jp/facilities/14431,,,『個人助産師』は施設・個人の固有名ではない。岩出市に同名の複数行もあり、氏名や独立した連絡先がない。自治体窓口の電話を助産師本人の識別子にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+5,14432,個人助産師,GCP-14432,GCP-14432,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,岩出市,,,https://birth-navi.mhlw.go.jp/facilities/14432,,,『個人助産師』は施設・個人の固有名ではない。岩出市に同名の複数行もあり、氏名や独立した連絡先がない。自治体窓口の電話を助産師本人の識別子にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+5,14550,個人助産師,GCP-14550,GCP-14550,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,久米南町,,,https://birth-navi.mhlw.go.jp/facilities/14550,,,『個人助産師』は施設・個人の固有名ではない。岩出市に同名の複数行もあり、氏名や独立した連絡先がない。自治体窓口の電話を助産師本人の識別子にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+6,14998,助産院COCORO,GCP-14998,GCP-14998,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,人吉市,,,https://birth-navi.mhlw.go.jp/facilities/14998,https://www.instagram.com/josanincocoro/,https://www.town.asagiri.lg.jp/kiji0034184/3_4184_3_dl_q_493167_filelib_8b5e21714c57fef8520e79b97bc8d0ef.pdf,人吉市西間下町の同名委託先はあさぎり町等の資料で確認できる。一方、浪床町3250-73の掲載との移転・代表者の連続性を裏付ける資料を確認できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+6,15034,助産院COCORO,GCP-15034,GCP-15034,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,錦町,人吉市西間下町字一本杉166-6,,https://birth-navi.mhlw.go.jp/facilities/15034,,https://www.town.asagiri.lg.jp/kiji0034184/3_4184_3_dl_q_493167_filelib_8b5e21714c57fef8520e79b97bc8d0ef.pdf,人吉市西間下町の同名委託先はあさぎり町等の資料で確認できる。一方、浪床町3250-73の掲載との移転・代表者の連続性を裏付ける資料を確認できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+6,15036,助産院COCORO,GCP-15036,GCP-15036,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,多良木町,人吉市浪床町3250-73,,https://birth-navi.mhlw.go.jp/facilities/15036,,https://www.town.asagiri.lg.jp/kiji0034184/3_4184_3_dl_q_493167_filelib_8b5e21714c57fef8520e79b97bc8d0ef.pdf,人吉市西間下町の同名委託先はあさぎり町等の資料で確認できる。一方、浪床町3250-73の掲載との移転・代表者の連続性を裏付ける資料を確認できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+6,15038,助産院COCORO,GCP-15038,GCP-15038,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,湯前町,熊本県人吉市西間下166-6,,https://birth-navi.mhlw.go.jp/facilities/15038,,https://www.town.asagiri.lg.jp/kiji0034184/3_4184_3_dl_q_493167_filelib_8b5e21714c57fef8520e79b97bc8d0ef.pdf,人吉市西間下町の同名委託先はあさぎり町等の資料で確認できる。一方、浪床町3250-73の掲載との移転・代表者の連続性を裏付ける資料を確認できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+6,15040,助産院COCORO,GCP-15036,GCP-15036,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,相良村,人吉市浪床町3250-73,,https://birth-navi.mhlw.go.jp/facilities/15040,,https://www.town.asagiri.lg.jp/kiji0034184/3_4184_3_dl_q_493167_filelib_8b5e21714c57fef8520e79b97bc8d0ef.pdf,人吉市西間下町の同名委託先はあさぎり町等の資料で確認できる。一方、浪床町3250-73の掲載との移転・代表者の連続性を裏付ける資料を確認できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+6,15041,助産院COCORO,GCP-15038,GCP-15038,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,山江村,人吉市西間下町166-6,,https://birth-navi.mhlw.go.jp/facilities/15041,,https://www.town.asagiri.lg.jp/kiji0034184/3_4184_3_dl_q_493167_filelib_8b5e21714c57fef8520e79b97bc8d0ef.pdf,人吉市西間下町の同名委託先はあさぎり町等の資料で確認できる。一方、浪床町3250-73の掲載との移転・代表者の連続性を裏付ける資料を確認できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+6,15042,助産院COCORO,GCP-15038,GCP-15038,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,あさぎり町,人吉市西間下町166番地6,,https://birth-navi.mhlw.go.jp/facilities/15042,,https://www.town.asagiri.lg.jp/kiji0034184/3_4184_3_dl_q_493167_filelib_8b5e21714c57fef8520e79b97bc8d0ef.pdf,人吉市西間下町の同名委託先はあさぎり町等の資料で確認できる。一方、浪床町3250-73の掲載との移転・代表者の連続性を裏付ける資料を確認できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+7,11911,あかり助産院,GCP-11911,GCP-11911,確認済み,一部同一,確定した組合せのみ統合,高槻市,大阪府高槻市南平台１丁目10-22,0726297789,https://birth-navi.mhlw.go.jp/facilities/11911,https://www.akari-josanin.com,https://www.city.takatsuki.osaka.jp/site/waiwai/3441.html,高槻・小金井・郡上・うるまの施設・連絡先が異なる。沖縄の複数自治体掲載は既存の同一事業者群として維持し、他地域とは追加統合しない。
+7,13408,あかり助産院,GCP-13408,GCP-13408,確認済み,一部同一,確定した組合せのみ統合,小金井市,小金井市本町5-13-11 メゾン・アラミス401号,0422077962,https://birth-navi.mhlw.go.jp/facilities/13408,https://www.akari-oketani.com/care.htm,https://www.city.takatsuki.osaka.jp/site/waiwai/3441.html,高槻・小金井・郡上・うるまの施設・連絡先が異なる。沖縄の複数自治体掲載は既存の同一事業者群として維持し、他地域とは追加統合しない。
+7,13880,あかり助産院,GCP-13880,GCP-13880,確認済み,一部同一,確定した組合せのみ統合,関市,郡上市和良町,09076813444,https://birth-navi.mhlw.go.jp/facilities/13880,https://gujo-akarijosanin.com/,https://www.city.takatsuki.osaka.jp/site/waiwai/3441.html,高槻・小金井・郡上・うるまの施設・連絡先が異なる。沖縄の複数自治体掲載は既存の同一事業者群として維持し、他地域とは追加統合しない。
+7,15190,あかり助産院,GCP-15190,GCP-15190,確認済み,一部同一,確定した組合せのみ統合,沖縄市,うるま市石川曙3-9-7,09082932996,https://birth-navi.mhlw.go.jp/facilities/15190,https://www.instagram.com/akari_jyosanin_uruma/,https://www.city.takatsuki.osaka.jp/site/waiwai/3441.html,高槻・小金井・郡上・うるまの施設・連絡先が異なる。沖縄の複数自治体掲載は既存の同一事業者群として維持し、他地域とは追加統合しない。
+7,15217,あかり助産院,GCP-15190,GCP-15190,確認済み,一部同一,確定した組合せのみ統合,恩納村,うるま市石川曙3-9-7,,https://birth-navi.mhlw.go.jp/facilities/15217,,https://www.city.takatsuki.osaka.jp/site/waiwai/3441.html,高槻・小金井・郡上・うるまの施設・連絡先が異なる。沖縄の複数自治体掲載は既存の同一事業者群として維持し、他地域とは追加統合しない。
+7,15225,あかり助産院,GCP-15190,GCP-15190,確認済み,一部同一,確定した組合せのみ統合,読谷村,,,https://birth-navi.mhlw.go.jp/facilities/15225,,https://www.city.takatsuki.osaka.jp/site/waiwai/3441.html,高槻・小金井・郡上・うるまの施設・連絡先が異なる。沖縄の複数自治体掲載は既存の同一事業者群として維持し、他地域とは追加統合しない。
+8,12750,おひさま助産院,GCP-12750,GCP-12750,確認済み,一部同一,確定した組合せのみ統合,十和田市,十和田市東十三番町31-40,,https://birth-navi.mhlw.go.jp/facilities/12750,,"https://ohisama-zyosanin.amebaownd.com/pages/1788371/profile
+https://ohisama-zyosanin.amebaownd.com/",十和田・台東・滑川・駒ヶ根の別施設群。十和田内と駒ヶ根の自治体別掲載の既存統合を維持し、他地域との追加統合は行わない。
+8,12764,おひさま助産院,GCP-12750,GCP-12750,確認済み,一部同一,確定した組合せのみ統合,七戸町,十和田市東十三番町31-42-5,0176251840,https://birth-navi.mhlw.go.jp/facilities/12764,https://sasakiseitaiin.com/content3.html,"https://ohisama-zyosanin.amebaownd.com/pages/1788371/profile
+https://ohisama-zyosanin.amebaownd.com/",十和田・台東・滑川・駒ヶ根の別施設群。十和田内と駒ヶ根の自治体別掲載の既存統合を維持し、他地域との追加統合は行わない。
+8,13248,おひさま助産院,GCP-13248,GCP-13248,確認済み,一部同一,確定した組合せのみ統合,台東区,台東区松が谷１丁目５−１６,09043648040,https://birth-navi.mhlw.go.jp/facilities/13248,https://ohisama-zyosanin.amebaownd.com/pages/1788371/profile,"https://ohisama-zyosanin.amebaownd.com/pages/1788371/profile
+https://ohisama-zyosanin.amebaownd.com/",十和田・台東・滑川・駒ヶ根の別施設群。十和田内と駒ヶ根の自治体別掲載の既存統合を維持し、他地域との追加統合は行わない。
+8,13631,おひさま助産院,GCP-13631,GCP-13631,確認済み,一部同一,確定した組合せのみ統合,滑川市,滑川市清水町15-34,09020920586,https://birth-navi.mhlw.go.jp/facilities/13631,,"https://ohisama-zyosanin.amebaownd.com/pages/1788371/profile
+https://ohisama-zyosanin.amebaownd.com/",十和田・台東・滑川・駒ヶ根の別施設群。十和田内と駒ヶ根の自治体別掲載の既存統合を維持し、他地域との追加統合は行わない。
+8,13826,おひさま助産院,GCP-13826,GCP-13826,確認済み,一部同一,確定した組合せのみ統合,長和町,駒ケ根市赤穂,09024484669,https://birth-navi.mhlw.go.jp/facilities/13826,https://ohisama5884.jimdofree.com/,"https://ohisama-zyosanin.amebaownd.com/pages/1788371/profile
+https://ohisama-zyosanin.amebaownd.com/",十和田・台東・滑川・駒ヶ根の別施設群。十和田内と駒ヶ根の自治体別掲載の既存統合を維持し、他地域との追加統合は行わない。
+8,13843,おひさま助産院,GCP-13826,GCP-13826,確認済み,一部同一,確定した組合せのみ統合,南箕輪村,,,https://birth-navi.mhlw.go.jp/facilities/13843,,"https://ohisama-zyosanin.amebaownd.com/pages/1788371/profile
+https://ohisama-zyosanin.amebaownd.com/",十和田・台東・滑川・駒ヶ根の別施設群。十和田内と駒ヶ根の自治体別掲載の既存統合を維持し、他地域との追加統合は行わない。
+9,12786,そら助産院,GCP-12786,GCP-12786,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,奥州市,,,https://birth-navi.mhlw.go.jp/facilities/12786,https://sorajosanin.com/,"https://www.city.makinohara.shizuoka.jp/uploaded/attachment/47750.pdf
+https://www.sora-taka.com/",焼津の1224-5と1137-1の2住所が存在する。他の奥州・名古屋・豊中を名称だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+9,13960,そら助産院,GCP-13960,GCP-13960,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,島田市,焼津市中根新田1224-5,0543748753,https://birth-navi.mhlw.go.jp/facilities/13960,https://www.sora-taka.com,"https://www.city.makinohara.shizuoka.jp/uploaded/attachment/47750.pdf
+https://www.sora-taka.com/",焼津の1224-5と1137-1の2住所が存在する。他の奥州・名古屋・豊中を名称だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+9,13991,そら助産院,GCP-13960,GCP-13960,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,牧之原市,焼津市中根新田1224－5,,https://birth-navi.mhlw.go.jp/facilities/13991,https://www.sora-taka.com,"https://www.city.makinohara.shizuoka.jp/uploaded/attachment/47750.pdf
+https://www.sora-taka.com/",焼津の1224-5と1137-1の2住所が存在する。他の奥州・名古屋・豊中を名称だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+9,13998,そら助産院,GCP-13998,GCP-13998,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,川根本町,静岡県焼津市中根新田1137-1,,https://birth-navi.mhlw.go.jp/facilities/13998,,"https://www.city.makinohara.shizuoka.jp/uploaded/attachment/47750.pdf
+https://www.sora-taka.com/",焼津の1224-5と1137-1の2住所が存在する。他の奥州・名古屋・豊中を名称だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+9,14008,そら助産院,GCP-14008,GCP-14008,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,名古屋市,,09056324451,https://birth-navi.mhlw.go.jp/facilities/14008,,"https://www.city.makinohara.shizuoka.jp/uploaded/attachment/47750.pdf
+https://www.sora-taka.com/",焼津の1224-5と1137-1の2住所が存在する。他の奥州・名古屋・豊中を名称だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+9,14225,そら助産院,GCP-14225,GCP-14225,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,豊中市,豊中市千里園３丁目６ー１０　千里園マンションＢ１０１,,https://birth-navi.mhlw.go.jp/facilities/14225,,"https://www.city.makinohara.shizuoka.jp/uploaded/attachment/47750.pdf
+https://www.sora-taka.com/",焼津の1224-5と1137-1の2住所が存在する。他の奥州・名古屋・豊中を名称だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+10,12179,にこ助産院,GCP-12179,GCP-12179,確認済み,一部同一,確定した組合せのみ統合,各務原市,岐阜県各務原市川島渡町６１６番地２,0586898925,https://birth-navi.mhlw.go.jp/facilities/12179,"https://www.nico-jyosanin.com/
+https://www.instagram.com/nico.jyosanin/reel/DBdqdc_iCJB/
+https//www.lin.ee/xjhsMav",https://hyogo-josanshikai.com/josansho-map/niko/,各務原・函館・兵庫の別事業者。15305の電話090-9216-5755は兵庫県助産師会の岡﨑智津美・神戸市北区の登録と対応する。15305に登録された岐阜のURLは同一性の根拠に使わない。函館URLにはnicomwclとnicowclの表記差もある。
+10,12618,にこ助産院,GCP-12618,GCP-12618,確認済み,一部同一,確定した組合せのみ統合,函館市,,,https://birth-navi.mhlw.go.jp/facilities/12618,https://www.nicomwcl.com/,https://hyogo-josanshikai.com/josansho-map/niko/,各務原・函館・兵庫の別事業者。15305の電話090-9216-5755は兵庫県助産師会の岡﨑智津美・神戸市北区の登録と対応する。15305に登録された岐阜のURLは同一性の根拠に使わない。函館URLにはnicomwclとnicowclの表記差もある。
+10,12682,にこ助産院,GCP-12618,GCP-12618,確認済み,一部同一,確定した組合せのみ統合,上ノ国町,函館市,,https://birth-navi.mhlw.go.jp/facilities/12682,https://www.nicowcl.com,https://hyogo-josanshikai.com/josansho-map/niko/,各務原・函館・兵庫の別事業者。15305の電話090-9216-5755は兵庫県助産師会の岡﨑智津美・神戸市北区の登録と対応する。15305に登録された岐阜のURLは同一性の根拠に使わない。函館URLにはnicomwclとnicowclの表記差もある。
+10,12683,にこ助産院,GCP-12618,GCP-12618,確認済み,一部同一,確定した組合せのみ統合,厚沢部町,,,https://birth-navi.mhlw.go.jp/facilities/12683,https://www.nicomwcl.com/,https://hyogo-josanshikai.com/josansho-map/niko/,各務原・函館・兵庫の別事業者。15305の電話090-9216-5755は兵庫県助産師会の岡﨑智津美・神戸市北区の登録と対応する。15305に登録された岐阜のURLは同一性の根拠に使わない。函館URLにはnicomwclとnicowclの表記差もある。
+10,13877,にこ助産院,GCP-12179,GCP-12179,確認済み,一部同一,確定した組合せのみ統合,岐阜市,各務原市川島渡町616-2,09027790315,https://birth-navi.mhlw.go.jp/facilities/13877,https://www.nico-jyosanin.com/,https://hyogo-josanshikai.com/josansho-map/niko/,各務原・函館・兵庫の別事業者。15305の電話090-9216-5755は兵庫県助産師会の岡﨑智津美・神戸市北区の登録と対応する。15305に登録された岐阜のURLは同一性の根拠に使わない。函館URLにはnicomwclとnicowclの表記差もある。
+10,15305,にこ助産院,GCP-15305,GCP-15305,確認済み,一部同一,確定した組合せのみ統合,姫路市,,09092165755,https://birth-navi.mhlw.go.jp/facilities/15305,https://www.nico-jyosanin.com/,https://hyogo-josanshikai.com/josansho-map/niko/,各務原・函館・兵庫の別事業者。15305の電話090-9216-5755は兵庫県助産師会の岡﨑智津美・神戸市北区の登録と対応する。15305に登録された岐阜のURLは同一性の根拠に使わない。函館URLにはnicomwclとnicowclの表記差もある。
+11,11772,たんぽぽ助産院,GCP-11772,GCP-11772,確認済み,すべて別,確定した組合せのみ統合,倉敷市,岡山県倉敷市中帯江２４－１１,0864361980,https://birth-navi.mhlw.go.jp/facilities/11772,"https://tanpopo-net.gr.jp
+https://www.instagram.com/tanpopojyosanin2000
+https://page.line.me/@905tlzzv",https://www.town.rifu.miyagi.jp/material/files/group/47/sangokeasisetuitiran.pdf,倉敷・荒川・諫早・仙台・富山の別施設。仙台の施設は利府町資料でも別の電話を掲載し、同名であっても一括統合できない。
+11,11903,たんぽぽ助産院,GCP-11903,GCP-11903,確認済み,すべて別,確定した組合せのみ統合,荒川区,東京都荒川区荒川１丁目３１−８,09026389406,https://birth-navi.mhlw.go.jp/facilities/11903,https://www.fuwafuwatannpopo.com,https://www.town.rifu.miyagi.jp/material/files/group/47/sangokeasisetuitiran.pdf,倉敷・荒川・諫早・仙台・富山の別施設。仙台の施設は利府町資料でも別の電話を掲載し、同名であっても一括統合できない。
+11,14921,たんぽぽ助産院,GCP-14921,GCP-14921,確認済み,すべて別,確定した組合せのみ統合,諫早市,諫早市貝津町1661-5,08064721181,https://birth-navi.mhlw.go.jp/facilities/14921,,https://www.town.rifu.miyagi.jp/material/files/group/47/sangokeasisetuitiran.pdf,倉敷・荒川・諫早・仙台・富山の別施設。仙台の施設は利府町資料でも別の電話を掲載し、同名であっても一括統合できない。
+11,15419,たんぽぽ助産院,GCP-15419,GCP-15419,確認済み,すべて別,確定した組合せのみ統合,仙台市,,,https://birth-navi.mhlw.go.jp/facilities/15419,,https://www.town.rifu.miyagi.jp/material/files/group/47/sangokeasisetuitiran.pdf,倉敷・荒川・諫早・仙台・富山の別施設。仙台の施設は利府町資料でも別の電話を掲載し、同名であっても一括統合できない。
+11,15570,たんぽぽ助産院,GCP-15570,GCP-15570,確認済み,すべて別,確定した組合せのみ統合,富山市,富山市大泉東町１丁目２ー１９,0764223288,https://birth-navi.mhlw.go.jp/facilities/15570,https://www.akachannet.ne.jp/tanpopo/,https://www.town.rifu.miyagi.jp/material/files/group/47/sangokeasisetuitiran.pdf,倉敷・荒川・諫早・仙台・富山の別施設。仙台の施設は利府町資料でも別の電話を掲載し、同名であっても一括統合できない。
+12,11701,めぐみ助産院,GCP-11701,GCP-11701,確認済み,一部同一,確定した組合せのみ統合,横浜市鶴見区,神奈川県横浜市鶴見区寺谷２－１５－１８,0455718503,https://birth-navi.mhlw.go.jp/facilities/11701,"https://megumi-jyosanin.com/
+https://www.instagram.com/megumijosanin/","https://www.town.miki.lg.jp/download/?fid=54755&id=5995&t=LD
+https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/11/c5de21f243ada06b64ca93211d92c93d.pdf",横浜・新座・柳川・高松の別事業者群。福岡の自治体別掲載の既存統合を維持する。
+12,11745,めぐみ助産院,GCP-11745,GCP-11745,確認済み,一部同一,確定した組合せのみ統合,新座市,埼玉県新座市野火止６−１５−１０,0484784489,https://birth-navi.mhlw.go.jp/facilities/11745,,"https://www.town.miki.lg.jp/download/?fid=54755&id=5995&t=LD
+https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/11/c5de21f243ada06b64ca93211d92c93d.pdf",横浜・新座・柳川・高松の別事業者群。福岡の自治体別掲載の既存統合を維持する。
+12,14794,めぐみ助産院,GCP-14794,GCP-14794,確認済み,一部同一,確定した組合せのみ統合,飯塚市,柳川市弥四郎町222-3,09013408916,https://birth-navi.mhlw.go.jp/facilities/14794,,"https://www.town.miki.lg.jp/download/?fid=54755&id=5995&t=LD
+https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/11/c5de21f243ada06b64ca93211d92c93d.pdf",横浜・新座・柳川・高松の別事業者群。福岡の自治体別掲載の既存統合を維持する。
+12,14885,めぐみ助産院,GCP-14794,GCP-14794,確認済み,一部同一,確定した組合せのみ統合,苅田町,,,https://birth-navi.mhlw.go.jp/facilities/14885,,"https://www.town.miki.lg.jp/download/?fid=54755&id=5995&t=LD
+https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/11/c5de21f243ada06b64ca93211d92c93d.pdf",横浜・新座・柳川・高松の別事業者群。福岡の自治体別掲載の既存統合を維持する。
+12,15698,めぐみ助産院,GCP-15698,GCP-15698,確認済み,一部同一,確定した組合せのみ統合,高松市,高松市林町,09052625494,https://birth-navi.mhlw.go.jp/facilities/15698,,"https://www.town.miki.lg.jp/download/?fid=54755&id=5995&t=LD
+https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/11/c5de21f243ada06b64ca93211d92c93d.pdf",横浜・新座・柳川・高松の別事業者群。福岡の自治体別掲載の既存統合を維持する。
+13,14368,ゆき助産院,GCP-14368,GCP-14368,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,佐用町,,,https://birth-navi.mhlw.go.jp/facilities/14368,,"https://www.city.kitakyushu.lg.jp/files/001139831.pdf
+https://www.midwifemap.com/mysite/yuki-josanin/",福岡の既存事業者群は北九州市若園の施設に対応する。佐用町14368は住所・電話がなく、近隣の美作市等の同名施設との対応も特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+13,14766,ゆき助産院,GCP-14766,GCP-14766,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,飯塚市,北九州市小倉南区若園3丁目3-12,07085731693,https://birth-navi.mhlw.go.jp/facilities/14766,,"https://www.city.kitakyushu.lg.jp/files/001139831.pdf
+https://www.midwifemap.com/mysite/yuki-josanin/",福岡の既存事業者群は北九州市若園の施設に対応する。佐用町14368は住所・電話がなく、近隣の美作市等の同名施設との対応も特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+13,14804,ゆき助産院,GCP-14766,GCP-14766,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,柳川市,北九州市小倉南区若園3丁目3-12,07043175693,https://birth-navi.mhlw.go.jp/facilities/14804,,"https://www.city.kitakyushu.lg.jp/files/001139831.pdf
+https://www.midwifemap.com/mysite/yuki-josanin/",福岡の既存事業者群は北九州市若園の施設に対応する。佐用町14368は住所・電話がなく、近隣の美作市等の同名施設との対応も特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+13,14837,ゆき助産院,GCP-14766,GCP-14766,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,大野城市,,,https://birth-navi.mhlw.go.jp/facilities/14837,,"https://www.city.kitakyushu.lg.jp/files/001139831.pdf
+https://www.midwifemap.com/mysite/yuki-josanin/",福岡の既存事業者群は北九州市若園の施設に対応する。佐用町14368は住所・電話がなく、近隣の美作市等の同名施設との対応も特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+13,14868,ゆき助産院,GCP-14766,GCP-14766,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,苅田町,,,https://birth-navi.mhlw.go.jp/facilities/14868,,"https://www.city.kitakyushu.lg.jp/files/001139831.pdf
+https://www.midwifemap.com/mysite/yuki-josanin/",福岡の既存事業者群は北九州市若園の施設に対応する。佐用町14368は住所・電話がなく、近隣の美作市等の同名施設との対応も特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+14,12976,個人事業主助産師,GCP-12976,GCP-12976,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,牛久市,,,https://birth-navi.mhlw.go.jp/facilities/12976,,,牛久市の5行はいずれも一般名称で、氏名・住所・電話がない。同じ自治体・同じ名称だけでは5人か1人か判定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+14,12977,個人事業主助産師,GCP-12977,GCP-12977,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,牛久市,,,https://birth-navi.mhlw.go.jp/facilities/12977,,,牛久市の5行はいずれも一般名称で、氏名・住所・電話がない。同じ自治体・同じ名称だけでは5人か1人か判定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+14,12978,個人事業主助産師,GCP-12978,GCP-12978,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,牛久市,,,https://birth-navi.mhlw.go.jp/facilities/12978,,,牛久市の5行はいずれも一般名称で、氏名・住所・電話がない。同じ自治体・同じ名称だけでは5人か1人か判定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+14,12979,個人事業主助産師,GCP-12979,GCP-12979,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,牛久市,,,https://birth-navi.mhlw.go.jp/facilities/12979,,,牛久市の5行はいずれも一般名称で、氏名・住所・電話がない。同じ自治体・同じ名称だけでは5人か1人か判定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+14,12980,個人事業主助産師,GCP-12980,GCP-12980,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,牛久市,,,https://birth-navi.mhlw.go.jp/facilities/12980,,,牛久市の5行はいずれも一般名称で、氏名・住所・電話がない。同じ自治体・同じ名称だけでは5人か1人か判定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+15,13143,出張専業助産師,GCP-13143,GCP-13143,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,新座市,,,https://birth-navi.mhlw.go.jp/facilities/13143,,,新座市の5行は出張専業という業態名で個人識別情報がない。別の助産師が匿名で掲載された可能性もあるため、同名を理由に統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+15,13144,出張専業助産師,GCP-13144,GCP-13144,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,新座市,,,https://birth-navi.mhlw.go.jp/facilities/13144,,,新座市の5行は出張専業という業態名で個人識別情報がない。別の助産師が匿名で掲載された可能性もあるため、同名を理由に統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+15,13145,出張専業助産師,GCP-13145,GCP-13145,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,新座市,,,https://birth-navi.mhlw.go.jp/facilities/13145,,,新座市の5行は出張専業という業態名で個人識別情報がない。別の助産師が匿名で掲載された可能性もあるため、同名を理由に統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+15,13146,出張専業助産師,GCP-13146,GCP-13146,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,新座市,,,https://birth-navi.mhlw.go.jp/facilities/13146,,,新座市の5行は出張専業という業態名で個人識別情報がない。別の助産師が匿名で掲載された可能性もあるため、同名を理由に統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+15,13147,出張専業助産師,GCP-13147,GCP-13147,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,新座市,,,https://birth-navi.mhlw.go.jp/facilities/13147,,,新座市の5行は出張専業という業態名で個人識別情報がない。別の助産師が匿名で掲載された可能性もあるため、同名を理由に統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+16,13608,在宅助産師,GCP-13608,GCP-13608,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,南魚沼市,,,https://birth-navi.mhlw.go.jp/facilities/13608,,,『在宅助産師』は業態・職種の一般名称。新潟県内の複数自治体と兵庫県の掲載について、担当者名・委託先の対応が不明。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+16,13612,在宅助産師,GCP-13612,GCP-13612,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,胎内市,,,https://birth-navi.mhlw.go.jp/facilities/13612,,,『在宅助産師』は業態・職種の一般名称。新潟県内の複数自治体と兵庫県の掲載について、担当者名・委託先の対応が不明。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+16,13615,在宅助産師,GCP-13615,GCP-13615,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,湯沢町,,,https://birth-navi.mhlw.go.jp/facilities/13615,,,『在宅助産師』は業態・職種の一般名称。新潟県内の複数自治体と兵庫県の掲載について、担当者名・委託先の対応が不明。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+16,13616,在宅助産師,GCP-13616,GCP-13616,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,刈羽村,,,https://birth-navi.mhlw.go.jp/facilities/13616,,,『在宅助産師』は業態・職種の一般名称。新潟県内の複数自治体と兵庫県の掲載について、担当者名・委託先の対応が不明。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+16,14369,在宅助産師,GCP-14369,GCP-14369,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,香美町,,,https://birth-navi.mhlw.go.jp/facilities/14369,,,『在宅助産師』は業態・職種の一般名称。新潟県内の複数自治体と兵庫県の掲載について、担当者名・委託先の対応が不明。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+17,11781,あゆみ助産院,GCP-11781,GCP-11781,確認済み,すべて別,確定した組合せのみ統合,松本市,長野県松本市渚３－６－１５,0263282511,https://birth-navi.mhlw.go.jp/facilities/11781,https://ayumi-jyosanin.jimdofree.com/,"https://ishikawa-midwife.com/wp-content/uploads/2024/03/4d30a4be8df2d583be48f16ea2218030-1.pdf
+https://ishikawa-midwife.com/wp-content/uploads/2015/10/PDF.pdf",松本・加賀・名古屋・兵庫の異なる登録拠点・連絡先を持つ同名事業者。加賀の登録は荒谷由美子として助産師会資料にも掲載される。追加統合しない。
+17,13657,あゆみ助産院,GCP-13657,GCP-13657,確認済み,すべて別,確定した組合せのみ統合,加賀市,,09097671763,https://birth-navi.mhlw.go.jp/facilities/13657,,"https://ishikawa-midwife.com/wp-content/uploads/2024/03/4d30a4be8df2d583be48f16ea2218030-1.pdf
+https://ishikawa-midwife.com/wp-content/uploads/2015/10/PDF.pdf",松本・加賀・名古屋・兵庫の異なる登録拠点・連絡先を持つ同名事業者。加賀の登録は荒谷由美子として助産師会資料にも掲載される。追加統合しない。
+17,15597,あゆみ助産院,GCP-15597,GCP-15597,確認済み,すべて別,確定した組合せのみ統合,名古屋市,,09080748120,https://birth-navi.mhlw.go.jp/facilities/15597,,"https://ishikawa-midwife.com/wp-content/uploads/2024/03/4d30a4be8df2d583be48f16ea2218030-1.pdf
+https://ishikawa-midwife.com/wp-content/uploads/2015/10/PDF.pdf",松本・加賀・名古屋・兵庫の異なる登録拠点・連絡先を持つ同名事業者。加賀の登録は荒谷由美子として助産師会資料にも掲載される。追加統合しない。
+17,15648,あゆみ助産院,GCP-15648,GCP-15648,確認済み,すべて別,確定した組合せのみ統合,姫路市,,09065571082,https://birth-navi.mhlw.go.jp/facilities/15648,https://4e3r9.hp.peraichi.com/,"https://ishikawa-midwife.com/wp-content/uploads/2024/03/4d30a4be8df2d583be48f16ea2218030-1.pdf
+https://ishikawa-midwife.com/wp-content/uploads/2015/10/PDF.pdf",松本・加賀・名古屋・兵庫の異なる登録拠点・連絡先を持つ同名事業者。加賀の登録は荒谷由美子として助産師会資料にも掲載される。追加統合しない。
+18,13297,こもれび助産院,GCP-13297,GCP-13297,確認済み,一部同一,確定した組合せのみ統合,杉並区,杉並区荻窪3丁目48番10号ロイヤル須田204号室,07044885848,https://birth-navi.mhlw.go.jp/facilities/13297,https://komorebi-oketani.com/,"https://www.city.toyohashi.lg.jp/secure/56112/%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E5%AE%9F%E6%96%BD%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7.pdf
+https://mam-mam.jp/about/",杉並・愛知・熊本の別事業者群。東京の桶谷式相談先と熊本のmam-mam.jpは異なる所在地・連絡先を持つ。愛知の自治体別掲載の既存統合を維持する。
+18,14042,こもれび助産院,GCP-14042,GCP-14042,確認済み,一部同一,確定した組合せのみ統合,豊橋市,,08015996373,https://birth-navi.mhlw.go.jp/facilities/14042,,"https://www.city.toyohashi.lg.jp/secure/56112/%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E5%AE%9F%E6%96%BD%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7.pdf
+https://mam-mam.jp/about/",杉並・愛知・熊本の別事業者群。東京の桶谷式相談先と熊本のmam-mam.jpは異なる所在地・連絡先を持つ。愛知の自治体別掲載の既存統合を維持する。
+18,14102,こもれび助産院,GCP-14042,GCP-14042,確認済み,一部同一,確定した組合せのみ統合,田原市,,,https://birth-navi.mhlw.go.jp/facilities/14102,,"https://www.city.toyohashi.lg.jp/secure/56112/%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E5%AE%9F%E6%96%BD%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7.pdf
+https://mam-mam.jp/about/",杉並・愛知・熊本の別事業者群。東京の桶谷式相談先と熊本のmam-mam.jpは異なる所在地・連絡先を持つ。愛知の自治体別掲載の既存統合を維持する。
+18,15005,こもれび助産院,GCP-15005,GCP-15005,確認済み,一部同一,確定した組合せのみ統合,菊池市,熊本県菊池郡大津町杉水2717,07023374596,https://birth-navi.mhlw.go.jp/facilities/15005,https://mam-mam.jp/,"https://www.city.toyohashi.lg.jp/secure/56112/%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E5%AE%9F%E6%96%BD%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7.pdf
+https://mam-mam.jp/about/",杉並・愛知・熊本の別事業者群。東京の桶谷式相談先と熊本のmam-mam.jpは異なる所在地・連絡先を持つ。愛知の自治体別掲載の既存統合を維持する。
+19,11905,なぎ助産院,GCP-11905,GCP-11905,確認済み,一部同一,確定した組合せのみ統合,岩出市,和歌山県岩出市水栖２６４番地の２,0736680320,https://birth-navi.mhlw.go.jp/facilities/11905,,"https://jyosanshi.net/general/midwives/
+https://www.waka-midwife.com/jyosanjyo/nagi-josanin",和歌山の院長佐野陸子の施設と、福岡の伊与田あずさの訪問事業者は別。福岡側の電話は自治体資料にも桁不足の表記があるため、電話差だけを別事業者の理由にしない。
+19,14434,なぎ助産院,GCP-11905,GCP-11905,確認済み,一部同一,確定した組合せのみ統合,かつらぎ町,,,https://birth-navi.mhlw.go.jp/facilities/14434,,"https://jyosanshi.net/general/midwives/
+https://www.waka-midwife.com/jyosanjyo/nagi-josanin",和歌山の院長佐野陸子の施設と、福岡の伊与田あずさの訪問事業者は別。福岡側の電話は自治体資料にも桁不足の表記があるため、電話差だけを別事業者の理由にしない。
+19,15725,なぎ助産院,GCP-15725,GCP-15725,確認済み,一部同一,確定した組合せのみ統合,筑紫野市,福岡市早良区田村,08039658272,https://birth-navi.mhlw.go.jp/facilities/15725,,"https://jyosanshi.net/general/midwives/
+https://www.waka-midwife.com/jyosanjyo/nagi-josanin",和歌山の院長佐野陸子の施設と、福岡の伊与田あずさの訪問事業者は別。福岡側の電話は自治体資料にも桁不足の表記があるため、電話差だけを別事業者の理由にしない。
+19,15732,なぎ助産院,GCP-15725,GCP-15725,確認済み,一部同一,確定した組合せのみ統合,大野城市,福岡市早良区田村,0809658272,https://birth-navi.mhlw.go.jp/facilities/15732,,"https://jyosanshi.net/general/midwives/
+https://www.waka-midwife.com/jyosanjyo/nagi-josanin",和歌山の院長佐野陸子の施設と、福岡の伊与田あずさの訪問事業者は別。福岡側の電話は自治体資料にも桁不足の表記があるため、電話差だけを別事業者の理由にしない。
+20,13962,まある助産院,GCP-13962,GCP-13962,確認済み,すべて別,確定した組合せのみ統合,島田市,牧之原市細江501,,https://birth-navi.mhlw.go.jp/facilities/13962,https://maaru-josanin.jp,"https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf
+https://www.city.yonago.lg.jp/46534.htm
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5006700000&kikanKbn=4&prefCd=30",静岡・田辺・米子・福岡の別事業者。福岡の那須優、米子の西福原、田辺の秋津町、静岡の公式サイトの登録が異なる。
+20,14438,まある助産院,GCP-14438,GCP-14438,確認済み,すべて別,確定した組合せのみ統合,みなべ町,田辺市秋津町96-7,08038108300,https://birth-navi.mhlw.go.jp/facilities/14438,,"https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf
+https://www.city.yonago.lg.jp/46534.htm
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5006700000&kikanKbn=4&prefCd=30",静岡・田辺・米子・福岡の別事業者。福岡の那須優、米子の西福原、田辺の秋津町、静岡の公式サイトの登録が異なる。
+20,14464,まある助産院,GCP-14464,GCP-14464,確認済み,すべて別,確定した組合せのみ統合,米子市,米子市西福原7-9-48,0859302893,https://birth-navi.mhlw.go.jp/facilities/14464,,"https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf
+https://www.city.yonago.lg.jp/46534.htm
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5006700000&kikanKbn=4&prefCd=30",静岡・田辺・米子・福岡の別事業者。福岡の那須優、米子の西福原、田辺の秋津町、静岡の公式サイトの登録が異なる。
+20,15724,まある助産院,GCP-15724,GCP-15724,確認済み,すべて別,確定した組合せのみ統合,筑紫野市,福岡市早良区高取,08052410615,https://birth-navi.mhlw.go.jp/facilities/15724,,"https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf
+https://www.city.yonago.lg.jp/46534.htm
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5006700000&kikanKbn=4&prefCd=30",静岡・田辺・米子・福岡の別事業者。福岡の那須優、米子の西福原、田辺の秋津町、静岡の公式サイトの登録が異なる。
+21,11866,ゆい助産院,GCP-11866,GCP-11866,確認済み,一部同一,確定した組合せのみ統合,広島市安佐北区,広島県広島市安佐北区可部８丁目６ー８,09097306530,https://birth-navi.mhlw.go.jp/facilities/11866,"https://yui-j.com/
+https://m.facebook.com/yuijyosanin?locale=ja_JP
+https://instagram.com/yui_birthcenter?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr
+https://line.me/ti/p/CQZGGsJmwA","https://www.yui-midwiferyclinic.com/
+https://www.yui-midwiferyclinic.com/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",広島・埼玉・山口の別事業者群。各地の所在地・公式サイトが異なる。尾道と広島の対応は既存の事業者層から継承し、新規に同一性を推定したものではない。
+21,13090,ゆい助産院,GCP-13090,GCP-13090,確認済み,一部同一,確定した組合せのみ統合,さいたま市,上尾市小敷谷７６５−２２,08071730320,https://birth-navi.mhlw.go.jp/facilities/13090,https://www.yuijosanin.com/,"https://www.yui-midwiferyclinic.com/
+https://www.yui-midwiferyclinic.com/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",広島・埼玉・山口の別事業者群。各地の所在地・公式サイトが異なる。尾道と広島の対応は既存の事業者層から継承し、新規に同一性を推定したものではない。
+21,14614,ゆい助産院,GCP-14614,GCP-14614,確認済み,一部同一,確定した組合せのみ統合,岩国市,岩国市海土路町２丁目57-7,,https://birth-navi.mhlw.go.jp/facilities/14614,https://www.yui-midwiferyclinic.com/,"https://www.yui-midwiferyclinic.com/
+https://www.yui-midwiferyclinic.com/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",広島・埼玉・山口の別事業者群。各地の所在地・公式サイトが異なる。尾道と広島の対応は既存の事業者層から継承し、新規に同一性を推定したものではない。
+21,15366,ゆい助産院,GCP-11866,GCP-11866,確認済み,一部同一,確定した組合せのみ統合,尾道市,,,https://birth-navi.mhlw.go.jp/facilities/15366,,"https://www.yui-midwiferyclinic.com/
+https://www.yui-midwiferyclinic.com/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",広島・埼玉・山口の別事業者群。各地の所在地・公式サイトが異なる。尾道と広島の対応は既存の事業者層から継承し、新規に同一性を推定したものではない。
+22,13766,助産院おむすび,GCP-13766,GCP-13766,確認済み,一部同一,確定した組合せのみ統合,岡谷市,,,https://birth-navi.mhlw.go.jp/facilities/13766,,"https://www.city.chino.lg.jp/site/kids/509.html
+https://reihoku-kumamoto.jp/kiji0032926/index.html",茅野市玉川の施設と天草市楠浦町の施設は別。茅野市・天草市・苓北町の公表資料で異なる所在地と電話を確認。長野の自治体別掲載の既存統合は維持。
+22,13810,助産院おむすび,GCP-13766,GCP-13766,確認済み,一部同一,確定した組合せのみ統合,茅野市,茅野市玉川4233,09035400694,https://birth-navi.mhlw.go.jp/facilities/13810,,"https://www.city.chino.lg.jp/site/kids/509.html
+https://reihoku-kumamoto.jp/kiji0032926/index.html",茅野市玉川の施設と天草市楠浦町の施設は別。茅野市・天草市・苓北町の公表資料で異なる所在地と電話を確認。長野の自治体別掲載の既存統合は維持。
+22,13811,助産院おむすび,GCP-13766,GCP-13766,確認済み,一部同一,確定した組合せのみ統合,茅野市,,,https://birth-navi.mhlw.go.jp/facilities/13811,,"https://www.city.chino.lg.jp/site/kids/509.html
+https://reihoku-kumamoto.jp/kiji0032926/index.html",茅野市玉川の施設と天草市楠浦町の施設は別。茅野市・天草市・苓北町の公表資料で異なる所在地と電話を確認。長野の自治体別掲載の既存統合は維持。
+22,15762,助産院おむすび,GCP-15762,GCP-15762,確認済み,一部同一,確定した組合せのみ統合,天草市,天草市楠浦町1038-6,09015188258,https://birth-navi.mhlw.go.jp/facilities/15762,,"https://www.city.chino.lg.jp/site/kids/509.html
+https://reihoku-kumamoto.jp/kiji0032926/index.html",茅野市玉川の施設と天草市楠浦町の施設は別。茅野市・天草市・苓北町の公表資料で異なる所在地と電話を確認。長野の自治体別掲載の既存統合は維持。
+23,14373,産後ケア　やわらかい風,GCP-14373,GCP-14373,確認済み,すべて同一,同一事業者に統合,新温泉町,,,https://birth-navi.mhlw.go.jp/facilities/14373,,"https://www.town.shinonsen.hyogo.jp/uppdf/1622089029.pdf
+https://www.yawakaze.org/",新温泉町広報が委託先を鳥取市馬場町13-1の『産後ケアやわらかい風』と明記。他の3掲載の所在地とも一致するため、掲載自治体の違いを越えて同一事業者として扱う。
+23,14447,産後ケア　やわらかい風,GCP-14447,GCP-14373,確認済み,すべて同一,同一事業者に統合,鳥取市,鳥取市馬場町１３－１,,https://birth-navi.mhlw.go.jp/facilities/14447,,"https://www.town.shinonsen.hyogo.jp/uppdf/1622089029.pdf
+https://www.yawakaze.org/",新温泉町広報が委託先を鳥取市馬場町13-1の『産後ケアやわらかい風』と明記。他の3掲載の所在地とも一致するため、掲載自治体の違いを越えて同一事業者として扱う。
+23,14547,産後ケア　やわらかい風,GCP-14447,GCP-14373,確認済み,すべて同一,同一事業者に統合,西粟倉村,鳥取市馬場町13－1,08032107949,https://birth-navi.mhlw.go.jp/facilities/14547,,"https://www.town.shinonsen.hyogo.jp/uppdf/1622089029.pdf
+https://www.yawakaze.org/",新温泉町広報が委託先を鳥取市馬場町13-1の『産後ケアやわらかい風』と明記。他の3掲載の所在地とも一致するため、掲載自治体の違いを越えて同一事業者として扱う。
+23,15667,産後ケア　やわらかい風,GCP-14447,GCP-14373,確認済み,すべて同一,同一事業者に統合,八頭町,鳥取市馬場町13-1,0857203941,https://birth-navi.mhlw.go.jp/facilities/15667,,"https://www.town.shinonsen.hyogo.jp/uppdf/1622089029.pdf
+https://www.yawakaze.org/",新温泉町広報が委託先を鳥取市馬場町13-1の『産後ケアやわらかい風』と明記。他の3掲載の所在地とも一致するため、掲載自治体の違いを越えて同一事業者として扱う。
+24,13060,群馬県助産師会,GCP-13060,GCP-13060,確認済み,すべて同一,同一運営主体・拠点別保持,高崎市,,,https://birth-navi.mhlw.go.jp/facilities/13060,,"https://www.jyosansi-gunma.com/
+https://www.jyosansi-gunma.com/%E7%BE%A4%E9%A6%AC%E7%9C%8C%E5%8A%A9%E7%94%A3%E5%B8%AB%E4%BC%9A%E3%81%A8%E3%81%AF/
+https://www.jyosansi-gunma.com/%E4%BC%9A%E5%93%A1%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/",運営・委託先の団体としては群馬県助産師会で同一。ただし太田市丸山町と前橋市六供町など複数の連絡拠点・担当者がある。法人の同一性と拠点の同一性を分け、施設ID・拠点IDは追加統合しない。
+24,13074,群馬県助産師会,GCP-13074,GCP-13074,確認済み,すべて同一,同一運営主体・拠点別保持,甘楽町,,,https://birth-navi.mhlw.go.jp/facilities/13074,,"https://www.jyosansi-gunma.com/
+https://www.jyosansi-gunma.com/%E7%BE%A4%E9%A6%AC%E7%9C%8C%E5%8A%A9%E7%94%A3%E5%B8%AB%E4%BC%9A%E3%81%A8%E3%81%AF/
+https://www.jyosansi-gunma.com/%E4%BC%9A%E5%93%A1%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/",運営・委託先の団体としては群馬県助産師会で同一。ただし太田市丸山町と前橋市六供町など複数の連絡拠点・担当者がある。法人の同一性と拠点の同一性を分け、施設ID・拠点IDは追加統合しない。
+24,13077,群馬県助産師会,GCP-13077,GCP-13077,確認済み,すべて同一,同一運営主体・拠点別保持,川場村,群馬県太田市丸山町２５０−７,0276375660,https://birth-navi.mhlw.go.jp/facilities/13077,,"https://www.jyosansi-gunma.com/
+https://www.jyosansi-gunma.com/%E7%BE%A4%E9%A6%AC%E7%9C%8C%E5%8A%A9%E7%94%A3%E5%B8%AB%E4%BC%9A%E3%81%A8%E3%81%AF/
+https://www.jyosansi-gunma.com/%E4%BC%9A%E5%93%A1%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/",運営・委託先の団体としては群馬県助産師会で同一。ただし太田市丸山町と前橋市六供町など複数の連絡拠点・担当者がある。法人の同一性と拠点の同一性を分け、施設ID・拠点IDは追加統合しない。
+24,15451,群馬県助産師会,GCP-13069,GCP-13069,確認済み,すべて同一,同一運営主体・拠点別保持,伊勢崎市,前橋市六供町2-51-11,,https://birth-navi.mhlw.go.jp/facilities/15451,,"https://www.jyosansi-gunma.com/
+https://www.jyosansi-gunma.com/%E7%BE%A4%E9%A6%AC%E7%9C%8C%E5%8A%A9%E7%94%A3%E5%B8%AB%E4%BC%9A%E3%81%A8%E3%81%AF/
+https://www.jyosansi-gunma.com/%E4%BC%9A%E5%93%A1%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/",運営・委託先の団体としては群馬県助産師会で同一。ただし太田市丸山町と前橋市六供町など複数の連絡拠点・担当者がある。法人の同一性と拠点の同一性を分け、施設ID・拠点IDは追加統合しない。
+25,11698,菜の花助産院,GCP-11698,GCP-11698,確認済み,一部同一,確定した組合せのみ統合,飯塚市,福岡県飯塚市津原６６３－９,0948230317,https://birth-navi.mhlw.go.jp/facilities/11698,"http://nanohanajosan.com/
+https://www.instagram.com/nanohanajosanin0317
+https://lin.ee/uz99wdf","https://www.town.fujimi.lg.jp/uploaded/attachment/35864.pdf
+https://www.city.iizuka.lg.jp/boshihoken/documents/6.pdf",飯塚と長野県原村の別施設群。飯塚市資料の津原・0948の施設と、長野側の公式サイト・原村住所を区別する。
+25,13770,菜の花助産院,GCP-13770,GCP-13770,確認済み,一部同一,確定した組合せのみ統合,岡谷市,原村17217-351,08020205797,https://birth-navi.mhlw.go.jp/facilities/13770,https://nanohanajosanin.wixsite.com/nanohana,"https://www.town.fujimi.lg.jp/uploaded/attachment/35864.pdf
+https://www.city.iizuka.lg.jp/boshihoken/documents/6.pdf",飯塚と長野県原村の別施設群。飯塚市資料の津原・0948の施設と、長野側の公式サイト・原村住所を区別する。
+25,13808,菜の花助産院,GCP-13770,GCP-13770,確認済み,一部同一,確定した組合せのみ統合,茅野市,,,https://birth-navi.mhlw.go.jp/facilities/13808,,"https://www.town.fujimi.lg.jp/uploaded/attachment/35864.pdf
+https://www.city.iizuka.lg.jp/boshihoken/documents/6.pdf",飯塚と長野県原村の別施設群。飯塚市資料の津原・0948の施設と、長野側の公式サイト・原村住所を区別する。
+25,13833,菜の花助産院,GCP-13770,GCP-13770,確認済み,一部同一,確定した組合せのみ統合,下諏訪町,原村17217-351,0266787957,https://birth-navi.mhlw.go.jp/facilities/13833,https://nanohanajosanin.wixsite.com/nanohana,"https://www.town.fujimi.lg.jp/uploaded/attachment/35864.pdf
+https://www.city.iizuka.lg.jp/boshihoken/documents/6.pdf",飯塚と長野県原村の別施設群。飯塚市資料の津原・0948の施設と、長野側の公式サイト・原村住所を区別する。
+26,12875,あい助産院,GCP-12875,GCP-12875,確認済み,一部同一,確定した組合せのみ統合,にかほ市,由利本荘市,09013983499,https://birth-navi.mhlw.go.jp/facilities/12875,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0008400063&kikanKbn=4&prefCd=40
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4050600020&kikanKbn=4&prefCd=05",秋田県由利本荘市のM and Bあい助産院と、大牟田市天領町のあい助産院は別。福岡内の2掲載は既存統合を維持する。
+26,14797,あい助産院,GCP-14797,GCP-14797,確認済み,一部同一,確定した組合せのみ統合,飯塚市,大牟田市天領町1-39,09025035434,https://birth-navi.mhlw.go.jp/facilities/14797,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0008400063&kikanKbn=4&prefCd=40
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4050600020&kikanKbn=4&prefCd=05",秋田県由利本荘市のM and Bあい助産院と、大牟田市天領町のあい助産院は別。福岡内の2掲載は既存統合を維持する。
+26,14801,あい助産院,GCP-14797,GCP-14797,確認済み,一部同一,確定した組合せのみ統合,柳川市,大牟田市天領町１－３９,09025035734,https://birth-navi.mhlw.go.jp/facilities/14801,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0008400063&kikanKbn=4&prefCd=40
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4050600020&kikanKbn=4&prefCd=05",秋田県由利本荘市のM and Bあい助産院と、大牟田市天領町のあい助産院は別。福岡内の2掲載は既存統合を維持する。
+27,11886,いちご助産院,GCP-11886,GCP-11886,確認済み,一部同一,確定した組合せのみ統合,日置市,鹿児島県日置市伊集院町猪鹿倉４８４－９,0992080017,https://birth-navi.mhlw.go.jp/facilities/11886,"http://yukas038153.ec-net.jp
+https://www.instagram/itigojosanin","https://www.kosodate-support-satsumasendai.jp/wp-content/uploads/2024/05/131393c7c0ac63b604f4759214f2d68a.pdf
+https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html",鹿児島県日置市の施設と福井県敦賀市側の同名施設は別。日置・出水の既存統合を維持し、福井とは統合しない。
+27,13707,いちご助産院,GCP-13707,GCP-13707,確認済み,一部同一,確定した組合せのみ統合,坂井市,敦賀市山泉,09077409475,https://birth-navi.mhlw.go.jp/facilities/13707,,"https://www.kosodate-support-satsumasendai.jp/wp-content/uploads/2024/05/131393c7c0ac63b604f4759214f2d68a.pdf
+https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html",鹿児島県日置市の施設と福井県敦賀市側の同名施設は別。日置・出水の既存統合を維持し、福井とは統合しない。
+27,15117,いちご助産院,GCP-11886,GCP-11886,確認済み,一部同一,確定した組合せのみ統合,出水市,日置市伊集院町猪鹿倉４８４,08017750558,https://birth-navi.mhlw.go.jp/facilities/15117,http://yuka038153.ec-net.jp/,"https://www.kosodate-support-satsumasendai.jp/wp-content/uploads/2024/05/131393c7c0ac63b604f4759214f2d68a.pdf
+https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html",鹿児島県日置市の施設と福井県敦賀市側の同名施設は別。日置・出水の既存統合を維持し、福井とは統合しない。
+28,13618,かねこ助産院,GCP-13618,GCP-13618,確認済み,すべて別,確定した組合せのみ統合,富山市,富山市新川原町５-21 木町テラス1階,08053354923,https://birth-navi.mhlw.go.jp/facilities/13618,,"https://r.goope.jp/mwkaneko/about
+https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/004/903/sisetuitiran20250201.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000072&kikanKbn=4&prefCd=16",富山・御殿場・倉敷は別事業者。御殿場は金子陽子の出張専門、倉敷は広江8-18-1の施設で、所在地・連絡先が異なる。
+28,13971,かねこ助産院,GCP-13971,GCP-13971,確認済み,すべて別,確定した組合せのみ統合,御殿場市,,09044258065,https://birth-navi.mhlw.go.jp/facilities/13971,https://r.goope.jp/mwkaneko/,"https://r.goope.jp/mwkaneko/about
+https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/004/903/sisetuitiran20250201.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000072&kikanKbn=4&prefCd=16",富山・御殿場・倉敷は別事業者。御殿場は金子陽子の出張専門、倉敷は広江8-18-1の施設で、所在地・連絡先が異なる。
+28,14511,かねこ助産院,GCP-14511,GCP-14511,確認済み,すべて別,確定した組合せのみ統合,倉敷市,,,https://birth-navi.mhlw.go.jp/facilities/14511,http://ww9.tiki.ne.jp/~bebekaneko/,"https://r.goope.jp/mwkaneko/about
+https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/004/903/sisetuitiran20250201.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000072&kikanKbn=4&prefCd=16",富山・御殿場・倉敷は別事業者。御殿場は金子陽子の出張専門、倉敷は広江8-18-1の施設で、所在地・連絡先が異なる。
+29,14717,このは助産院,GCP-14717,GCP-14717,確認済み,すべて同一,同一事業者に統合,高知市,高知市一宮東町５丁目６-19-３,09010061390,https://birth-navi.mhlw.go.jp/facilities/14717,https://www.konohajyosanin.com/index.m.html,https://www.pref.kochi.lg.jp/doc/2026060800365/,高知市一宮東町の施設と同じ公式ドメインを土佐市・いの町の掲載が参照する。町丁目までの住所と詳細住所は矛盾せず、同一事業者として対応付ける。産後ケアの実施場所と登録拠点は別に管理する。
+29,15395,このは助産院,GCP-15395,GCP-14717,確認済み,すべて同一,同一事業者に統合,土佐市,高知市一宮東町,,https://birth-navi.mhlw.go.jp/facilities/15395,https://konohajyosanin.com/,https://www.pref.kochi.lg.jp/doc/2026060800365/,高知市一宮東町の施設と同じ公式ドメインを土佐市・いの町の掲載が参照する。町丁目までの住所と詳細住所は矛盾せず、同一事業者として対応付ける。産後ケアの実施場所と登録拠点は別に管理する。
+29,15397,このは助産院,GCP-15395,GCP-14717,確認済み,すべて同一,同一事業者に統合,いの町,高知市一宮東町,,https://birth-navi.mhlw.go.jp/facilities/15397,https://konohajyosanin.com/,https://www.pref.kochi.lg.jp/doc/2026060800365/,高知市一宮東町の施設と同じ公式ドメインを土佐市・いの町の掲載が参照する。町丁目までの住所と詳細住所は矛盾せず、同一事業者として対応付ける。産後ケアの実施場所と登録拠点は別に管理する。
+30,12953,すみれ助産院,GCP-12953,GCP-12953,確認済み,一部同一,確定した組合せのみ統合,石岡市,石岡市,09080395434,https://birth-navi.mhlw.go.jp/facilities/12953,https://sumire-midwifery.jimdofree.com/,"https://sumire-midwifery.jimdofree.com/%E3%81%94%E4%BA%88%E7%B4%84%E6%96%B9%E6%B3%95/
+https://sumire-midwifery.jimdofree.com/%E5%BD%93%E9%99%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",茨城の施設群と岐阜県関市の施設は別。茨城内の既存統合を維持する。
+30,12991,すみれ助産院,GCP-12953,GCP-12953,確認済み,一部同一,確定した組合せのみ統合,かすみがうら市,,,https://birth-navi.mhlw.go.jp/facilities/12991,,"https://sumire-midwifery.jimdofree.com/%E3%81%94%E4%BA%88%E7%B4%84%E6%96%B9%E6%B3%95/
+https://sumire-midwifery.jimdofree.com/%E5%BD%93%E9%99%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",茨城の施設群と岐阜県関市の施設は別。茨城内の既存統合を維持する。
+30,13875,すみれ助産院,GCP-13875,GCP-13875,確認済み,一部同一,確定した組合せのみ統合,岐阜市,関市武芸川町八幡810-1,08069186314,https://birth-navi.mhlw.go.jp/facilities/13875,,"https://sumire-midwifery.jimdofree.com/%E3%81%94%E4%BA%88%E7%B4%84%E6%96%B9%E6%B3%95/
+https://sumire-midwifery.jimdofree.com/%E5%BD%93%E9%99%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",茨城の施設群と岐阜県関市の施設は別。茨城内の既存統合を維持する。
+31,13623,たけのこ助産院,GCP-13623,GCP-13623,確認済み,すべて別,確定した組合せのみ統合,高岡市,,,https://birth-navi.mhlw.go.jp/facilities/13623,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000023&kikanKbn=4&prefCd=16
+https://www.city.satsumasendai.lg.jp/material/files/group/21/20250325.pdf",高岡・薩摩川内・兵庫の3事業者。高岡の公的登録は戸出町、薩摩川内市資料は城上町の事業所を掲載する。連絡先・地域が異なり追加統合しない。
+31,15123,たけのこ助産院,GCP-15123,GCP-15123,確認済み,すべて別,確定した組合せのみ統合,薩摩川内市,薩摩川内市城上町,09033221670,https://birth-navi.mhlw.go.jp/facilities/15123,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000023&kikanKbn=4&prefCd=16
+https://www.city.satsumasendai.lg.jp/material/files/group/21/20250325.pdf",高岡・薩摩川内・兵庫の3事業者。高岡の公的登録は戸出町、薩摩川内市資料は城上町の事業所を掲載する。連絡先・地域が異なり追加統合しない。
+31,15309,たけのこ助産院,GCP-15309,GCP-15309,確認済み,すべて別,確定した組合せのみ統合,姫路市,,09072501255,https://birth-navi.mhlw.go.jp/facilities/15309,https://www.midwifemap.com/mysite/takenoko/,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000023&kikanKbn=4&prefCd=16
+https://www.city.satsumasendai.lg.jp/material/files/group/21/20250325.pdf",高岡・薩摩川内・兵庫の3事業者。高岡の公的登録は戸出町、薩摩川内市資料は城上町の事業所を掲載する。連絡先・地域が異なり追加統合しない。
+32,13293,たらちね助産院,GCP-13293,GCP-13293,確認済み,一部同一,確定した組合せのみ統合,中野区,"杉並区高井戸東４－７－７　
+サニーコーポ高井戸東１Ｆ",0333315606,https://birth-navi.mhlw.go.jp/facilities/13293,https://www.taratine.com/,"https://www.taratine.com/
+https://www.taratine.com/sitemap/",杉並区高井戸東の施設と金沢市七ツ屋の施設群は別。石川県内の自治体別掲載の既存統合を維持する。
+32,13661,たらちね助産院,GCP-13661,GCP-13661,確認済み,一部同一,確定した組合せのみ統合,かほく市,金沢市七ツ屋ニ5-1,09032947076,https://birth-navi.mhlw.go.jp/facilities/13661,https://oppa.oketani.or.jp/view/uAUaoQwLDc8nQYEA7clf8gVcABFcMbTROeBYpAZPsUh,"https://www.taratine.com/
+https://www.taratine.com/sitemap/",杉並区高井戸東の施設と金沢市七ツ屋の施設群は別。石川県内の自治体別掲載の既存統合を維持する。
+32,13672,たらちね助産院,GCP-13661,GCP-13661,確認済み,一部同一,確定した組合せのみ統合,津幡町,,,https://birth-navi.mhlw.go.jp/facilities/13672,,"https://www.taratine.com/
+https://www.taratine.com/sitemap/",杉並区高井戸東の施設と金沢市七ツ屋の施設群は別。石川県内の自治体別掲載の既存統合を維持する。
+33,11931,どんぐり助産院,GCP-11931,GCP-11931,確認済み,一部同一,確定した組合せのみ統合,白山市,石川県白山市荒屋町に９５－３,0762077451,https://birth-navi.mhlw.go.jp/facilities/11931,"https://donguri-sanba.com/
+https://www.facebook.com/dongurimw
+https://instagram.com/dongurijosanin?igshid=MmVlMjlkMTBhMg==",https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5386400123&kikanKbn=4&prefCd=38,白山市荒屋町の施設群と愛媛県新居浜市の施設は別。両地域の施設登録が異なる。石川県内の既存統合は維持。
+33,13675,どんぐり助産院,GCP-11931,GCP-11931,確認済み,一部同一,確定した組合せのみ統合,津幡町,,,https://birth-navi.mhlw.go.jp/facilities/13675,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5386400123&kikanKbn=4&prefCd=38,白山市荒屋町の施設群と愛媛県新居浜市の施設は別。両地域の施設登録が異なる。石川県内の既存統合は維持。
+33,14702,どんぐり助産院,GCP-14702,GCP-14702,確認済み,一部同一,確定した組合せのみ統合,新居浜市,,,https://birth-navi.mhlw.go.jp/facilities/14702,https://www.instagram.com/dongurijyosanin0407/,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5386400123&kikanKbn=4&prefCd=38,白山市荒屋町の施設群と愛媛県新居浜市の施設は別。両地域の施設登録が異なる。石川県内の既存統合は維持。
+34,13019,なお助産院,GCP-13019,GCP-13019,確認済み,すべて別,確定した組合せのみ統合,宇都宮市,宇都宮市西一の沢町１４－５７,,https://birth-navi.mhlw.go.jp/facilities/13019,,"https://www.city.nagasaki.lg.jp/uploaded/attachment/61820.pdf
+https://www.city.sasebo.lg.jp/documents/18669/jyosansidesabis.pdf",宇都宮・みやま・諫早で所在地と連絡先が異なる同名事業者。追加統合しない。
+34,14800,なお助産院,GCP-14800,GCP-14800,確認済み,すべて別,確定した組合せのみ統合,柳川市,みやま市山川町原町390-2,09084163902,https://birth-navi.mhlw.go.jp/facilities/14800,,"https://www.city.nagasaki.lg.jp/uploaded/attachment/61820.pdf
+https://www.city.sasebo.lg.jp/documents/18669/jyosansidesabis.pdf",宇都宮・みやま・諫早で所在地と連絡先が異なる同名事業者。追加統合しない。
+34,14920,なお助産院,GCP-14920,GCP-14920,確認済み,すべて別,確定した組合せのみ統合,諫早市,諫早市泉町15-17,08017950817,https://birth-navi.mhlw.go.jp/facilities/14920,,"https://www.city.nagasaki.lg.jp/uploaded/attachment/61820.pdf
+https://www.city.sasebo.lg.jp/documents/18669/jyosansidesabis.pdf",宇都宮・みやま・諫早で所在地と連絡先が異なる同名事業者。追加統合しない。
+35,11901,ひだまり助産院,GCP-11901,GCP-11901,確認済み,一部同一,確定した組合せのみ統合,瑞穂市,岐阜県瑞穂市呂久１０４１,07022191988,https://birth-navi.mhlw.go.jp/facilities/11901,"https://peraichi.com/landing_pages/view/hidamari0409/
+https://www.facebook.com/profile.php?id=100063470743556
+https://www.instagram.com/hidamari.maternity_hospital?igsh=NGVhN2U2NjQ0Yg==",https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf,瑞穂市呂久の施設と福岡市東区若宮の田阪陽子の事業者は別。福岡の自治体別掲載の既存統合は維持する。
+35,14831,ひだまり助産院,GCP-14831,GCP-14831,確認済み,一部同一,確定した組合せのみ統合,大野城市,,09094022474,https://birth-navi.mhlw.go.jp/facilities/14831,,https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf,瑞穂市呂久の施設と福岡市東区若宮の田阪陽子の事業者は別。福岡の自治体別掲載の既存統合は維持する。
+35,14882,ひだまり助産院,GCP-14831,GCP-14831,確認済み,一部同一,確定した組合せのみ統合,苅田町,,,https://birth-navi.mhlw.go.jp/facilities/14882,,https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf,瑞穂市呂久の施設と福岡市東区若宮の田阪陽子の事業者は別。福岡の自治体別掲載の既存統合は維持する。
+36,15124,ふわり助産院,GCP-15124,GCP-15124,確認済み,すべて別,確定した組合せのみ統合,薩摩川内市,薩摩川内市平佐町,09049969641,https://birth-navi.mhlw.go.jp/facilities/15124,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=446660099&kikanKbn=4&prefCd=46
+https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html",薩摩川内市平佐町、鹿児島市上之園、栃木県鹿沼市の各連絡先が異なる。少なくとも薩摩川内と鹿児島市は公的資料でも別の所在地・電話を掲載。追加統合しない。
+36,15447,ふわり助産院,GCP-15447,GCP-15447,確認済み,すべて別,確定した組合せのみ統合,壬生町,鹿沼市西茂呂4丁目9-15　オピュロンスA棟,09022614981,https://birth-navi.mhlw.go.jp/facilities/15447,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=446660099&kikanKbn=4&prefCd=46
+https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html",薩摩川内市平佐町、鹿児島市上之園、栃木県鹿沼市の各連絡先が異なる。少なくとも薩摩川内と鹿児島市は公的資料でも別の所在地・電話を掲載。追加統合しない。
+36,15771,ふわり助産院,GCP-15771,GCP-15771,確認済み,すべて別,確定した組合せのみ統合,鹿児島市,鹿児島市上之園4-20　トーカンマンション共研公園６０１,09020813314,https://birth-navi.mhlw.go.jp/facilities/15771,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=446660099&kikanKbn=4&prefCd=46
+https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html",薩摩川内市平佐町、鹿児島市上之園、栃木県鹿沼市の各連絡先が異なる。少なくとも薩摩川内と鹿児島市は公的資料でも別の所在地・電話を掲載。追加統合しない。
+37,13504,まゆみ助産院,GCP-13504,GCP-13504,確認済み,一部同一,確定した組合せのみ統合,平塚市,厚木市愛甲東１丁目８－１４,0462300748,https://birth-navi.mhlw.go.jp/facilities/13504,https://mayumijosanin.com/,"https://www.city.hiratsuka.kanagawa.jp/common/200163160.pdf
+https://mayumijosanin.com/staff/",厚木市愛甲東の施設と金沢市割出町の施設群は別。石川県内の既存統合を維持する。
+37,13660,まゆみ助産院,GCP-13660,GCP-13660,確認済み,一部同一,確定した組合せのみ統合,かほく市,金沢市割出町３４２－６,09077449913,https://birth-navi.mhlw.go.jp/facilities/13660,https://peraichi.com/landing_pages/view/tmh57/,"https://www.city.hiratsuka.kanagawa.jp/common/200163160.pdf
+https://mayumijosanin.com/staff/",厚木市愛甲東の施設と金沢市割出町の施設群は別。石川県内の既存統合を維持する。
+37,13673,まゆみ助産院,GCP-13660,GCP-13660,確認済み,一部同一,確定した組合せのみ統合,津幡町,,,https://birth-navi.mhlw.go.jp/facilities/13673,,"https://www.city.hiratsuka.kanagawa.jp/common/200163160.pdf
+https://mayumijosanin.com/staff/",厚木市愛甲東の施設と金沢市割出町の施設群は別。石川県内の既存統合を維持する。
+38,14389,まる助産院,GCP-14389,GCP-14389,確認済み,一部同一,確定した組合せのみ統合,橿原市,,07076395054,https://birth-navi.mhlw.go.jp/facilities/14389,,"https://marujosanin.crayonsite.net/
+https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf",奈良県斑鳩町の訪問事業者と、糸島市の大庭瞳の事業者は別。奈良の公式サイト、橿原市資料と福岡の自治体資料で連絡先を区別できる。
+38,14398,まる助産院,GCP-14389,GCP-14389,確認済み,一部同一,確定した組合せのみ統合,斑鳩町,,,https://birth-navi.mhlw.go.jp/facilities/14398,,"https://marujosanin.crayonsite.net/
+https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf",奈良県斑鳩町の訪問事業者と、糸島市の大庭瞳の事業者は別。奈良の公式サイト、橿原市資料と福岡の自治体資料で連絡先を区別できる。
+38,14832,まる助産院,GCP-14832,GCP-14832,確認済み,一部同一,確定した組合せのみ統合,大野城市,,07041711084,https://birth-navi.mhlw.go.jp/facilities/14832,,"https://marujosanin.crayonsite.net/
+https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf",奈良県斑鳩町の訪問事業者と、糸島市の大庭瞳の事業者は別。奈良の公式サイト、橿原市資料と福岡の自治体資料で連絡先を区別できる。
+39,11749,ゆう助産院,GCP-11749,GCP-11749,確認済み,すべて別,確定した組合せのみ統合,東大阪市,大阪府東大阪市小阪１丁目４番３７号,0678982203,https://birth-navi.mhlw.go.jp/facilities/11749,"https://www.youjosanin.com/
+https://www.instagram.com/you_josanin/","https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5386400116&kikanKbn=4&prefCd=38
+https://jyosanshi.net/general/midwives/",東大阪、今治、福岡市東区香椎の別事業者。福岡は野口絵理香として助産師会にも登録される。名称だけでは統合しない。
+39,14689,ゆう助産院,GCP-14689,GCP-14689,確認済み,すべて別,確定した組合せのみ統合,今治市,,,https://birth-navi.mhlw.go.jp/facilities/14689,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5386400116&kikanKbn=4&prefCd=38
+https://jyosanshi.net/general/midwives/",東大阪、今治、福岡市東区香椎の別事業者。福岡は野口絵理香として助産師会にも登録される。名称だけでは統合しない。
+39,14817,ゆう助産院,GCP-14817,GCP-14817,確認済み,すべて別,確定した組合せのみ統合,筑紫野市,福岡市東区香椎,07092875318,https://birth-navi.mhlw.go.jp/facilities/14817,https://www.instagram.com/er_ika636?igsh=N3F0ejB1MTUxeTF4&utm_source=qr,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5386400116&kikanKbn=4&prefCd=38
+https://jyosanshi.net/general/midwives/",東大阪、今治、福岡市東区香椎の別事業者。福岡は野口絵理香として助産師会にも登録される。名称だけでは統合しない。
+40,13186,レ・アーリ助産院,GCP-13186,GCP-13186,確認済み,すべて同一,同一事業者に統合,船橋市,鎌ヶ谷市,,https://birth-navi.mhlw.go.jp/facilities/13186,,"https://le-ali-postpartum-care.com/
+https://www.city.funabashi.lg.jp/kodomo/ninshin/002/p051574.html
+https://www.city.abiko.chiba.jp/kosodate/children/syussanshitara/support_subsidies/sango_care.html",公式サイトが鎌ヶ谷・印西・船橋・我孫子の通所型委託施設であることを明記。自治体資料の軽井沢2098-1と一致し、電話の用途差を含めて同一施設の自治体別掲載と判断。
+40,13217,レ・アーリ助産院,GCP-13217,GCP-13186,確認済み,すべて同一,同一事業者に統合,鎌ケ谷市,鎌ケ谷市軽井沢字遠山２０９８－１,07031322536,https://birth-navi.mhlw.go.jp/facilities/13217,,"https://le-ali-postpartum-care.com/
+https://www.city.funabashi.lg.jp/kodomo/ninshin/002/p051574.html
+https://www.city.abiko.chiba.jp/kosodate/children/syussanshitara/support_subsidies/sango_care.html",公式サイトが鎌ヶ谷・印西・船橋・我孫子の通所型委託施設であることを明記。自治体資料の軽井沢2098-1と一致し、電話の用途差を含めて同一施設の自治体別掲載と判断。
+40,13225,レ・アーリ助産院,GCP-13225,GCP-13186,確認済み,すべて同一,同一事業者に統合,印西市,鎌ヶ谷市軽井沢２０９８－１,0474043655,https://birth-navi.mhlw.go.jp/facilities/13225,http://le-ali-postpartum-care.com/,"https://le-ali-postpartum-care.com/
+https://www.city.funabashi.lg.jp/kodomo/ninshin/002/p051574.html
+https://www.city.abiko.chiba.jp/kosodate/children/syussanshitara/support_subsidies/sango_care.html",公式サイトが鎌ヶ谷・印西・船橋・我孫子の通所型委託施設であることを明記。自治体資料の軽井沢2098-1と一致し、電話の用途差を含めて同一施設の自治体別掲載と判断。
+41,13245,個人の助産師,GCP-13245,GCP-13245,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,文京区,,,https://birth-navi.mhlw.go.jp/facilities/13245,https://www.city.bunkyo.lg.jp/b029/p001559.html,,『個人の助産師』は固有名ではなく、文京区の2行と板橋区の1行を識別する情報がない。行政説明ページのURLを事業者本人のURLとして利用しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+41,13246,個人の助産師,GCP-13246,GCP-13246,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,文京区,,,https://birth-navi.mhlw.go.jp/facilities/13246,https://www.city.bunkyo.lg.jp/b029/p001560.html,,『個人の助産師』は固有名ではなく、文京区の2行と板橋区の1行を識別する情報がない。行政説明ページのURLを事業者本人のURLとして利用しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+41,13331,個人の助産師,GCP-13331,GCP-13331,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,板橋区,,,https://birth-navi.mhlw.go.jp/facilities/13331,,,『個人の助産師』は固有名ではなく、文京区の2行と板橋区の1行を識別する情報がない。行政説明ページのURLを事業者本人のURLとして利用しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+42,13398,助産師A,GCP-13398,GCP-13398,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,昭島市,,,https://birth-navi.mhlw.go.jp/facilities/13398,,,Aは匿名化された記号であり、昭島・藤井寺・坂出のAを同じ人物とみなせない。坂出の電話も担当窓口の可能性があり、個人照合の根拠にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+42,14319,助産師A,GCP-14319,GCP-14319,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,藤井寺市,,,https://birth-navi.mhlw.go.jp/facilities/14319,,,Aは匿名化された記号であり、昭島・藤井寺・坂出のAを同じ人物とみなせない。坂出の電話も担当窓口の可能性があり、個人照合の根拠にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+42,14674,助産師A,GCP-14674,GCP-14674,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,坂出市,,0877445006,https://birth-navi.mhlw.go.jp/facilities/14674,,,Aは匿名化された記号であり、昭島・藤井寺・坂出のAを同じ人物とみなせない。坂出の電話も担当窓口の可能性があり、個人照合の根拠にしない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+43,15396,助産院asa,GCP-15396,GCP-15396,確認済み,一部同一,確定した組合せのみ統合,土佐市,南国市,,https://birth-navi.mhlw.go.jp/facilities/15396,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4390000028&kikanKbn=4&prefCd=39,高知県南国市の施設群と長崎県諫早市の施設は異なる所在地の同名掲載。南国市の公的登録を確認し、高知県内の既存統合を維持する。
+43,15398,助産院asa,GCP-15396,GCP-15396,確認済み,一部同一,確定した組合せのみ統合,いの町,南国市,,https://birth-navi.mhlw.go.jp/facilities/15398,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4390000028&kikanKbn=4&prefCd=39,高知県南国市の施設群と長崎県諫早市の施設は異なる所在地の同名掲載。南国市の公的登録を確認し、高知県内の既存統合を維持する。
+43,15757,助産院asa,GCP-15757,GCP-15757,確認済み,一部同一,確定した組合せのみ統合,川棚町,諫早市栄田町,09054878760,https://birth-navi.mhlw.go.jp/facilities/15757,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4390000028&kikanKbn=4&prefCd=39,高知県南国市の施設群と長崎県諫早市の施設は異なる所在地の同名掲載。南国市の公的登録を確認し、高知県内の既存統合を維持する。
+44,14958,助産院となりのミットワイフ,GCP-14958,GCP-14958,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,熊本市,熊本市東区下南部2-15-11,0962846495,https://birth-navi.mhlw.go.jp/facilities/14958,,"https://www.town.kumamoto-kashima.lg.jp/dl?q=35851_filelib_199c863f6837edf394bd92d31f895f4e.pdf
+https://www.city.kumamoto.jp/kiji00333589/3_33589_477371_up_2ee7c4oe.pdf",下南部2-15-11と3-2-100の双方を自治体資料が掲載するが、移転・複数拠点・代表者の対応を特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+44,15032,助産院となりのミットワイフ,GCP-15032,GCP-15032,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,嘉島町,熊本市東区下南部3丁目2-100,09073977698,https://birth-navi.mhlw.go.jp/facilities/15032,,"https://www.town.kumamoto-kashima.lg.jp/dl?q=35851_filelib_199c863f6837edf394bd92d31f895f4e.pdf
+https://www.city.kumamoto.jp/kiji00333589/3_33589_477371_up_2ee7c4oe.pdf",下南部2-15-11と3-2-100の双方を自治体資料が掲載するが、移転・複数拠点・代表者の対応を特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+44,15760,助産院となりのミットワイフ,GCP-14958,GCP-14958,確認済み,一部同一,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,玉名市,熊本市東区下南部2丁目15-11,07047432538,https://birth-navi.mhlw.go.jp/facilities/15760,,"https://www.town.kumamoto-kashima.lg.jp/dl?q=35851_filelib_199c863f6837edf394bd92d31f895f4e.pdf
+https://www.city.kumamoto.jp/kiji00333589/3_33589_477371_up_2ee7c4oe.pdf",下南部2-15-11と3-2-100の双方を自治体資料が掲載するが、移転・複数拠点・代表者の対応を特定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+45,13198,千葉県助産師会印旛地区部会,GCP-13198,GCP-13198,確認済み,すべて同一,同一事業者に統合,成田市,,,https://birth-navi.mhlw.go.jp/facilities/13198,https://www.midwife-chiba.org/,"https://www.pref.chiba.lg.jp/syozoku/a_bunsyo/pp/koukai/mokuroku/2024/13700/6584468.html
+https://www.city.inzai.lg.jp/kosodatenavi/cmsfiles/contents/0000016/16552/R7sangocaretiraashi%28R7.4%29.pdf",千葉県助産師会の同じ印旛地区部会が各自治体で委託される記録。部会単位では同一であり、個々の訪問担当助産師の同一性を意味しない。自治体との関係は別行で保持。
+45,13199,千葉県助産師会印旛地区部会,GCP-13199,GCP-13198,確認済み,すべて同一,同一事業者に統合,佐倉市,,,https://birth-navi.mhlw.go.jp/facilities/13199,,"https://www.pref.chiba.lg.jp/syozoku/a_bunsyo/pp/koukai/mokuroku/2024/13700/6584468.html
+https://www.city.inzai.lg.jp/kosodatenavi/cmsfiles/contents/0000016/16552/R7sangocaretiraashi%28R7.4%29.pdf",千葉県助産師会の同じ印旛地区部会が各自治体で委託される記録。部会単位では同一であり、個々の訪問担当助産師の同一性を意味しない。自治体との関係は別行で保持。
+45,13232,千葉県助産師会印旛地区部会,GCP-13232,GCP-13198,確認済み,すべて同一,同一事業者に統合,酒々井町,,,https://birth-navi.mhlw.go.jp/facilities/13232,,"https://www.pref.chiba.lg.jp/syozoku/a_bunsyo/pp/koukai/mokuroku/2024/13700/6584468.html
+https://www.city.inzai.lg.jp/kosodatenavi/cmsfiles/contents/0000016/16552/R7sangocaretiraashi%28R7.4%29.pdf",千葉県助産師会の同じ印旛地区部会が各自治体で委託される記録。部会単位では同一であり、個々の訪問担当助産師の同一性を意味しない。自治体との関係は別行で保持。
+46,13831,幸助産院,GCP-13831,GCP-13831,確認済み,一部同一,確定した組合せのみ統合,長和町,駒ケ根市赤穂,09033436330,https://birth-navi.mhlw.go.jp/facilities/13831,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5200000170&kikanKbn=4&prefCd=20
+https://www.city.nagoya.jp/kodomoseishonen/cmsfiles/contents/0000073/73621/sanngokeajigyousyo0612.pdf",長野県駒ヶ根市の事業者群と名古屋の同名事業者は別。駒ヶ根の公的登録と名古屋市の産後ケア一覧を区別する。
+46,13844,幸助産院,GCP-13831,GCP-13831,確認済み,一部同一,確定した組合せのみ統合,南箕輪村,,,https://birth-navi.mhlw.go.jp/facilities/13844,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5200000170&kikanKbn=4&prefCd=20
+https://www.city.nagoya.jp/kodomoseishonen/cmsfiles/contents/0000073/73621/sanngokeajigyousyo0612.pdf",長野県駒ヶ根市の事業者群と名古屋の同名事業者は別。駒ヶ根の公的登録と名古屋市の産後ケア一覧を区別する。
+46,14010,幸助産院,GCP-14010,GCP-14010,確認済み,一部同一,確定した組合せのみ統合,名古屋市,,09099440866,https://birth-navi.mhlw.go.jp/facilities/14010,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5200000170&kikanKbn=4&prefCd=20
+https://www.city.nagoya.jp/kodomoseishonen/cmsfiles/contents/0000073/73621/sanngokeajigyousyo0612.pdf",長野県駒ヶ根市の事業者群と名古屋の同名事業者は別。駒ヶ根の公的登録と名古屋市の産後ケア一覧を区別する。
+47,14229,晴助産院,GCP-14229,GCP-14229,確認済み,一部同一,確定した組合せのみ統合,豊中市,大阪市淀川区塚本２－１－６,,https://birth-navi.mhlw.go.jp/facilities/14229,,https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html,大阪市淀川区塚本の事業者群と福岡県中間市垣生の掲載は別拠点・連絡先として保持。大阪側は豊中市資料にも所在地が明記される。追加統合しない。
+47,14332,晴助産院,GCP-14229,GCP-14229,確認済み,一部同一,確定した組合せのみ統合,尼崎市,大阪市淀川区塚本2丁目1番6号,07084318161,https://birth-navi.mhlw.go.jp/facilities/14332,https://haru-jyosanin.hp.peraichi.com/,https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html,大阪市淀川区塚本の事業者群と福岡県中間市垣生の掲載は別拠点・連絡先として保持。大阪側は豊中市資料にも所在地が明記される。追加統合しない。
+47,14784,晴助産院,GCP-14784,GCP-14784,確認済み,一部同一,確定した組合せのみ統合,飯塚市,中間市垣生,,https://birth-navi.mhlw.go.jp/facilities/14784,,https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/kodomokenko/sangocare.html,大阪市淀川区塚本の事業者群と福岡県中間市垣生の掲載は別拠点・連絡先として保持。大阪側は豊中市資料にも所在地が明記される。追加統合しない。
+48,11032,飯藤産婦人科,GCP-11032,GCP-11032,確認済み,一部同一,確定した組合せのみ統合,門真市,大阪府門真市末広町２－７,0669090815,https://birth-navi.mhlw.go.jp/facilities/11032,"https://iito.or.jp/
+https://www.facebook.com/kadomaiitou/
+https://www.instagram.com/iitosanfujinka/","https://iito.or.jp/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2270040740&kikanKbn=2&prefCd=27",門真市末広町の飯藤産婦人科と吹田市泉町の飯藤産婦人科は別施設。豊中市の掲載は吹田の施設を参照する既存群として維持し、門真と統合しない。
+48,11207,飯藤産婦人科,GCP-11207,GCP-11207,確認済み,一部同一,確定した組合せのみ統合,吹田市,大阪府吹田市泉町５丁目６－６,0663880141,https://birth-navi.mhlw.go.jp/facilities/11207,http://www.iito.jp,"https://iito.or.jp/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2270040740&kikanKbn=2&prefCd=27",門真市末広町の飯藤産婦人科と吹田市泉町の飯藤産婦人科は別施設。豊中市の掲載は吹田の施設を参照する既存群として維持し、門真と統合しない。
+48,14249,飯藤産婦人科,GCP-11207,GCP-11207,確認済み,一部同一,確定した組合せのみ統合,豊中市,吹田市泉町５－６－６,,https://birth-navi.mhlw.go.jp/facilities/14249,,"https://iito.or.jp/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2270040740&kikanKbn=2&prefCd=27",門真市末広町の飯藤産婦人科と吹田市泉町の飯藤産婦人科は別施設。豊中市の掲載は吹田の施設を参照する既存群として維持し、門真と統合しない。
+49,15174,BAO,GCP-15174,GCP-15174,確認済み,すべて同一,同一事業者に統合,名護市,名護市為又1220-71,08064815491,https://birth-navi.mhlw.go.jp/facilities/15174,https://www.instagram.com/y.tomomi_mw/,"https://www.okinawakouko.go.jp/case/1695883972/
+https://www.town.motobu.okinawa.jp/doc/2026042100018/
+https://www.city.nago.okinawa.jp/kurashi/2025060400032/file_contents/keiyakushisetuitirannhyou.pdf",名護市と本部町資料が同じ名護市為又1220-71のBAOを掲載。沖縄公庫資料も宮城とも美が開院したBAOを説明する。同じInstagramと所在地に対応し、電話差を理由に分離しない。
+49,15212,BAO,GCP-15212,GCP-15174,確認済み,すべて同一,同一事業者に統合,本部町,名護市為又1220-71　１号館F区画,09019425170,https://birth-navi.mhlw.go.jp/facilities/15212,https://www.instagram.com/y.tomomi_mw/,"https://www.okinawakouko.go.jp/case/1695883972/
+https://www.town.motobu.okinawa.jp/doc/2026042100018/
+https://www.city.nago.okinawa.jp/kurashi/2025060400032/file_contents/keiyakushisetuitirannhyou.pdf",名護市と本部町資料が同じ名護市為又1220-71のBAOを掲載。沖縄公庫資料も宮城とも美が開院したBAOを説明する。同じInstagramと所在地に対応し、電話差を理由に分離しない。
+50,13006,Blue one,GCP-13006,GCP-13006,確認済み,すべて同一,同一事業者に統合,阿見町,,,https://birth-navi.mhlw.go.jp/facilities/13006,,"https://www.vill.miho.lg.jp/page/page006912.html
+https://www.town.ami.lg.jp/cmsfiles/contents/0000014/14560/sangoR7.10.pdf",阿見町・美浦村の資料が訪問型のBlue Oneを委託先として掲載する。同じ地域の特定事業名による自治体別掲載と判断する。登録所在地や座標はこの照合では補完しない。
+50,15441,Blue one,GCP-15441,GCP-13006,確認済み,すべて同一,同一事業者に統合,美浦村,,,https://birth-navi.mhlw.go.jp/facilities/15441,,"https://www.vill.miho.lg.jp/page/page006912.html
+https://www.town.ami.lg.jp/cmsfiles/contents/0000014/14560/sangoR7.10.pdf",阿見町・美浦村の資料が訪問型のBlue Oneを委託先として掲載する。同じ地域の特定事業名による自治体別掲載と判断する。登録所在地や座標はこの照合では補完しない。
+51,12634,Ohana 母乳育児相談室,GCP-12634,GCP-12634,確認済み,すべて同一,同一事業者に統合,室蘭市,,,https://birth-navi.mhlw.go.jp/facilities/12634,https://oppa.oketani.or.jp/view/QfXuB7LwkQLie2DMO37h2AzObh2hlcJccoZbAXFnYpi?region=1&page=2,https://www.city.noboribetsu.lg.jp/docs/2023101300082/,両掲載は同じ桶谷式登録ページを参照する。登別市資料も藤本智恵子のOhana母乳育児相談室と明記しており、室蘭・登別の制度上の掲載を同一事業者に対応付ける。
+51,12674,Ohana 母乳育児相談室,GCP-12674,GCP-12634,確認済み,すべて同一,同一事業者に統合,登別市,,,https://birth-navi.mhlw.go.jp/facilities/12674,https://oppa.oketani.or.jp/view/QfXuB7LwkQLie2DMO37h2AzObh2hlcJccoZbAXFnYpi,https://www.city.noboribetsu.lg.jp/docs/2023101300082/,両掲載は同じ桶谷式登録ページを参照する。登別市資料も藤本智恵子のOhana母乳育児相談室と明記しており、室蘭・登別の制度上の掲載を同一事業者に対応付ける。
+52,15260,あおい助産所,GCP-15260,GCP-15260,確認済み,すべて別,確定した組合せのみ統合,大津市,,08038291223,https://birth-navi.mhlw.go.jp/facilities/15260,,"https://www.city.ritto.lg.jp/material/files/group/98/sanngokeazissisisetu.pdf
+https://aoi-childbirth.crayonsite.com/",15260の電話080-3829-1223は滋賀県東近江市東沖野のあおい助産所と自治体資料で対応。15498は東京都練馬区関町南の別施設。掲載自治体『大津市』を物理所在地と混同しない。
+52,15498,あおい助産所,GCP-15498,GCP-15498,確認済み,すべて別,確定した組合せのみ統合,練馬区,練馬区関町南1-2-27,08046338467,https://birth-navi.mhlw.go.jp/facilities/15498,https://aoi-childbirth.crayonsite.com/,"https://www.city.ritto.lg.jp/material/files/group/98/sanngokeazissisisetu.pdf
+https://aoi-childbirth.crayonsite.com/",15260の電話080-3829-1223は滋賀県東近江市東沖野のあおい助産所と自治体資料で対応。15498は東京都練馬区関町南の別施設。掲載自治体『大津市』を物理所在地と混同しない。
+53,11855,あお助産院,GCP-11855,GCP-11855,確認済み,すべて別,確定した組合せのみ統合,名古屋市千種区,愛知県名古屋市千種区本山町１－１８－２,09051174569,https://birth-navi.mhlw.go.jp/facilities/11855,"https://www.ao-josanin.com/
+https://www.facebook.com/profile.php?id=100076148471532
+https://instagram.com/ao.josanin?igshid=OGQ5ZDc2ODk2ZA==
+https://liff.line.me/1645278921-kWRPP32q/?accountId=879aakge","https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/023/838/03-01.pdf
+https://www.ao-josanin.com/",名古屋市千種区の公式施設と富士宮市山宮の青野有紀子の施設は別。静岡県助産所名簿と住所・電話が対応する。
+53,13734,あお助産院,GCP-13734,GCP-13734,確認済み,すべて別,確定した組合せのみ統合,南部町,富士宮市山宮11－11,08080508007,https://birth-navi.mhlw.go.jp/facilities/13734,,"https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/023/838/03-01.pdf
+https://www.ao-josanin.com/",名古屋市千種区の公式施設と富士宮市山宮の青野有紀子の施設は別。静岡県助産所名簿と住所・電話が対応する。
+54,11869,あかね助産院,GCP-11869,GCP-11869,確認済み,すべて別,確定した組合せのみ統合,多気町,三重県多気郡多気町笠木６２０,09017468843,https://birth-navi.mhlw.go.jp/facilities/11869,"https://mie-akane.jp/
+https://www.facebook.com/profile.php?id=100069232960678
+https://www.instagram.com/akanejosanin/
+https://lin.ee/dKXrIgK","https://jyosanshi.net/general/midwives/
+https://mie-akane.jp/",三重の施設と福岡市博多区吉塚の長谷川眞弓の事業者は別。福岡県助産師会・自治体資料で後者を独立に確認できる。
+54,15726,あかね助産院,GCP-15726,GCP-15726,確認済み,すべて別,確定した組合せのみ統合,筑紫野市,福岡市博多区吉塚,09088325215,https://birth-navi.mhlw.go.jp/facilities/15726,,"https://jyosanshi.net/general/midwives/
+https://mie-akane.jp/",三重の施設と福岡市博多区吉塚の長谷川眞弓の事業者は別。福岡県助産師会・自治体資料で後者を独立に確認できる。
+55,14616,あさのみ助産院,GCP-14616,GCP-14616,確認済み,すべて同一,同一事業者に統合,岩国市,愛媛県新居浜市,09031826795,https://birth-navi.mhlw.go.jp/facilities/14616,,"https://www.city.saijo.ehime.jp/soshiki/kodomomirai/sizinnitaku.html
+https://himejyo.jp/wp-content/uploads/2025/04/6b1c2352ad6d42493212166d4a57b63e-3.pdf",岩国市側の掲載にも事業所所在地は愛媛県新居浜市と記録される。愛媛の助産師会・自治体資料のあさのみ助産院に対応し、掲載自治体と所在地の県違いを別事業者の根拠にしない。
+55,14699,あさのみ助産院,GCP-14699,GCP-14616,確認済み,すべて同一,同一事業者に統合,新居浜市,,,https://birth-navi.mhlw.go.jp/facilities/14699,https://www.instagram.com/asanomi_jyosanin/,"https://www.city.saijo.ehime.jp/soshiki/kodomomirai/sizinnitaku.html
+https://himejyo.jp/wp-content/uploads/2025/04/6b1c2352ad6d42493212166d4a57b63e-3.pdf",岩国市側の掲載にも事業所所在地は愛媛県新居浜市と記録される。愛媛の助産師会・自治体資料のあさのみ助産院に対応し、掲載自治体と所在地の県違いを別事業者の根拠にしない。
+56,13076,あべ母乳・子育て相談室,GCP-13076,GCP-13076,確認済み,すべて同一,同一事業者に統合,嬬恋村,上田市住吉760-8,08050505593,https://birth-navi.mhlw.go.jp/facilities/13076,https://abe-soudan.perma.jp/,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5205300180&kikanKbn=4&prefCd=20
+https://www.city.ueda.nagano.jp/uploaded/attachment/68898.pdf
+https://abe-soudan.perma.jp/",嬬恋村側の登録所在地は長野県上田市住吉760-8で、長野の公的登録と一致する。青木村側の同名掲載は同事業者の委託関係として対応付ける。
+56,13825,あべ母乳・子育て相談室,GCP-13825,GCP-13076,確認済み,すべて同一,同一事業者に統合,青木村,,,https://birth-navi.mhlw.go.jp/facilities/13825,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5205300180&kikanKbn=4&prefCd=20
+https://www.city.ueda.nagano.jp/uploaded/attachment/68898.pdf
+https://abe-soudan.perma.jp/",嬬恋村側の登録所在地は長野県上田市住吉760-8で、長野の公的登録と一致する。青木村側の同名掲載は同事業者の委託関係として対応付ける。
+57,14893,いずみ助産院,GCP-14893,GCP-14893,確認済み,すべて別,確定した組合せのみ統合,佐賀市,,07054018814,https://birth-navi.mhlw.go.jp/facilities/14893,,https://www.city.saga.lg.jp/site_files/file/2025/202510/p1j876rmn01c8834j1i8pgql1pur4.pdf,佐賀市の委託資料の070-5401-8814の事業者と、宮崎市波島の090-9404-0362の施設は別。『宮﨑』という担当者姓と宮崎県の所在地を混同しない。
+57,15081,いずみ助産院,GCP-15081,GCP-15081,確認済み,すべて別,確定した組合せのみ統合,宮崎市,宮崎市波島一丁目1番71－1号,09094040362,https://birth-navi.mhlw.go.jp/facilities/15081,,https://www.city.saga.lg.jp/site_files/file/2025/202510/p1j876rmn01c8834j1i8pgql1pur4.pdf,佐賀市の委託資料の070-5401-8814の事業者と、宮崎市波島の090-9404-0362の施設は別。『宮﨑』という担当者姓と宮崎県の所在地を混同しない。
+58,13589,うえだ助産院,GCP-13589,GCP-13589,確認済み,すべて別,確定した組合せのみ統合,新潟市,新潟市秋葉区大鹿591,09082576927,https://birth-navi.mhlw.go.jp/facilities/13589,,https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/023/838/03-01.pdf,新潟市秋葉区の施設と静岡市清水区の植田清子の施設は所在地・電話が異なる。新潟・静岡の各掲載を別事業者として保持。
+58,13934,うえだ助産院,GCP-13934,GCP-13934,確認済み,すべて別,確定した組合せのみ統合,静岡市,静岡市清水区,09092261203,https://birth-navi.mhlw.go.jp/facilities/13934,,https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/023/838/03-01.pdf,新潟市秋葉区の施設と静岡市清水区の植田清子の施設は所在地・電話が異なる。新潟・静岡の各掲載を別事業者として保持。
+59,14454,うみのわ助産院,GCP-14454,GCP-14454,確認済み,すべて同一,同一事業者に統合,鳥取市,,,https://birth-navi.mhlw.go.jp/facilities/14454,,"https://www.iwami.gr.jp/secure/13396/R7%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%EF%BC%88ver2%EF%BC%89%20%281%29.pdf
+https://tori-josansi.jimdoweb.com/%E9%96%8B%E6%A5%AD%E5%8A%A9%E7%94%A3%E6%89%80%E6%A1%88%E5%86%85/",鳥取県助産師会と岩美町資料で鳥取市南安長のうみのわ助産院を確認。鳥取市・岩美町の自治体別掲載として同じ事業者に対応付ける。
+59,14471,うみのわ助産院,GCP-14471,GCP-14454,確認済み,すべて同一,同一事業者に統合,岩美町,,,https://birth-navi.mhlw.go.jp/facilities/14471,,"https://www.iwami.gr.jp/secure/13396/R7%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%EF%BC%88ver2%EF%BC%89%20%281%29.pdf
+https://tori-josansi.jimdoweb.com/%E9%96%8B%E6%A5%AD%E5%8A%A9%E7%94%A3%E6%89%80%E6%A1%88%E5%86%85/",鳥取県助産師会と岩美町資料で鳥取市南安長のうみのわ助産院を確認。鳥取市・岩美町の自治体別掲載として同じ事業者に対応付ける。
+60,11166,おおたレディースクリニック,GCP-11166,GCP-11166,確認済み,すべて別,確定した組合せのみ統合,姫路市,兵庫県姫路市砥堀229-1,0792655335,https://birth-navi.mhlw.go.jp/facilities/11166,http://www.ohta-ladies-cl.com,"https://ohta-s.com/
+https://ohta-s.com/access.html",姫路市砥堀と伊勢原市伊勢原の別クリニック。公式サイトのドメイン・所在地・電話が異なる。
+60,11553,おおたレディースクリニック,GCP-11553,GCP-11553,確認済み,すべて別,確定した組合せのみ統合,伊勢原市,神奈川県伊勢原市伊勢原2-2-12,0463930383,https://birth-navi.mhlw.go.jp/facilities/11553,https://ohta-s.com,"https://ohta-s.com/
+https://ohta-s.com/access.html",姫路市砥堀と伊勢原市伊勢原の別クリニック。公式サイトのドメイン・所在地・電話が異なる。
+61,12695,おぎた助産院,GCP-12695,GCP-12695,確認済み,すべて同一,同一事業者に統合,美幌町,北見市緑ヶ丘4-2,09087067526,https://birth-navi.mhlw.go.jp/facilities/12695,,https://www.town.oketo.hokkaido.jp/kenko_fukushi/ninpu_nyuyoji/boshi_hoken/sangokeajigyou/,両掲載は北見市緑ケ丘2丁目4-2の施設に対応し、一方の住所で丁目が欠落している。置戸町資料も北見市内の委託助産院と説明。固定電話と携帯の違いだけで分けない。
+61,12703,おぎた助産院,GCP-12703,GCP-12695,確認済み,すべて同一,同一事業者に統合,置戸町,北見市緑ヶ丘2丁目4-2,0157227239,https://birth-navi.mhlw.go.jp/facilities/12703,,https://www.town.oketo.hokkaido.jp/kenko_fukushi/ninpu_nyuyoji/boshi_hoken/sangokeajigyou/,両掲載は北見市緑ケ丘2丁目4-2の施設に対応し、一方の住所で丁目が欠落している。置戸町資料も北見市内の委託助産院と説明。固定電話と携帯の違いだけで分けない。
+62,14723,きむら助産所,GCP-14723,GCP-14723,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,土佐市,,08084961646,https://birth-navi.mhlw.go.jp/facilities/14723,https://www.instagram.com/kimura.jyosanjyo/,https://kochijosanshikai.sakura.ne.jp/2024josanjomap202501.pdf,高知のきむら助産所は確認できるが、14723と15713の異なる連絡先を同じ助産師に結び付ける独立資料を確認できない。名称と同県という理由だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+62,15713,きむら助産所,GCP-15713,GCP-15713,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,芸西村,高知市薊野北町4丁目12-5リビングタウン薊野202,09068877060,https://birth-navi.mhlw.go.jp/facilities/15713,,https://kochijosanshikai.sakura.ne.jp/2024josanjomap202501.pdf,高知のきむら助産所は確認できるが、14723と15713の異なる連絡先を同じ助産師に結び付ける独立資料を確認できない。名称と同県という理由だけで統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+63,11926,きらり助産院,GCP-11926,GCP-11926,確認済み,すべて別,確定した組合せのみ統合,那須塩原市,栃木県那須塩原市四区町７２７番地２６１,0287477754,https://birth-navi.mhlw.go.jp/facilities/11926,"https://kirari-birth.com
+https://www.instagram.com/kirari_birth
+https://lin.ee/wAiEyKr","https://kirari-birth.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=9400000040&kikanKbn=4&prefCd=40",那須塩原市のkirari-birth.comと福岡県のbabykirari.comの施設は別。所在地・連絡先・登録が異なる。
+63,14776,きらり助産院,GCP-14776,GCP-14776,確認済み,すべて別,確定した組合せのみ統合,飯塚市,,09052943368,https://birth-navi.mhlw.go.jp/facilities/14776,http://babykirari.com,"https://kirari-birth.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=9400000040&kikanKbn=4&prefCd=40",那須塩原市のkirari-birth.comと福岡県のbabykirari.comの施設は別。所在地・連絡先・登録が異なる。
+64,13324,くじら助産院,GCP-13324,GCP-13324,確認済み,すべて別,確定した組合せのみ統合,板橋区,板橋区赤塚2-25-21,07032041016,https://birth-navi.mhlw.go.jp/facilities/13324,https://kujirajosanin.jp,https://kujirajosanin.com/,東京都板橋区赤塚と石川県小松市埴田町の別施設。公式サイトのドメインと連絡先も異なる。
+64,13651,くじら助産院,GCP-13651,GCP-13651,確認済み,すべて別,確定した組合せのみ統合,小松市,小松市埴田町ト6-1,09060342309,https://birth-navi.mhlw.go.jp/facilities/13651,https://kujirajosanin.com/,https://kujirajosanin.com/,東京都板橋区赤塚と石川県小松市埴田町の別施設。公式サイトのドメインと連絡先も異なる。
+65,14977,くまさんの助産所,GCP-14977,GCP-14977,確認済み,すべて同一,同一事業者に統合,熊本市,合志市幾久富1656-29PEACEFUL first B,07089458708,https://birth-navi.mhlw.go.jp/facilities/14977,,https://www.city.kumamoto.jp/kiji00333589/3_33589_480116_up_qzbsy77e.pdf,熊本市資料が合志市幾久富1656-29 PEACEFUL first B・070-8945-8708を掲載。大津町側の住所は同一で電話は1桁相違。同一拠点とし、電話の転記差を要修正事項として記録。
+65,15022,くまさんの助産所,GCP-15022,GCP-14977,確認済み,すべて同一,同一事業者に統合,大津町,熊本県合志市幾久富１６５６番地２９,07086458708,https://birth-navi.mhlw.go.jp/facilities/15022,https://kumasan-mw.com/,https://www.city.kumamoto.jp/kiji00333589/3_33589_480116_up_qzbsy77e.pdf,熊本市資料が合志市幾久富1656-29 PEACEFUL first B・070-8945-8708を掲載。大津町側の住所は同一で電話は1桁相違。同一拠点とし、電話の転記差を要修正事項として記録。
+66,14288,こころ助産院,GCP-14288,GCP-14288,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,茨木市,茨木市総持寺駅前町１-３-204,,https://birth-navi.mhlw.go.jp/facilities/14288,https://cocoro310.net/,"https://cocoro310.net/
+https://cocoro310.net/access/",茨木市の施設は確認できるが、読谷村15229は住所・電話・URLがなく、沖縄の別事業者か県外委託かを判定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+66,15229,こころ助産院,GCP-15229,GCP-15229,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,読谷村,,,https://birth-navi.mhlw.go.jp/facilities/15229,,"https://cocoro310.net/
+https://cocoro310.net/access/",茨木市の施設は確認できるが、読谷村15229は住所・電話・URLがなく、沖縄の別事業者か県外委託かを判定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+67,12751,こっ子まんま助産院,GCP-12751,GCP-12751,確認済み,すべて同一,同一事業者に統合,十和田市,十和田市西二十一番町52-38-15,0176241843,https://birth-navi.mhlw.go.jp/facilities/12751,,https://www.city.towada.lg.jp/fukushi/kosodate/files/sanngokeagoannnai.pdf,十和田市西二十一番町52-38-15が両掲載で一致。十和田市資料でも同名委託先を確認。漢数字の転記差を正規化して同一施設と判断する。
+67,12765,こっ子まんま助産院,GCP-12765,GCP-12751,確認済み,すべて同一,同一事業者に統合,六戸町,十和田市西二一番町52番38－15,,https://birth-navi.mhlw.go.jp/facilities/12765,,https://www.city.towada.lg.jp/fukushi/kosodate/files/sanngokeagoannnai.pdf,十和田市西二十一番町52-38-15が両掲載で一致。十和田市資料でも同名委託先を確認。漢数字の転記差を正規化して同一施設と判断する。
+68,10914,さくらレディースクリニック田園町,GCP-10914,GCP-10914,確認済み,すべて同一,同一事業者に統合,鳥取市,鳥取県鳥取市田園町２－１５５,0857254103,https://birth-navi.mhlw.go.jp/facilities/10914,http://www.sakura-lc.com,https://www.mhlw.go.jp/content/12400000/001268597.pdf,田園町2-155の固有のクリニック名に対応。公的登録・医療機関資料の所在地と一致し、新温泉町の同名掲載を同施設の委託関係として扱う。
+68,14370,さくらレディースクリニック田園町,GCP-14370,GCP-10914,確認済み,すべて同一,同一事業者に統合,新温泉町,,,https://birth-navi.mhlw.go.jp/facilities/14370,,https://www.mhlw.go.jp/content/12400000/001268597.pdf,田園町2-155の固有のクリニック名に対応。公的登録・医療機関資料の所在地と一致し、新温泉町の同名掲載を同施設の委託関係として扱う。
+69,13652,さち助産院,GCP-13652,GCP-13652,確認済み,すべて別,確定した組合せのみ統合,小松市,小松市上本折町,08030442434,https://birth-navi.mhlw.go.jp/facilities/13652,,"https://www.city.komatsu.lg.jp/soshiki/1038/ninnshinnshussann/17644.html
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5228001200&kikanKbn=4&prefCd=22",小松市上本折町の080-3044-2434の事業者と、藤枝市駅前の公式サイトの事業者は別。自治体の掲載地域ではなく所在地で区別する。
+69,13956,さち助産院,GCP-13956,GCP-13956,確認済み,すべて別,確定した組合せのみ統合,島田市,藤枝市駅前3-6-11,09068086684,https://birth-navi.mhlw.go.jp/facilities/13956,https://sachijyosanin2001.jimdofree.com/,"https://www.city.komatsu.lg.jp/soshiki/1038/ninnshinnshussann/17644.html
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5228001200&kikanKbn=4&prefCd=22",小松市上本折町の080-3044-2434の事業者と、藤枝市駅前の公式サイトの事業者は別。自治体の掲載地域ではなく所在地で区別する。
+70,13639,さつき助産院,GCP-13639,GCP-13639,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,砺波市,,,https://birth-navi.mhlw.go.jp/facilities/13639,,"https://www.city.tonami.lg.jp/info/4718p/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=6250000840&kikanKbn=4&prefCd=25",砺波市資料にさつき助産院の委託があるが、13639の事業所所在地・担当者がないため、滋賀の15276と同一かを確定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+70,15276,さつき助産院,GCP-15276,GCP-15276,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,大津市,滋賀県大津市仰木の里東2-9-2,0775767321,https://birth-navi.mhlw.go.jp/facilities/15276,,"https://www.city.tonami.lg.jp/info/4718p/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=6250000840&kikanKbn=4&prefCd=25",砺波市資料にさつき助産院の委託があるが、13639の事業所所在地・担当者がないため、滋賀の15276と同一かを確定できない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+71,11794,さとう助産院,GCP-11794,GCP-11794,確認済み,すべて別,確定した組合せのみ統合,結城市,茨城県結城市結城１２０７８－１１,09043725970,https://birth-navi.mhlw.go.jp/facilities/11794,"https://sato-yukijosan.com/
+https://www.facebook.com/yukijosan/","https://sato-yukijosan.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=bmi0001&kikanKbn=4&prefCd=42",茨城県結城市と長崎県雲仙市吾妻町の別登録施設。所在地と電話が異なる。
+71,14934,さとう助産院,GCP-14934,GCP-14934,確認済み,すべて別,確定した組合せのみ統合,雲仙市,雲仙市吾妻町永中名808-1,09050234618,https://birth-navi.mhlw.go.jp/facilities/14934,,"https://sato-yukijosan.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=bmi0001&kikanKbn=4&prefCd=42",茨城県結城市と長崎県雲仙市吾妻町の別登録施設。所在地と電話が異なる。
+72,14521,しおり助産院,GCP-14521,GCP-14521,確認済み,すべて別,確定した組合せのみ統合,井原市,広島県福山市神辺町上御領82－1,0849675377,https://birth-navi.mhlw.go.jp/facilities/14521,http://gryo-healthlabo.com,"https://www.city.kumamoto.jp/kiji00333589/3_33589_477373_up_c36y8a5s.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5340000810&kikanKbn=4&prefCd=34",広島県福山市の施設と熊本市南区城南町の施設は別。熊本市一覧は080-1538-9628を明記する。
+72,14968,しおり助産院,GCP-14968,GCP-14968,確認済み,すべて別,確定した組合せのみ統合,熊本市,熊本市南区城南町下宮地1109-4　ひばりニュータウン3号室,08015389628,https://birth-navi.mhlw.go.jp/facilities/14968,,"https://www.city.kumamoto.jp/kiji00333589/3_33589_477373_up_c36y8a5s.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5340000810&kikanKbn=4&prefCd=34",広島県福山市の施設と熊本市南区城南町の施設は別。熊本市一覧は080-1538-9628を明記する。
+73,14188,すくすく助産院,GCP-14188,GCP-14188,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,宇治市,,,https://birth-navi.mhlw.go.jp/facilities/14188,,"https://www.sukusukumw.com/
+https://www.sukusukumw.com/%E5%8A%A9%E7%94%A3%E9%99%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",米子市の事業者は確認できるが、宇治市14188には住所・電話・URLがない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+73,14461,すくすく助産院,GCP-14461,GCP-14461,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,米子市,米子市東福原8-14-1,09072472609,https://birth-navi.mhlw.go.jp/facilities/14461,https://www.sukusukumw.com/,"https://www.sukusukumw.com/
+https://www.sukusukumw.com/%E5%8A%A9%E7%94%A3%E9%99%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",米子市の事業者は確認できるが、宇治市14188には住所・電話・URLがない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+74,11860,すこやか助産院,GCP-11860,GCP-11860,確認済み,すべて別,確定した組合せのみ統合,北名古屋市,愛知県北名古屋市鹿田廻間８３,0568215503,https://birth-navi.mhlw.go.jp/facilities/11860,https://www.instagram.com/sukoyaka_josanin/,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5227501620&kikanKbn=4&prefCd=22
+https://sukoyaka-mama.com/",北名古屋市と浜松市中央区瓜内町の別施設。浜松側は公的登録・市の一覧で別の所在地・電話を確認。
+74,15583,すこやか助産院,GCP-15583,GCP-15583,確認済み,すべて別,確定した組合せのみ統合,浜松市,浜松市中央区瓜内町148,09033074580,https://birth-navi.mhlw.go.jp/facilities/15583,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5227501620&kikanKbn=4&prefCd=22
+https://sukoyaka-mama.com/",北名古屋市と浜松市中央区瓜内町の別施設。浜松側は公的登録・市の一覧で別の所在地・電話を確認。
+75,13107,たかはし助産院,GCP-13107,GCP-13107,確認済み,すべて別,確定した組合せのみ統合,秩父市,長瀞町岩田865,08066303958,https://birth-navi.mhlw.go.jp/facilities/13107,,"https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/020/863/r8tusyo5.pdf
+https://katsushika.mypl.net/shop/00000375599/news?d=2765516",長瀞町岩田の事業者と葛飾区柴又の事業者は所在地・電話・公式ページが異なる。追加統合しない。
+75,13357,たかはし助産院,GCP-13357,GCP-13357,確認済み,すべて別,確定した組合せのみ統合,葛飾区,葛飾区柴又１－26－15,08065500438,https://birth-navi.mhlw.go.jp/facilities/13357,http://takahashijo.web.fc2.com/,"https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/020/863/r8tusyo5.pdf
+https://katsushika.mypl.net/shop/00000375599/news?d=2765516",長瀞町岩田の事業者と葛飾区柴又の事業者は所在地・電話・公式ページが異なる。追加統合しない。
+76,14956,つむぐ助産院,GCP-14956,GCP-14956,確認済み,すべて別,確定した組合せのみ統合,熊本市,熊本市東区小山3-9-103,09083536729,https://birth-navi.mhlw.go.jp/facilities/14956,,"https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html
+https://www.city.hioki.kagoshima.jp/boshi/kurashi/kosodate-kyoiku/kosodate/ninkatsu/sango-care.html",熊本市東区小山と鹿児島市伊敷台の別事業者。後者の公式サイトの所在地・連絡先が異なる。
+76,15103,つむぐ助産院,GCP-15103,GCP-15103,確認済み,すべて別,確定した組合せのみ統合,鹿児島市,鹿児島市伊敷台7丁目12-3,09016782648,https://birth-navi.mhlw.go.jp/facilities/15103,http://tumugu-jyosanin.com/,"https://www.city.kagoshima.lg.jp/kosodate/boshihoken/kosodate/ninshin/ninshin/umaretara/sango.html
+https://www.city.hioki.kagoshima.jp/boshi/kurashi/kosodate-kyoiku/kosodate/ninkatsu/sango-care.html",熊本市東区小山と鹿児島市伊敷台の別事業者。後者の公式サイトの所在地・連絡先が異なる。
+77,12133,とも助産院,GCP-12133,GCP-12133,確認済み,すべて別,確定した組合せのみ統合,大阪市淀川区,大阪府大阪市淀川区,08061030711,https://birth-navi.mhlw.go.jp/facilities/12133,"https://www.mw-tomo.com/
+https://www.instagram.com/tomojyosanin/
+https://midwife.jp/tomo","https://www.josansi.org/mother_general/search/?area=271233
+https://mw-tomo.com/about/",大阪市淀川区のmw-tomo.comと埼玉県桶川市のtomo-josanin.comは別事業者。掲載自治体が久喜市でも登録拠点は桶川市である。
+77,13149,とも助産院,GCP-13149,GCP-13149,確認済み,すべて別,確定した組合せのみ統合,久喜市,桶川市坂田西2丁目8番地17,08012469800,https://birth-navi.mhlw.go.jp/facilities/13149,https://tomo-josanin.com/,"https://www.josansi.org/mother_general/search/?area=271233
+https://mw-tomo.com/about/",大阪市淀川区のmw-tomo.comと埼玉県桶川市のtomo-josanin.comは別事業者。掲載自治体が久喜市でも登録拠点は桶川市である。
+78,12502,なかむらレディースクリニック,GCP-12502,GCP-12502,確認済み,すべて別,確定した組合せのみ統合,大阪市住之江区,大阪府大阪市住之江区西住之江１－１－３１　Ｎ．ＫＬＡＳＳ住ノ江１階,0666751211,https://birth-navi.mhlw.go.jp/facilities/12502,http://www.web-know.com/nlc,https://www.nakamura-ladiesclinic.com/clinic-information,大阪市住之江区西住之江と山口県萩市熊谷町の別クリニック。萩側は公式サイトの所在地でも確認できる。14624の既存provider_idはGCP-11083であり、その対応を維持する。
+78,14624,なかむらレディースクリニック,GCP-11083,GCP-11083,確認済み,すべて別,確定した組合せのみ統合,山陽小野田市,萩市大字熊谷町１０８番地,,https://birth-navi.mhlw.go.jp/facilities/14624,,https://www.nakamura-ladiesclinic.com/clinic-information,大阪市住之江区西住之江と山口県萩市熊谷町の別クリニック。萩側は公式サイトの所在地でも確認できる。14624の既存provider_idはGCP-11083であり、その対応を維持する。
+79,14812,なごみ助産院,GCP-14812,GCP-14812,確認済み,すべて別,確定した組合せのみ統合,筑紫野市,大野城市筒井4丁目11-1-101,08017040734,https://birth-navi.mhlw.go.jp/facilities/14812,,"https://www.city-kirishima.jp/kenkou/documents/sanngo.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=9400000025&kikanKbn=4&prefCd=40",福岡県大野城市筒井と鹿児島県霧島市溝辺町の別事業者。自治体一覧の住所・連絡先が異なる。
+79,15130,なごみ助産院,GCP-15130,GCP-15130,確認済み,すべて別,確定した組合せのみ統合,霧島市,霧島市溝辺町竹子1463,09079806643,https://birth-navi.mhlw.go.jp/facilities/15130,,"https://www.city-kirishima.jp/kenkou/documents/sanngo.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=9400000025&kikanKbn=4&prefCd=40",福岡県大野城市筒井と鹿児島県霧島市溝辺町の別事業者。自治体一覧の住所・連絡先が異なる。
+80,12817,にじのわ助産院,GCP-12817,GCP-12817,確認済み,すべて別,確定した組合せのみ統合,仙台市,宮城県気仙沼市内の脇1－11－4,08022546696,https://birth-navi.mhlw.go.jp/facilities/12817,https://www.xn--78jubk6k.com/,"https://www.xn--78jubk6k.com/
+https://www.waka-midwife.com/jyosanjyo/nijinowa-josanin",気仙沼市の公式サイトの事業者と和歌山市の助産師会登録事業者は別。所在地と連絡先を区別する。
+80,14415,にじのわ助産院,GCP-14415,GCP-14415,確認済み,すべて別,確定した組合せのみ統合,和歌山市,,09078743536,https://birth-navi.mhlw.go.jp/facilities/14415,https://line.me/R/ti/p/@228fbkau,"https://www.xn--78jubk6k.com/
+https://www.waka-midwife.com/jyosanjyo/nijinowa-josanin",気仙沼市の公式サイトの事業者と和歌山市の助産師会登録事業者は別。所在地と連絡先を区別する。
+81,12936,のっち助産所,GCP-12936,GCP-12936,確認済み,すべて同一,同一事業者に統合,国見町,,09048833818,https://birth-navi.mhlw.go.jp/facilities/12936,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0751000043&kikanKbn=4&prefCd=07,二本松市油井の公的登録ののっち助産所に対応する。固定電話・携帯の違いを区別せず、国見町と双葉町の同名委託先を同一事業者として対応付ける。
+81,15437,のっち助産所,GCP-15437,GCP-12936,確認済み,すべて同一,同一事業者に統合,双葉町,福島県二本松市油井字大森腰２０番１,0243236270,https://birth-navi.mhlw.go.jp/facilities/15437,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0751000043&kikanKbn=4&prefCd=07,二本松市油井の公的登録ののっち助産所に対応する。固定電話・携帯の違いを区別せず、国見町と双葉町の同名委託先を同一事業者として対応付ける。
+82,11066,はしもと産婦人科,GCP-11066,GCP-11066,確認済み,すべて別,確定した組合せのみ統合,神戸市灘区,兵庫県神戸市灘区八幡町１－８－１５,0788224188,https://birth-navi.mhlw.go.jp/facilities/11066,"https://www.hashi-sanfu.com/
+https://www.instagram.com/hashimoto_sanfujinka/","https://www.hashi-sanfu.com/news/
+https://www.hashi-sanfu.com/",神戸市灘区八幡町と山口県宇部市東須恵の別クリニック。所在地・登録が異なる。
+82,14622,はしもと産婦人科,GCP-14622,GCP-14622,確認済み,すべて別,確定した組合せのみ統合,山陽小野田市,宇部市大字東須恵1959番地10,,https://birth-navi.mhlw.go.jp/facilities/14622,,"https://www.hashi-sanfu.com/news/
+https://www.hashi-sanfu.com/",神戸市灘区八幡町と山口県宇部市東須恵の別クリニック。所在地・登録が異なる。
+83,12819,ひかり助産院,GCP-12819,GCP-12819,確認済み,すべて別,確定した組合せのみ統合,仙台市,仙台市泉区みずほ台２７－１０,08018310450,https://birth-navi.mhlw.go.jp/facilities/12819,https://www.midwifemap.com/mysite/hikari-josanin/,"https://www.city.kamisu.ibaraki.jp/_res/projects/default_project/_page_/001/001/578/r7sangokea10.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=795003&kikanKbn=4&prefCd=04",仙台市泉区みずほ台の施設と、鹿嶋市等が利用する神栖市土合本町の施設は別。茨城の自治体資料が後者の所在地・電話を明記する。
+83,12983,ひかり助産院,GCP-12983,GCP-12983,確認済み,すべて別,確定した組合せのみ統合,鹿嶋市,,,https://birth-navi.mhlw.go.jp/facilities/12983,,"https://www.city.kamisu.ibaraki.jp/_res/projects/default_project/_page_/001/001/578/r7sangokea10.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=795003&kikanKbn=4&prefCd=04",仙台市泉区みずほ台の施設と、鹿嶋市等が利用する神栖市土合本町の施設は別。茨城の自治体資料が後者の所在地・電話を明記する。
+84,12778,ひとみ助産院,GCP-12778,GCP-12778,確認済み,すべて別,確定した組合せのみ統合,一関市,,,https://birth-navi.mhlw.go.jp/facilities/12778,https://z9djn.crayonsite.net/,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=03400028&kikanKbn=4&prefCd=03,岩手県一関市の訪問型施設と東京都八王子市山田町の施設は別。公的登録と所在地が異なる。
+84,13370,ひとみ助産院,GCP-13370,GCP-13370,確認済み,すべて別,確定した組合せのみ統合,八王子市,八王子市山田町1692-2,0426678528,https://birth-navi.mhlw.go.jp/facilities/13370,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=03400028&kikanKbn=4&prefCd=03,岩手県一関市の訪問型施設と東京都八王子市山田町の施設は別。公的登録と所在地が異なる。
+85,11783,ふたば助産院,GCP-11783,GCP-11783,確認済み,すべて別,確定した組合せのみ統合,豊橋市,愛知県豊橋市杉山町字知原１２－１３７０,0532234103,https://birth-navi.mhlw.go.jp/facilities/11783,http://www.tees.ne.jp/~futaba4103/,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4136500013&kikanKbn=4&prefCd=13
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4232600040&kikanKbn=4&prefCd=23",豊橋市杉山町と東京都練馬区桜台の別施設。公的登録・公式サイト・電話が異なる。板橋区は後者の掲載自治体である。
+85,13329,ふたば助産院,GCP-13329,GCP-13329,確認済み,すべて別,確定した組合せのみ統合,板橋区,練馬区桜台3-14-15　ルミエール201,0369147181,https://birth-navi.mhlw.go.jp/facilities/13329,https://www.futaba-oketani.com/,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4136500013&kikanKbn=4&prefCd=13
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4232600040&kikanKbn=4&prefCd=23",豊橋市杉山町と東京都練馬区桜台の別施設。公的登録・公式サイト・電話が異なる。板橋区は後者の掲載自治体である。
+86,14058,ほのぼの助産院,GCP-14058,GCP-14058,確認済み,すべて別,確定した組合せのみ統合,春日井市,小牧市城山五丁目68-4,08032849946,https://birth-navi.mhlw.go.jp/facilities/14058,https://honobono-jyosanin.jimdofree.com/,"https://js-oita.jimdofree.com/%E5%8A%A9%E7%94%A3%E5%B8%AB%E3%81%AE%E7%B4%B9%E4%BB%8B/
+https://www.aichi-midwife.com/%E5%8A%A9%E7%94%A3%E9%99%A2%E3%82%92%E3%81%8A%E6%8E%A2%E3%81%97%E3%81%AA%E3%82%89/",愛知県小牧市の村瀬伊津子の施設と、大分市の同名施設は別。助産師会資料の地域と連絡先を区別する。
+86,15056,ほのぼの助産院,GCP-15056,GCP-15056,確認済み,すべて別,確定した組合せのみ統合,大分市,大分市寒田,09071667467,https://birth-navi.mhlw.go.jp/facilities/15056,,"https://js-oita.jimdofree.com/%E5%8A%A9%E7%94%A3%E5%B8%AB%E3%81%AE%E7%B4%B9%E4%BB%8B/
+https://www.aichi-midwife.com/%E5%8A%A9%E7%94%A3%E9%99%A2%E3%82%92%E3%81%8A%E6%8E%A2%E3%81%97%E3%81%AA%E3%82%89/",愛知県小牧市の村瀬伊津子の施設と、大分市の同名施設は別。助産師会資料の地域と連絡先を区別する。
+87,11837,みき助産院,GCP-11837,GCP-11837,確認済み,すべて別,確定した組合せのみ統合,舞鶴市,京都府舞鶴市喜多８４９➖４,0773777153,https://birth-navi.mhlw.go.jp/facilities/11837,"https://www.facebook.com/profile.php?id=100063558970618
+https://instagram.com/miki_midwife?igshid=OGQ5ZDc2ODk2ZA==","https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/ninshin_shussan/22834.html
+https://www.maipace.info/",京都府舞鶴市の施設と春日部市の070-8487-1266の事業者は別。舞鶴の公式サイトには旧施設に関する案内もあり、営業状況の更新と同一性は別課題として記録する。
+87,13120,みき助産院,GCP-13120,GCP-13120,確認済み,すべて別,確定した組合せのみ統合,春日部市,,07084871266,https://birth-navi.mhlw.go.jp/facilities/13120,,"https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/ninshin_shussan/22834.html
+https://www.maipace.info/",京都府舞鶴市の施設と春日部市の070-8487-1266の事業者は別。舞鶴の公式サイトには旧施設に関する案内もあり、営業状況の更新と同一性は別課題として記録する。
+88,12897,みさき助産院,GCP-12897,GCP-12897,確認済み,すべて別,確定した組合せのみ統合,東根市,,09022759628,https://birth-navi.mhlw.go.jp/facilities/12897,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4137300018&kikanKbn=4&prefCd=13
+https://www.city.higashine.yamagata.jp/files/original/2026050815502008812e7cdc6.pdf",山形県東根市の委託先と東京都八王子市裏高尾町の公的登録施設は、異なる連絡先・登録地域を持つ。追加統合しない。
+88,13372,みさき助産院,GCP-13372,GCP-13372,確認済み,すべて別,確定した組合せのみ統合,八王子市,,07045430820,https://birth-navi.mhlw.go.jp/facilities/13372,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4137300018&kikanKbn=4&prefCd=13
+https://www.city.higashine.yamagata.jp/files/original/2026050815502008812e7cdc6.pdf",山形県東根市の委託先と東京都八王子市裏高尾町の公的登録施設は、異なる連絡先・登録地域を持つ。追加統合しない。
+89,12937,みのり助産院,GCP-12937,GCP-12937,確認済み,すべて別,確定した組合せのみ統合,国見町,,09053570210,https://birth-navi.mhlw.go.jp/facilities/12937,,https://www.city.ritto.lg.jp/material/files/group/98/sanngokeazissisisetu.pdf,福島側の090-5357-0210の事業者と、滋賀県湖南市菩提寺1699の090-5250-2300の施設は別。湖南市の施設は滋賀の自治体一覧にも掲載される。
+89,15287,みのり助産院,GCP-15287,GCP-15287,確認済み,すべて別,確定した組合せのみ統合,大津市,湖南市菩提寺1699番地,09052502300,https://birth-navi.mhlw.go.jp/facilities/15287,,https://www.city.ritto.lg.jp/material/files/group/98/sanngokeazissisisetu.pdf,福島側の090-5357-0210の事業者と、滋賀県湖南市菩提寺1699の090-5250-2300の施設は別。湖南市の施設は滋賀の自治体一覧にも掲載される。
+90,14372,みやもと産婦人科医院,GCP-14372,GCP-14372,確認済み,すべて同一,同一事業者に統合,新温泉町,,,https://birth-navi.mhlw.go.jp/facilities/14372,,"https://www.vill.nishiawakura.okayama.jp/wp/%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E4%BA%8B%E6%A5%AD-2/
+https://miyamoto-sanfujinka.jp/about/",西粟倉村の公式資料が委託先を鳥取県鳥取市のみやもと産婦人科医院と明記。新温泉町の同名掲載も、固有の施設名と地域の委託先に対応するものとして同一事業者にまとめる。
+90,14548,みやもと産婦人科医院,GCP-14548,GCP-14372,確認済み,すべて同一,同一事業者に統合,西粟倉村,,,https://birth-navi.mhlw.go.jp/facilities/14548,,"https://www.vill.nishiawakura.okayama.jp/wp/%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E4%BA%8B%E6%A5%AD-2/
+https://miyamoto-sanfujinka.jp/about/",西粟倉村の公式資料が委託先を鳥取県鳥取市のみやもと産婦人科医院と明記。新温泉町の同名掲載も、固有の施設名と地域の委託先に対応するものとして同一事業者にまとめる。
+91,14665,みゆき助産院,GCP-14665,GCP-14665,確認済み,すべて別,確定した組合せのみ統合,高松市,仲多度郡多度津町奥白方1183番地,08040333855,https://birth-navi.mhlw.go.jp/facilities/14665,,"https://sanuki38.com/josanshisetsu/
+https://www.midwife-kumamoto.com/?page_id=794
+https://miyuki-mc.com/",香川県多度津町の竹内美由紀と、熊本の加治美由起の事業者は別。各県助産師会の登録で氏名と所在地を区別できる。
+91,14983,みゆき助産院,GCP-14983,GCP-14983,確認済み,すべて別,確定した組合せのみ統合,熊本市,,09036672573,https://birth-navi.mhlw.go.jp/facilities/14983,,"https://sanuki38.com/josanshisetsu/
+https://www.midwife-kumamoto.com/?page_id=794
+https://miyuki-mc.com/",香川県多度津町の竹内美由紀と、熊本の加治美由起の事業者は別。各県助産師会の登録で氏名と所在地を区別できる。
+92,13795,やよい助産院,GCP-13795,GCP-13795,確認済み,すべて別,確定した組合せのみ統合,小諸市,御代田町馬瀬口1688-2,09041657532,https://birth-navi.mhlw.go.jp/facilities/13795,,"https://www.city.tanabe.lg.jp/material/files/group/25/itakusisetuitiran26.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5102600000&kikanKbn=4&prefCd=30",長野県御代田町馬瀬口と和歌山県白浜町の同名事業者。電話・登録地域が異なり、同一事業者とする根拠はないため別に保持する。
+92,14441,やよい助産院,GCP-14441,GCP-14441,確認済み,すべて別,確定した組合せのみ統合,白浜町,,09088842295,https://birth-navi.mhlw.go.jp/facilities/14441,,"https://www.city.tanabe.lg.jp/material/files/group/25/itakusisetuitiran26.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5102600000&kikanKbn=4&prefCd=30",長野県御代田町馬瀬口と和歌山県白浜町の同名事業者。電話・登録地域が異なり、同一事業者とする根拠はないため別に保持する。
+93,15206,やんばる希望が丘助産院,GCP-15206,GCP-15206,確認済み,すべて同一,同一事業者に統合,今帰仁村,今帰仁村,,https://birth-navi.mhlw.go.jp/facilities/15206,,"https://www.town.motobu.okinawa.jp/doc/2025031000025/
+https://www.vill.higashi.okinawa.jp/kosodate_kyoiku/syussan/1319.html",今帰仁村兼次の施設を、今帰仁村・読谷村の制度上の掲載が参照する。同一の特定施設名と公式サイトに対応し、本部町・東村資料にも同施設が掲載される。
+93,15223,やんばる希望が丘助産院,GCP-15223,GCP-15206,確認済み,すべて同一,同一事業者に統合,読谷村,今帰仁村兼次813-23,,https://birth-navi.mhlw.go.jp/facilities/15223,https://yanbaruhopehill.com/,"https://www.town.motobu.okinawa.jp/doc/2025031000025/
+https://www.vill.higashi.okinawa.jp/kosodate_kyoiku/syussan/1319.html",今帰仁村兼次の施設を、今帰仁村・読谷村の制度上の掲載が参照する。同一の特定施設名と公式サイトに対応し、本部町・東村資料にも同施設が掲載される。
+94,14686,ゆいた助産院,GCP-14686,GCP-14686,確認済み,すべて同一,同一事業者に統合,松山市,,,https://birth-navi.mhlw.go.jp/facilities/14686,https://yuita.hp.peraichi.com/yuita/,https://yuita.hp.peraichi.com/yuita/,2掲載は同じyuita.hp.peraichi.comの公式ページに対応。公式ページは松山市をはじめとする近隣自治体の訪問型事業への対応を説明しており、東温市との県内委託関係として扱う。
+94,15706,ゆいた助産院,GCP-15706,GCP-14686,確認済み,すべて同一,同一事業者に統合,東温市,,,https://birth-navi.mhlw.go.jp/facilities/15706,https://yuita.hp.peraichi.com,https://yuita.hp.peraichi.com/yuita/,2掲載は同じyuita.hp.peraichi.comの公式ページに対応。公式ページは松山市をはじめとする近隣自治体の訪問型事業への対応を説明しており、東温市との県内委託関係として扱う。
+95,11620,ゆいレディースクリニック,GCP-11620,GCP-11620,確認済み,すべて別,確定した組合せのみ統合,粕屋町,福岡県糟屋郡粕屋町原町５－１２－１,0929393517,https://birth-navi.mhlw.go.jp/facilities/11620,"https://yui-lc.com
+https://www.instagram.com/yuiladies_clinic/",https://yui-lc.com/,福岡県粕屋町のyui-lc.comと山口県宇部市のyui-ladies-clinic.comは別クリニック。公式サイト・所在地を区別する。
+95,14588,ゆいレディースクリニック,GCP-14588,GCP-14588,確認済み,すべて別,確定した組合せのみ統合,宇部市,,,https://birth-navi.mhlw.go.jp/facilities/14588,https://yui-ladies-clinic.com/,https://yui-lc.com/,福岡県粕屋町のyui-lc.comと山口県宇部市のyui-ladies-clinic.comは別クリニック。公式サイト・所在地を区別する。
+96,15481,ゆうき助産院,GCP-15481,GCP-15481,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,港区,港区白金1-25-15-302,0364245576,https://birth-navi.mhlw.go.jp/facilities/15481,https://www.yu-kimaternityclinic.com/,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4136000070&kikanKbn=4&prefCd=13,東京都港区の施設は確認できるが、富山市15569の事業者を独立した一次資料で対応付けられない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+96,15569,ゆうき助産院,GCP-15569,GCP-15569,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,富山市,,09037652792,https://birth-navi.mhlw.go.jp/facilities/15569,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4136000070&kikanKbn=4&prefCd=13,東京都港区の施設は確認できるが、富山市15569の事業者を独立した一次資料で対応付けられない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+97,12831,ゆきんこ助産院,GCP-12831,GCP-12831,確認済み,すべて別,確定した組合せのみ統合,仙台市,宮城郡利府町,09033664515,https://birth-navi.mhlw.go.jp/facilities/12831,,https://mwyukinko.com/,宮城県利府町の事業者と神奈川県相模原市上溝の事業者は別。相模原の公式サイトは2024年の施設化を説明し、宮城の施設とは拠点・連絡先が異なる。
+97,13481,ゆきんこ助産院,GCP-13481,GCP-13481,確認済み,すべて別,確定した組合せのみ統合,相模原市,相模原市中央区上溝3833-6,08090990415,https://birth-navi.mhlw.go.jp/facilities/13481,https://mwyukinko.com/,https://mwyukinko.com/,宮城県利府町の事業者と神奈川県相模原市上溝の事業者は別。相模原の公式サイトは2024年の施設化を説明し、宮城の施設とは拠点・連絡先が異なる。
+98,11769,ゆりかご助産院,GCP-11769,GCP-11769,確認済み,すべて別,確定した組合せのみ統合,各務原市,岐阜県各務原市蘇原大島町１丁目４９番地,0583715155,https://birth-navi.mhlw.go.jp/facilities/11769,http://www.yurikago-j.com,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5340001230&kikanKbn=4&prefCd=34,岐阜県各務原市と広島県福山市側の同名施設は別。公式ページ・登録所在地・連絡先が異なる。
+98,14522,ゆりかご助産院,GCP-14522,GCP-14522,確認済み,すべて別,確定した組合せのみ統合,井原市,,09083623981,https://birth-navi.mhlw.go.jp/facilities/14522,https://www.midwifemap.com/mysite/yurikago,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5340001230&kikanKbn=4&prefCd=34,岐阜県各務原市と広島県福山市側の同名施設は別。公式ページ・登録所在地・連絡先が異なる。
+99,13027,よつば助産院,GCP-13027,GCP-13027,確認済み,すべて別,確定した組合せのみ統合,佐野市,佐野市堀米町3905番地２　ハイグレード若田部102号,,https://birth-navi.mhlw.go.jp/facilities/13027,,"https://46bear.com/yotsuba/information/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000062&kikanKbn=4&prefCd=16",栃木県佐野市の公式施設と富山県高岡市戸出町の公的登録施設は別。所在地・電話を区別する。
+99,13626,よつば助産院,GCP-13626,GCP-13626,確認済み,すべて別,確定した組合せのみ統合,高岡市,高岡市戸出町５－４－５８,09082636522,https://birth-navi.mhlw.go.jp/facilities/13626,,"https://46bear.com/yotsuba/information/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5161000062&kikanKbn=4&prefCd=16",栃木県佐野市の公式施設と富山県高岡市戸出町の公的登録施設は別。所在地・電話を区別する。
+100,11758,わたなべ助産院,GCP-11758,GCP-11758,確認済み,すべて同一,同一事業者に統合,佐伯市,大分県佐伯市大字長良汐月３６５－１,09097940477,https://birth-navi.mhlw.go.jp/facilities/11758,,https://www.city.saiki.oita.jp/kosodate/kiji0038775/3_8775_up_o1klqqw8.pdf,佐伯市長良365-1という住所が一致し、市内施設の携帯と固定電話の違いである。同じ佐伯市の事業者を大分市が掲載したものとして対応付ける。
+100,15066,わたなべ助産院,GCP-15066,GCP-11758,確認済み,すべて同一,同一事業者に統合,大分市,佐伯市大字長良３６５ー１,0972229955,https://birth-navi.mhlw.go.jp/facilities/15066,,https://www.city.saiki.oita.jp/kosodate/kiji0038775/3_8775_up_o1klqqw8.pdf,佐伯市長良365-1という住所が一致し、市内施設の携帯と固定電話の違いである。同じ佐伯市の事業者を大分市が掲載したものとして対応付ける。
+101,12692,オハナ助産院,GCP-12692,GCP-12692,確認済み,すべて別,確定した組合せのみ統合,東神楽町,,09062151103,https://birth-navi.mhlw.go.jp/facilities/12692,,"https://ohanamw.wixsite.com/ohana/blank
+https://ohanamw.wixsite.com/ohana/pepe-1",北海道側の事業者と静岡市駿河区の事業者は登録地域・電話・公式サイトが異なる。追加統合しない。
+101,13925,オハナ助産院,GCP-13925,GCP-13925,確認済み,すべて別,確定した組合せのみ統合,静岡市,静岡市駿河区,09091974925,https://birth-navi.mhlw.go.jp/facilities/13925,https://ohanamw.wixsite.com/ohana,"https://ohanamw.wixsite.com/ohana/blank
+https://ohanamw.wixsite.com/ohana/pepe-1",北海道側の事業者と静岡市駿河区の事業者は登録地域・電話・公式サイトが異なる。追加統合しない。
+102,11803,ノア助産院,GCP-11803,GCP-11803,確認済み,すべて別,確定した組合せのみ統合,静岡市清水区,静岡県静岡市清水区下野町２－１,08041326445,https://birth-navi.mhlw.go.jp/facilities/11803,"https://www.sukoyakasalon-noa.com
+https://lin.ee/j4SgH8M","https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/020/863/r8tusyo5.pdf
+https://www.noa-jyosanin.net/",静岡市清水区下野町と東京都足立区綾瀬の別施設。葛飾区の掲載は足立区のノア助産院を指す。
+102,13360,ノア助産院,GCP-13360,GCP-13360,確認済み,すべて別,確定した組合せのみ統合,葛飾区,足立区綾瀬2-11-4第２フラワーコーポ１階,09016199811,https://birth-navi.mhlw.go.jp/facilities/13360,https://www.noa-jyosanin.net/,"https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/020/863/r8tusyo5.pdf
+https://www.noa-jyosanin.net/",静岡市清水区下野町と東京都足立区綾瀬の別施設。葛飾区の掲載は足立区のノア助産院を指す。
+103,11285,ホーカベレディースクリニック,GCP-11285,GCP-11285,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,福井市,福井県福井市左内町10-11,0776360665,https://birth-navi.mhlw.go.jp/facilities/11285,"http://www.hookabe.com
+http://www.instagram.com/hokabelc/","https://www.pref.fukui.lg.jp/doc/kodomo/sangocare.html
+https://www.hookabe.com/info",福井市左内町の公的な施設は確認できるが、13714には勝山市鹿谷町志田8-3-1・0776-33-1467が記録される。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+103,13714,ホーカベレディースクリニック,GCP-13714,GCP-13714,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,坂井市,勝山市鹿谷町志田8-3-1,0776331467,https://birth-navi.mhlw.go.jp/facilities/13714,,"https://www.pref.fukui.lg.jp/doc/kodomo/sangocare.html
+https://www.hookabe.com/info",福井市左内町の公的な施設は確認できるが、13714には勝山市鹿谷町志田8-3-1・0776-33-1467が記録される。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+104,11740,マミー助産院,GCP-11740,GCP-11740,確認済み,すべて別,確定した組合せのみ統合,四国中央市,愛媛県四国中央市土居町北野甲587－3,0896746161,https://birth-navi.mhlw.go.jp/facilities/11740,https://mamijyosanin.jimdo.com,"https://mammy-birth.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5385100100&kikanKbn=4&prefCd=38",愛媛県四国中央市の施設と北海道上士幌町の公式施設は別。所在地・公式サイト・連絡先が異なる。
+104,12716,マミー助産院,GCP-12716,GCP-12716,確認済み,すべて別,確定した組合せのみ統合,上士幌町,上士幌町字上士幌東3線237番地53,05037432669,https://birth-navi.mhlw.go.jp/facilities/12716,https://mammy-birth.com/,"https://mammy-birth.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5385100100&kikanKbn=4&prefCd=38",愛媛県四国中央市の施設と北海道上士幌町の公式施設は別。所在地・公式サイト・連絡先が異なる。
+105,11093,中村レディースクリニック,GCP-11093,GCP-11093,確認済み,すべて別,確定した組合せのみ統合,鹿児島市,鹿児島県鹿児島市上本町９ー１４,0992225510,https://birth-navi.mhlw.go.jp/facilities/11093,"https://www.nakamuraladies.or.jp
+https://www.facebook.com/profile.php?id=100063724878449
+https://www.instagram.com/nakamura.ladiesclinic/","https://nakamura-ladies.com/
+https://www.nakamuraladies.or.jp/",鹿児島市上本町と神戸市西区持子の別クリニック。双方の公式サイトが別の所在地を示す。
+105,12152,中村レディースクリニック,GCP-12152,GCP-12152,確認済み,すべて別,確定した組合せのみ統合,神戸市西区,兵庫県神戸市西区持子3丁目60-1,0789254103,https://birth-navi.mhlw.go.jp/facilities/12152,http://nakamura-ladies.com/,"https://nakamura-ladies.com/
+https://www.nakamuraladies.or.jp/",鹿児島市上本町と神戸市西区持子の別クリニック。双方の公式サイトが別の所在地を示す。
+106,14395,中村助産所,GCP-14395,GCP-14395,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,葛城市,,,https://birth-navi.mhlw.go.jp/facilities/14395,,,奈良県の2掲載はいずれも住所・電話・公式URLがない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+106,14397,中村助産所,GCP-14397,GCP-14397,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,斑鳩町,,,https://birth-navi.mhlw.go.jp/facilities/14397,,,奈良県の2掲載はいずれも住所・電話・公式URLがない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+107,11530,中村産婦人科,GCP-11530,GCP-11530,確認済み,すべて別,確定した組合せのみ統合,小川町,埼玉県比企郡小川町大字大塚１１７６－１,0493720373,https://birth-navi.mhlw.go.jp/facilities/11530,"https://www.nakamurasanfujinka.jp/
+https://www.instagram.com/nakamura_maternity_clinic/","https://www.nakamurasanfujinka.jp/
+https://www.nakamurasanfujinka.jp/index.html",埼玉県小川町と広島県福山市御幸町の別クリニック。所在地・電話・公式サイトが異なる。
+107,15672,中村産婦人科,GCP-15672,GCP-15672,確認済み,すべて別,確定した組合せのみ統合,福山市,福山市御幸町大字森脇115番地,0849996841,https://birth-navi.mhlw.go.jp/facilities/15672,https://fukuyama-nakamurasanfujinka-obgy.com/,"https://www.nakamurasanfujinka.jp/
+https://www.nakamurasanfujinka.jp/index.html",埼玉県小川町と広島県福山市御幸町の別クリニック。所在地・電話・公式サイトが異なる。
+108,15259,中谷助産所,GCP-15259,GCP-15259,確認済み,すべて別,確定した組合せのみ統合,鈴鹿市,津市一身田平野767-16,08032837848,https://birth-navi.mhlw.go.jp/facilities/15259,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5240010009&kikanKbn=4&prefCd=24
+https://www.city.takaishi.lg.jp/kakuka/kyouiku/kodomokatei_ka/katei/ninshinntyuunokenkou/1500021544228.html",三重県津市一身田平野の施設と大阪府高石市千代田の事業者は別。各自治体の施設一覧と公的登録の所在地が異なる。
+108,15633,中谷助産所,GCP-15633,GCP-15633,確認済み,すべて別,確定した組合せのみ統合,高石市,高石市千代田5丁目10番19号,09066608121,https://birth-navi.mhlw.go.jp/facilities/15633,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5240010009&kikanKbn=4&prefCd=24
+https://www.city.takaishi.lg.jp/kakuka/kyouiku/kodomokatei_ka/katei/ninshinntyuunokenkou/1500021544228.html",三重県津市一身田平野の施設と大阪府高石市千代田の事業者は別。各自治体の施設一覧と公的登録の所在地が異なる。
+109,14903,佐賀県助産師会,GCP-14903,GCP-14903,確認済み,すべて同一,同一事業者に統合,武雄市,,,https://birth-navi.mhlw.go.jp/facilities/14903,https://midwife-saga.main.jp/,https://info.gbiz.go.jp/hojin/ichiran?hojinBango=4300005006215,同じ佐賀県助産師会の公式ドメインを両自治体掲載が参照する。団体単位では同一であり、個々の訪問担当助産師を1人とみなす意味ではない。
+109,14906,佐賀県助産師会,GCP-14906,GCP-14903,確認済み,すべて同一,同一事業者に統合,江北町,,,https://birth-navi.mhlw.go.jp/facilities/14906,https://midwife-saga.main.jp,https://info.gbiz.go.jp/hojin/ichiran?hojinBango=4300005006215,同じ佐賀県助産師会の公式ドメインを両自治体掲載が参照する。団体単位では同一であり、個々の訪問担当助産師を1人とみなす意味ではない。
+110,10592,公立福生病院,GCP-10592,GCP-10592,確認済み,すべて同一,同一事業者に統合,福生市,東京都福生市加美平一丁目６番地１,0425511111,https://birth-navi.mhlw.go.jp/facilities/10592,https://www.fussahp.jp/index.html,https://www.fussahp.jp/about/index.html,福生市加美平1-6-1と公式病院ドメインが一致。13427の042-555-1111は本院代表042-551-1111と相違するが、別病院を示すものではなく転記差として記録する。
+110,13427,公立福生病院,GCP-13427,GCP-10592,確認済み,すべて同一,同一事業者に統合,羽村市,福生市加美平1-6-1,0425551111,https://birth-navi.mhlw.go.jp/facilities/13427,https://www.fussahp.jp/obstetrics/sango-care_copy.html,https://www.fussahp.jp/about/index.html,福生市加美平1-6-1と公式病院ドメインが一致。13427の042-555-1111は本院代表042-551-1111と相違するが、別病院を示すものではなく転記差として記録する。
+111,13482,出張専門助産師　umi.なぎさ,GCP-13482,GCP-13482,確認済み,すべて同一,同一事業者に統合,相模原市,,,https://birth-navi.mhlw.go.jp/facilities/13482,https://umi-nagisa-kotsubanjiku.amebaownd.com/,https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1021109.html,2掲載は同じumi-nagisa-kotsubanjiku.amebaownd.comを参照し、相模原市公式一覧にも固有の事業者名を確認できる。同一の訪問事業者として対応付ける。
+111,13530,出張専門助産師　umi.なぎさ,GCP-13530,GCP-13482,確認済み,すべて同一,同一事業者に統合,厚木市,,,https://birth-navi.mhlw.go.jp/facilities/13530,https://umi-nagisa-kotsubanjiku.amebaownd.com/,https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1021109.html,2掲載は同じumi-nagisa-kotsubanjiku.amebaownd.comを参照し、相模原市公式一覧にも固有の事業者名を確認できる。同一の訪問事業者として対応付ける。
+112,12644,出張専門助産師みやした,GCP-12644,GCP-12644,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,北見市,,09013805522,https://birth-navi.mhlw.go.jp/facilities/12644,,"https://www.city.kitami.lg.jp/detail.php?content=8786
+https://www.town.kunneppu.hokkaido.jp/fs/1/7/3/3/8/2/_/sanngokeapannhuretto.pdf",北見市の公表する宮下里弥・090-1380-5522は12644と対応するが、12696の090-1890-6285との関係を確認できない。同じ姓・同じ地域のみで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+112,12696,出張専門助産師みやした,GCP-12696,GCP-12696,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,美幌町,北見市,09018906285,https://birth-navi.mhlw.go.jp/facilities/12696,,"https://www.city.kitami.lg.jp/detail.php?content=8786
+https://www.town.kunneppu.hokkaido.jp/fs/1/7/3/3/8/2/_/sanngokeapannhuretto.pdf",北見市の公表する宮下里弥・090-1380-5522は12644と対応するが、12696の090-1890-6285との関係を確認できない。同じ姓・同じ地域のみで追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+113,12951,出張専門助産所　にこ,GCP-12951,GCP-12951,確認済み,すべて同一,同一事業者に統合,古河市,古河市雷電町9-62,09069909020,https://birth-navi.mhlw.go.jp/facilities/12951,https://jyosannjyo-nico.jimdosite.com/,https://jyosannjyo-nico.jimdosite.com/,古河市雷電町の住所と同一の公式サイトが一致。携帯番号は異なるが、公式サイトと公開住所を優先し同一事業者に対応付ける。電話の採用値は別途確認する。
+113,13043,出張専門助産所　にこ,GCP-13043,GCP-12951,確認済み,すべて同一,同一事業者に統合,野木町,茨城県古河市雷電町,08039340025,https://birth-navi.mhlw.go.jp/facilities/13043,https://jyosannjyo-nico.jimdosite.com/,https://jyosannjyo-nico.jimdosite.com/,古河市雷電町の住所と同一の公式サイトが一致。携帯番号は異なるが、公式サイトと公開住所を優先し同一事業者に対応付ける。電話の採用値は別途確認する。
+114,14455,出張専門助産院tetoto,GCP-14455,GCP-14455,確認済み,すべて同一,同一事業者に統合,鳥取市,,,https://birth-navi.mhlw.go.jp/facilities/14455,,https://www.iwami.gr.jp/secure/13396/R7%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E3%83%81%E3%83%A9%E3%82%B7.pdf,鳥取市若葉台側の出張専門tetotoを岩美町の委託資料も掲載。固有の事業名と委託地域に対応し、自治体別掲載としてまとめる。訪問先を施設座標に置き換えない。
+114,14472,出張専門助産院tetoto,GCP-14472,GCP-14455,確認済み,すべて同一,同一事業者に統合,岩美町,,,https://birth-navi.mhlw.go.jp/facilities/14472,,https://www.iwami.gr.jp/secure/13396/R7%E7%94%A3%E5%BE%8C%E3%82%B1%E3%82%A2%E3%83%81%E3%83%A9%E3%82%B7.pdf,鳥取市若葉台側の出張専門tetotoを岩美町の委託資料も掲載。固有の事業名と委託地域に対応し、自治体別掲載としてまとめる。訪問先を施設座標に置き換えない。
+115,13399,助産師B,GCP-13399,GCP-13399,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,昭島市,,,https://birth-navi.mhlw.go.jp/facilities/13399,,,Bは個人を識別する固有名ではない。昭島市と藤井寺市で同じ記号を用いても同一人物とは限らず、追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+115,14320,助産師B,GCP-14320,GCP-14320,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,藤井寺市,,,https://birth-navi.mhlw.go.jp/facilities/14320,,,Bは個人を識別する固有名ではない。昭島市と藤井寺市で同じ記号を用いても同一人物とは限らず、追加統合しない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+116,13400,助産師C,GCP-13400,GCP-13400,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,昭島市,,,https://birth-navi.mhlw.go.jp/facilities/13400,,,Cは匿名化記号。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+116,14321,助産師C,GCP-14321,GCP-14321,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,藤井寺市,,,https://birth-navi.mhlw.go.jp/facilities/14321,,,Cは匿名化記号。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+117,13401,助産師D,GCP-13401,GCP-13401,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,昭島市,,,https://birth-navi.mhlw.go.jp/facilities/13401,,,Dは匿名化記号。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+117,14322,助産師D,GCP-14322,GCP-14322,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,藤井寺市,,,https://birth-navi.mhlw.go.jp/facilities/14322,,,Dは匿名化記号。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+118,13402,助産師E,GCP-13402,GCP-13402,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,昭島市,,,https://birth-navi.mhlw.go.jp/facilities/13402,,,Eは匿名化記号。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+118,14323,助産師E,GCP-14323,GCP-14323,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,藤井寺市,,,https://birth-navi.mhlw.go.jp/facilities/14323,,,Eは匿名化記号。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+119,12659,助産院　糸,GCP-12659,GCP-12659,確認済み,すべて別,確定した組合せのみ統合,江別市,江別市大麻園町8-4,0116000850,https://birth-navi.mhlw.go.jp/facilities/12659,https://josanin-ito.com/,"https://www.josanin-ito.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5240010038&kikanKbn=4&prefCd=24",北海道江別市の米倉亜弥子の施設と三重県津市の施設は別。両地域の公式・公的登録が異なる。非公開とされる住所の詳細は補完しない。
+119,14145,助産院　糸,GCP-14145,GCP-14145,確認済み,すべて別,確定した組合せのみ統合,桑名市,津市一色町（以下非公開）,09018607988,https://birth-navi.mhlw.go.jp/facilities/14145,https://www.instagram.com/josanin_ito/,"https://www.josanin-ito.com/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5240010038&kikanKbn=4&prefCd=24",北海道江別市の米倉亜弥子の施設と三重県津市の施設は別。両地域の公式・公的登録が異なる。非公開とされる住所の詳細は補完しない。
+120,15282,助産院そらいろ,GCP-15282,GCP-15282,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,大津市,,09078738483,https://birth-navi.mhlw.go.jp/facilities/15282,,"https://www.city.ritto.lg.jp/material/files/group/98/sanngokeazissisisetu.pdf
+https://www.sorajyosan.net/",守山市小島町の施設・090-4080-4086は公的資料で確認できるが、15282の090-7873-8483との連続性が不明。2件とも掲載自治体は大津市であり、自治体名の一致だけでまとめない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+120,15625,助産院そらいろ,GCP-15625,GCP-15625,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,大津市,守山市小島町1851-3,09040804086,https://birth-navi.mhlw.go.jp/facilities/15625,https://www.sorajyosan.net/,"https://www.city.ritto.lg.jp/material/files/group/98/sanngokeazissisisetu.pdf
+https://www.sorajyosan.net/",守山市小島町の施設・090-4080-4086は公的資料で確認できるが、15282の090-7873-8483との連続性が不明。2件とも掲載自治体は大津市であり、自治体名の一致だけでまとめない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+121,15078,助産院わがや,GCP-15078,GCP-15078,確認済み,すべて同一,同一事業者に統合,宮崎市,宮崎県宮崎市佐土原町下那珂791番地5,0570087513,https://birth-navi.mhlw.go.jp/facilities/15078,https://www.wagaya-midwiferyhome-883.com,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4453102080&kikanKbn=4&prefCd=45
+https://www.wagaya-midwiferyhome-883.com/",宮崎市佐土原町下那珂791-5が一致し、公式施設・公的登録と対応する。予約窓口と固定電話の差を理由に分離せず同一施設としてまとめる。
+121,15094,助産院わがや,GCP-15094,GCP-15078,確認済み,すべて同一,同一事業者に統合,西都市,宮崎市佐土原町下那珂791-5,0985827513,https://birth-navi.mhlw.go.jp/facilities/15094,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4453102080&kikanKbn=4&prefCd=45
+https://www.wagaya-midwiferyhome-883.com/",宮崎市佐土原町下那珂791-5が一致し、公式施設・公的登録と対応する。予約窓口と固定電話の差を理由に分離せず同一施設としてまとめる。
+122,12148,医療法人社団中部産婦人科医院,GCP-12148,GCP-12148,確認済み,すべて同一,同一事業者に統合,京都市伏見区,京都府京都市伏見区向島二ノ丸町151－44,0756227470,https://birth-navi.mhlw.go.jp/facilities/12148,http://www.nakabe.or.jp,https://www.nakabe.or.jp/,京都市伏見区向島二ノ丸町151-44とnakabe.or.jpが一致。病院名の法人格の表記も一致し、電話差を含む自治体別掲載を同一施設に対応付ける。
+122,14164,医療法人社団中部産婦人科医院,GCP-14164,GCP-12148,確認済み,すべて同一,同一事業者に統合,京都市,京都市伏見区向島二 丸町151-44,0756221955,https://birth-navi.mhlw.go.jp/facilities/14164,https://www.nakabe.or.jp,https://www.nakabe.or.jp/,京都市伏見区向島二ノ丸町151-44とnakabe.or.jpが一致。病院名の法人格の表記も一致し、電話差を含む自治体別掲載を同一施設に対応付ける。
+123,11016,医療法人社団慶水会　前田産婦人科,GCP-11016,GCP-11016,確認済み,すべて同一,同一事業者に統合,平塚市,神奈川県平塚市松風町１６－１６,0463272322,https://birth-navi.mhlw.go.jp/facilities/11016,,"https://www.dr-maeda.co.jp/access/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1400058000&kikanKbn=2&prefCd=14",同じ医療法人社団慶水会・前田産婦人科であり、公式サイトは平塚の施設を案内する。松風町の2住所と電話に差があるため履歴・転記差は残し、同一性と現住所の採用を分ける。
+123,13551,医療法人社団慶水会　前田産婦人科,GCP-13551,GCP-11016,確認済み,すべて同一,同一事業者に統合,大磯町,平塚市松風町13-37,0467272322,https://birth-navi.mhlw.go.jp/facilities/13551,https://www.dr-maeda.co.jp/,"https://www.dr-maeda.co.jp/access/
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1400058000&kikanKbn=2&prefCd=14",同じ医療法人社団慶水会・前田産婦人科であり、公式サイトは平塚の施設を案内する。松風町の2住所と電話に差があるため履歴・転記差は残し、同一性と現住所の採用を分ける。
+124,15411,千代の幸助産院,GCP-15411,GCP-15411,確認済み,すべて同一,同一事業者に統合,川棚町,長崎市三和町２１８－４４,09073801437,https://birth-navi.mhlw.go.jp/facilities/15411,,https://www.chiyonosachi-j.com/about/index.html,長崎市三和町の千代の幸助産院の公式案内と一致し、詳細住所と町名のみの住所は矛盾しない。携帯と固定電話を同一事業者の連絡先として保持する。
+124,15745,千代の幸助産院,GCP-15745,GCP-15411,確認済み,すべて同一,同一事業者に統合,長崎市,長崎市三和町,0958001203,https://birth-navi.mhlw.go.jp/facilities/15745,www.chiyonosachi-j.com,https://www.chiyonosachi-j.com/about/index.html,長崎市三和町の千代の幸助産院の公式案内と一致し、詳細住所と町名のみの住所は矛盾しない。携帯と固定電話を同一事業者の連絡先として保持する。
+125,11877,和　助産院,GCP-11877,GCP-11877,確認済み,すべて別,確定した組合せのみ統合,磐田市,静岡県磐田市大久保７３３番地３７,0538380031,https://birth-navi.mhlw.go.jp/facilities/11877,"https://www.yawaragi-josanin.com
+https://midwife-shizuoka.jp/","https://akita-midwife.jp/map
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5227302250&kikanKbn=4&prefCd=22",静岡県磐田市の『和（やわらぎ）助産院』と秋田の『和（なごみ）助産院』は別。秋田県助産師会は皆川真由美・秋田市雄和を明記しており、漢字1字の一致を同一性としない。
+125,12876,和　助産院,GCP-12876,GCP-12876,確認済み,すべて別,確定した組合せのみ統合,にかほ市,,,https://birth-navi.mhlw.go.jp/facilities/12876,,"https://akita-midwife.jp/map
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5227302250&kikanKbn=4&prefCd=22",静岡県磐田市の『和（やわらぎ）助産院』と秋田の『和（なごみ）助産院』は別。秋田県助産師会は皆川真由美・秋田市雄和を明記しており、漢字1字の一致を同一性としない。
+126,14565,和み助産院,GCP-14565,GCP-14565,確認済み,すべて別,確定した組合せのみ統合,尾道市,福山市三吉町,08026543862,https://birth-navi.mhlw.go.jp/facilities/14565,,"https://www.city.iwakuni.lg.jp/uploaded/attachment/60347.pdf
+https://fukuyama-nagomi.jp/index.html",福山市三吉町と長門市仙崎の別事業者。岩国市資料は長門側を飯田由美・080-2949-2925と明記する。
+126,14601,和み助産院,GCP-14601,GCP-14601,確認済み,すべて別,確定した組合せのみ統合,山口市,長門市仙崎1973,08029492925,https://birth-navi.mhlw.go.jp/facilities/14601,,"https://www.city.iwakuni.lg.jp/uploaded/attachment/60347.pdf
+https://fukuyama-nagomi.jp/index.html",福山市三吉町と長門市仙崎の別事業者。岩国市資料は長門側を飯田由美・080-2949-2925と明記する。
+127,14162,大江助産院,GCP-14162,GCP-14162,確認済み,すべて同一,同一事業者に統合,近江八幡市,,09040351172,https://birth-navi.mhlw.go.jp/facilities/14162,,"https://www.city.omihachiman.lg.jp/material/files/group/165/tiikijosan-chirashi202601.pdf
+https://www.city.omihachiman.lg.jp/material/files/group/165/sangocare_omoteR801-2.pdf",近江八幡市の大江イツ子の事業者を、近江八幡市・大津市が掲載。住所と氏名の公表資料に対応し、携帯・固定電話は別事業者を示さない。
+127,15626,大江助産院,GCP-15626,GCP-14162,確認済み,すべて同一,同一事業者に統合,大津市,近江八幡市中村町６６６,0748332451,https://birth-navi.mhlw.go.jp/facilities/15626,,"https://www.city.omihachiman.lg.jp/material/files/group/165/tiikijosan-chirashi202601.pdf
+https://www.city.omihachiman.lg.jp/material/files/group/165/sangocare_omoteR801-2.pdf",近江八幡市の大江イツ子の事業者を、近江八幡市・大津市が掲載。住所と氏名の公表資料に対応し、携帯・固定電話は別事業者を示さない。
+128,10435,大牟田市立病院,GCP-10435,GCP-10435,確認済み,すべて同一,同一事業者に統合,大牟田市,福岡県大牟田市宝坂町２丁目１９－１,0944531061,https://birth-navi.mhlw.go.jp/facilities/10435,"https://www.ghp.omuta.fukuoka.jp
+https://www.instagram.com/omutacityhp_w3/","https://ghp.omuta.fukuoka.jp/
+https://www.town.nankan.lg.jp/fs/7/5/0/0/_/5R7__________.pdf",大牟田市宝坂町の同じ固有の市立病院。南関町は県境を越えた利用対象施設として掲載した関係であり、南関町内の別病院と解釈しない。
+128,15019,大牟田市立病院,GCP-15019,GCP-10435,確認済み,すべて同一,同一事業者に統合,南関町,,,https://birth-navi.mhlw.go.jp/facilities/15019,,"https://ghp.omuta.fukuoka.jp/
+https://www.town.nankan.lg.jp/fs/7/5/0/0/_/5R7__________.pdf",大牟田市宝坂町の同じ固有の市立病院。南関町は県境を越えた利用対象施設として掲載した関係であり、南関町内の別病院と解釈しない。
+129,14081,委託助産師,GCP-14081,GCP-14081,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,犬山市,,,https://birth-navi.mhlw.go.jp/facilities/14081,,,委託助産師は職種・契約上の一般名称で、犬山市と指宿市の個人識別情報がない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+129,15118,委託助産師,GCP-15118,GCP-15118,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,指宿市,,,https://birth-navi.mhlw.go.jp/facilities/15118,,,委託助産師は職種・契約上の一般名称で、犬山市と指宿市の個人識別情報がない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+130,12840,小山みね子助産師相談室,GCP-12840,GCP-12840,確認済み,すべて同一,同一事業者に統合,仙台市,,09062523926,https://birth-navi.mhlw.go.jp/facilities/12840,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=890120&kikanKbn=4&prefCd=04,個人の姓名を含む固有名称が一致し、多賀城市伝上山の公的登録と対応する。仙台市の掲載は当該事業者の制度上の関係と判断し、固定電話・携帯を同一事業者に関連付ける。
+130,12854,小山みね子助産師相談室,GCP-12854,GCP-12840,確認済み,すべて同一,同一事業者に統合,多賀城市,多賀城市伝上山4丁目1の30,0223655809,https://birth-navi.mhlw.go.jp/facilities/12854,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=890120&kikanKbn=4&prefCd=04,個人の姓名を含む固有名称が一致し、多賀城市伝上山の公的登録と対応する。仙台市の掲載は当該事業者の制度上の関係と判断し、固定電話・携帯を同一事業者に関連付ける。
+131,11407,小林産婦人科,GCP-11407,GCP-11407,確認済み,すべて別,確定した組合せのみ統合,大阪市都島区,大阪府大阪市都島区都島北通１－１４－２２,0669240934,https://birth-navi.mhlw.go.jp/facilities/11407,https://www.kobayashi-og.net/,"https://www.kobayashi-og.net/
+https://www.kobayashi-og.net/clinic/",大阪市都島区と愛知県北名古屋市の別施設。所在地・電話・公式ドメインが異なる。
+131,12446,小林産婦人科,GCP-12446,GCP-12446,確認済み,すべて別,確定した組合せのみ統合,北名古屋市,愛知県北名古屋市西之保深坪８２番地２,0568223320,https://birth-navi.mhlw.go.jp/facilities/12446,http://www.kmk.gr.jp,"https://www.kobayashi-og.net/
+https://www.kobayashi-og.net/clinic/",大阪市都島区と愛知県北名古屋市の別施設。所在地・電話・公式ドメインが異なる。
+132,14669,屋島総合病院,GCP-14669,GCP-14669,確認済み,すべて同一,同一事業者に統合,高松市,高松市屋島西町2105番17,08029962178,https://birth-navi.mhlw.go.jp/facilities/14669,,https://www.yashima-hp.com/about/gaiyou/,屋島総合病院の公式所在地は高松市屋島西町2105-17。三豊市掲載の病院名・公式ドメインと一致し、携帯番号の記載を別病院の証拠としない。
+132,15386,屋島総合病院,GCP-15386,GCP-14669,確認済み,すべて同一,同一事業者に統合,三豊市,高松市,0878419141,https://birth-navi.mhlw.go.jp/facilities/15386,https://www.yashima-hp.com/,https://www.yashima-hp.com/about/gaiyou/,屋島総合病院の公式所在地は高松市屋島西町2105-17。三豊市掲載の病院名・公式ドメインと一致し、携帯番号の記載を別病院の証拠としない。
+133,11702,山本助産院,GCP-11702,GCP-11702,確認済み,すべて別,確定した組合せのみ統合,横浜市金沢区,神奈川県横浜市金沢区六浦2−１４−１２,0457886601,https://birth-navi.mhlw.go.jp/facilities/11702,"https://yamamotojyosanin.com
+https://www.facebook.com/yamamotojosanin
+https://www.instagram.com/yamamotojyosanin?igsh=dXhuN2p0d2NoaGJz&utm_source=qr
+https://lin.ee/xunKoar",https://www.josanshimane.or.jp/general/hospital,横浜市金沢区の施設と益田市隅村町の山本喜久子の施設は別。島根県助産師会にも後者の独立した所在地・氏名が掲載される。
+133,14497,山本助産院,GCP-14497,GCP-14497,確認済み,すべて別,確定した組合せのみ統合,益田市,益田市隅村町767-2,09071254438,https://birth-navi.mhlw.go.jp/facilities/14497,,https://www.josanshimane.or.jp/general/hospital,横浜市金沢区の施設と益田市隅村町の山本喜久子の施設は別。島根県助産師会にも後者の独立した所在地・氏名が掲載される。
+134,12463,山田医院,GCP-12463,GCP-12463,確認済み,すべて別,確定した組合せのみ統合,名古屋市北区,愛知県名古屋市北区萩野通２－１０ー２,0529812033,https://birth-navi.mhlw.go.jp/facilities/12463,https://yamada-iin-kitaku.com/,"https://yamada-iin-kitaku.com/
+https://www.yamada-clinic-nakano.com/",名古屋市北区萩野通と東京都中野区中野の別医院。公式サイト・住所・電話が異なる。
+134,13292,山田医院,GCP-13292,GCP-13292,確認済み,すべて別,確定した組合せのみ統合,中野区,中野区中野２－１４－１７,0333843555,https://birth-navi.mhlw.go.jp/facilities/13292,https://www.yamada-clinic-nakano.com/,"https://yamada-iin-kitaku.com/
+https://www.yamada-clinic-nakano.com/",名古屋市北区萩野通と東京都中野区中野の別医院。公式サイト・住所・電話が異なる。
+135,15114,岩元助産院,GCP-15114,GCP-15114,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,出水市,出水市下鯖町１６９－２,09044733996,https://birth-navi.mhlw.go.jp/facilities/15114,,https://www.city.kagoshima-izumi.lg.jp/page/page_013280.html,出水市下鯖町の施設は確認できるが、薩摩川内市平佐の別電話の掲載との移転・親族経営・同姓別人の区別がつかない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+135,15121,岩元助産院,GCP-15121,GCP-15121,確認済み,すべて別,根拠が確認できた既存対応のみ採用し、識別不能な同名は別事業者として確定,薩摩川内市,薩摩川内市平佐,09086692573,https://birth-navi.mhlw.go.jp/facilities/15121,,https://www.city.kagoshima-izumi.lg.jp/page/page_013280.html,出水市下鯖町の施設は確認できるが、薩摩川内市平佐の別電話の掲載との移転・親族経営・同姓別人の区別がつかない。最終採用では、同一性を示す住所・電話・公式サイト・運営主体又は移転履歴が確認できない組合せは、誤統合を避けて現行provider IDを別事業者として確定した。
+136,10397,市立池田病院,GCP-10397,GCP-10397,確認済み,すべて同一,同一事業者に統合,池田市,大阪府池田市城南３－１－１８,0727512881,https://birth-navi.mhlw.go.jp/facilities/10397,"https://www.hosp.ikeda.osaka.jp
+https://www.instagram.com/ikeda_city_hospital/
+https://lin.ee/LPrNCSP
+https://www.youtube.com/channel/UCcL5jbeMXmF0obPBVk7KYjQ",https://www.hosp.ikeda.osaka.jp/,公式の市立池田病院は城南3-1-18。14257の3-1-8は番地の相違があるが、同じ池田市の固有病院名に対応する。所在地の誤記候補を残した上で同一病院に対応付ける。
+136,14257,市立池田病院,GCP-14257,GCP-10397,確認済み,すべて同一,同一事業者に統合,池田市,池田市城南3－1－8,,https://birth-navi.mhlw.go.jp/facilities/14257,,https://www.hosp.ikeda.osaka.jp/,公式の市立池田病院は城南3-1-18。14257の3-1-8は番地の相違があるが、同じ池田市の固有病院名に対応する。所在地の誤記候補を残した上で同一病院に対応付ける。
+137,11739,愛助産院,GCP-11739,GCP-11739,確認済み,すべて別,確定した組合せのみ統合,三郷市,埼玉県三郷市戸ヶ崎３－１７８－７,0489512627,https://birth-navi.mhlw.go.jp/facilities/11739,http://ai-jyosanin.com,"https://www.city.yashio.lg.jp/kenko/kenko_hoken/ninshin_syusan/akachan/homon.files/tiikijyosann0324.pdf
+https://ai-jyosanin.com/",埼玉県三郷市と愛知県春日井市の別施設。公式サイト・所在地・連絡先が異なる。
+137,11823,愛助産院,GCP-11823,GCP-11823,確認済み,すべて別,確定した組合せのみ統合,春日井市,愛知県春日井市下条町７７５－７,09091277008,https://birth-navi.mhlw.go.jp/facilities/11823,"https://www.aijyosanin.com/
+https://www.facebook.com/mieko.umeki.7
+https://www.instagram.com/aijyosanin2021/
+https://manager.line.biz/account/@nol9815m","https://www.city.yashio.lg.jp/kenko/kenko_hoken/ninshin_syusan/akachan/homon.files/tiikijyosann0324.pdf
+https://ai-jyosanin.com/",埼玉県三郷市と愛知県春日井市の別施設。公式サイト・所在地・連絡先が異なる。
+138,14600,斎藤助産院,GCP-14600,GCP-14600,確認済み,すべて別,確定した組合せのみ統合,山口市,萩市川島２５４-５,09033756696,https://birth-navi.mhlw.go.jp/facilities/14600,,"https://www.city.tsukumi.oita.jp/uploaded/life/31306_73276_misc.pdf
+https://www.city.iwakuni.lg.jp/uploaded/attachment/62088.pdf",山口県萩市川島の助産師と大分市佐野の齋藤悦美の施設は別。自治体資料・公式サイトの住所と連絡先が異なる。
+138,15046,斎藤助産院,GCP-15046,GCP-15046,確認済み,すべて別,確定した組合せのみ統合,大分市,大分市大字佐野4058番地,0975934273,https://birth-navi.mhlw.go.jp/facilities/15046,https://esaitou.jimdofree.com/,"https://www.city.tsukumi.oita.jp/uploaded/life/31306_73276_misc.pdf
+https://www.city.iwakuni.lg.jp/uploaded/attachment/62088.pdf",山口県萩市川島の助産師と大分市佐野の齋藤悦美の施設は別。自治体資料・公式サイトの住所と連絡先が異なる。
+139,12005,斎藤産婦人科医院,GCP-12005,GCP-12005,確認済み,すべて別,確定した組合せのみ統合,菊池市,熊本県菊池市片角２９４－２,0968241177,https://birth-navi.mhlw.go.jp/facilities/12005,http://saitolcl.com/,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2205105720&kikanKbn=2&prefCd=20
+https://www.saku-ishikai.or.jp/medical.html",熊本県菊池市片角と長野県佐久市中込の別医院。長野側の公的登録と医師会の住所・医師名が別施設であることを裏付ける。
+139,13823,斎藤産婦人科医院,GCP-13823,GCP-13823,確認済み,すべて別,確定した組合せのみ統合,佐久穂町,佐久市中込1985-1,0267620823,https://birth-navi.mhlw.go.jp/facilities/13823,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2205105720&kikanKbn=2&prefCd=20
+https://www.saku-ishikai.or.jp/medical.html",熊本県菊池市片角と長野県佐久市中込の別医院。長野側の公的登録と医師会の住所・医師名が別施設であることを裏付ける。
+140,12600,木梨助産院,GCP-12600,GCP-12600,確認済み,すべて同一,同一事業者に統合,伊東市,静岡県伊東市,0557450002,https://birth-navi.mhlw.go.jp/facilities/12600,,https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/023/838/03-017.pdf,伊東市荻565-46の木梨奈美の助産院と県名簿で対応する。元の伊東市までの住所は部分住所で矛盾せず、固定電話と携帯の差を別事業者としない。
+140,13950,木梨助産院,GCP-13950,GCP-12600,確認済み,すべて同一,同一事業者に統合,伊東市,伊東市荻５６５番地の４６,09073099742,https://birth-navi.mhlw.go.jp/facilities/13950,,https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/023/838/03-017.pdf,伊東市荻565-46の木梨奈美の助産院と県名簿で対応する。元の伊東市までの住所は部分住所で矛盾せず、固定電話と携帯の差を別事業者としない。
+141,14751,東原産婦人科医院,GCP-14751,GCP-14751,確認済み,すべて同一,同一事業者に統合,大牟田市,大牟田市倉永1672-3,0944581025,https://birth-navi.mhlw.go.jp/facilities/14751,https://www.higashihara.or.jp/,"https://www.town.nankan.lg.jp/fs/7/5/0/0/_/5R7__________.pdf
+https://www.higashihara.or.jp/access",大牟田市倉永1672-3の東原産婦人科医院を、南関町資料が委託施設として掲載。県境を越える自治体別掲載として同一病院に対応付ける。
+141,15015,東原産婦人科医院,GCP-15015,GCP-14751,確認済み,すべて同一,同一事業者に統合,南関町,,,https://birth-navi.mhlw.go.jp/facilities/15015,,"https://www.town.nankan.lg.jp/fs/7/5/0/0/_/5R7__________.pdf
+https://www.higashihara.or.jp/access",大牟田市倉永1672-3の東原産婦人科医院を、南関町資料が委託施設として掲載。県境を越える自治体別掲載として同一病院に対応付ける。
+142,11311,板倉レディースクリニック,GCP-11311,GCP-11311,確認済み,すべて同一,同一事業者に統合,長野市,長野県長野市稲里町中央１－１２－１２,0262910707,https://birth-navi.mhlw.go.jp/facilities/11311,https://itakura-cli.jp,https://www.itakura-cli.jp/about/,長野市稲里町中央1-12-12の固有クリニックに対応。須坂市側は住所表記が省略されているが番地が一致し、別施設とする根拠はない。
+142,13781,板倉レディースクリニック,GCP-13781,GCP-11311,確認済み,すべて同一,同一事業者に統合,須坂市,長野市稲里1-12-12,,https://birth-navi.mhlw.go.jp/facilities/13781,,https://www.itakura-cli.jp/about/,長野市稲里町中央1-12-12の固有クリニックに対応。須坂市側は住所表記が省略されているが番地が一致し、別施設とする根拠はない。
+143,11139,武田産婦人科医院,GCP-11139,GCP-11139,確認済み,すべて別,確定した組合せのみ統合,富士市,静岡県富士市宮島３３０－７,0545635122,https://birth-navi.mhlw.go.jp/facilities/11139,,"https://www.matsuyama.ehime.med.or.jp/?p=9842&post_type=search
+https://www.takeda-sanfujinka.jp/facilities/",静岡県富士市宮島と愛媛県松山市木屋町の別医院。松山市医師会と静岡側の公式サイトで所在地を区別できる。
+143,12563,武田産婦人科医院,GCP-12563,GCP-12563,確認済み,すべて別,確定した組合せのみ統合,松山市,愛媛県松山市木屋町１丁目５－１４,0899243553,https://birth-navi.mhlw.go.jp/facilities/12563,http://www.sanfujinka-navi.ne.jp/shikoku/ehime/takeda.html,"https://www.matsuyama.ehime.med.or.jp/?p=9842&post_type=search
+https://www.takeda-sanfujinka.jp/facilities/",静岡県富士市宮島と愛媛県松山市木屋町の別医院。松山市医師会と静岡側の公式サイトで所在地を区別できる。
+144,12624,母乳育児相談室　陽だまり,GCP-12624,GCP-12624,確認済み,すべて別,確定した組合せのみ統合,旭川市,,0166736623,https://birth-navi.mhlw.go.jp/facilities/12624,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4010000480&kikanKbn=4&prefCd=01
+https://kanagawa-josanshi.com/institution_info.html?id=121",旭川市の清水助産所と鎌倉市の訪問専門相談室は別。神奈川県助産師会と北海道の公的登録で地域・名称の補足情報を区別できる。
+144,13510,母乳育児相談室　陽だまり,GCP-13510,GCP-13510,確認済み,すべて別,確定した組合せのみ統合,鎌倉市,,08068115212,https://birth-navi.mhlw.go.jp/facilities/13510,https://hidamari0429.wixsite.com/cat2,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4010000480&kikanKbn=4&prefCd=01
+https://kanagawa-josanshi.com/institution_info.html?id=121",旭川市の清水助産所と鎌倉市の訪問専門相談室は別。神奈川県助産師会と北海道の公的登録で地域・名称の補足情報を区別できる。
+145,12064,河野レディースクリニック,GCP-12064,GCP-12064,確認済み,すべて同一,同一事業者に統合,大牟田市,福岡県大牟田市正山町１４８－１,0944549710,https://birth-navi.mhlw.go.jp/facilities/12064,,"https://kawano-lc.com/clinic/
+https://www.town.nankan.lg.jp/fs/7/5/0/0/_/5R7__________.pdf",大牟田市正山町148-1の河野レディースクリニックを南関町が委託先として掲載したもの。掲載自治体の県違いでは分けない。
+145,15017,河野レディースクリニック,GCP-15017,GCP-12064,確認済み,すべて同一,同一事業者に統合,南関町,,,https://birth-navi.mhlw.go.jp/facilities/15017,,"https://kawano-lc.com/clinic/
+https://www.town.nankan.lg.jp/fs/7/5/0/0/_/5R7__________.pdf",大牟田市正山町148-1の河野レディースクリニックを南関町が委託先として掲載したもの。掲載自治体の県違いでは分けない。
+146,12800,洋野町,GCP-12800,GCP-12800,確認済み,すべて同一,同一運営主体・拠点別保持,洋野町,岩手県九戸郡洋野町種市22-1-1,0194653950,https://birth-navi.mhlw.go.jp/facilities/12800,https://www.town.hirono.iwate.jp/doc/2022051600013/,https://www.town.hirono.iwate.jp/doc/2022051600013/,運営主体としては同じ洋野町だが、公式ページが種市・大野の2保健センターの窓口を別々に明記する。事業者同一・拠点別として扱い、12800と12801の施設・拠点IDは統合しない。
+146,12801,洋野町,GCP-12801,GCP-12801,確認済み,すべて同一,同一運営主体・拠点別保持,洋野町,岩手県九戸郡洋野町大野8-85-1,0194773576,https://birth-navi.mhlw.go.jp/facilities/12801,https://www.town.hirono.iwate.jp/doc/2022051600013/,https://www.town.hirono.iwate.jp/doc/2022051600013/,運営主体としては同じ洋野町だが、公式ページが種市・大野の2保健センターの窓口を別々に明記する。事業者同一・拠点別として扱い、12800と12801の施設・拠点IDは統合しない。
+147,11324,津永産婦人科,GCP-11324,GCP-11324,確認済み,すべて同一,同一事業者に統合,周南市,山口県周南市,0834218255,https://birth-navi.mhlw.go.jp/facilities/11324,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2355507030&kikanKbn=2&prefCd=35
+https://www.pref.yamaguchi.lg.jp/soshiki/51/18288.html",周南市川端町2-30の固有施設名・公的登録と一致。山陽小野田市の掲載は同施設の委託関係として対応付ける。
+147,14625,津永産婦人科,GCP-14625,GCP-11324,確認済み,すべて同一,同一事業者に統合,山陽小野田市,周南市川端町2丁目30,,https://birth-navi.mhlw.go.jp/facilities/14625,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2355507030&kikanKbn=2&prefCd=35
+https://www.pref.yamaguchi.lg.jp/soshiki/51/18288.html",周南市川端町2-30の固有施設名・公的登録と一致。山陽小野田市の掲載は同施設の委託関係として対応付ける。
+148,10956,清水産婦人科医院,GCP-10956,GCP-10956,確認済み,すべて同一,同一事業者に統合,長野市,長野県長野市川中島町原９０８－１,0262193838,https://birth-navi.mhlw.go.jp/facilities/10956,"https://www.shimizu-maternity.com
+https://www.instagram.com/shimizulc3838/",https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2203110560&kikanKbn=2&prefCd=20,長野市川中島町原908-1が両掲載で一致し、公式サイト・公的登録と対応。須坂市の制度上の掲載を同一施設に対応付ける。
+148,13783,清水産婦人科医院,GCP-13783,GCP-10956,確認済み,すべて同一,同一事業者に統合,須坂市,長野市川中島原908-1,,https://birth-navi.mhlw.go.jp/facilities/13783,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2203110560&kikanKbn=2&prefCd=20,長野市川中島町原908-1が両掲載で一致し、公式サイト・公的登録と対応。須坂市の制度上の掲載を同一施設に対応付ける。
+149,14781,産前産後ケア　ももはな助産院,GCP-14781,GCP-14781,確認済み,すべて同一,同一事業者に統合,飯塚市,宗像市泉ヶ丘,08017694886,https://birth-navi.mhlw.go.jp/facilities/14781,https://www.momohanamw.com/,"https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0009070036&kikanKbn=4&prefCd=40",宗像市泉ヶ丘の木村亜矢の事業者。大野城市資料の080-1769-4886と14781が一致し、14803の090始まりは転記差候補。同一拠点と判断し、電話修正と同一性を分ける。
+149,14803,産前産後ケア　ももはな助産院,GCP-14803,GCP-14781,確認済み,すべて同一,同一事業者に統合,柳川市,宗像市泉が丘,09017694886,https://birth-navi.mhlw.go.jp/facilities/14803,,"https://www.city.onojo.fukuoka.jp/kosodate/kiji0037595/3_7595_3095_up_ljuimnky.pdf
+https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0009070036&kikanKbn=4&prefCd=40",宗像市泉ヶ丘の木村亜矢の事業者。大野城市資料の080-1769-4886と14781が一致し、14803の090始まりは転記差候補。同一拠点と判断し、電話修正と同一性を分ける。
+150,14292,産前産後ケアサロンMAMA LABO助産院,GCP-14292,GCP-14292,確認済み,すべて同一,同一事業者に統合,八尾市,大阪市生野区生野西1丁目10-23,09044038178,https://birth-navi.mhlw.go.jp/facilities/14292,https://mamalabo.jp/,"https://mamalabo.jp/blog/
+https://mamalabo.jp/news/2026open/",同じ公式ドメインに大阪の旧施設と神戸の新施設の情報があり、公式の2026年5月の移転告知が両者を結ぶ。同一事業者の移転として対応付け、旧住所・新住所と適用時期を混在させない。
+150,15636,産前産後ケアサロンMAMA LABO助産院,GCP-15636,GCP-14292,確認済み,すべて同一,同一事業者に統合,神戸市,神戸市東灘区御影中町６丁目1-11-1,09099955941,https://birth-navi.mhlw.go.jp/facilities/15636,https://mamalabo.jp/,"https://mamalabo.jp/blog/
+https://mamalabo.jp/news/2026open/",同じ公式ドメインに大阪の旧施設と神戸の新施設の情報があり、公式の2026年5月の移転告知が両者を結ぶ。同一事業者の移転として対応付け、旧住所・新住所と適用時期を混在させない。
+151,14719,産前産後ケアサロンnyuwa,GCP-14719,GCP-14719,確認済み,すべて同一,同一事業者に統合,高知市,高知市福井町,,https://birth-navi.mhlw.go.jp/facilities/14719,https://www.instagram.com/nyuwa_midwife?igsh=amJndnRxcWdrdWN0,"https://www.city.kochi.kochi.jp/soshiki/148/boshihokenn-sanngokeazissisisetu.html
+https://www.pref.kochi.lg.jp/doc/2026060800365/",高知市福井町の同じ公開所在地とInstagramアカウントが一致し、高知市・県の一覧も同施設を掲載。いの町側の掲載を同一事業者に対応付ける。非公開の詳細住所は補完しない。
+151,14730,産前産後ケアサロンnyuwa,GCP-14730,GCP-14719,確認済み,すべて同一,同一事業者に統合,いの町,高知県高知市福井町,,https://birth-navi.mhlw.go.jp/facilities/14730,https://www.instagram.com/nyuwa_midwife/?igsh=MWh5MGhua3VqMXQyeg%3D%3D&utm_source=qr%20image4.jpeg#,"https://www.city.kochi.kochi.jp/soshiki/148/boshihokenn-sanngokeazissisisetu.html
+https://www.pref.kochi.lg.jp/doc/2026060800365/",高知市福井町の同じ公開所在地とInstagramアカウントが一致し、高知市・県の一覧も同施設を掲載。いの町側の掲載を同一事業者に対応付ける。非公開の詳細住所は補完しない。
+152,14613,真弓助産院,GCP-14613,GCP-14613,確認済み,すべて別,確定した組合せのみ統合,岩国市,"岩国市南岩国4-52-43
+サウスコートA-104",,https://birth-navi.mhlw.go.jp/facilities/14613,,"https://www.pref.kochi.lg.jp/doc/2026060800365/file_contents/file_2026612514246_1.pdf
+https://www.pref.yamaguchi.lg.jp/soshiki/51/18287.html",山口県岩国市南岩国の施設と高知県いの町の『真弓助産院 産後ケアひまわり』は別。県の一次資料がそれぞれ異なる所在地を示す。
+152,14722,真弓助産院,GCP-14722,GCP-14722,確認済み,すべて別,確定した組合せのみ統合,土佐市,,,https://birth-navi.mhlw.go.jp/facilities/14722,https://mayumi-jyosanin.net/menu/,"https://www.pref.kochi.lg.jp/doc/2026060800365/file_contents/file_2026612514246_1.pdf
+https://www.pref.yamaguchi.lg.jp/soshiki/51/18287.html",山口県岩国市南岩国の施設と高知県いの町の『真弓助産院 産後ケアひまわり』は別。県の一次資料がそれぞれ異なる所在地を示す。
+153,14932,福田母乳育児相談室,GCP-14932,GCP-14932,確認済み,すべて同一,同一事業者に統合,西海市,長崎市魚の町7-3　サンガーデン眼鏡橋1001,09049816178,https://birth-navi.mhlw.go.jp/facilities/14932,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=bna0003&kikanKbn=4&prefCd=42,長崎市魚の町7-3の公的登録に対応し、町名までの住所と詳細住所は矛盾しない。携帯と固定電話を別事業者とせず、西海市・長崎市の掲載を同一相談室に対応付ける。
+153,15744,福田母乳育児相談室,GCP-15744,GCP-14932,確認済み,すべて同一,同一事業者に統合,長崎市,長崎市魚の町,0958292200,https://birth-navi.mhlw.go.jp/facilities/15744,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=bna0003&kikanKbn=4&prefCd=42,長崎市魚の町7-3の公的登録に対応し、町名までの住所と詳細住所は矛盾しない。携帯と固定電話を別事業者とせず、西海市・長崎市の掲載を同一相談室に対応付ける。
+154,12867,秋田県助産師会,GCP-12867,GCP-12867,確認済み,すべて同一,同一事業者に統合,能代市,,,https://birth-navi.mhlw.go.jp/facilities/12867,,https://akita-midwife.jp/about,同一の一般社団法人秋田県助産師会。能代市・男鹿市との制度上の関係を残し、団体を1事業者として対応付ける。会員助産師全員の同一性を意味しない。
+154,12870,秋田県助産師会,GCP-12870,GCP-12867,確認済み,すべて同一,同一事業者に統合,男鹿市,,,https://birth-navi.mhlw.go.jp/facilities/12870,https://akita-midwife.jp/,https://akita-midwife.jp/about,同一の一般社団法人秋田県助産師会。能代市・男鹿市との制度上の関係を残し、団体を1事業者として対応付ける。会員助産師全員の同一性を意味しない。
+155,13237,聖路加助産院マタニティケアホーム,GCP-13237,GCP-13237,確認済み,すべて同一,同一事業者に統合,千代田区,中央区明石町1-24,0355507177,https://birth-navi.mhlw.go.jp/facilities/13237,https://hospital.luke.ac.jp/guide/maternity/mch.html,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4136900006&kikanKbn=4&prefCd=13
+https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/kenkou_iryou/shussan/sangokeasisetu_syuku.html",中央区明石町1-24の同じマタニティケアホーム。病院公式ドメイン内の案内先が対応し、電話の用途差を別施設とみなさない。千代田区・文京区は掲載自治体である。
+155,13244,聖路加助産院マタニティケアホーム,GCP-13244,GCP-13237,確認済み,すべて同一,同一事業者に統合,文京区,中央区明石町1丁目24番,0362647070,https://birth-navi.mhlw.go.jp/facilities/13244,https://hospital.luke.ac.jp/guide/maternity/mch_shortstay.html,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=4136900006&kikanKbn=4&prefCd=13
+https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/kenkou_iryou/shussan/sangokeasisetu_syuku.html",中央区明石町1-24の同じマタニティケアホーム。病院公式ドメイン内の案内先が対応し、電話の用途差を別施設とみなさない。千代田区・文京区は掲載自治体である。
+156,13977,聖隷浜松病院,GCP-13977,GCP-13977,確認済み,すべて同一,同一事業者に統合,湖西市,,0535742222,https://birth-navi.mhlw.go.jp/facilities/13977,,"https://www.city.kosai.shizuoka.jp/material/files/group/17/20260323_sangokeatirasi.pdf
+https://www.seirei.or.jp/hamamatsu/childbearing/perinatal-medical-about/facility/",湖西市資料が浜松市中央区住吉2-12-12・053-474-2222の聖隷浜松病院を明記。13977の053-574-2222は転記差候補。別病院とせず同一施設に対応付ける。
+156,13987,聖隷浜松病院,GCP-13987,GCP-13977,確認済み,すべて同一,同一事業者に統合,御前崎市,浜松市中央区住吉２丁目１２－１２,0534741261,https://birth-navi.mhlw.go.jp/facilities/13987,https://www.seirei.or.jp/hamamatsu,"https://www.city.kosai.shizuoka.jp/material/files/group/17/20260323_sangokeatirasi.pdf
+https://www.seirei.or.jp/hamamatsu/childbearing/perinatal-medical-about/facility/",湖西市資料が浜松市中央区住吉2-12-12・053-474-2222の聖隷浜松病院を明記。13977の053-574-2222は転記差候補。別病院とせず同一施設に対応付ける。
+157,10472,芳賀赤十字病院,GCP-10472,GCP-10472,確認済み,すべて同一,同一事業者に統合,真岡市,栃木県真岡市中萩二丁目１０番地１,0570012195,https://birth-navi.mhlw.go.jp/facilities/10472,https://www.haga.jrc.or.jp/,"https://www.haga.jrc.or.jp/data/media/haga/page/about/magazine/vol14.pdf
+https://www.haga.jrc.or.jp/",病院自身の資料に真岡市中郷271が掲載され、現行公式サイトは中萩2-10-1を案内する。住所の履歴・表記の相違を別病院とせず、固有の赤十字病院に対応付ける。
+157,13035,芳賀赤十字病院,GCP-13035,GCP-10472,確認済み,すべて同一,同一事業者に統合,さくら市,真岡市中郷271,0285822195,https://birth-navi.mhlw.go.jp/facilities/13035,,"https://www.haga.jrc.or.jp/data/media/haga/page/about/magazine/vol14.pdf
+https://www.haga.jrc.or.jp/",病院自身の資料に真岡市中郷271が掲載され、現行公式サイトは中萩2-10-1を案内する。住所の履歴・表記の相違を別病院とせず、固有の赤十字病院に対応付ける。
+158,12943,茨城県助産師会,GCP-12943,GCP-12943,確認済み,すべて同一,同一事業者に統合,水戸市,,,https://birth-navi.mhlw.go.jp/facilities/12943,,https://www.sanba-ibaraki.com/,同じ一般社団法人茨城県助産師会への自治体別掲載。水戸市・那珂市との関係は残し、団体単位で同一と判断。担当助産師個人の同一性ではない。
+158,12984,茨城県助産師会,GCP-12984,GCP-12943,確認済み,すべて同一,同一事業者に統合,那珂市,,,https://birth-navi.mhlw.go.jp/facilities/12984,,https://www.sanba-ibaraki.com/,同じ一般社団法人茨城県助産師会への自治体別掲載。水戸市・那珂市との関係は残し、団体単位で同一と判断。担当助産師個人の同一性ではない。
+159,14667,西岡医院,GCP-14667,GCP-14667,確認済み,すべて同一,同一事業者に統合,高松市,高松市寺井町1385番地10,0878028838,https://birth-navi.mhlw.go.jp/facilities/14667,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2370502770&kikanKbn=2&prefCd=37
+https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/nenkin/kaigohoken/ichiran/tsusho/nishioka.html",高松市寺井町1385-10の西岡医院の公式案内に対応。三豊市掲載は高松市の同病院を参照し、電話の用途差を別医院と解釈しない。
+159,15385,西岡医院,GCP-15385,GCP-14667,確認済み,すべて同一,同一事業者に統合,三豊市,高松市,0878852021,https://birth-navi.mhlw.go.jp/facilities/15385,https://www.jinsenkai.jp/nishioka/,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2370502770&kikanKbn=2&prefCd=37
+https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/nenkin/kaigohoken/ichiran/tsusho/nishioka.html",高松市寺井町1385-10の西岡医院の公式案内に対応。三豊市掲載は高松市の同病院を参照し、電話の用途差を別医院と解釈しない。
+160,13067,鈴木助産院,GCP-13067,GCP-13067,確認済み,すべて別,確定した組合せのみ統合,伊勢崎市,太田市丸山町250-7,,https://birth-navi.mhlw.go.jp/facilities/13067,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=6101000061&kikanKbn=4&prefCd=10
+https://www.city.owariasahi.lg.jp/site/kosodate-sukusuku/28293.html",群馬県太田市丸山町の施設と愛知県尾張旭市側の同名事業者は別。太田の公的登録と尾張旭市の委託情報を区別する。
+160,14093,鈴木助産院,GCP-14093,GCP-14093,確認済み,すべて別,確定した組合せのみ統合,尾張旭市,,,https://birth-navi.mhlw.go.jp/facilities/14093,,"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=6101000061&kikanKbn=4&prefCd=10
+https://www.city.owariasahi.lg.jp/site/kosodate-sukusuku/28293.html",群馬県太田市丸山町の施設と愛知県尾張旭市側の同名事業者は別。太田の公的登録と尾張旭市の委託情報を区別する。
+161,13082,陽だまり助産院,GCP-13082,GCP-13082,確認済み,すべて別,確定した組合せのみ統合,さいたま市,さいたま市見沼区東大宮1-7-7,0487977806,https://birth-navi.mhlw.go.jp/facilities/13082,https://hidamar-mw.com/,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=9278004420&kikanKbn=4&prefCd=27,さいたま市見沼区東大宮と大阪府池田市石橋の別事業者。所在地・電話・施設登録が異なる。
+161,14256,陽だまり助産院,GCP-14256,GCP-14256,確認済み,すべて別,確定した組合せのみ統合,池田市,池田市石橋1－15－17,08024240905,https://birth-navi.mhlw.go.jp/facilities/14256,,https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=9278004420&kikanKbn=4&prefCd=27,さいたま市見沼区東大宮と大阪府池田市石橋の別事業者。所在地・電話・施設登録が異なる。
+162,12103,高松市立みんなの病院,GCP-12103,GCP-12103,確認済み,すべて同一,同一事業者に統合,高松市,香川県高松市仏生山町甲８４７番地１,0878137171,https://birth-navi.mhlw.go.jp/facilities/12103,"http://www.takamatsu-municipal-hospital.jp/
+https://ja-jp.facebook.com/minnano.hospital/
+https://www.instagram.com/min_nano_hp/
+https://page.line.me/812fwamq?oat_content=url&openQrModal=true
+http://www.takamatsu-municipal-hospital.jp/archives/24948","https://www.takamatsu-municipal-hospital.jp/
+https://www.takamatsu-municipal-hospital.jp/archives/236",高松市仏生山町甲847-1が一致し、同じ固有の市立病院。三木町の掲載を同一病院の委託関係として対応付ける。
+162,14677,高松市立みんなの病院,GCP-14677,GCP-12103,確認済み,すべて同一,同一事業者に統合,三木町,高松市仏生山町甲847-1,,https://birth-navi.mhlw.go.jp/facilities/14677,,"https://www.takamatsu-municipal-hospital.jp/
+https://www.takamatsu-municipal-hospital.jp/archives/236",高松市仏生山町甲847-1が一致し、同じ固有の市立病院。三木町の掲載を同一病院の委託関係として対応付ける。
+163,10024,鳥取産院,GCP-10024,GCP-10024,確認済み,すべて同一,同一事業者に統合,鳥取市,鳥取県鳥取市吉方温泉1丁目653番地,0857233151,https://birth-navi.mhlw.go.jp/facilities/10024,"https://asupiosu.or.jp/
+https://www.instagram.com/asupiosutottori/",https://asupiosu.or.jp/,鳥取市吉方温泉1-653の固有の病院名・公式サイトに対応。新温泉町の掲載は県境を越えた同院の利用関係として扱う。
+163,14371,鳥取産院,GCP-14371,GCP-10024,確認済み,すべて同一,同一事業者に統合,新温泉町,,,https://birth-navi.mhlw.go.jp/facilities/14371,,https://asupiosu.or.jp/,鳥取市吉方温泉1-653の固有の病院名・公式サイトに対応。新温泉町の掲載は県境を越えた同院の利用関係として扱う。
+164,11915,麻の実助産所,GCP-11915,GCP-11915,確認済み,すべて同一,同一事業者に統合,練馬区,東京都練馬区中村南１－３５－１２,0335770100,https://birth-navi.mhlw.go.jp/facilities/11915,"https://asanomi-jyosanjyo.com
+https://www.facebook.com/mayumi.tsuchiya.03
+https://www.instagram.com/mayumi.asanomi/
+https://page.line.me/oen1145r",https://asanomi-jyosanjyo.com/,練馬区中村南1丁目の住所とasanomi-jyosanjyo.comが一致。固定電話・携帯の差だけで分離せず、同一施設に対応付ける。
+164,13335,麻の実助産所,GCP-13335,GCP-11915,確認済み,すべて同一,同一事業者に統合,練馬区,練馬区中村南1,09017354047,https://birth-navi.mhlw.go.jp/facilities/13335,https://asanomi-jyosanjyo.com/,https://asanomi-jyosanjyo.com/,練馬区中村南1丁目の住所とasanomi-jyosanjyo.comが一致。固定電話・携帯の差だけで分離せず、同一施設に対応付ける。
+165,10266,ＪＡ静岡厚生連遠州病院,GCP-10266,GCP-10266,確認済み,すべて同一,同一事業者に統合,浜松市中央区,静岡県浜松市中央区中央一丁目1番1号,0534531111,https://birth-navi.mhlw.go.jp/facilities/10266,"https://k-enshu.ja-shizuoka.or.jp
+https://m.facebook.com/enshubyoin
+https://www.instagram.com/enshusanka","https://www.city.kosai.shizuoka.jp/material/files/group/17/20260323_sangokeatirasi.pdf
+https://k-enshu.ja-shizuoka.or.jp/access",湖西市資料が遠州病院の浜松市中央1-1-1と053-401-0050を明記。代表053-453-1111と別の産後ケア連絡番号であり、同一病院の自治体別掲載に対応する。
+165,13979,ＪＡ静岡厚生連遠州病院,GCP-13979,GCP-10266,確認済み,すべて同一,同一事業者に統合,湖西市,,0534010050,https://birth-navi.mhlw.go.jp/facilities/13979,,"https://www.city.kosai.shizuoka.jp/material/files/group/17/20260323_sangokeatirasi.pdf
+https://k-enshu.ja-shizuoka.or.jp/access",湖西市資料が遠州病院の浜松市中央1-1-1と053-401-0050を明記。代表053-453-1111と別の産後ケア連絡番号であり、同一病院の自治体別掲載に対応する。

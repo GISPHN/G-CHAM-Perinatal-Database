@@ -89,17 +89,17 @@ For provider-level analysis, use the derived 2026 entity layer under `data/deriv
 - `providers.csv`: conservatively deduplicated provider entities;
 - `provider_listing_map.csv`: every Birth Navi listing mapped to its derived provider entity with linkage method/confidence;
 - `municipality_postnatal_services.csv`: provider–municipality postnatal listing relations;
-- `deduplication_review.csv`: ambiguous same-name groups intentionally left separate for manual review.
+- `deduplication_review.csv`: any same-name groups that remain unresolved after automatic and manual review.
 
-The 2026 source contains 5,638 retrievable listings. Conservative entity resolution currently produces 5,178 provider entities; 460 listings are collapsed into supported provider clusters, while 165 same-name groups remain for review. The raw annual snapshot is never overwritten.
+The 2026 source contains 5,638 retrievable listings. Automatic resolution followed by documented manual adjudication of 165 same-name groups produces 5,116 provider entities; 522 listing rows are collapsed into supported provider clusters and no reviewed same-name group remains pending. Confirmed same-name but distinct providers remain separate. The raw annual snapshot is never overwritten. Manual decisions and the listing-level mapping are published under `data/quality/2026/`.
 
 See [docs/provider_entity_model.md](docs/provider_entity_model.md) for linkage rules and interpretation.
 
 ## Coordinate quality
 
-Coordinates are provenance-tracked rather than silently geocoded. The annual Birth Navi snapshot is preserved as observed, while separate quality-control layers cross-check deterministic facility matches against MHLW Medical Information Net open data. Missing coordinates are supplemented only from direct MHLW coordinate fields or other independently public, authoritative location sources under conservative identity/address rules. Hidden Birth Navi information is never used to infer a point location. Outreach-only providers are still eligible for coordinate acquisition when a registered or business base is publicly documented; such coordinates are labeled as provider-origin/base coordinates and must not be interpreted as the actual service-delivery point.
+Coordinates are provenance-tracked rather than silently geocoded. The annual Birth Navi snapshot is preserved as observed, while separate quality-control layers cross-check deterministic facility matches against MHLW Medical Information Net open data. Missing coordinates are supplemented from direct MHLW coordinate fields or independently public addresses under conservative identity/address rules. For 266 still-unresolved listings with a public facility or registered-base address, GSI Maps address search is used to assign an explicitly labelled address representative point. These points vary from block/address level to prefecture level and are not facility entrances or building centroids. Hidden Birth Navi information is never used to infer a point location. Outreach-only providers are still eligible when a registered or business base is independently public; such coordinates are labelled as provider-origin/base coordinates and must not be interpreted as the actual service-delivery point.
 
-For 2026, 44 deterministic cross-source discrepancies greater than 500 m were manually reviewed by Ryo Horiike. Birth Navi was selected for 27 facilities and MHLW Medical Information Net for 17. **For GIS and accessibility analyses, use `data/quality/2026/facilities_final_coordinates.csv` and its `final_latitude` / `final_longitude` fields**, not the raw snapshot coordinate columns.
+For 2026, 44 deterministic cross-source discrepancies greater than 500 m were manually reviewed by Ryo Horiike. Birth Navi was selected for 27 facilities and MHLW Medical Information Net for 17. The final layer contains coordinates for 4,649 of 5,638 listings, including 266 GSI address representative points; 989 listings remain unresolved. **For GIS and accessibility analyses, use `data/quality/2026/facilities_final_coordinates.csv` and its `final_latitude` / `final_longitude` fields**, not the raw snapshot coordinate columns. Filter or stratify GSI points using `final_coordinate_is_address_representative_point` and `gsi_representative_point_granularity` when positional precision affects the analysis.
 
 See [docs/coordinate_quality.md](docs/coordinate_quality.md) and the outputs under `data/quality/2026/`.
 
@@ -167,7 +167,7 @@ For transparent provenance in the Methods or Data Availability section, a useful
 
 - `postnatal_care_listed = 1` means that the facility is listed on Birth Navi as providing postnatal-care services; it does not establish municipality-specific eligibility.
 - Prenatal-checkup costs are facility-reported amounts and are not municipality-subsidy-adjusted out-of-pocket costs.
-- Site-provided coordinates are retained as the primary geographic coordinates; the project does not re-geocode addresses as its primary method.
+- Site-provided or deterministic direct-source coordinates remain primary. GSI address representative points fill only otherwise unresolved records and must be analysed according to their recorded granularity and semantics.
 - Missing values, explicit “none,” service unavailability, and information not displayed by the source should not be treated as equivalent without reference to the data dictionary.
 - Values may reflect reporting lag at the source facility.
 

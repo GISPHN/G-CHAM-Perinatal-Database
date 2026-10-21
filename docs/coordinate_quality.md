@@ -6,7 +6,7 @@ Geographic coordinates are treated as research data with explicit provenance. Th
 
 The primary cross-source reference is the Ministry of Health, Labour and Welfare (MHLW) Medical Information Net open data dated 2026-06-01. Hospital, clinic, and maternity-home facility files contain direct latitude and longitude fields (`所在地座標（緯度）`, `所在地座標（経度）`).
 
-No commercial geocoder is used for automatic coordinate completion.
+No commercial geocoder is used for automatic coordinate completion. GSI Maps address search is used only for the documented 266-record manual completion layer described below.
 
 ## Conservative matching rules
 
@@ -49,7 +49,11 @@ The derived file includes `coordinate_quality_status`:
 
 ## 2026 findings
 
-The original Birth Navi snapshot contained 1,265 facilities with missing latitude or longitude. Ten missing coordinates were recovered from the MHLW direct coordinate fields under the conservative rules above; 1,255 remain unresolved. Of the original missing records, 989 have the Birth Navi address hidden. They are not geocoded from hidden Birth Navi information; however, if an independently public registered/business base is identified from another authoritative source, that provider-base coordinate may be added with explicit provenance and semantics.
+The original Birth Navi snapshot contained 1,265 facilities with missing latitude or longitude. Ten missing coordinates were recovered from MHLW direct coordinate fields under the conservative rules above. A further 266 records with independently public facility or registered-base addresses received GSI Maps address-search representative points. The remaining 989 records have no publishable point under the adopted rules, including records whose Birth Navi address is hidden and for which no independently public base was established.
+
+The 266 GSI results comprise 10 block/address-level, 231 neighbourhood/chome-level, 23 municipality-level, and 2 prefecture-level representative points. These are address-search representatives, not verified entrances, building centroids, or observed service-delivery locations. Municipality- and prefecture-level points are suitable only for coarse visualization or sensitivity analysis and should not be used for fine-scale distance or accessibility estimates. Every result retains the public address source, query, returned title, granularity, query strategy, retrieval date, query URL, location model, and coordinate semantics in `gsi_address_representative_points.csv` and the final coordinate layer.
+
+The repository stores the retrieved results rather than calling the search endpoint during each build. GSI states that this dynamic search function is intended mainly for GSI Maps, is not guaranteed to remain continuously available, and may change without notice; the same official explanation states that address searches use the University of Tokyo CSIS simple geocoding service. See [GSI Maps issue 29](https://github.com/gsi-cyberjapan/gsimaps/issues/29). The stored retrieval date and query URL are therefore essential provenance fields.
 
 Cross-source checking identified 44 deterministic matches where Birth Navi and MHLW Medical Information Net coordinates differed by more than 500 m. These 44 cases were manually reviewed by Ryo Horiike on 2026-10-05. The adjudication selected the Birth Navi coordinate for 27 facilities and the MHLW Medical Information Net coordinate for 17 facilities.
 
@@ -63,12 +67,13 @@ For GIS and accessibility analyses, use:
 - `final_coordinate_source`
 - `final_coordinate_status`
 
-The final layer contains coordinates for 4,383 of 5,638 retrievable facilities; 1,255 remain unresolved. No coordinate is inferred from a Birth Navi-hidden address.
+The final layer contains coordinates for 4,649 of 5,638 retrievable facilities; 989 remain unresolved. No coordinate is inferred from a Birth Navi-hidden address alone.
 
 Supporting audit files:
 
 - `coordinate_final_summary.json`
 - `coordinate_manual_review.csv`
+- `gsi_address_representative_points.csv`
 - `coordinate_verification_summary.json`
 - `coordinate_verification_candidates.csv`
 - `facilities_verified_coordinates.csv`

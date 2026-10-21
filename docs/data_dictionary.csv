@@ -23,6 +23,22 @@ facilities,service_pattern,Combination of listed services,prenatal+delivery+post
 facilities,source_last_modified_at,Source last-modified timestamp when supplied,ISO 8601,
 facilities,retrieved_at_utc,Observation/retrieval timestamp,ISO 8601 UTC,
 facilities,raw_response_sha256,SHA-256 of the facility HTML response,,Provenance/change auditing
+facilities_final_coordinates,final_latitude,Final analysis latitude,decimal degrees,Use with source/status and representative-point flag
+facilities_final_coordinates,final_longitude,Final analysis longitude,decimal degrees,Use with source/status and representative-point flag
+facilities_final_coordinates,final_coordinate_source,Source selected for the final coordinate,,Includes birth_navi; MHLW direct fields; gsi_maps_address_search
+facilities_final_coordinates,final_coordinate_status,Coordinate quality/status code,,GSI status encodes result granularity
+facilities_final_coordinates,final_coordinate_is_address_representative_point,Whether the point is a GSI address-search representative,0/1,When 1 the point is not a verified entrance or building centroid
+facilities_final_coordinates,gsi_query,Address query submitted to GSI Maps address search,text,Blank for non-GSI coordinates
+facilities_final_coordinates,gsi_returned_title,Address title returned by GSI Maps address search,text,Blank for non-GSI coordinates
+facilities_final_coordinates,gsi_representative_point_granularity,GSI result granularity,街区・番地等; 町字・丁目等; 市区町村; 都道府県,Blank for non-GSI coordinates
+facilities_final_coordinates,gsi_query_strategy,Rule used to select the public query address,controlled text,Blank for non-GSI coordinates
+facilities_final_coordinates,gsi_retrieved_date_jst,GSI result retrieval date,YYYY-MM-DD JST,Blank for non-GSI coordinates
+facilities_final_coordinates,gsi_query_url,GSI address-search request URL,URL,Blank for non-GSI coordinates
+facilities_final_coordinates,gsi_address_source_name,Public source used to establish the query address,text,Blank for non-GSI coordinates
+facilities_final_coordinates,gsi_address_source_url,URL supporting the public query address,URL,Blank for non-GSI coordinates
+facilities_final_coordinates,coordinate_location_model,Fixed/outreach/review location model,controlled text,Blank when not manually classified
+facilities_final_coordinates,coordinate_semantics,Interpretation of the represented location,controlled text,Do not equate an outreach base with a service-delivery point
+facilities_final_coordinates,coordinate_meaning,Human-readable coordinate interpretation,text,
 facility_detail,perinatal_medical_center_type,Perinatal medical center classification,source code,
 facility_detail,obstetrics_unit_type,Obstetric ward/unit classification,source code,
 facility_detail,nicu_bed_count,NICU bed count,beds,
@@ -64,12 +80,26 @@ providers,municipality_linked_type100_listing_count,Number of type-100 municipal
 providers,birth_navi_ids,All linked Birth Navi listing IDs,semicolon-separated,
 providers,latitude,Representative final latitude,decimal degrees,Use together with coordinate_source/status
 providers,longitude,Representative final longitude,decimal degrees,Use together with coordinate_source/status
+providers,coordinate_is_address_representative_point,Whether the representative coordinate is a GSI address-search representative point,0/1,Not an entrance or building centroid when 1
+providers,coordinate_representative_point_granularity,GSI result granularity,街区・番地等; 町字・丁目等; 市区町村; 都道府県,Blank for non-GSI coordinates
+providers,coordinate_semantics,Interpretation of the represented location,controlled text,Distinguishes service site/provider base/outreach base/undetermined
+providers,coordinate_meaning,Human-readable coordinate interpretation,text,
 providers,coordinate_conflict_over_500m,Whether member listings retain coordinate disagreement >500 m,0/1,Review before spatial analysis when 1
 provider_listing_map,provider_id,Derived provider entity identifier,,
 provider_listing_map,birth_navi_id,Source Birth Navi listing identifier,,
 provider_listing_map,listing_role,Role of source listing,facility_listing; municipality_linked_postnatal_listing,
-provider_listing_map,deduplication_method,Entity-linkage method,,
-provider_listing_map,deduplication_confidence,Entity-linkage confidence,high; medium; not_applicable,
+provider_listing_map,deduplication_method,Entity-linkage method,,Includes manual_same_name_adjudication for reviewed rows
+provider_listing_map,deduplication_confidence,Entity-linkage confidence,high; medium; manual_confirmed; not_applicable,
+provider_listing_map,manual_review_group_no,Manual same-name review group number,,Blank when not manually adjudicated
+provider_listing_map,manual_review_verdict,Manual same-name decision,すべて同一; すべて別; 一部同一,Blank when not manually adjudicated
+provider_entity_manual_decisions,group_no,Manual same-name review group number,,One row per reviewed same-name group
+provider_entity_manual_decisions,verdict,Group-level adjudication,すべて同一; すべて別; 一部同一,
+provider_entity_manual_decisions,correspondence,Human-readable listing-to-provider assignment,text,
+provider_entity_manual_decisions,evidence_urls,Public evidence URLs,newline-separated URLs,
+provider_entity_manual_mapping,birth_navi_id,Reviewed source listing identifier,,Primary key within the manual mapping
+provider_entity_manual_mapping,current_provider_id,Provider ID before manual adjudication,,Audit field
+provider_entity_manual_mapping,proposed_provider_id,Final provider ID selected by manual adjudication,,Applied as authoritative mapping
+provider_entity_manual_mapping,review_status,Completion state,確認済み,Only confirmed rows are accepted by the build
 municipality_postnatal_services,provider_id,Derived provider entity identifier,,
 municipality_postnatal_services,birth_navi_id,Source Birth Navi postnatal listing identifier,,
 municipality_postnatal_services,municipality_code,Municipality represented by the Birth Navi listing,,Not necessarily provider physical location

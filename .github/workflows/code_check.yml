@@ -28,4 +28,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python -m py_compile scripts/*.py
+      - name: Rebuild reviewed 2026 layers for validation
+        run: |
+          python scripts/apply_manual_coordinate_review.py
+          python scripts/build_provider_entities.py
       - run: python -m unittest discover -s tests -p 'test_*.py'

@@ -49,7 +49,7 @@ This relation table should be used when analysing municipality–provider networ
 
 ### deduplication_review.csv
 
-Same-name groups that still map to more than one provider entity are exported for manual review. These records are deliberately **not** merged automatically.
+Same-name groups that still map to more than one provider entity and have not been manually adjudicated are exported for review. Confirmed same-name but distinct providers are not pending cases; their decisions are retained in `data/quality/2026/provider_entity_manual_decisions.csv` and their listing-level assignments in `provider_entity_manual_mapping.csv`.
 
 ## Automatic linkage rules
 
@@ -73,17 +73,20 @@ Generic labels such as `個人助産師`, `個人事業主助産師`, `在宅助
 
 When two records both have final coordinates and are more than 1 km apart, phone/address/name-based propagation is blocked unless the same official MHLW source entity ID establishes identity.
 
+GSI address-search representative points are excluded from automatic identity linkage and distance-conflict blocking. Their spatial granularity varies, so proximity between such points is not evidence that two listings represent the same provider. For the 165 reviewed groups, the published manual mapping is authoritative over automatic name and coordinate rules.
+
 ## 2026 result
 
-The 2026 source snapshot contains **5,638 retrievable Birth Navi listings**. Conservative entity resolution produces **5,178 provider entities**, collapsing **460 listing rows** into already-supported provider entities.
+The 2026 source snapshot contains **5,638 retrievable Birth Navi listings**. Automatic entity resolution followed by manual adjudication of all 165 same-name review groups produces **5,116 provider entities**, collapsing **522 listing rows** into supported provider entities.
 
-- 374 provider entities contain more than one Birth Navi listing.
+- 427 provider entities contain more than one Birth Navi listing.
 - The largest resolved provider cluster contains 9 listings.
 - 3,178 source records are type-100 listings.
 - 4,600 postnatal provider–municipality listing relations are retained.
-- 165 same-name groups still contain multiple provider entities and remain in `deduplication_review.csv`.
+- 165 same-name groups, comprising 438 listing rows, have a documented manual decision.
+- No same-name group remains pending in `deduplication_review.csv` for this snapshot.
 
-The derived count of 5,178 should therefore be interpreted as a **conservatively deduplicated provider count**, not a final claim that every unresolved listing represents a separate physical provider. Manual resolution of the review table can reduce residual over-counting without risking false merges.
+The derived count of 5,116 should be interpreted as an adjudicated provider-entity count for this 2026 snapshot. It does not imply that a provider entity always corresponds to one service-delivery site: some organisations operate multiple bases and some outreach providers are represented by a registered or business base. Confirmed distinct same-name providers remain separate to avoid unsupported merging.
 
 ## Example
 
