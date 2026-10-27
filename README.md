@@ -95,6 +95,34 @@ The repository contains source listing tables, quality controlled coordinate tab
 | Audit GSI geocoding | `data/quality/2026/gsi_address_representative_points.csv` | One geocoded public address | GSI coordinates are address representative points, not confirmed building entrances or service locations. |
 | Conduct longitudinal analysis | Annual tables under `data/snapshots/YYYY/` and `data/history/` | One source listing per year | Do not assume that listing identifiers or provider groupings remain stable across years without verification. |
 
+## Nara taxable-household postnatal-care fee pilot
+
+The 2026 Nara pilot records the Birth Navi display obtained after selecting
+Nara Prefecture, each resident municipality represented in the 2026 source
+relations, and `住民税課税世帯`. The observation was conducted on 2026-10-27.
+
+Use the following tables according to the analysis:
+
+| Research purpose | Recommended file | Unit of analysis | Interpretation |
+|---|---|---|---|
+| Analyze displayed postnatal-care fees for taxable households | `data/derived/2026/nara_postnatal_taxable_fees.csv` | Resident municipality, provider, and displayed service type | The primary cost-analysis table. `fee_yen` is populated only when one amount can be normalized conservatively. Use `fee_min_yen` and `fee_max_yen` for ranges. |
+| Restrict the analysis to providers located in the resident municipality | `data/derived/2026/nara_postnatal_taxable_fees.csv` | Same as above | Select `same_municipality_flag = 1`. Do not treat a blank flag as outside the municipality; it means that provider location could not be established from a standard facility listing. |
+| Retain all 39 Nara municipalities, including municipalities without a source relation | `data/derived/2026/nara_municipality_postnatal_taxable_summary.csv` | One Nara municipality | Nineteen municipalities are retained as `no_relation_in_2026_snapshot`. This is not evidence of zero cost or absence of a municipal program. |
+| Inspect a municipality-provider selection that displayed no service details | `data/snapshots/2026/nara_postnatal_taxable_relations.csv` | One resident municipality and Birth Navi listing | Three of 59 selections displayed no method-level details after household selection. They are recorded as missing display information, not as zero cost. |
+| Reproduce the displayed method-level text | `data/snapshots/2026/nara_postnatal_taxable_services.csv` | One displayed service method | Preserves fee, included items, maximum use, infant age, multiple-birth acceptance, sibling acceptance, and notes as displayed. |
+| Audit differences from the earlier annual facility snapshot | `data/quality/2026/nara_postnatal_taxable_service_discrepancies.csv` | One municipality-listing relation | Nineteen of 59 relations differ in displayed service-type codes. The table reports missing and unexpected codes without deciding that either observation is erroneous. |
+
+The primary fee table contains 96 displayed service rows from 59
+municipality-provider relations. It distinguishes exact amounts, ranges,
+multiple price tiers, missing amounts, and contact-required entries. A range or
+multi-tier price is not reduced to one point estimate. Source text remains
+available for alternative analytic decisions.
+
+For an analysis of services available to residents, retain all rows regardless
+of `same_municipality_flag`. For the narrower question of providers physically
+located in the resident municipality, select only `same_municipality_flag = 1`
+and report the number excluded because provider location was unknown.
+
 ### Coordinate selection for spatial analysis
 
 For provider level spatial analysis, use `data/derived/2026/providers.csv`. For listing level spatial analysis, use `data/quality/2026/facilities_final_coordinates.csv` and the `final_latitude` and `final_longitude` columns.

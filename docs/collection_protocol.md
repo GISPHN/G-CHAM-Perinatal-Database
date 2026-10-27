@@ -30,3 +30,38 @@ For each facility, normalized output retains the Birth Navi ID, source URL, retr
 ## Longitudinal interpretation
 
 Snapshots are annual observations. A value difference between years indicates that a change was observed between the two snapshot dates; it does not identify the exact change date.
+
+## Nara taxable-household postnatal-care pilot
+
+The Nara fee pilot is a separate, study-specific observation and is not part of
+the nationwide annual facility-page collector. On 2026-10-27, the public Birth
+Navi facility-page form was opened for each of the 59 Nara municipality-listing
+relations in `data/derived/2026/municipality_postnatal_services.csv`. The form
+selections were Nara Prefecture, the relation's resident municipality, and
+household type `住民税課税世帯`.
+
+Requests were made sequentially with an interval between facility-page
+navigations. The displayed facility name, eligibility, general remarks,
+method-specific fee text, included items, maximum use, eligible infant age,
+multiple-birth acceptance, sibling acceptance, service notes, source update
+time, source URL, and retrieval time were retained. Application-procedure
+fields were not included in this fee pilot.
+
+The source UI observations are stored in:
+
+- `data/snapshots/2026/nara_postnatal_taxable_relations.csv`;
+- `data/snapshots/2026/nara_postnatal_taxable_services.csv`.
+
+The source display was not forced into the earlier annual service-type schema.
+When the UI displayed no method-level detail after all three selections, the
+relation was retained with
+`detail_status = no_service_details_displayed_after_selection`. It was not
+encoded as zero cost or service absence. Differences between the annual
+snapshot service codes and the UI observation are published separately under
+`data/quality/2026/`.
+
+Fee normalization is conservative. A single displayed amount can populate
+`fee_yen`; a range populates only `fee_min_yen` and `fee_max_yen`; several
+duration-specific prices remain `multiple_tiers`; and missing or
+contact-required prices retain blank numeric values. The raw display text is
+authoritative for reanalysis.
