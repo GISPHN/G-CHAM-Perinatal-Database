@@ -197,36 +197,30 @@ def import_ui_json(path: Path, snapshot_dir: Path) -> None:
 
 def normalize_fee(raw: str) -> dict[str, str]:
     text = clean_text(raw)
-    normalized = unicodedata.normalize("NFKC", text).replace(" ", "")
+    normalized = unicodedata.normalize("NFKC", text)
+    compact = normalized.replace(" ", "")
     base = {
         "fee_yen": "", "fee_min_yen": "", "fee_max_yen": "",
         "fee_unit": "", "fee_note": "", "fee_normalization_status": "",
     }
-    if not normalized or normalized in {"-", "ー", "—"}:
+    if not compact or compact in {"-", "ー", "—"}:
         return {**base, "fee_normalization_status": "not_stated"}
-    if normalized in {"無料", "0円"}:
+    if compact in {"無料", "0円"}:
         return {
             **base, "fee_yen": "0", "fee_min_yen": "0",
             "fee_max_yen": "0", "fee_normalization_status": "exact_yen",
         }
-    if normalized in {"お問合せください", "お問い合わせください"}:
+    if (
+        compact in {"お問合せください", "お問い合わせください", "要確認"}
+        or "ホームページをご確認ください" in compact
+    ):
         return {**base, "fee_normalization_status": "contact_required"}
-
-    amounts = [
-        int(x.replace(",", ""))
-        for x in re.findall(r"(\d[\d,]*)円", normalized)
-    ]
-    if len(amounts) > 1:
-        return {
-            **base,
-            "fee_min_yen": str(min(amounts)),
-            "fee_max_yen": str(max(amounts)),
-            "fee_normalization_status": "multiple_tiers",
-        }
+    if compact in {"その他に記載"}:
+        return {**base, "fee_normalization_status": "not_stated"}
 
     range_match = re.fullmatch(
         r"(\d[\d,]*)[~～〜\-－−](\d[\d,]*)(?:円)?(?:[（(](.+)[）)])?",
-        normalized,
+        compact,
     )
     if range_match:
         low = int(range_match.group(1).replace(",", ""))
@@ -239,9 +233,63 @@ def normalize_fee(raw: str) -> dict[str, str]:
             "fee_normalization_status": "range_yen",
         }
 
+    embedded_ranges = list(re.finditer(
+        r"(\d[\d,]*)[~～〜\-－−](\d[\d,]*)円", compact
+    ))
+    if len(embedded_ranges) == 1:
+        match = embedded_ranges[0]
+        remainder = compact[:match.start()] + compact[match.end():]
+        if not re.search(r"\d[\d,]*円", remainder):
+            low = int(match.group(1).replace(",", ""))
+            high = int(match.group(2).replace(",", ""))
+            return {
+                **base,
+                "fee_min_yen": str(min(low, high)),
+                "fee_max_yen": str(max(low, high)),
+                "fee_note": text,
+                "fee_normalization_status": "range_yen",
+            }
+
+    amounts = [
+        int(x.replace(",", ""))
+        for x in re.findall(r"(\d[\d,]*)円", compact)
+    ]
+    if amounts and "無料" in compact:
+        return {
+            **base,
+            "fee_min_yen": "0",
+            "fee_max_yen": str(max(amounts)),
+            "fee_note": text,
+            "fee_normalization_status": "multiple_tiers",
+        }
+    if len(amounts) > 1:
+        return {
+            **base,
+            "fee_min_yen": str(min(amounts)),
+            "fee_max_yen": str(max(amounts)),
+            "fee_normalization_status": "multiple_tiers",
+        }
+
+    # A second tier is sometimes written without a repeated 円 suffix, for
+    # example "1,300（7時間利用時）、1,700（9時間利用時）".  Comma-grouped
+    # values are sufficiently currency-like to retain both as tiers here;
+    # duration values in the same text are not comma-grouped.
+    comma_grouped_amounts = [
+        int(value.replace(",", ""))
+        for value in re.findall(r"\b(\d{1,3}(?:,\d{3})+)\b", normalized)
+    ]
+    if len(comma_grouped_amounts) > 1:
+        return {
+            **base,
+            "fee_min_yen": str(min(comma_grouped_amounts)),
+            "fee_max_yen": str(max(comma_grouped_amounts)),
+            "fee_note": text,
+            "fee_normalization_status": "multiple_tiers",
+        }
+
     exact_match = re.fullmatch(
         r"(\d[\d,]*)円?(?:/(日|回|時|泊))?(?:[（(](.+)[）)])?",
-        normalized,
+        compact,
     )
     if exact_match:
         amount = str(int(exact_match.group(1).replace(",", "")))
@@ -253,6 +301,53 @@ def normalize_fee(raw: str) -> dict[str, str]:
             **base, "fee_yen": amount, "fee_min_yen": amount,
             "fee_max_yen": amount, "fee_unit": unit, "fee_note": note,
             "fee_normalization_status": status,
+        }
+
+    if len(amounts) == 1:
+        amount = str(amounts[0])
+        unit = ""
+        if re.search(r"/(?:日|1日)|/日", compact):
+            unit = "per_day"
+        elif re.search(r"/(?:回|1回)", compact):
+            unit = "per_use"
+        elif re.search(r"/(?:時間|時)|1時間あたり|時間あたり", compact):
+            unit = "per_hour"
+        elif re.search(r"/(?:泊|1泊)", compact):
+            unit = "per_night"
+        return {
+            **base,
+            "fee_yen": amount,
+            "fee_min_yen": amount,
+            "fee_max_yen": amount,
+            "fee_unit": unit,
+            "fee_note": text,
+            "fee_normalization_status": "exact_yen_with_note",
+        }
+
+    labeled_amounts = [
+        int(value.replace(",", ""))
+        for value in re.findall(r"[:：]\s*(\d[\d,]*)", normalized)
+    ]
+    bare_amounts = labeled_amounts or comma_grouped_amounts
+    if not bare_amounts and re.fullmatch(r"\d+(?:、\d+)+", compact):
+        bare_amounts = [int(value) for value in compact.split("、")]
+    if len(bare_amounts) > 1:
+        return {
+            **base,
+            "fee_min_yen": str(min(bare_amounts)),
+            "fee_max_yen": str(max(bare_amounts)),
+            "fee_note": text,
+            "fee_normalization_status": "multiple_tiers",
+        }
+    if len(bare_amounts) == 1:
+        amount = str(bare_amounts[0])
+        return {
+            **base,
+            "fee_yen": amount,
+            "fee_min_yen": amount,
+            "fee_max_yen": amount,
+            "fee_note": text,
+            "fee_normalization_status": "exact_yen_with_note",
         }
 
     return {**base, "fee_normalization_status": "unparsed"}

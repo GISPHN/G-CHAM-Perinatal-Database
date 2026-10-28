@@ -18,7 +18,7 @@ The database is designed to preserve annual facility-level information such as:
 - prenatal-checkup availability, total cost, and checkup-level items/costs;
 - facility-level postnatal-care service types.
 
-**Municipality-dependent information is intentionally excluded from the initial implementation.** This includes municipality-specific prenatal-checkup subsidies, postnatal-care eligibility, household-category fees, and municipality-specific application procedures. Therefore, a facility being listed as providing postnatal care does **not** mean that every municipality resident can use that facility.
+**Municipality-dependent information is intentionally excluded from the initial nationwide annual collector.** Therefore, a facility being listed as providing postnatal care does **not** mean that every municipality resident can use that facility. A separate 2026 Western Japan study-specific dataset records publicly displayed postnatal-care information for taxable households; it does not include municipality-specific application procedures.
 
 ## Data source and status
 
@@ -95,28 +95,36 @@ The repository contains source listing tables, quality controlled coordinate tab
 | Audit GSI geocoding | `data/quality/2026/gsi_address_representative_points.csv` | One geocoded public address | GSI coordinates are address representative points, not confirmed building entrances or service locations. |
 | Conduct longitudinal analysis | Annual tables under `data/snapshots/YYYY/` and `data/history/` | One source listing per year | Do not assume that listing identifiers or provider groupings remain stable across years without verification. |
 
-## Nara taxable-household postnatal-care fee pilot
+## Western Japan taxable-household postnatal-care dataset
 
-The 2026 Nara pilot records the Birth Navi display obtained after selecting
-Nara Prefecture, each resident municipality represented in the 2026 source
-relations, and `住民税課税世帯`. The observation was conducted on 2026-10-27.
+The 2026 Western Japan dataset extends the validated Nara pilot to 23
+prefectures: Shiga, Kyoto, Osaka, Hyogo, Nara, Wakayama, Tottori, Shimane,
+Okayama, Hiroshima, Yamaguchi, Tokushima, Kagawa, Ehime, Kochi, Fukuoka, Saga,
+Nagasaki, Kumamoto, Oita, Miyazaki, Kagoshima, and Okinawa. This operational
+definition covers Kinki excluding Mie, Chugoku, Shikoku, Kyushu, and Okinawa.
+Observations were collected on 2026-10-28 after selecting each resident
+municipality represented in the 2026 source relations and `住民税課税世帯` in
+the public Birth Navi display.
 
 Use the following tables according to the analysis:
 
 | Research purpose | Recommended file | Unit of analysis | Interpretation |
 |---|---|---|---|
-| Analyze displayed postnatal-care fees for taxable households | `data/derived/2026/nara_postnatal_taxable_fees.csv` | Resident municipality, provider, and displayed service type | The primary cost-analysis table. `fee_yen` is populated only when one amount can be normalized conservatively. Use `fee_min_yen` and `fee_max_yen` for ranges. |
-| Restrict the analysis to providers located in the resident municipality | `data/derived/2026/nara_postnatal_taxable_fees.csv` | Same as above | Select `same_municipality_flag = 1`. Do not treat a blank flag as outside the municipality; it means that provider location could not be established from a standard facility listing. |
-| Retain all 39 Nara municipalities, including municipalities without a source relation | `data/derived/2026/nara_municipality_postnatal_taxable_summary.csv` | One Nara municipality | Nineteen municipalities are retained as `no_relation_in_2026_snapshot`. This is not evidence of zero cost or absence of a municipal program. |
-| Inspect a municipality-provider selection that displayed no service details | `data/snapshots/2026/nara_postnatal_taxable_relations.csv` | One resident municipality and Birth Navi listing | Three of 59 selections displayed no method-level details after household selection. They are recorded as missing display information, not as zero cost. |
-| Reproduce the displayed method-level text | `data/snapshots/2026/nara_postnatal_taxable_services.csv` | One displayed service method | Preserves fee, included items, maximum use, infant age, multiple-birth acceptance, sibling acceptance, and notes as displayed. |
-| Audit differences from the earlier annual facility snapshot | `data/quality/2026/nara_postnatal_taxable_service_discrepancies.csv` | One municipality-listing relation | Nineteen of 59 relations differ in displayed service-type codes. The table reports missing and unexpected codes without deciding that either observation is erroneous. |
+| Analyze displayed postnatal-care fees for taxable households | `data/derived/2026/western_japan_postnatal_taxable_fees.csv` | Resident municipality, provider, and displayed service option | The primary cost-analysis table. `fee_yen` is populated only when one amount can be normalized conservatively. Use `fee_min_yen` and `fee_max_yen` for ranges or multiple tiers, together with the original `fee_text`. |
+| Restrict the analysis to providers located in the resident municipality | `data/derived/2026/western_japan_postnatal_taxable_fees.csv` | Same as above | Select `same_municipality_flag = 1`. Do not treat a blank flag as outside the municipality; it means that provider location could not be established from a standard facility listing. |
+| Retain every municipality in the 23-prefecture scope | `data/derived/2026/western_japan_municipality_postnatal_taxable_summary.csv` | One municipality | All 756 municipalities returned by the public municipality list are retained. The 261 municipalities marked `no_relation_in_2026_snapshot` had no relation in the source table; this is not evidence of zero cost or absence of a municipal program. |
+| Inspect a municipality-provider selection that displayed no service details | `data/snapshots/2026/western_japan_postnatal_taxable_relations.csv` | One resident municipality and Birth Navi listing | 193 of 1,953 selections displayed no method-level details after household selection. They are recorded as missing display information, not as zero cost. |
+| Reproduce the displayed method-level text | `data/snapshots/2026/western_japan_postnatal_taxable_services.csv` | One displayed service option | Preserves fee, included items, maximum use, infant age, multiple-birth acceptance, sibling acceptance, notes, option order, and source service ID as displayed. |
+| Audit differences from the earlier annual facility snapshot | `data/quality/2026/western_japan_postnatal_taxable_service_discrepancies.csv` | One municipality-listing relation | 417 of 1,953 relations have different service-type code sets. The table reports missing and unexpected codes without deciding that either observation is erroneous. |
 
-The primary fee table contains 96 displayed service rows from 59
+The primary fee table contains 2,852 displayed service-option rows from 1,953
 municipality-provider relations. It distinguishes exact amounts, ranges,
-multiple price tiers, missing amounts, and contact-required entries. A range or
-multi-tier price is not reduced to one point estimate. Source text remains
-available for alternative analytic decisions.
+multiple price tiers, missing amounts, contact-required entries, and one
+unparsed nonnumeric description. A range or multi-tier price is not reduced to
+one point estimate. Source text remains available for alternative analytic
+decisions. The original Nara files are retained as a stable validated subset;
+their 59 relations and 96 service rows match the Nara rows in the Western Japan
+dataset on the substantive fields.
 
 For an analysis of services available to residents, retain all rows regardless
 of `same_municipality_flag`. For the narrower question of providers physically

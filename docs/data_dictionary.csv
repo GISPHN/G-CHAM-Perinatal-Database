@@ -130,3 +130,30 @@ nara_postnatal_taxable_fees,same_municipality_flag,Whether provider location equ
 nara_municipality_postnatal_taxable_summary,source_relation_status,Whether a municipality has a relation in the 2026 source table,relation_present; no_relation_in_2026_snapshot,No relation is not evidence that the municipality lacks a program
 nara_municipality_postnatal_taxable_summary,missing_reason,Reason cost data were not collected,text,Populated for municipalities absent from the source relation table
 nara_postnatal_taxable_service_discrepancies,discrepancy_status,Comparison between annual snapshot codes and UI-observed codes,match; snapshot_ui_difference,Does not determine which observation is erroneous
+western_japan_postnatal_taxable_relations,resident_prefecture_code,Resident prefecture selected in the Birth Navi display,JIS prefecture code,Scope is codes 25-30 and 31-47
+western_japan_postnatal_taxable_relations,resident_municipality_code,Resident municipality selected in the Birth Navi display,municipality code,This is the resident municipality and not necessarily the provider location
+western_japan_postnatal_taxable_relations,household_type,Household category selected in the Birth Navi display,住民税課税世帯,
+western_japan_postnatal_taxable_relations,detail_status,Result after municipality and household selection,services_displayed; no_service_details_displayed_after_selection,A missing display is not zero cost or confirmed service absence
+western_japan_postnatal_taxable_relations,eligibility_text,Eligibility text displayed by Birth Navi,text,Semicolon-separated when several items are displayed
+western_japan_postnatal_taxable_relations,overall_remarks,General postnatal-care remarks displayed by Birth Navi,text,
+western_japan_postnatal_taxable_services,postnatal_care_type_code,Displayed postnatal-care method code,1 short stay; 2 individual day care; 3 group day care; 4 outreach,
+western_japan_postnatal_taxable_services,postnatal_care_option_index,Order of a service option in the displayed source payload,positive integer,Retains separate options that share a method code
+western_japan_postnatal_taxable_services,postnatal_care_source_id,Source identifier for the displayed service option,integer,Retained for provenance and row-level auditing
+western_japan_postnatal_taxable_services,fee_text,User fee exactly as displayed,text,Authoritative source wording for fee reanalysis
+western_japan_postnatal_taxable_services,fee_includes_text,Items included in the displayed fee,text,
+western_japan_postnatal_taxable_services,max_use_text,Maximum days or uses as displayed,text,
+western_japan_postnatal_taxable_services,eligible_infant_age_text,Eligible infant age as displayed,text,
+western_japan_postnatal_taxable_services,multiple_birth_acceptance_text,Multiple-birth acceptance and any displayed amount,text,
+western_japan_postnatal_taxable_services,sibling_acceptance_text,Sibling acceptance as displayed,text,
+western_japan_postnatal_taxable_services,service_notes_text,Method-specific notes as displayed,text,
+western_japan_postnatal_taxable_fees,fee_yen,Conservatively normalized single displayed amount,yen,Blank for ranges multiple tiers missing values contact-required entries or unparsed text
+western_japan_postnatal_taxable_fees,fee_min_yen,Minimum displayed amount when extractable,yen,Equals fee_yen for a single amount
+western_japan_postnatal_taxable_fees,fee_max_yen,Maximum displayed amount when extractable,yen,Equals fee_yen for a single amount
+western_japan_postnatal_taxable_fees,fee_unit,Explicit unit attached to the displayed amount,per_day; per_use; per_hour; per_night,Blank when the source does not state a unit
+western_japan_postnatal_taxable_fees,fee_normalization_status,Fee parsing result,exact_yen; exact_yen_with_note; range_yen; multiple_tiers; not_stated; contact_required; unparsed,
+western_japan_postnatal_taxable_fees,provider_location_status,Basis for provider municipality,unique_standard_facility_listing; no_standard_facility_listing; multiple_standard_facility_municipalities,
+western_japan_postnatal_taxable_fees,same_municipality_flag,Whether provider location equals resident municipality,1 yes; 0 no; blank unknown,Do not interpret blank as outside the municipality
+western_japan_municipality_postnatal_taxable_summary,source_relation_status,Whether a municipality has a relation in the 2026 source table,relation_present; no_relation_in_2026_snapshot,No relation is not evidence that the municipality lacks a program
+western_japan_municipality_postnatal_taxable_summary,cost_collection_status,Availability of collected service-level cost rows,service_rows_collected; no_service_details_displayed; no_relation_in_2026_snapshot,Do not infer zero fee from either missing category
+western_japan_municipality_postnatal_taxable_summary,missing_reason,Reason cost data were not collected,text,Populated for municipalities without service rows
+western_japan_postnatal_taxable_service_discrepancies,discrepancy_status,Comparison between annual snapshot codes and UI-observed codes,match; snapshot_ui_difference,Does not determine which observation is erroneous
