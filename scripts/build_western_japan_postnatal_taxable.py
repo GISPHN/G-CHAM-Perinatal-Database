@@ -430,4 +430,427 @@ def collect_municipality_catalog(
 
 def relation_rows_for_scope(root: Path, prefecture_codes: list[str]) -> list[dict[str, str]]:
     source = read_csv(
-        root / "data/derived/2026/municipality_postnatal_services
+        root / "data/derived/2026/municipality_postnatal_services.csv"
+    )
+    allowed = set(prefecture_codes)
+    rows = [r for r in source if r["municipality_code"][:2] in allowed]
+    rows.sort(key=lambda r: (r["municipality_code"], int(r["birth_navi_id"])))
+    keys = [(r["birth_navi_id"], r["municipality_code"]) for r in rows]
+    if len(keys) != len(set(keys)):
+        raise ValueError("Duplicate municipality and Birth Navi relation key")
+    return rows
+
+
+def load_observations(
+    relations: list[dict[str, str]], cache_dir: Path,
+) -> list[tuple[dict[str, str], dict]]:
+    result = []
+    missing = []
+    for relation in relations:
+        path = cache_path(cache_dir, relation)
+        if not path.exists():
+            missing.append(path.name)
+            continue
+        result.append((relation, json.loads(path.read_text(encoding="utf-8"))))
+    if missing:
+        raise FileNotFoundError(
+            f"Missing {len(missing)} cache files; run collection first"
+        )
+    return result
+
+
+def make_source_rows(observations) -> tuple[list[dict], list[dict]]:
+    relations = []
+    services = []
+    for source_relation, observation in observations:
+        if observation.get("error_status") == "source_page_not_found":
+            prefecture_code = source_relation["municipality_code"][:2]
+            relations.append({
+                "provider_id": source_relation["provider_id"],
+                "birth_navi_id": source_relation["birth_navi_id"],
+                "listing_role": source_relation["listing_role"],
+                "resident_prefecture_code": prefecture_code,
+                "resident_prefecture_name": PREFECTURES[prefecture_code],
+                "resident_municipality_code": source_relation["municipality_code"],
+                "resident_municipality_name": source_relation["municipality_name"],
+                "household_type_code": HOUSEHOLD_TYPE_CODE,
+                "household_type": HOUSEHOLD_TYPE_NAME,
+                "facility_name_displayed": "",
+                "eligibility_text": "",
+                "overall_remarks": "",
+                "observed_service_count": 0,
+                "detail_status": "source_page_not_found",
+                "source_last_modified_at": "",
+                "source_last_modified_text": "",
+                "source_url": observation["source_url"],
+                "retrieved_at_utc": observation["retrieved_at_utc"],
+                "collection_method": "public_facility_page_loader_query",
+                "collector_version": COLLECTOR_VERSION,
+            })
+            continue
+        loader = observation["loader"]
+        facility = loader["facility"]
+        selected = loader.get("postnatalCareData") or {}
+        municipal = selected.get("municipalityPostnatalCare")
+        care = municipal.get("postnatalCare", {}) if municipal else {}
+        care_types = care.get("postnatalCareTypes") or []
+        prefecture_code = source_relation["municipality_code"][:2]
+        usage_types = care.get("usageTypes") or []
+        if usage_types:
+            eligibility = "; ".join(
+                USAGE_TYPE_NAMES[x] for x in usage_types if x in USAGE_TYPE_NAMES
+            )
+        elif care.get("usageTypeOther"):
+            eligibility = "備考欄に記載"
+        else:
+            eligibility = "ー" if municipal else ""
+        modified_at = facility.get("lastModifiedAt", "")
+        common = {
+            "provider_id": source_relation["provider_id"],
+            "birth_navi_id": source_relation["birth_navi_id"],
+            "listing_role": source_relation["listing_role"],
+            "resident_prefecture_code": prefecture_code,
+            "resident_prefecture_name": PREFECTURES[prefecture_code],
+            "resident_municipality_code": source_relation["municipality_code"],
+            "resident_municipality_name": source_relation["municipality_name"],
+            "household_type_code": HOUSEHOLD_TYPE_CODE,
+            "household_type": HOUSEHOLD_TYPE_NAME,
+            "facility_name_displayed": clean_text(facility.get("name")),
+            "source_last_modified_at": modified_at,
+            "source_last_modified_text": format_modified_at(modified_at),
+            "source_url": observation["source_url"],
+            "retrieved_at_utc": observation["retrieved_at_utc"],
+            "collection_method": "public_facility_page_loader_query",
+            "collector_version": COLLECTOR_VERSION,
+        }
+        detail_status = (
+            "services_displayed" if care_types
+            else "no_service_details_displayed_after_selection"
+        )
+        relations.append({
+            **common,
+            "eligibility_text": eligibility,
+            "overall_remarks": (
+                clean_text(care.get("usageTypeOther"))
+                if care.get("usageTypeOther") is not None else ("ー" if municipal else "")
+            ),
+            "observed_service_count": len(care_types),
+            "detail_status": detail_status,
+        })
+
+        option_index = defaultdict(int)
+        municipal_types = {
+            int(row["type"]): row for row in (municipal.get("types") or [])
+        } if municipal else {}
+        for item in sorted(care_types, key=lambda x: (int(x["type"]), int(x.get("id", 0)))):
+            service_type = int(item["type"])
+            option_index[service_type] += 1
+            household_rows = [
+                x for x in (item.get("postnatalCareHouseholdType") or [])
+                if str(x.get("type")) == HOUSEHOLD_TYPE_CODE
+            ]
+            household = household_rows[0] if household_rows else {}
+            if service_type == 4:
+                included = ""
+                multiple = ""
+                sibling = ""
+                notes = ""
+            else:
+                included = display_included_services(
+                    service_type, household.get("includedServices")
+                )
+                multiple = display_acceptance(
+                    item.get("canMultipleBabies"), item.get("multipleBabiesCost")
+                )
+                sibling = display_acceptance(
+                    item.get("canSibling"), item.get("siblingCost")
+                )
+                notes = (
+                    clean_text(household.get("includedServiceOther"))
+                    if household.get("includedServiceOther") is not None else "ー"
+                )
+            services.append({
+                **common,
+                "postnatal_care_type_code": str(service_type),
+                "postnatal_care_type": SERVICE_NAMES.get(
+                    service_type, f"code:{service_type}"
+                ),
+                "postnatal_care_option_index": option_index[service_type],
+                "postnatal_care_source_id": item.get("id", ""),
+                "fee_text": display_value(household.get("cost"), "円"),
+                "fee_includes_text": included,
+                "max_use_text": display_value(
+                    municipal_types.get(service_type, {}).get("maxAvailableDays"),
+                    "日間",
+                ),
+                "eligible_infant_age_text": display_age(
+                    item.get("minAvailableMonth"), item.get("maxAvailableMonth")
+                ),
+                "multiple_birth_acceptance_text": multiple,
+                "sibling_acceptance_text": sibling,
+                "service_notes_text": notes,
+            })
+    return relations, services
+
+
+def build_outputs(
+    root: Path, prefecture_codes: list[str], cache_dir: Path,
+    municipality_catalog: list[dict[str, str]], output_prefix: str,
+) -> None:
+    snapshot_dir = root / "data/snapshots/2026"
+    derived_dir = root / "data/derived/2026"
+    quality_dir = root / "data/quality/2026"
+    source_relations = relation_rows_for_scope(root, prefecture_codes)
+    observations = load_observations(source_relations, cache_dir)
+    relations, services = make_source_rows(observations)
+    write_csv(
+        snapshot_dir / f"{output_prefix}_postnatal_taxable_relations.csv",
+        RELATION_FIELDS, relations,
+    )
+    write_csv(
+        snapshot_dir / f"{output_prefix}_postnatal_taxable_services.csv",
+        SERVICE_SOURCE_FIELDS, services,
+    )
+
+    providers = {
+        row["provider_id"]: row
+        for row in read_csv(derived_dir / "providers.csv")
+    }
+    locations = provider_locations(
+        read_csv(derived_dir / "provider_listing_map.csv")
+    )
+    derived = []
+    for row in services:
+        provider = providers.get(row["provider_id"])
+        if provider is None:
+            raise ValueError(f"Unknown provider_id: {row['provider_id']}")
+        location = locations.get(row["provider_id"], {
+            "provider_location_municipality_code": "",
+            "provider_location_municipality_name": "",
+            "provider_location_status": "no_standard_facility_listing",
+        })
+        location_code = location["provider_location_municipality_code"]
+        same = ""
+        if location_code:
+            same = (
+                "1" if location_code == row["resident_municipality_code"] else "0"
+            )
+        derived.append({
+            **row,
+            "provider_name": clean_text(provider.get("provider_name", "")),
+            **location,
+            "same_municipality_flag": same,
+            **normalize_fee(row["fee_text"]),
+            "public_address": clean_text(provider.get("public_address", "")),
+            "latitude": provider.get("latitude", ""),
+            "longitude": provider.get("longitude", ""),
+            "coordinate_source": provider.get("coordinate_source", ""),
+            "coordinate_status": provider.get("coordinate_status", ""),
+            "coordinate_is_address_representative_point": provider.get(
+                "coordinate_is_address_representative_point", ""
+            ),
+            "coordinate_representative_point_granularity": provider.get(
+                "coordinate_representative_point_granularity", ""
+            ),
+        })
+    derived_fields = SERVICE_SOURCE_FIELDS[:11] + [
+        "provider_name", "provider_location_municipality_code",
+        "provider_location_municipality_name", "provider_location_status",
+        "same_municipality_flag",
+    ] + SERVICE_SOURCE_FIELDS[11:15] + [
+        "fee_yen", "fee_min_yen", "fee_max_yen", "fee_unit", "fee_note",
+        "fee_normalization_status",
+    ] + SERVICE_SOURCE_FIELDS[15:] + [
+        "public_address", "latitude", "longitude", "coordinate_source",
+        "coordinate_status", "coordinate_is_address_representative_point",
+        "coordinate_representative_point_granularity",
+    ]
+    write_csv(
+        derived_dir / f"{output_prefix}_postnatal_taxable_fees.csv",
+        derived_fields, derived,
+    )
+
+    observed_by_key = defaultdict(list)
+    for row in services:
+        observed_by_key[(
+            row["birth_navi_id"], row["resident_municipality_code"]
+        )].append(row)
+    discrepancies = []
+    for source in source_relations:
+        key = (source["birth_navi_id"], source["municipality_code"])
+        expected = {
+            x for x in source["postnatal_care_type_codes"].split(";") if x
+        }
+        observed = {
+            row["postnatal_care_type_code"] for row in observed_by_key.get(key, [])
+        }
+        missing = sorted(expected - observed, key=int)
+        unexpected = sorted(observed - expected, key=int)
+        discrepancies.append({
+            "provider_id": source["provider_id"],
+            "birth_navi_id": source["birth_navi_id"],
+            "resident_prefecture_code": source["municipality_code"][:2],
+            "resident_prefecture_name": PREFECTURES[source["municipality_code"][:2]],
+            "resident_municipality_code": source["municipality_code"],
+            "resident_municipality_name": source["municipality_name"],
+            "snapshot_service_type_codes": ";".join(sorted(expected, key=int)),
+            "ui_observed_service_type_codes": ";".join(sorted(observed, key=int)),
+            "missing_from_ui_codes": ";".join(missing),
+            "unexpected_in_ui_codes": ";".join(unexpected),
+            "discrepancy_status": (
+                "match" if not missing and not unexpected
+                else "snapshot_ui_difference"
+            ),
+        })
+    write_csv(
+        quality_dir / f"{output_prefix}_postnatal_taxable_service_discrepancies.csv",
+        list(discrepancies[0]), discrepancies,
+    )
+
+    relations_by_municipality = defaultdict(list)
+    derived_by_municipality = defaultdict(list)
+    for row in relations:
+        relations_by_municipality[row["resident_municipality_code"]].append(row)
+    for row in derived:
+        derived_by_municipality[row["resident_municipality_code"]].append(row)
+    summary = []
+    exact_statuses = {"exact_yen", "exact_yen_with_note"}
+    range_statuses = {"range_yen"}
+    complex_statuses = {"multiple_tiers", "unparsed"}
+    no_value_statuses = {"not_stated", "contact_required"}
+    for municipality in municipality_catalog:
+        if municipality["resident_prefecture_code"] not in prefecture_codes:
+            continue
+        code = municipality["resident_municipality_code"]
+        rels = relations_by_municipality.get(code, [])
+        rows = derived_by_municipality.get(code, [])
+        retrieved = sorted(
+            row["retrieved_at_utc"] for row in rels if row["retrieved_at_utc"]
+        )
+        present = bool(rels)
+        summary.append({
+            **municipality,
+            "relation_count": len(rels),
+            "distinct_provider_count": len({r["provider_id"] for r in rels}),
+            "service_row_count": len(rows),
+            "exact_fee_row_count": sum(
+                r["fee_normalization_status"] in exact_statuses for r in rows
+            ),
+            "range_fee_row_count": sum(
+                r["fee_normalization_status"] in range_statuses for r in rows
+            ),
+            "complex_fee_row_count": sum(
+                r["fee_normalization_status"] in complex_statuses for r in rows
+            ),
+            "no_numeric_fee_row_count": sum(
+                r["fee_normalization_status"] in no_value_statuses for r in rows
+            ),
+            "same_municipality_service_row_count": sum(
+                r["same_municipality_flag"] == "1" for r in rows
+            ),
+            "different_municipality_service_row_count": sum(
+                r["same_municipality_flag"] == "0" for r in rows
+            ),
+            "unknown_location_service_row_count": sum(
+                r["same_municipality_flag"] == "" for r in rows
+            ),
+            "source_relation_status": (
+                "relation_present" if present else "no_relation_in_2026_snapshot"
+            ),
+            "cost_collection_status": (
+                "service_rows_collected" if rows
+                else (
+                    "source_page_not_found" if any(
+                        r["detail_status"] == "source_page_not_found" for r in rels
+                    ) else "no_service_details_displayed" if present
+                    else "no_relation_in_2026_snapshot"
+                )
+            ),
+            "missing_reason": (
+                "" if rows else (
+                    "one_or_more_source_pages_not_found" if any(
+                        r["detail_status"] == "source_page_not_found" for r in rels
+                    ) else "all_relation_selections_displayed_no_service_details"
+                    if present else
+                    "not_listed_in_2026_municipality_postnatal_services_snapshot"
+                )
+            ),
+            "retrieved_at_utc_min": retrieved[0] if retrieved else "",
+            "retrieved_at_utc_max": retrieved[-1] if retrieved else "",
+        })
+    summary.sort(key=lambda row: row["resident_municipality_code"])
+    write_csv(
+        derived_dir / f"{output_prefix}_municipality_postnatal_taxable_summary.csv",
+        list(summary[0]), summary,
+    )
+
+
+def parse_prefecture_codes(raw: str) -> list[str]:
+    codes = [x.strip().zfill(2) for x in raw.split(",") if x.strip()]
+    unknown = sorted(set(codes) - set(PREFECTURES))
+    if unknown:
+        raise ValueError(f"Unknown prefecture codes: {unknown}")
+    return sorted(set(codes))
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--root", type=Path, default=Path(__file__).resolve().parents[1]
+    )
+    parser.add_argument(
+        "--prefecture-codes", default=",".join(WESTERN_PREFECTURE_CODES),
+        help="Comma-separated two-digit prefecture codes within the scope",
+    )
+    parser.add_argument(
+        "--output-prefix", default="western_japan",
+        help="Prefix for the five generated CSV files",
+    )
+    parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--request-start-interval", type=float, default=0.25)
+    parser.add_argument("--force", action="store_true")
+    parser.add_argument("--collect-only", action="store_true")
+    parser.add_argument("--build-only", action="store_true")
+    args = parser.parse_args()
+    if args.collect_only and args.build_only:
+        parser.error("--collect-only and --build-only cannot be combined")
+    if args.workers < 1 or args.workers > 8:
+        parser.error("--workers must be between 1 and 8")
+    if args.request_start_interval < 0.2:
+        parser.error("--request-start-interval must be at least 0.2 seconds")
+
+    root = args.root.resolve()
+    prefecture_codes = parse_prefecture_codes(args.prefecture_codes)
+    if not re.fullmatch(r"[a-z0-9_]+", args.output_prefix):
+        parser.error("--output-prefix must contain only lowercase letters, digits, and underscores")
+    scope = "-".join(prefecture_codes)
+    cache_dir = root / "work/western_japan_postnatal_taxable_cache/relations"
+    municipality_cache = (
+        root / "work/western_japan_postnatal_taxable_cache"
+        / f"municipalities_{scope}.json"
+    )
+    source_relations = relation_rows_for_scope(root, prefecture_codes)
+    if not args.build_only:
+        municipalities = collect_municipality_catalog(
+            prefecture_codes, municipality_cache,
+            args.request_start_interval, args.force,
+        )
+        collect_relations(
+            source_relations, cache_dir, args.workers,
+            args.request_start_interval, args.force,
+        )
+    else:
+        municipalities = collect_municipality_catalog(
+            prefecture_codes, municipality_cache,
+            args.request_start_interval, False,
+        )
+    if not args.collect_only:
+        build_outputs(
+            root, prefecture_codes, cache_dir, municipalities,
+            args.output_prefix,
+        )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
