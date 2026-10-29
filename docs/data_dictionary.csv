@@ -157,3 +157,14 @@ western_japan_municipality_postnatal_taxable_summary,source_relation_status,Whet
 western_japan_municipality_postnatal_taxable_summary,cost_collection_status,Availability of collected service-level cost rows,service_rows_collected; no_service_details_displayed; no_relation_in_2026_snapshot,Do not infer zero fee from either missing category
 western_japan_municipality_postnatal_taxable_summary,missing_reason,Reason cost data were not collected,text,Populated for municipalities without service rows
 western_japan_postnatal_taxable_service_discrepancies,discrepancy_status,Comparison between annual snapshot codes and UI-observed codes,match; snapshot_ui_difference,Does not determine which observation is erroneous
+nationwide_postnatal_taxable_relations,resident_prefecture_code,Resident prefecture selected in the Birth Navi display,JIS prefecture code,Scope is all codes 01 through 47
+nationwide_postnatal_taxable_relations,resident_municipality_code,Resident municipality selected in the Birth Navi display,municipality code,This is the resident municipality and not necessarily the provider location
+nationwide_postnatal_taxable_relations,household_type,Household category selected in the Birth Navi display,住民税課税世帯,
+nationwide_postnatal_taxable_relations,detail_status,Result after municipality and household selection,services_displayed; no_service_details_displayed_after_selection; source_page_not_found,A missing display or missing source page is not zero cost or confirmed service absence
+nationwide_postnatal_taxable_services,fee_text,User fee exactly as displayed,text,Authoritative source wording for fee reanalysis
+nationwide_postnatal_taxable_fees,fee_yen,Conservatively normalized single displayed amount,yen,Blank for ranges multiple tiers missing values contact-required entries or unparsed text
+nationwide_postnatal_taxable_fees,fee_normalization_status,Fee parsing result,exact_yen; exact_yen_with_note; range_yen; multiple_tiers; not_stated; contact_required; unparsed,
+nationwide_postnatal_taxable_fees,same_municipality_flag,Whether provider location equals resident municipality,1 yes; 0 no; blank unknown,Do not interpret blank as outside the municipality
+nationwide_municipality_postnatal_taxable_summary,source_relation_status,Whether a municipality has a relation in the 2026 source table,relation_present; no_relation_in_2026_snapshot,No relation is not evidence that the municipality lacks a program
+nationwide_municipality_postnatal_taxable_summary,cost_collection_status,Availability of collected service-level cost rows,service_rows_collected; no_service_details_displayed; source_page_not_found; no_relation_in_2026_snapshot,Do not infer zero fee from a missing category
+nationwide_postnatal_taxable_service_discrepancies,discrepancy_status,Comparison between annual snapshot codes and UI-observed codes,match; snapshot_ui_difference,Does not determine which observation is erroneous

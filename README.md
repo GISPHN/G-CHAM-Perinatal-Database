@@ -95,6 +95,31 @@ The repository contains source listing tables, quality controlled coordinate tab
 | Audit GSI geocoding | `data/quality/2026/gsi_address_representative_points.csv` | One geocoded public address | GSI coordinates are address representative points, not confirmed building entrances or service locations. |
 | Conduct longitudinal analysis | Annual tables under `data/snapshots/YYYY/` and `data/history/` | One source listing per year | Do not assume that listing identifiers or provider groupings remain stable across years without verification. |
 
+## Nationwide taxable-household postnatal-care dataset
+
+The 2026 nationwide dataset covers all 47 prefectures and all 1,912
+municipalities returned by the public Birth Navi municipality list. It combines
+the validated Western Japan observations with observations collected for the
+remaining 24 prefectures on 2026-10-28. Every request selected the resident
+municipality in the 2026 relation table and `住民税課税世帯`.
+
+| Research purpose | Recommended file | Unit of analysis | Interpretation |
+|---|---|---|---|
+| Analyze displayed fees | `data/derived/2026/nationwide_postnatal_taxable_fees.csv` | Resident municipality, provider, and displayed service option | Primary nationwide cost table. Exact amounts are separated from ranges, multiple tiers, missing values, contact-required entries, and unparsed text. |
+| Restrict to providers located in the resident municipality | `data/derived/2026/nationwide_postnatal_taxable_fees.csv` | Same as above | Select `same_municipality_flag = 1`. A blank value means provider location could not be established, not that the provider is outside the municipality. |
+| Retain all municipalities | `data/derived/2026/nationwide_municipality_postnatal_taxable_summary.csv` | One municipality | Includes all 1,912 municipalities. The 711 municipalities without a 2026 source relation are not classified as having no program or a zero fee. |
+| Reproduce municipality selections | `data/snapshots/2026/nationwide_postnatal_taxable_relations.csv` | One resident municipality and Birth Navi listing | Retains 4,600 relations. Four source pages returned 404 and are marked `source_page_not_found`; 429 additional selections displayed no method-level details. |
+| Reproduce displayed service text | `data/snapshots/2026/nationwide_postnatal_taxable_services.csv` | One displayed service option | Retains 6,493 method-level observations and their original fee and condition text. |
+| Audit service-code differences | `data/quality/2026/nationwide_postnatal_taxable_service_discrepancies.csv` | One municipality-listing relation | Reports 946 differences from the earlier annual snapshot without deciding which observation is erroneous. |
+
+The primary nationwide fee table contains 6,493 rows. It has 4,976 rows with
+one conservatively normalized amount, 57 ranges, 628 multiple-price entries,
+712 entries without a stated amount, 101 contact-required entries, and 19
+unparsed descriptions. For resident-access analyses, retain all rows. For the
+narrower analysis of providers physically located in the resident
+municipality, use the 2,113 rows with `same_municipality_flag = 1` and report
+the 4,101 rows whose provider municipality is unknown.
+
 ## Western Japan taxable-household postnatal-care dataset
 
 The 2026 Western Japan dataset extends the validated Nara pilot to 23

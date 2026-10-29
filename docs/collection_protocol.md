@@ -31,17 +31,16 @@ For each facility, normalized output retains the Birth Navi ID, source URL, retr
 
 Snapshots are annual observations. A value difference between years indicates that a change was observed between the two snapshot dates; it does not identify the exact change date.
 
-## Western Japan taxable-household postnatal-care study
+## Nationwide taxable-household postnatal-care study
 
-This study-specific observation is separate from the nationwide annual
-facility-page collector. It extends the validated Nara pilot to 23 prefectures:
-prefecture codes 25 through 30 and 31 through 47. Mie is outside this
-operational definition. On 2026-10-28, the public Birth Navi facility-page
-loader was queried for each of the 1,953 municipality-listing relations in
-`data/derived/2026/municipality_postnatal_services.csv` within that scope. Each
+This study-specific observation is separate from the annual facility-page
+collector. It extends the validated Nara and Western Japan datasets to all 47
+prefectures. On 2026-10-28, the public Birth Navi facility-page loader was
+queried for each of the 4,600 municipality-listing relations in
+`data/derived/2026/municipality_postnatal_services.csv`. Each
 request selected the relation's resident municipality and household type
 `住民税課税世帯` (`household_type = 1`). The current public municipality list
-was also obtained for each prefecture so that municipalities absent from the
+was obtained for every prefecture so that municipalities absent from the
 2026 relation snapshot remain visible in the summary table.
 
 Collection used at most eight workers, a global minimum interval of 0.2 seconds
@@ -54,10 +53,10 @@ acceptance, sibling acceptance, service notes, source update time, source URL,
 and retrieval time were retained. Application-procedure fields were not
 included.
 
-The source UI observations are stored in:
+The nationwide source UI observations are stored in:
 
-- `data/snapshots/2026/western_japan_postnatal_taxable_relations.csv`;
-- `data/snapshots/2026/western_japan_postnatal_taxable_services.csv`.
+- `data/snapshots/2026/nationwide_postnatal_taxable_relations.csv`;
+- `data/snapshots/2026/nationwide_postnatal_taxable_services.csv`.
 
 The source display was not forced into the earlier annual service-type schema.
 When the UI displayed no method-level detail after all three selections, the
@@ -73,13 +72,15 @@ duration-specific prices remain `multiple_tiers`; and missing or
 contact-required prices retain blank numeric values. The raw display text is
 authoritative for reanalysis.
 
-The completed study contains 1,953 relation observations and 2,852 displayed
-service options. Of the relations, 193 displayed no method-level details after
-selection. The municipality summary retains all 756 current municipalities in
-scope: 495 have at least one relation in the 2026 source snapshot and 261 do
-not. Absence from that source relation snapshot is not evidence that a
+The completed study contains 4,600 relation observations and 6,493 displayed
+service options. Of the relations, 429 displayed no method-level details after
+selection. Four annual-snapshot relations returned HTTP 404 at collection time
+and are retained with `detail_status = source_page_not_found`. The municipality
+summary retains all 1,912 current municipalities: 1,201 have at least one
+relation in the 2026 source snapshot and 711 do not. Absence from that source
+relation snapshot is not evidence that a
 municipality has no postnatal-care program or a zero user fee.
 
-The original Nara study files remain available as a validated subset. The 59
-relations and 96 service rows in the Western Japan output match their Nara
-counterparts on the substantive displayed fields.
+The original Nara and Western Japan study files remain available as validated
+subsets. The 1,953 Western Japan relations and 2,852 service rows match their
+nationwide counterparts on the substantive displayed fields.
